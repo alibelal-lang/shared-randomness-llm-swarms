@@ -1,6 +1,6 @@
 # Findings (7 Nov 2026)
 
-Report page: https://claude.ai/artifact/7oPtHLKXQJgcPTxUVqAANZ (private until shared). Protocol: `PROTOCOL.md` (locked before confirmatory runs, two amendments).
+Report page: `report/index.html`. Protocol: `PROTOCOL.md` (locked before confirmatory runs, two amendments).
 All LLM decisions came from Adaption-hosted models. Fine-tuning used Adaption AutoScientist.
 
 ## Primary result (frozen measured policies, 32 vs 4 agents, 500 runs per cell, layer-2 bootstrap B = 100)

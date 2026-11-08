@@ -15,7 +15,7 @@ models/
 .pytest_cache/
 .DS_Store
 
-# Not shared: large raw outputs, logs, downloaded data, paper drafts, third-party files
+# Not shared: large raw outputs, logs, downloaded data, paper drafts, root-level PDFs
 /data/
 results/learning/
 results/**/runs.csv
@@ -28,6 +28,6 @@ report/~$*
 report/*.docx
 report/*.pdf
 report/paper_doc.xml
-abdul-swarm-audit-scoping-report.pdf
+/*.pdf
 package.json
 package-lock.json
