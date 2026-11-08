@@ -1,0 +1,20 @@
+[
+{
+"model": "GLM 5.2",
+"prompts": 84,
+"sum_z2": 797.4,
+"critical_99": 117.6,
+"consistent": false,
+"abs_z_gt_2": 34,
+"mean_abs_diff": 0.0758
+},
+{
+"model": "Qwen 3.8 27B",
+"prompts": 84,
+"sum_z2": 371.9,
+"critical_99": 117.6,
+"consistent": false,
+"abs_z_gt_2": 33,
+"mean_abs_diff": 0.0595
+}
+]

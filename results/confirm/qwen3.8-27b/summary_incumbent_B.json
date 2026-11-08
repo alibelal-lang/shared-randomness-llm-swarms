@@ -1,0 +1,1016 @@
+{
+ "results_dir": "results/confirm/qwen3.8-27b",
+ "init": "incumbent_B",
+ "cells": {
+  "f0m0": {
+   "N4|independent": {
+    "mean_x_late": 0.88409,
+    "mean_reward": 1.57771,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.896,
+    "all_A_prob": 1.0,
+    "occupancy": 0.86998,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:restore": {
+    "mean_x_late": 0.8933399999999999,
+    "mean_reward": 1.5944399999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.914,
+    "all_A_prob": 1.0,
+    "occupancy": 0.87894,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:0.3": {
+    "mean_x_late": 0.89364,
+    "mean_reward": 1.6091,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.866,
+    "all_A_prob": 1.0,
+    "occupancy": 0.86078,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N4|block:2": {
+    "mean_x_late": 0.8883900000000001,
+    "mean_reward": 1.58048,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.878,
+    "all_A_prob": 1.0,
+    "occupancy": 0.87056,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|independent": {
+    "mean_x_late": 0.864435,
+    "mean_reward": 1.499525,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.87,
+    "all_A_prob": 1.0,
+    "occupancy": 0.8442200000000001,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|pair_shared:restore": {
+    "mean_x_late": 0.8836700000000001,
+    "mean_reward": 1.573625,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.864,
+    "all_A_prob": 1.0,
+    "occupancy": 0.8262200000000001,
+    "mean_alpha": 0.5260739688814196,
+    "infeasible_frac": 0.09174000000000002
+   },
+   "N8|pair_shared:0.3": {
+    "mean_x_late": 0.8791700000000001,
+    "mean_reward": 1.554655,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.862,
+    "all_A_prob": 1.0,
+    "occupancy": 0.84038,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N8|block:2": {
+    "mean_x_late": 0.8825899999999999,
+    "mean_reward": 1.56479,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.872,
+    "all_A_prob": 1.0,
+    "occupancy": 0.8414400000000001,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|independent": {
+    "mean_x_late": 0.8506500000000001,
+    "mean_reward": 1.4532375,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.866,
+    "all_A_prob": 0.988,
+    "occupancy": 0.84128,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|pair_shared:restore": {
+    "mean_x_late": 0.8838550000000001,
+    "mean_reward": 1.5796649999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.846,
+    "all_A_prob": 1.0,
+    "occupancy": 0.81102,
+    "mean_alpha": 0.6763934171665444,
+    "infeasible_frac": 0.154
+   },
+   "N16|pair_shared:0.3": {
+    "mean_x_late": 0.864125,
+    "mean_reward": 1.4997375000000002,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.842,
+    "all_A_prob": 1.0,
+    "occupancy": 0.81798,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N16|block:2": {
+    "mean_x_late": 0.8759075000000001,
+    "mean_reward": 1.55342,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.848,
+    "all_A_prob": 1.0,
+    "occupancy": 0.8205,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|independent": {
+    "mean_x_late": 0.8469662499999999,
+    "mean_reward": 1.4312437500000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.9,
+    "all_A_prob": 0.602,
+    "occupancy": 0.86584,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|pair_shared:restore": {
+    "mean_x_late": 0.8845,
+    "mean_reward": 1.5772800000000002,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.852,
+    "all_A_prob": 1.0,
+    "occupancy": 0.79728,
+    "mean_alpha": 0.735859264043622,
+    "infeasible_frac": 0.20718
+   },
+   "N32|pair_shared:0.3": {
+    "mean_x_late": 0.86277875,
+    "mean_reward": 1.493215,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.85,
+    "all_A_prob": 0.998,
+    "occupancy": 0.82038,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N32|block:2": {
+    "mean_x_late": 0.87320625,
+    "mean_reward": 1.53499125,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.816,
+    "all_A_prob": 1.0,
+    "occupancy": 0.7977199999999999,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   }
+  },
+  "f0m1": {
+   "N4|independent": {
+    "mean_x_late": 0.97174,
+    "mean_reward": 1.8698100000000002,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.99,
+    "all_A_prob": 1.0,
+    "occupancy": 0.98792,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:restore": {
+    "mean_x_late": 0.9711399999999999,
+    "mean_reward": 1.8682799999999997,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.99,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9877,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:0.3": {
+    "mean_x_late": 0.96964,
+    "mean_reward": 1.86529,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.978,
+    "all_A_prob": 1.0,
+    "occupancy": 0.97424,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N4|block:2": {
+    "mean_x_late": 0.97073,
+    "mean_reward": 1.8669499999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.988,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9880800000000002,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|independent": {
+    "mean_x_late": 0.97033,
+    "mean_reward": 1.8663899999999998,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.998,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9920800000000002,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|pair_shared:restore": {
+    "mean_x_late": 0.9707749999999999,
+    "mean_reward": 1.8675700000000002,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.976,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9706,
+    "mean_alpha": 0.44442231165911583,
+    "infeasible_frac": 0.023759999999999996
+   },
+   "N8|pair_shared:0.3": {
+    "mean_x_late": 0.9710899999999999,
+    "mean_reward": 1.86675,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.982,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9775400000000001,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N8|block:2": {
+    "mean_x_late": 0.9710350000000001,
+    "mean_reward": 1.8688150000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.992,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9841400000000001,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|independent": {
+    "mean_x_late": 0.9705975000000001,
+    "mean_reward": 1.8671174999999998,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99346,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|pair_shared:restore": {
+    "mean_x_late": 0.9699950000000002,
+    "mean_reward": 1.8671099999999998,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.97,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9635600000000001,
+    "mean_alpha": 0.5550802792659092,
+    "infeasible_frac": 0.03794
+   },
+   "N16|pair_shared:0.3": {
+    "mean_x_late": 0.9700425,
+    "mean_reward": 1.8655175,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.982,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9785400000000001,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N16|block:2": {
+    "mean_x_late": 0.97045,
+    "mean_reward": 1.8714024999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.988,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9843000000000002,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|independent": {
+    "mean_x_late": 0.97104125,
+    "mean_reward": 1.86641125,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9938600000000001,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|pair_shared:restore": {
+    "mean_x_late": 0.9714187499999999,
+    "mean_reward": 1.8695500000000003,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.968,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9628,
+    "mean_alpha": 0.598342983314717,
+    "infeasible_frac": 0.04
+   },
+   "N32|pair_shared:0.3": {
+    "mean_x_late": 0.97068,
+    "mean_reward": 1.86743,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.988,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9802000000000001,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N32|block:2": {
+    "mean_x_late": 0.97037875,
+    "mean_reward": 1.8686612500000002,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.98,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9825000000000002,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   }
+  },
+  "f1m0": {
+   "N4|independent": {
+    "mean_x_late": 0.58337,
+    "mean_reward": 0.9129299999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.424,
+    "all_A_prob": 0.998,
+    "occupancy": 0.43622000000000005,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:restore": {
+    "mean_x_late": 0.5855600000000001,
+    "mean_reward": 0.9217000000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.46,
+    "all_A_prob": 1.0,
+    "occupancy": 0.44183999999999996,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:0.3": {
+    "mean_x_late": 0.5924200000000001,
+    "mean_reward": 0.9509200000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.468,
+    "all_A_prob": 1.0,
+    "occupancy": 0.44480000000000003,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N4|block:2": {
+    "mean_x_late": 0.5866800000000001,
+    "mean_reward": 0.9236800000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.464,
+    "all_A_prob": 1.0,
+    "occupancy": 0.44404,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|independent": {
+    "mean_x_late": 0.57345,
+    "mean_reward": 0.85746,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.286,
+    "all_A_prob": 0.752,
+    "occupancy": 0.28068,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|pair_shared:restore": {
+    "mean_x_late": 0.58763,
+    "mean_reward": 0.931095,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.406,
+    "all_A_prob": 0.998,
+    "occupancy": 0.3655,
+    "mean_alpha": 0.4972828538490197,
+    "infeasible_frac": 0.0
+   },
+   "N8|pair_shared:0.3": {
+    "mean_x_late": 0.5854,
+    "mean_reward": 0.906505,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.376,
+    "all_A_prob": 0.986,
+    "occupancy": 0.33702,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N8|block:2": {
+    "mean_x_late": 0.58441,
+    "mean_reward": 0.90563,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.396,
+    "all_A_prob": 0.98,
+    "occupancy": 0.35746000000000006,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|independent": {
+    "mean_x_late": 0.5694300000000001,
+    "mean_reward": 0.8403675,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.176,
+    "all_A_prob": 0.054,
+    "occupancy": 0.14058,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|pair_shared:restore": {
+    "mean_x_late": 0.587885,
+    "mean_reward": 0.9400499999999999,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.358,
+    "all_A_prob": 0.996,
+    "occupancy": 0.33464,
+    "mean_alpha": 0.6243549908014476,
+    "infeasible_frac": 0.0
+   },
+   "N16|pair_shared:0.3": {
+    "mean_x_late": 0.5813925,
+    "mean_reward": 0.8830125000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.258,
+    "all_A_prob": 0.948,
+    "occupancy": 0.24669999999999997,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N16|block:2": {
+    "mean_x_late": 0.5823825,
+    "mean_reward": 0.9069375,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.31,
+    "all_A_prob": 0.93,
+    "occupancy": 0.30942000000000003,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|independent": {
+    "mean_x_late": 0.57241625,
+    "mean_reward": 0.8348499999999999,
+    "entry_prob": 0.936,
+    "final_in_prob": 0.05,
+    "all_A_prob": 0.0,
+    "occupancy": 0.04732000000000001,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|pair_shared:restore": {
+    "mean_x_late": 0.5834600000000001,
+    "mean_reward": 0.9355150000000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.352,
+    "all_A_prob": 1.0,
+    "occupancy": 0.3166800000000001,
+    "mean_alpha": 0.6748414984078134,
+    "infeasible_frac": 0.0
+   },
+   "N32|pair_shared:0.3": {
+    "mean_x_late": 0.5791225,
+    "mean_reward": 0.8801812500000001,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.216,
+    "all_A_prob": 0.886,
+    "occupancy": 0.19168000000000002,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N32|block:2": {
+    "mean_x_late": 0.5779924999999999,
+    "mean_reward": 0.90353125,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.286,
+    "all_A_prob": 0.836,
+    "occupancy": 0.27978,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   }
+  },
+  "f1m1": {
+   "N4|independent": {
+    "mean_x_late": 0.99614,
+    "mean_reward": 1.97052,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9961400000000001,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:restore": {
+    "mean_x_late": 0.99602,
+    "mean_reward": 1.97016,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99672,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N4|pair_shared:0.3": {
+    "mean_x_late": 0.99556,
+    "mean_reward": 1.96933,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.994,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9934800000000001,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N4|block:2": {
+    "mean_x_late": 0.9958699999999999,
+    "mean_reward": 1.96902,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.998,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9965,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|independent": {
+    "mean_x_late": 0.9959199999999999,
+    "mean_reward": 1.969625,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.997,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N8|pair_shared:restore": {
+    "mean_x_late": 0.995475,
+    "mean_reward": 1.9694050000000003,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.996,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9930800000000001,
+    "mean_alpha": 0.3647548796325212,
+    "infeasible_frac": 0.03276
+   },
+   "N8|pair_shared:0.3": {
+    "mean_x_late": 0.995845,
+    "mean_reward": 1.96955,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9939,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N8|block:2": {
+    "mean_x_late": 0.9961749999999999,
+    "mean_reward": 1.9707249999999998,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99594,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|independent": {
+    "mean_x_late": 0.995975,
+    "mean_reward": 1.9700649999999997,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9976600000000001,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N16|pair_shared:restore": {
+    "mean_x_late": 0.9960125000000001,
+    "mean_reward": 1.970445,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.994,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99282,
+    "mean_alpha": 0.47132288746956646,
+    "infeasible_frac": 0.06868
+   },
+   "N16|pair_shared:0.3": {
+    "mean_x_late": 0.9960225,
+    "mean_reward": 1.97004,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.998,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9948600000000001,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N16|block:2": {
+    "mean_x_late": 0.995625,
+    "mean_reward": 1.9713,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99634,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|independent": {
+    "mean_x_late": 0.9959625,
+    "mean_reward": 1.96984625,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.99792,
+    "mean_alpha": 0.0,
+    "infeasible_frac": 0.0
+   },
+   "N32|pair_shared:restore": {
+    "mean_x_late": 0.99671875,
+    "mean_reward": 1.97155375,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.998,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9926600000000001,
+    "mean_alpha": 0.5286849493004661,
+    "infeasible_frac": 0.11156000000000002
+   },
+   "N32|pair_shared:0.3": {
+    "mean_x_late": 0.996015,
+    "mean_reward": 1.969795,
+    "entry_prob": 1.0,
+    "final_in_prob": 0.998,
+    "all_A_prob": 1.0,
+    "occupancy": 0.995,
+    "mean_alpha": 0.29999999999999993,
+    "infeasible_frac": 0.0
+   },
+   "N32|block:2": {
+    "mean_x_late": 0.9958375,
+    "mean_reward": 1.9703624999999998,
+    "entry_prob": 1.0,
+    "final_in_prob": 1.0,
+    "all_A_prob": 1.0,
+    "occupancy": 0.9962000000000001,
+    "mean_alpha": 1.0,
+    "infeasible_frac": 0.0
+   }
+  }
+ },
+ "contrasts": {
+  "f0m0": {
+   "restore_vs_indep_N32|mean_x_late": {
+    "mean": 0.037533750000000005,
+    "se": 0.003380444826324288,
+    "lo": 0.030908078140404402,
+    "hi": 0.04415942185959561,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_x_late": {
+    "mean": 0.009249999999999996,
+    "se": 0.00368370933012605,
+    "lo": 0.0020299297129529378,
+    "hi": 0.016470070287047056,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_x_late": {
+    "mean": 0.026240000000000003,
+    "se": 0.0030331279490503895,
+    "lo": 0.02029506921986124,
+    "hi": 0.03218493078013877,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_x_late": {
+    "mean": 0.01129375,
+    "se": 0.003730044295348988,
+    "lo": 0.003982863181115984,
+    "hi": 0.018604636818884017,
+    "runs": 500
+   },
+   "n_effect_indep|mean_x_late": {
+    "mean": -0.03712375000000012,
+    "se": 0.0035597503218741575,
+    "lo": -0.04410086063087347,
+    "hi": -0.030146639369126774,
+    "runs": 500
+   },
+   "restore_vs_indep_N32|mean_reward": {
+    "mean": 0.14603625,
+    "se": 0.00660392303166772,
+    "lo": 0.13309256085793128,
+    "hi": 0.15897993914206873,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_reward": {
+    "mean": 0.016730000000000005,
+    "se": 0.007776081860307052,
+    "lo": 0.001488879553798183,
+    "hi": 0.03197112044620183,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_reward": {
+    "mean": 0.1037475,
+    "se": 0.00658020288460052,
+    "lo": 0.09085030234618299,
+    "hi": 0.11664469765381702,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_reward": {
+    "mean": 0.04228875000000001,
+    "se": 0.008035874469611737,
+    "lo": 0.026538436039561002,
+    "hi": 0.05803906396043901,
+    "runs": 500
+   },
+   "n_effect_indep|mean_reward": {
+    "mean": -0.1464662499999998,
+    "se": 0.007652364382703319,
+    "lo": -0.1614648841900983,
+    "hi": -0.1314676158099013,
+    "runs": 500
+   }
+  },
+  "f0m1": {
+   "restore_vs_indep_N32|mean_x_late": {
+    "mean": 0.0003774999999999975,
+    "se": 0.0008644580312980795,
+    "lo": -0.0013168377413442381,
+    "hi": 0.0020718377413442334,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_x_late": {
+    "mean": -0.0006000000000000017,
+    "se": 0.000940025156359753,
+    "lo": -0.0024424493064651174,
+    "hi": 0.0012424493064651142,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_x_late": {
+    "mean": -0.000662499999999998,
+    "se": 0.0008071303992930297,
+    "lo": -0.0022444755826143362,
+    "hi": 0.0009194755826143402,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_x_late": {
+    "mean": 0.0010399999999999956,
+    "se": 0.0009825264074225003,
+    "lo": -0.0008857517585481049,
+    "hi": 0.002965751758548096,
+    "runs": 500
+   },
+   "n_effect_indep|mean_x_late": {
+    "mean": -0.0006987500000000813,
+    "se": 0.0009169225448649211,
+    "lo": -0.0024959181879353268,
+    "hi": 0.001098418187935164,
+    "runs": 500
+   },
+   "restore_vs_indep_N32|mean_reward": {
+    "mean": 0.0031387500000000013,
+    "se": 0.002275116837136115,
+    "lo": -0.0013204790007867837,
+    "hi": 0.007597979000786787,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_reward": {
+    "mean": -0.0015299999999999945,
+    "se": 0.002292494113082306,
+    "lo": -0.006023288461641314,
+    "hi": 0.002963288461641325,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_reward": {
+    "mean": 0.0022499999999999994,
+    "se": 0.002022479040172202,
+    "lo": -0.0017140589187375167,
+    "hi": 0.0062140589187375155,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_reward": {
+    "mean": 0.0008887500000000017,
+    "se": 0.0026845141631138612,
+    "lo": -0.004372897759703166,
+    "hi": 0.0061503977597031695,
+    "runs": 500
+   },
+   "n_effect_indep|mean_reward": {
+    "mean": -0.003398750000000117,
+    "se": 0.002476156181108429,
+    "lo": -0.008252016114972636,
+    "hi": 0.0014545161149724034,
+    "runs": 500
+   }
+  },
+  "f1m0": {
+   "restore_vs_indep_N32|mean_x_late": {
+    "mean": 0.01104375,
+    "se": 0.0047493431393072424,
+    "lo": 0.0017350374469578041,
+    "hi": 0.020352462553042197,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_x_late": {
+    "mean": 0.0021899999999999966,
+    "se": 0.004837055096234486,
+    "lo": -0.007290627988619596,
+    "hi": 0.011670627988619588,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_x_late": {
+    "mean": 0.00557625,
+    "se": 0.004020636185985386,
+    "lo": -0.0023041969245313574,
+    "hi": 0.013456696924531357,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_x_late": {
+    "mean": 0.005467499999999999,
+    "se": 0.004936175852986115,
+    "lo": -0.004207404671852786,
+    "hi": 0.015142404671852783,
+    "runs": 500
+   },
+   "n_effect_indep|mean_x_late": {
+    "mean": -0.010953750000000095,
+    "se": 0.004635344142024949,
+    "lo": -0.020039024518368996,
+    "hi": -0.0018684754816311964,
+    "runs": 500
+   },
+   "restore_vs_indep_N32|mean_reward": {
+    "mean": 0.100665,
+    "se": 0.005371063063944953,
+    "lo": 0.0901377163946679,
+    "hi": 0.1111922836053321,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_reward": {
+    "mean": 0.00877,
+    "se": 0.00670623750271982,
+    "lo": -0.004374225505330847,
+    "hi": 0.02191422550533085,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_reward": {
+    "mean": 0.06868125,
+    "se": 0.00462125466987296,
+    "lo": 0.059623590847049,
+    "hi": 0.07773890915295101,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_reward": {
+    "mean": 0.03198375,
+    "se": 0.006179333194352661,
+    "lo": 0.019872256939068782,
+    "hi": 0.04409524306093121,
+    "runs": 500
+   },
+   "n_effect_indep|mean_reward": {
+    "mean": -0.07808000000000004,
+    "se": 0.005910785213377099,
+    "lo": -0.08966513901821915,
+    "hi": -0.06649486098178092,
+    "runs": 500
+   }
+  },
+  "f1m1": {
+   "restore_vs_indep_N32|mean_x_late": {
+    "mean": 0.0007562500000000083,
+    "se": 0.0002316436961778975,
+    "lo": 0.0003022283554913292,
+    "hi": 0.0012102716445086875,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_x_late": {
+    "mean": -0.00012000000000000011,
+    "se": 0.00037769897143896534,
+    "lo": -0.0008602899840203721,
+    "hi": 0.0006202899840203719,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_x_late": {
+    "mean": -0.00012500000000000667,
+    "se": 0.0003071409222037735,
+    "lo": -0.0007269962075194026,
+    "hi": 0.00047699620751938935,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_x_late": {
+    "mean": 0.0008812500000000149,
+    "se": 0.0003299438744629022,
+    "lo": 0.00023456000605272666,
+    "hi": 0.0015279399939473032,
+    "runs": 500
+   },
+   "n_effect_indep|mean_x_late": {
+    "mean": -0.00017750000000005262,
+    "se": 0.00035433790115706377,
+    "lo": -0.0008720022862678976,
+    "hi": 0.0005170022862677924,
+    "runs": 500
+   },
+   "restore_vs_indep_N32|mean_reward": {
+    "mean": 0.0017074999999999955,
+    "se": 0.0008840588966610376,
+    "lo": -2.525543745563819e-05,
+    "hi": 0.003440255437455629,
+    "runs": 500
+   },
+   "restore_vs_indep_N4|mean_reward": {
+    "mean": -0.00036000000000000165,
+    "se": 0.0009720238993573384,
+    "lo": -0.002265166842740385,
+    "hi": 0.0015451668427403818,
+    "runs": 500
+   },
+   "block_vs_indep_N32|mean_reward": {
+    "mean": 0.0005162499999999967,
+    "se": 0.000978339642602494,
+    "lo": -0.0014012956995008913,
+    "hi": 0.002433795699500885,
+    "runs": 500
+   },
+   "restore_vs_block_N32|mean_reward": {
+    "mean": 0.0011912499999999987,
+    "se": 0.0012673387785174367,
+    "lo": -0.0012927340058941773,
+    "hi": 0.003675234005894175,
+    "runs": 500
+   },
+   "n_effect_indep|mean_reward": {
+    "mean": -0.0006737500000000285,
+    "se": 0.0011000607946285328,
+    "lo": -0.0028298691574719526,
+    "hi": 0.0014823691574718956,
+    "runs": 500
+   }
+  }
+ },
+ "variant_average": {
+  "restore_vs_indep_N32|mean_x_late": {
+   "mean": 0.012427812500000001,
+   "se": 0.001474462062256989,
+   "lo": 0.009537866857976304,
+   "hi": 0.015317758142023699,
+   "variants": 4
+  },
+  "restore_vs_indep_N4|mean_x_late": {
+   "mean": 0.002679999999999998,
+   "se": 0.0015409639888816545,
+   "lo": -0.0003402894182080447,
+   "hi": 0.00570028941820804,
+   "variants": 4
+  },
+  "block_vs_indep_N32|mean_x_late": {
+   "mean": 0.0077571875,
+   "se": 0.0012774773853898756,
+   "lo": 0.005253331824635844,
+   "hi": 0.010261043175364156,
+   "variants": 4
+  },
+  "restore_vs_block_N32|mean_x_late": {
+   "mean": 0.004670625000000002,
+   "se": 0.0015683048890132716,
+   "lo": 0.00159674741753399,
+   "hi": 0.007744502582466014,
+   "variants": 4
+  },
+  "n_effect_indep|mean_x_late": {
+   "mean": -0.012238437500000088,
+   "se": 0.001481648996274213,
+   "lo": -0.015142469532697544,
+   "hi": -0.009334405467302631,
+   "variants": 4
+  },
+  "restore_vs_indep_N32|mean_reward": {
+   "mean": 0.062886875,
+   "se": 0.002213846124401644,
+   "lo": 0.058547736596172774,
+   "hi": 0.06722601340382722,
+   "variants": 4
+  },
+  "restore_vs_indep_N4|mean_reward": {
+   "mean": 0.005902500000000002,
+   "se": 0.0026415127089004444,
+   "lo": 0.0007251350905551311,
+   "hi": 0.011079864909444874,
+   "variants": 4
+  },
+  "block_vs_indep_N32|mean_reward": {
+   "mean": 0.04379875,
+   "se": 0.0020872025933434068,
+   "lo": 0.03970783291704692,
+   "hi": 0.04788966708295307,
+   "variants": 4
+  },
+  "restore_vs_block_N32|mean_reward": {
+   "mean": 0.019088125000000004,
+   "se": 0.0026406935770938965,
+   "lo": 0.013912365588895966,
+   "hi": 0.024263884411104043,
+   "variants": 4
+  },
+  "n_effect_indep|mean_reward": {
+   "mean": -0.057154687499999995,
+   "se": 0.002510447490855265,
+   "lo": -0.06207516458207631,
+   "hi": -0.05223421041792368,
+   "variants": 4
+  }
+ }
+}

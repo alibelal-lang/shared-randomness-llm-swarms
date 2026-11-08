@@ -1,0 +1,87 @@
+{
+ "meta": {
+  "backend": "adaption",
+  "model": "glm-5.2",
+  "samples_per_prompt": "top-up",
+  "sample_temperature": 1.0,
+  "reasoning_effort": "none",
+  "max_output_tokens": 8,
+  "estimator": "Jeffreys (k+0.5)/(n+1)",
+  "H": 2,
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T22:33:29+0000",
+  "seconds": 2310.6,
+  "calls": 10000,
+  "errors": 0,
+  "total_cost": 0.64604032,
+  "providers": [
+   "adaption"
+  ],
+  "topup_of": "policies/adaption_glm-5.2.json"
+ },
+ "records": [
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999000199960008,
+   "mass_B": 9.998000399920016e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "glm-5.2",
+   "prompt_tokens": 720000,
+   "completion_tokens": 10000,
+   "cost": 0.32283776,
+   "counts": {
+    "J": 0,
+    "K": 5000,
+    "invalid": 0,
+    "errors": 0,
+    "n": 5000
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999000199960008,
+   "mass_B": 9.998000399920016e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "glm-5.2",
+   "prompt_tokens": 720000,
+   "completion_tokens": 10000,
+   "cost": 0.32320255999999997,
+   "counts": {
+    "J": 0,
+    "K": 5000,
+    "invalid": 0,
+    "errors": 0,
+    "n": 5000
+   },
+   "invalid_examples": []
+  }
+ ]
+}

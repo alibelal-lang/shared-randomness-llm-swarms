@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+
+# Node
+node_modules/
+
+# Downloaded model artifacts
+models/
+.pytest_cache/
+.DS_Store
+
+# Not shared: large raw outputs, logs, downloaded data, paper drafts, third-party files
+/data/
+results/learning/
+results/**/runs.csv
+logs/*.log
+logs/*.txt
+logs/*.json
+logs/or/
+report/store/
+report/~$*
+report/*.docx
+report/*.pdf
+report/paper_doc.xml
+abdul-swarm-audit-scoping-report.pdf
+package.json
+package-lock.json

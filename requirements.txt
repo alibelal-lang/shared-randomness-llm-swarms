@@ -1,0 +1,14 @@
+python-dotenv
+openai
+adaption
+certifi
+numpy
+matplotlib
+pytest
+# Paper .docx builder
+lxml
+# Local model backend
+torch
+transformers>=5.22
+peft
+huggingface_hub

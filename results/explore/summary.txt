@@ -1,0 +1,84 @@
+== Responsive variants (size effect at N=32 <= -2 points), H=2, T=1, out of 32 per game ==
+  gemma-4-26b-a4b-it   coreweave-bf16*  coord   0/32
+  gemma-4-26b-a4b-it   coreweave-bf16*  stag    6/32
+  gemma-4-26b-a4b-it   novita-bf16      coord   0/32
+  gemma-4-26b-a4b-it   novita-bf16      stag    9/32
+  gemma-4-26b-a4b-it   parasail-bf16    coord   0/32
+  gemma-4-26b-a4b-it   parasail-bf16    stag    4/32
+  gemma-4-31b-it       novita-bf16*     coord   0/32
+  gemma-4-31b-it       novita-bf16*     stag    5/32
+  gemma-4-31b-it       parasail-fp8     coord   0/32
+  gemma-4-31b-it       parasail-fp8     stag    4/32
+  glm-5.2              alibaba-fast     coord   4/32
+  glm-5.2              alibaba-fast     stag    9/32
+  glm-5.2              ambient-fp8*     coord   5/32
+  glm-5.2              ambient-fp8*     stag    8/32
+  glm-5.2              streamlake-fp8   coord   2/32
+  glm-5.2              streamlake-fp8   stag    7/32
+  qwen3.5-397b         parasail-fp8*    coord   4/32
+  qwen3.5-397b         parasail-fp8*    stag    9/32
+  qwen3.8-27b          cerebras-fp16    coord   1/32
+  qwen3.8-27b          cerebras-fp16    stag    9/32
+  qwen3.8-27b          coreweave-fp8    coord   1/32
+  qwen3.8-27b          coreweave-fp8    stag    5/32
+  qwen3.8-27b          parasail-fp8     coord   2/32
+  qwen3.8-27b          parasail-fp8     stag    6/32
+  qwen3.8-27b          reka-fp8         coord   1/32
+  qwen3.8-27b          reka-fp8         stag    6/32
+  qwen3.8-27b          wafer-fp8*       coord   1/32
+  qwen3.8-27b          wafer-fp8*       stag    9/32
+
+== Mechanism: coupling vs size effect at N=32, all H=2 T=1 variants ==
+  variants 896, responsive 117; corr(coupling, size) -0.88
+  responsive: coupling > 0 in 117/117, median share of size penalty recovered 72% (IQR 47%-89%)
+  non-responsive: mean |coupling| 0.44 points
+
+== Scale: N=64 vs N=32 among responsive variants ==
+  size effect mean -14.3 (N=32) vs -15.4 (N=64); coupling +8.7 vs +8.7; larger penalty at 64 in 85/117
+
+== Game: responsive share and mean coupling, pinned deployments ==
+  coord  responsive 10/160, mean coupling -0.19, mean size +0.83, mean P(A | incumbent B) 0.67
+  stag   responsive 37/160, mean coupling +2.84, mean size -4.38, mean P(A | incumbent B) 0.49
+
+== Labels: mean P(A | incumbent B history) by letter and list order, pinned, H=2, T=1 ==
+  gemma-4-26b-a4b-it   coord  A=J 0.86 vs A=K 0.87 | A listed first 0.85 vs second 0.87
+  gemma-4-26b-a4b-it   stag   A=J 0.56 vs A=K 0.74 | A listed first 0.69 vs second 0.61
+  gemma-4-31b-it       coord  A=J 0.93 vs A=K 0.81 | A listed first 0.86 vs second 0.87
+  gemma-4-31b-it       stag   A=J 0.46 vs A=K 0.54 | A listed first 0.07 vs second 0.93
+  glm-5.2              coord  A=J 0.82 vs A=K 0.80 | A listed first 0.82 vs second 0.80
+  glm-5.2              stag   A=J 0.63 vs A=K 0.51 | A listed first 0.48 vs second 0.66
+  qwen3.5-397b         coord  A=J 0.27 vs A=K 0.26 | A listed first 0.09 vs second 0.44
+  qwen3.5-397b         stag   A=J 0.23 vs A=K 0.25 | A listed first 0.04 vs second 0.44
+  qwen3.8-27b          coord  A=J 0.56 vs A=K 0.54 | A listed first 0.50 vs second 0.61
+  qwen3.8-27b          stag   A=J 0.49 vs A=K 0.50 | A listed first 0.44 vs second 0.55
+
+== Wording: responsive variants per framing (pinned, H=2, T=1, both games, all models) ==
+  f0 original wording 1        8/40
+  f1 original wording 2        9/40
+  f2 formal payoff table       3/40
+  f3 strangers, dollars        3/40
+  f4 AI agents, protocols      7/40
+  f5 terse                     1/40
+  f6 per-option description   10/40
+  f7 business standards        6/40
+
+== Memory: responsive variants by H (pinned, framings 0-1, T=1) ==
+  H=1: 9/80  gemma/stag=3, glm/coord=1, qwen3.5/stag=5
+  H=2: 17/80  gemma/stag=3, gemma/stag=2, glm/coord=1, glm/stag=3, qwen3.5/stag=5, qwen3.8/stag=3
+  H=3: 19/80  gemma/stag=1, gemma/stag=2, glm/coord=2, glm/stag=3, qwen3.5/stag=5, qwen3.8/coord=1, qwen3.8/stag=5
+
+== Temperature: responsive variants by T (pinned, H=2) ==
+  T=0.5: 44/320  gemma-4-26b-a4b-it=5, gemma-4-31b-it=3, glm-5.2=19, qwen3.5-397b=3, qwen3.8-27b=14
+  T=0.75: 52/320  gemma-4-26b-a4b-it=5, gemma-4-31b-it=5, glm-5.2=19, qwen3.5-397b=9, qwen3.8-27b=14
+  T=1.0: 47/320  gemma-4-26b-a4b-it=6, gemma-4-31b-it=5, glm-5.2=13, qwen3.5-397b=13, qwen3.8-27b=10
+  T=1.5: 41/320  gemma-4-26b-a4b-it=10, gemma-4-31b-it=7, glm-5.2=4, qwen3.5-397b=13, qwen3.8-27b=7
+
+== Deployment: agreement of size effects across providers (H=2, T=1, same 64 variants) ==
+  gemma-4-26b-a4b-it: responsive per deployment {'coreweave-bf16': 6, 'novita-bf16': 9, 'parasail-bf16': 4}
+  gemma-4-31b-it: responsive per deployment {'novita-bf16': 5, 'parasail-fp8': 4}
+  glm-5.2: responsive per deployment {'alibaba-fast': 13, 'ambient-fp8': 13, 'streamlake-fp8': 9}
+  qwen3.8-27b: responsive per deployment {'cerebras-fp16': 10, 'coreweave-fp8': 6, 'parasail-fp8': 8, 'reka-fp8': 7, 'wafer-fp8': 10}
+
+== Amendment 3 D2 flags (game, framing, mapping, size32, coupling32) ==
+  qwen3.8-27b: [('stag', 4, 3, -32.2, 22.3), ('stag', 4, 0, -29.41, 17.42), ('stag', 6, 2, -21.27, 16.1), ('stag', 6, 0, -19.81, 11.46), ('coord', 6, 2, -12.53, 9.81), ('stag', 4, 2, -5.34, 4.9)]
+  glm-5.2: [('stag', 4, 2, -12.27, 8.01), ('stag', 7, 2, -9.49, 4.57), ('stag', 0, 3, -4.82, 2.15), ('coord', 6, 3, -4.8, 4.25), ('stag', 7, 1, -3.99, 3.77), ('stag', 3, 0, -3.8, 2.0)]

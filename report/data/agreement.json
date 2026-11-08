@@ -1,0 +1,34 @@
+[
+{
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"corr": 0.877,
+"mean_abs_diff": 0.091,
+"beyond_noise": 15,
+"histories": 21
+},
+{
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"corr": 0.834,
+"mean_abs_diff": 0.05,
+"beyond_noise": 9,
+"histories": 21
+},
+{
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"corr": 0.893,
+"mean_abs_diff": 0.078,
+"beyond_noise": 11,
+"histories": 21
+},
+{
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"corr": 0.664,
+"mean_abs_diff": 0.085,
+"beyond_noise": 12,
+"histories": 21
+}
+]

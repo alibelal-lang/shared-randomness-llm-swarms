@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "google/gemma-4-31b-it",
+  "provider_pin": "parasail/fp8",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:32+0000",
+  "seconds": 19.2,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.00123252,
+  "providers": [
+   "Parasail"
+  ]
+ },
+ "records": [
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999978262771414,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999985651784983,
+   "min_listed": 5.305268626499598e-09,
+   "top": [
+    [
+     "J",
+     -2.1457903130794875e-05
+    ],
+    [
+     " J",
+     -10.856237411499023
+    ],
+    [
+     "#",
+     -14.912023544311523
+    ],
+    [
+     "j",
+     -15.812739372253418
+    ],
+    [
+     " j",
+     -16.34255599975586
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 2.167e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999986174978748,
+   "mass_B": 3.151126901696642e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994031450792,
+   "min_listed": 3.6967861533634463e-09,
+   "top": [
+    [
+     "J",
+     -5.483642325998517e-06
+    ],
+    [
+     " J",
+     -12.40424919128418
+    ],
+    [
+     "#",
+     -14.874744415283203
+    ],
+    [
+     "C",
+     -15.434372901916504
+    ],
+    [
+     "S",
+     -17.18522834777832
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 2.167e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999985740960514,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999990933985733,
+   "min_listed": 3.928503895823932e-09,
+   "top": [
+    [
+     "J",
+     -1.23978434203309e-05
+    ],
+    [
+     " J",
+     -11.42017650604248
+    ],
+    [
+     "#",
+     -15.17458438873291
+    ],
+    [
+     " j",
+     -16.578535079956055
+    ],
+    [
+     "\\",
+     -16.994415283203125
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 1.105e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999984257916693,
+   "mass_B": 4.173822335557024e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999990944186443,
+   "min_listed": 3.585023606214978e-09,
+   "top": [
+    [
+     "J",
+     -6.9141628955549095e-06
+    ],
+    [
+     " J",
+     -12.140297889709473
+    ],
+    [
+     "C",
+     -15.368387222290039
+    ],
+    [
+     "#",
+     -15.425408363342285
+    ],
+    [
+     "Since",
+     -16.931480407714844
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 2.167e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999968183640965,
+   "mass_B": 1.229867114814711e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999990926777428,
+   "min_listed": 4.948158192210747e-09,
+   "top": [
+    [
+     "J",
+     -6.437322554120328e-06
+    ],
+    [
+     " J",
+     -12.635113716125488
+    ],
+    [
+     "K",
+     -13.608604431152344
+    ],
+    [
+     "#",
+     -14.560358047485352
+    ],
+    [
+     "C",
+     -15.484273910522461
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.258e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999978345345613,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999989387358721,
+   "min_listed": 5.268010378916538e-09,
+   "top": [
+    [
+     "J",
+     -1.430521751899505e-05
+    ],
+    [
+     " J",
+     -11.3190336227417
+    ],
+    [
+     "#",
+     -14.111425399780273
+    ],
+    [
+     "C",
+     -15.876448631286621
+    ],
+    [
+     "j",
+     -16.783016204833984
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999951905613821,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999964063571232,
+   "min_listed": 1.2977491042291523e-08,
+   "top": [
+    [
+     "J",
+     -2.563032649050001e-05
+    ],
+    [
+     " J",
+     -10.779569625854492
+    ],
+    [
+     "#",
+     -14.313441276550293
+    ],
+    [
+     "j",
+     -15.325215339660645
+    ],
+    [
+     " j",
+     -16.381898880004883
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999974472354036,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999982451524367,
+   "min_listed": 7.636498192014697e-09,
+   "top": [
+    [
+     "J",
+     -1.895445711852517e-05
+    ],
+    [
+     " J",
+     -11.018136978149414
+    ],
+    [
+     "#",
+     -14.877256393432617
+    ],
+    [
+     "j",
+     -16.074296951293945
+    ],
+    [
+     "C",
+     -16.162887573242188
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999968311222336,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999979150772149,
+   "min_listed": 9.552407445082507e-09,
+   "top": [
+    [
+     "J",
+     -1.5735749911982566e-05
+    ],
+    [
+     " J",
+     -11.284456253051758
+    ],
+    [
+     "#",
+     -14.545136451721191
+    ],
+    [
+     "C",
+     -15.766399383544922
+    ],
+    [
+     "**",
+     -16.446550369262695
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.315e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9862864089753131,
+   "mass_B": 0.013689883934665198,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999972115419955,
+   "min_listed": 4.799609667184685e-08,
+   "top": [
+    [
+     "J",
+     -0.013828683644533157
+    ],
+    [
+     "K",
+     -4.291098117828369
+    ],
+    [
+     " J",
+     -10.824007034301758
+    ],
+    [
+     "C",
+     -11.34811782836914
+    ],
+    [
+     "#",
+     -12.069223403930664
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999964486345929,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999979613074244,
+   "min_listed": 8.199363648321416e-09,
+   "top": [
+    [
+     "J",
+     -3.5644214221974835e-05
+    ],
+    [
+     " J",
+     -10.34689712524414
+    ],
+    [
+     "#",
+     -13.803911209106445
+    ],
+    [
+     "j",
+     -16.03166389465332
+    ],
+    [
+     " j",
+     -16.179529190063477
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999997881205525,
+   "mass_B": 5.158413483127362e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991230116154,
+   "min_listed": 4.282192314527756e-09,
+   "top": [
+    [
+     "J",
+     -5.1260126383567695e-06
+    ],
+    [
+     " J",
+     -12.714499473571777
+    ],
+    [
+     "K",
+     -14.477466583251953
+    ],
+    [
+     "#",
+     -15.08501148223877
+    ],
+    [
+     "C",
+     -15.758358001708984
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 2.404e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0013607042219631633,
+   "mass_B": 0.9986273729136691,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996081466366,
+   "min_listed": 1.5635401294700957e-08,
+   "top": [
+    [
+     "K",
+     -0.0013737573754042387
+    ],
+    [
+     "J",
+     -6.599752902984619
+    ],
+    [
+     "//",
+     -12.041818618774414
+    ],
+    [
+     "C",
+     -12.394421577453613
+    ],
+    [
+     "S",
+     -14.54427433013916
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999986001936192,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.99999933560873,
+   "min_listed": 3.1478934183932107e-09,
+   "top": [
+    [
+     "J",
+     -6.55653229841846e-06
+    ],
+    [
+     " J",
+     -12.175212860107422
+    ],
+    [
+     "#",
+     -14.683553695678711
+    ],
+    [
+     "C",
+     -15.998076438903809
+    ],
+    [
+     "**",
+     -16.992097854614258
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999997580174022,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.999998272601805,
+   "min_listed": 6.308447261673074e-09,
+   "top": [
+    [
+     "J",
+     -2.8610638764803298e-05
+    ],
+    [
+     " J",
+     -10.550117492675781
+    ],
+    [
+     "#",
+     -15.077532768249512
+    ],
+    [
+     "j",
+     -16.080230712890625
+    ],
+    [
+     " j",
+     -16.109970092773438
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999990069439902,
+   "mass_B": 1.2948241728121829e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995379222206,
+   "min_listed": 4.2558270165245305e-09,
+   "top": [
+    [
+     "J",
+     -8.702316335984506e-06
+    ],
+    [
+     " J",
+     -11.773093223571777
+    ],
+    [
+     "C",
+     -15.850486755371094
+    ],
+    [
+     "#",
+     -15.90778636932373
+    ],
+    [
+     " j",
+     -16.804479598999023
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.315e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9995796020495996,
+   "mass_B": 0.00041337442865971465,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999987759388898,
+   "min_listed": 1.3937162960638008e-08,
+   "top": [
+    [
+     "J",
+     -0.0004232229257468134
+    ],
+    [
+     "K",
+     -7.791156768798828
+    ],
+    [
+     " J",
+     -12.809222221374512
+    ],
+    [
+     "C",
+     -12.858233451843262
+    ],
+    [
+     "#",
+     -13.554265975952148
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 2.404e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999854372822462,
+   "mass_B": 1.313213867830363e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999443819187,
+   "min_listed": 3.965043934395822e-09,
+   "top": [
+    [
+     "J",
+     -1.561653880344238e-05
+    ],
+    [
+     "K",
+     -11.240447998046875
+    ],
+    [
+     " J",
+     -13.763203620910645
+    ],
+    [
+     "C",
+     -15.032145500183105
+    ],
+    [
+     "#",
+     -15.302667617797852
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999968725424604,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999979615828207,
+   "min_listed": 7.1879746155435085e-09,
+   "top": [
+    [
+     "J",
+     -1.8596821973915212e-05
+    ],
+    [
+     " J",
+     -11.07666015625
+    ],
+    [
+     "#",
+     -14.18264102935791
+    ],
+    [
+     "C",
+     -16.653879165649414
+    ],
+    [
+     " j",
+     -16.653879165649414
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9584346183305268,
+   "mass_B": 0.041513574853096084,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999966796952277,
+   "min_listed": 6.958248560038216e-08,
+   "top": [
+    [
+     "J",
+     -0.04245838522911072
+    ],
+    [
+     "K",
+     -3.181734800338745
+    ],
+    [
+     "C",
+     -10.73466968536377
+    ],
+    [
+     "S",
+     -11.085673332214355
+    ],
+    [
+     "#",
+     -11.624123573303223
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998248284518,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999970175879,
+   "min_listed": 6.755256319894293e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     "**",
+     -16.130332946777344
+    ],
+    [
+     " K",
+     -16.576217651367188
+    ],
+    [
+     "//",
+     -17.19711685180664
+    ],
+    [
+     "#",
+     -18.874038696289062
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 1.474e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998318732928,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999820954616,
+   "min_listed": 8.715945265919183e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -16.470609664916992
+    ],
+    [
+     "Since",
+     -17.03023910522461
+    ],
+    [
+     "**",
+     -17.426382064819336
+    ],
+    [
+     "B",
+     -17.54021453857422
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.375e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999473781507,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.000000049867895,
+   "min_listed": 4.5744196407068025e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.524749755859375
+    ],
+    [
+     "**",
+     -17.14321517944336
+    ],
+    [
+     "B",
+     -17.82786750793457
+    ],
+    [
+     "#",
+     -18.00058364868164
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.258e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998115825206,
+   "mass_B": 1.931328450447475e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000225179002,
+   "min_listed": 8.351100180598205e-10,
+   "top": [
+    [
+     "K",
+     -3.576279254957626e-07
+    ],
+    [
+     " K",
+     -15.592123031616211
+    ],
+    [
+     "**",
+     -16.633935928344727
+    ],
+    [
+     "//",
+     -16.80103302001953
+    ],
+    [
+     "B",
+     -17.362903594970703
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.744e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998780840428,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999341075223,
+   "min_listed": 5.496050355966876e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.965352058410645
+    ],
+    [
+     "**",
+     -17.753765106201172
+    ],
+    [
+     "#",
+     -18.64067840576172
+    ],
+    [
+     "B",
+     -19.208759307861328
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999997446477692,
+   "mass_B": 8.650117765286352e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000926657642,
+   "min_listed": 1.3245260347515476e-09,
+   "top": [
+    [
+     "K",
+     -3.576279254957626e-07
+    ],
+    [
+     " K",
+     -16.09559440612793
+    ],
+    [
+     "B",
+     -16.14868927001953
+    ],
+    [
+     "//",
+     -16.792423248291016
+    ],
+    [
+     "C",
+     -16.955232620239258
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.744e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999452035411,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.000000024539128,
+   "min_listed": 5.134474110096464e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.557952880859375
+    ],
+    [
+     "**",
+     -17.756732940673828
+    ],
+    [
+     "B",
+     -17.814571380615234
+    ],
+    [
+     "//",
+     -18.51363754272461
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.315e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999999914156783,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.0000000137769294,
+   "min_listed": 7.698854657604964e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.69560718536377
+    ],
+    [
+     "**",
+     -17.449546813964844
+    ],
+    [
+     "#",
+     -18.02954864501953
+    ],
+    [
+     "//",
+     -18.087902069091797
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9948714051164755,
+   "mass_B": 0.005115535884421766,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999980654226522,
+   "min_listed": 2.398366854657784e-08,
+   "top": [
+    [
+     "J",
+     -0.005148348864167929
+    ],
+    [
+     "K",
+     -5.275473117828369
+    ],
+    [
+     " J",
+     -11.940031051635742
+    ],
+    [
+     "C",
+     -12.030763626098633
+    ],
+    [
+     "#",
+     -12.770822525024414
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9928801113183986,
+   "mass_B": 0.00708965827788182,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995623360022,
+   "min_listed": 2.312517340050587e-08,
+   "top": [
+    [
+     "K",
+     -0.007145541720092297
+    ],
+    [
+     "J",
+     -4.949118137359619
+    ],
+    [
+     "C",
+     -10.663512229919434
+    ],
+    [
+     "//",
+     -13.394558906555176
+    ],
+    [
+     "#",
+     -13.486477851867676
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999997293541464,
+   "mass_B": 1.5515501143096047e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000072054017,
+   "min_listed": 1.1971117762267804e-09,
+   "top": [
+    [
+     "K",
+     -3.576279254957626e-07
+    ],
+    [
+     "//",
+     -15.932690620422363
+    ],
+    [
+     " K",
+     -16.257564544677734
+    ],
+    [
+     "C",
+     -16.475784301757812
+    ],
+    [
+     "#",
+     -17.08246421813965
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999286809989,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999976502497,
+   "min_listed": 4.827810019090642e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.854352951049805
+    ],
+    [
+     "**",
+     -17.652116775512695
+    ],
+    [
+     "#",
+     -17.998149871826172
+    ],
+    [
+     "B",
+     -18.60934066772461
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.999e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998780840428,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999844044125,
+   "min_listed": 8.574943457723164e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.965352058410645
+    ],
+    [
+     "**",
+     -16.707508087158203
+    ],
+    [
+     "#",
+     -18.225187301635742
+    ],
+    [
+     "B",
+     -18.759883880615234
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.999e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999276122375,
+   "mass_B": 3.921212462933509e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000607739408,
+   "min_listed": 5.861438809805877e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     "//",
+     -16.766223907470703
+    ],
+    [
+     " K",
+     -16.876922607421875
+    ],
+    [
+     "#",
+     -17.886898040771484
+    ],
+    [
+     "C",
+     -17.886898040771484
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999244002209,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.0000000427865219,
+   "min_listed": 3.2504256533152204e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     "**",
+     -16.777563095092773
+    ],
+    [
+     " K",
+     -16.94799041748047
+    ],
+    [
+     "//",
+     -17.520626068115234
+    ],
+    [
+     "#",
+     -17.751583099365234
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999232002333,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999827918377,
+   "min_listed": 4.095566773276943e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.638025283813477
+    ],
+    [
+     "**",
+     -17.575557708740234
+    ],
+    [
+     "#",
+     -18.31626319885254
+    ],
+    [
+     "//",
+     -19.09544563293457
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.513e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9994607419265359,
+   "mass_B": 0.000526677547023088,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999942628701,
+   "min_listed": 1.011858831020516e-08,
+   "top": [
+    [
+     "K",
+     -0.0005401042872108519
+    ],
+    [
+     "J",
+     -7.548922061920166
+    ],
+    [
+     "C",
+     -12.114850997924805
+    ],
+    [
+     "//",
+     -12.202001571655273
+    ],
+    [
+     "S",
+     -13.933293342590332
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.315e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998922661356,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999892271576,
+   "min_listed": 6.585782275776886e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.850478172302246
+    ],
+    [
+     "**",
+     -17.009082794189453
+    ],
+    [
+     "#",
+     -18.013259887695312
+    ],
+    [
+     "B",
+     -18.281766891479492
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.468e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999992235338799,
+   "mass_B": 5.2003563973396356e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000001242964973,
+   "min_listed": 1.0378512597136955e-09,
+   "top": [
+    [
+     "K",
+     -8.344653679159819e-07
+    ],
+    [
+     "//",
+     -14.399192810058594
+    ],
+    [
+     "C",
+     -15.961661338806152
+    ],
+    [
+     "#",
+     -16.662841796875
+    ],
+    [
+     " K",
+     -16.662841796875
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999986088954882,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999992226815029,
+   "min_listed": 3.5634400803114854e-09,
+   "top": [
+    [
+     "J",
+     -1.4662849935120903e-05
+    ],
+    [
+     " J",
+     -11.229881286621094
+    ],
+    [
+     "j",
+     -15.319710731506348
+    ],
+    [
+     " j",
+     -15.72925853729248
+    ],
+    [
+     "#",
+     -16.289762496948242
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 117,
+   "completion_tokens": 1,
+   "cost": 1.759e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999996890432803,
+   "mass_B": 2.208396286516419e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999945356771,
+   "min_listed": 6.800607149628253e-10,
+   "top": [
+    [
+     "K",
+     -4.768372718899627e-07
+    ],
+    [
+     " K",
+     -15.611998558044434
+    ],
+    [
+     "//",
+     -15.718100547790527
+    ],
+    [
+     "**",
+     -17.127830505371094
+    ],
+    [
+     "C",
+     -17.29399871826172
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999989174618149,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999992252547742,
+   "min_listed": 3.4189943714097364e-09,
+   "top": [
+    [
+     "J",
+     -1.180178969661938e-05
+    ],
+    [
+     " J",
+     -11.443475723266602
+    ],
+    [
+     "j",
+     -16.06118392944336
+    ],
+    [
+     "#",
+     -16.506040573120117
+    ],
+    [
+     "//",
+     -17.43484878540039
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.999e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999999381616942,
+   "mass_B": 8.246167809818094e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000012828776,
+   "min_listed": 1.1097351655350438e-09,
+   "top": [
+    [
+     "K",
+     -7.152560215217818e-07
+    ],
+    [
+     "//",
+     -15.147713661193848
+    ],
+    [
+     " K",
+     -16.14986801147461
+    ],
+    [
+     "J",
+     -16.310932159423828
+    ],
+    [
+     "C",
+     -16.364788055419922
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998245518413,
+   "mass_B": 1.7271583864668855e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000008082886,
+   "min_listed": 7.663122583896432e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     "//",
+     -16.30211067199707
+    ],
+    [
+     " K",
+     -16.58060073852539
+    ],
+    [
+     "#",
+     -17.541370391845703
+    ],
+    [
+     "**",
+     -17.59853172302246
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.396e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999989840529439,
+   "mass_B": 6.86452297463619e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994119930754,
+   "min_listed": 3.422661258784613e-09,
+   "top": [
+    [
+     "J",
+     -4.64917320641689e-06
+    ],
+    [
+     " J",
+     -12.525392532348633
+    ],
+    [
+     "j",
+     -15.925887107849121
+    ],
+    [
+     "K",
+     -16.494314193725586
+    ],
+    [
+     "#",
+     -16.666215896606445
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.999e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999982542992437,
+   "mass_B": 5.624156590989867e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999998744987514,
+   "min_listed": 4.896680038931791e-09,
+   "top": [
+    [
+     "J",
+     -4.172333774477011e-06
+    ],
+    [
+     " J",
+     -12.929009437561035
+    ],
+    [
+     "j",
+     -15.423991203308105
+    ],
+    [
+     "#",
+     -16.34200668334961
+    ],
+    [
+     "//",
+     -16.491310119628906
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999990995303998,
+   "mass_B": 3.467203546434996e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996148052408,
+   "min_listed": 1.8394028714888445e-09,
+   "top": [
+    [
+     "J",
+     -8.106264431262389e-06
+    ],
+    [
+     " J",
+     -11.840629577636719
+    ],
+    [
+     "K",
+     -14.874747276306152
+    ],
+    [
+     "#",
+     -16.575380325317383
+    ],
+    [
+     "j",
+     -17.039386749267578
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999984302313979,
+   "mass_B": 2.005455260036099e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991017738253,
+   "min_listed": 3.054140413110324e-09,
+   "top": [
+    [
+     "J",
+     -1.4782061043661088e-05
+    ],
+    [
+     " J",
+     -11.234371185302734
+    ],
+    [
+     "#",
+     -15.020169258117676
+    ],
+    [
+     "j",
+     -15.194846153259277
+    ],
+    [
+     "K",
+     -17.724809646606445
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999989922274469,
+   "mass_B": 7.861482668511308e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995023631362,
+   "min_listed": 3.3001660211411745e-09,
+   "top": [
+    [
+     "J",
+     -9.89442014542874e-06
+    ],
+    [
+     " J",
+     -11.630966186523438
+    ],
+    [
+     "j",
+     -15.671548843383789
+    ],
+    [
+     "#",
+     -15.728428840637207
+    ],
+    [
+     "K",
+     -16.358705520629883
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.234e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999966189550182,
+   "mass_B": 2.592395022311409e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999031868846,
+   "min_listed": 1.3977167465189256e-09,
+   "top": [
+    [
+     "J",
+     -1.5258905477821827e-05
+    ],
+    [
+     " J",
+     -11.34084415435791
+    ],
+    [
+     "K",
+     -12.86292839050293
+    ],
+    [
+     "#",
+     -14.526689529418945
+    ],
+    [
+     "C",
+     -16.501667022705078
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.234e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999986393917235,
+   "mass_B": 5.8362661582216016e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991913457296,
+   "min_listed": 3.1132495008467856e-09,
+   "top": [
+    [
+     "J",
+     -1.3589951777248643e-05
+    ],
+    [
+     " J",
+     -11.31167984008789
+    ],
+    [
+     "#",
+     -15.280797004699707
+    ],
+    [
+     "j",
+     -15.77448844909668
+    ],
+    [
+     "K",
+     -16.65658950805664
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 2.224e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999994454448647,
+   "mass_B": 1.3802951446847863e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997787783209,
+   "min_listed": 3.3658786366567412e-09,
+   "top": [
+    [
+     "J",
+     -5.602852525044e-06
+    ],
+    [
+     " J",
+     -12.196462631225586
+    ],
+    [
+     "K",
+     -15.795798301696777
+    ],
+    [
+     "#",
+     -16.996042251586914
+    ],
+    [
+     "C",
+     -16.996042251586914
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9609811106476163,
+   "mass_B": 0.03900786095459568,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999980841916959,
+   "min_listed": 2.6074079401963387e-08,
+   "top": [
+    [
+     "J",
+     -0.03980280086398125
+    ],
+    [
+     "K",
+     -3.2439920902252197
+    ],
+    [
+     "#",
+     -12.443628311157227
+    ],
+    [
+     "C",
+     -12.884720802307129
+    ],
+    [
+     " J",
+     -13.033452987670898
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999998608658931,
+   "mass_B": 3.489887621933606e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999214043222,
+   "min_listed": 2.9454522574304103e-09,
+   "top": [
+    [
+     "J",
+     -1.609338323760312e-05
+    ],
+    [
+     " J",
+     -11.127532958984375
+    ],
+    [
+     "j",
+     -14.724217414855957
+    ],
+    [
+     "#",
+     -16.18741226196289
+    ],
+    [
+     " j",
+     -17.44384002685547
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.32642715728370175,
+   "mass_B": 0.6735677092868408,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995040266586,
+   "min_listed": 9.524917003483952e-09,
+   "top": [
+    [
+     "K",
+     -0.3951667547225952
+    ],
+    [
+     "J",
+     -1.1195510625839233
+    ],
+    [
+     "JK",
+     -12.687789916992188
+    ],
+    [
+     " J",
+     -13.977361679077148
+    ],
+    [
+     "C",
+     -14.026466369628906
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999989698315525,
+   "mass_B": 1.3558335085716855e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994534514727,
+   "min_listed": 2.9575106384494036e-09,
+   "top": [
+    [
+     "J",
+     -1.5497327694902197e-05
+    ],
+    [
+     " J",
+     -11.143637657165527
+    ],
+    [
+     "#",
+     -15.482069969177246
+    ],
+    [
+     "j",
+     -15.94710636138916
+    ],
+    [
+     "//",
+     -16.181137084960938
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999999304938686,
+   "mass_B": 3.215650047605491e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996089435642,
+   "min_listed": 3.392290490525723e-09,
+   "top": [
+    [
+     "J",
+     -2.014657366089523e-05
+    ],
+    [
+     " J",
+     -10.847596168518066
+    ],
+    [
+     "#",
+     -16.142885208129883
+    ],
+    [
+     "j",
+     -16.8704833984375
+    ],
+    [
+     "C",
+     -17.134794235229492
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999997732201196,
+   "mass_B": 4.918152511147671e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991319822472,
+   "min_listed": 3.5435609493211478e-09,
+   "top": [
+    [
+     "J",
+     -1.0609683158691041e-05
+    ],
+    [
+     " J",
+     -11.694228172302246
+    ],
+    [
+     "#",
+     -14.356040954589844
+    ],
+    [
+     "K",
+     -14.525162696838379
+    ],
+    [
+     "C",
+     -16.192413330078125
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999901749884405,
+   "mass_B": 9.700940464192337e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997097299633,
+   "min_listed": 3.963924809633932e-09,
+   "top": [
+    [
+     "J",
+     -0.00010347901843488216
+    ],
+    [
+     "K",
+     -9.240702629089355
+    ],
+    [
+     " J",
+     -12.162333488464355
+    ],
+    [
+     "#",
+     -14.292736053466797
+    ],
+    [
+     "JK",
+     -16.019737243652344
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999985468830849,
+   "mass_B": 9.58580788386264e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999992301726108,
+   "min_listed": 3.7734826330019e-09,
+   "top": [
+    [
+     "J",
+     -1.8000764612224884e-05
+    ],
+    [
+     " J",
+     -11.009276390075684
+    ],
+    [
+     "j",
+     -15.07675838470459
+    ],
+    [
+     "#",
+     -15.308243751525879
+    ],
+    [
+     "//",
+     -16.510324478149414
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9994678245727978,
+   "mass_B": 0.0005277595610402351,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999989782589448,
+   "min_listed": 1.0782959563358184e-08,
+   "top": [
+    [
+     "J",
+     -0.0005384344840422273
+    ],
+    [
+     "K",
+     -7.54686975479126
+    ],
+    [
+     " J",
+     -12.004908561706543
+    ],
+    [
+     "C",
+     -13.285229682922363
+    ],
+    [
+     "#",
+     -14.522436141967773
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999810915728402,
+   "mass_B": 0.0001874384824047893,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997294514575,
+   "min_listed": 2.3309468652744417e-09,
+   "top": [
+    [
+     "J",
+     -0.00019498579786159098
+    ],
+    [
+     "K",
+     -8.582059860229492
+    ],
+    [
+     " J",
+     -12.043525695800781
+    ],
+    [
+     "#",
+     -14.009235382080078
+    ],
+    [
+     "C",
+     -15.259284019470215
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998859433138,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999627270927,
+   "min_listed": 2.3507963149506013e-10,
+   "top": [
+    [
+     "K",
+     -3.576279254957626e-07
+    ],
+    [
+     " K",
+     -15.227856636047363
+    ],
+    [
+     "//",
+     -16.670772552490234
+    ],
+    [
+     "**",
+     -19.280811309814453
+    ],
+    [
+     "k",
+     -20.087356567382812
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 117,
+   "completion_tokens": 1,
+   "cost": 1.318e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999189718787689,
+   "mass_B": 7.964760143562199e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997102949542,
+   "min_listed": 4.597224734732594e-09,
+   "top": [
+    [
+     "J",
+     -8.631125092506409e-05
+    ],
+    [
+     "K",
+     -9.437898635864258
+    ],
+    [
+     " J",
+     -12.151697158813477
+    ],
+    [
+     "#",
+     -14.338688850402832
+    ],
+    [
+     "C",
+     -15.357090950012207
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.189e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999995706633257,
+   "mass_B": 5.5773592513132734e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000669301525,
+   "min_listed": 5.741110667840416e-10,
+   "top": [
+    [
+     "K",
+     -4.768372718899627e-07
+    ],
+    [
+     "//",
+     -14.786590576171875
+    ],
+    [
+     "J",
+     -16.70196533203125
+    ],
+    [
+     " K",
+     -16.862525939941406
+    ],
+    [
+     "C",
+     -18.062602996826172
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.558e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999996860046213,
+   "mass_B": 9.71577583460458e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999922070388,
+   "min_listed": 4.450183589200143e-10,
+   "top": [
+    [
+     "K",
+     -5.960466182841628e-07
+    ],
+    [
+     " K",
+     -15.081177711486816
+    ],
+    [
+     "//",
+     -15.18641471862793
+    ],
+    [
+     "C",
+     -18.4378719329834
+    ],
+    [
+     "#",
+     -18.4952392578125
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.234e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999183898356,
+   "mass_B": 3.0169657439450836e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000068746239,
+   "min_listed": 2.922824530962583e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     "//",
+     -16.605663299560547
+    ],
+    [
+     " K",
+     -17.096284866333008
+    ],
+    [
+     "J",
+     -17.316429138183594
+    ],
+    [
+     "C",
+     -17.593372344970703
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999997166076466,
+   "mass_B": 1.6097013398691832e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000075644182,
+   "min_listed": 2.1635989561679026e-10,
+   "top": [
+    [
+     "K",
+     -3.576279254957626e-07
+    ],
+    [
+     "//",
+     -15.138833999633789
+    ],
+    [
+     " K",
+     -16.41602325439453
+    ],
+    [
+     "k",
+     -19.397796630859375
+    ],
+    [
+     "C",
+     -19.455957412719727
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.558e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999318746221,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.0000000101698299,
+   "min_listed": 3.6681276096090603e-10,
+   "top": [
+    [
+     "K",
+     -4.768372718899627e-07
+    ],
+    [
+     " K",
+     -14.71025562286377
+    ],
+    [
+     "//",
+     -16.79790496826172
+    ],
+    [
+     "k",
+     -19.020591735839844
+    ],
+    [
+     "(",
+     -19.079578399658203
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.783e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998609157184,
+   "mass_B": 3.186997439269509e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999663667024,
+   "min_listed": 2.9989535788931924e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -16.124774932861328
+    ],
+    [
+     "//",
+     -16.3985595703125
+    ],
+    [
+     "#",
+     -18.65697479248047
+    ],
+    [
+     "k",
+     -18.888980865478516
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999852003733,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.000000021317744,
+   "min_listed": 2.393552281581569e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.07494354248047
+    ],
+    [
+     "//",
+     -18.05759048461914
+    ],
+    [
+     "k",
+     -19.10951805114746
+    ],
+    [
+     "**",
+     -19.405174255371094
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 133,
+   "completion_tokens": 1,
+   "cost": 1.558e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998566058117,
+   "mass_B": 7.824689345708583e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999985710906,
+   "min_listed": 2.800524639851611e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -16.169132232666016
+    ],
+    [
+     "//",
+     -16.278240203857422
+    ],
+    [
+     "#",
+     -17.952251434326172
+    ],
+    [
+     "C",
+     -18.58252716064453
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999691566352,
+   "mass_B": 2.939882970320719e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000364910058,
+   "min_listed": 2.101640808110538e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.241779327392578
+    ],
+    [
+     "//",
+     -17.29849624633789
+    ],
+    [
+     "#",
+     -18.497276306152344
+    ],
+    [
+     "C",
+     -18.55511474609375
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999255174904,
+   "mass_B": 2.8965218032464296e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000241163765,
+   "min_listed": 3.8102209234546576e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.922693252563477
+    ],
+    [
+     "J",
+     -17.35717010498047
+    ],
+    [
+     "C",
+     -17.46660614013672
+    ],
+    [
+     "//",
+     -17.907516479492188
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8886045290828318,
+   "mass_B": 0.11139216670215461,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997307560826,
+   "min_listed": 4.690911106541116e-09,
+   "top": [
+    [
+     "K",
+     -0.11810299754142761
+    ],
+    [
+     "J",
+     -2.1946983337402344
+    ],
+    [
+     "C",
+     -13.41588020324707
+    ],
+    [
+     "#",
+     -13.956032752990723
+    ],
+    [
+     "//",
+     -15.381641387939453
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999254347314,
+   "mass_B": 3.963894567403032e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999629779774,
+   "min_listed": 2.2527153939665133e-10,
+   "top": [
+    [
+     "K",
+     -1.1920930376163597e-07
+    ],
+    [
+     " K",
+     -16.924545288085938
+    ],
+    [
+     "//",
+     -18.333663940429688
+    ],
+    [
+     "#",
+     -19.141969680786133
+    ],
+    [
+     "J",
+     -19.346038818359375
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.324e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998979552339,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 1.0000000051821778,
+   "min_listed": 2.346307849698278e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.807866096496582
+    ],
+    [
+     "//",
+     -16.3590030670166
+    ],
+    [
+     "#",
+     -18.75424575805664
+    ],
+    [
+     "(",
+     -19.430370330810547
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999998765713561,
+   "mass_B": 1.096855104358676e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000031705941,
+   "min_listed": 5.076766165560559e-10,
+   "top": [
+    [
+     "K",
+     -1.3113030945532955e-06
+    ],
+    [
+     "J",
+     -13.723063468933105
+    ],
+    [
+     " K",
+     -16.379255294799805
+    ],
+    [
+     "//",
+     -16.809091567993164
+    ],
+    [
+     "#",
+     -16.917383193969727
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.225e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999999930791803,
+   "mass_B": 3.072098453422871e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999879163102,
+   "min_listed": 1.8272645674260821e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.592123031616211
+    ],
+    [
+     "//",
+     -17.081039428710938
+    ],
+    [
+     "#",
+     -19.29601287841797
+    ],
+    [
+     "**",
+     -19.797765731811523
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998422272663,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999711181697,
+   "min_listed": 2.4998526479459506e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     "//",
+     -16.165420532226562
+    ],
+    [
+     " K",
+     -16.33319854736328
+    ],
+    [
+     "#",
+     -18.396499633789062
+    ],
+    [
+     "(",
+     -19.102909088134766
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999228164395,
+   "mass_B": 6.979206155393677e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000053643491,
+   "min_listed": 1.6617009462128121e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     " K",
+     -15.640402793884277
+    ],
+    [
+     "//",
+     -16.074222564697266
+    ],
+    [
+     "J",
+     -18.780330657958984
+    ],
+    [
+     "#",
+     -18.838428497314453
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999916389909649,
+   "mass_B": 7.763613021964036e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999998877360651,
+   "min_listed": 1.32380622552876e-09,
+   "top": [
+    [
+     "K",
+     -8.463895028398838e-06
+    ],
+    [
+     "J",
+     -11.76606273651123
+    ],
+    [
+     "//",
+     -15.206757545471191
+    ],
+    [
+     " K",
+     -16.08999252319336
+    ],
+    [
+     "C",
+     -16.514392852783203
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.189e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999981680812393,
+   "mass_B": 1.387603063599427e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000594602714,
+   "min_listed": 7.068316645172521e-10,
+   "top": [
+    [
+     "K",
+     -2.145769485650817e-06
+    ],
+    [
+     "//",
+     -13.319541931152344
+    ],
+    [
+     " K",
+     -14.974355697631836
+    ],
+    [
+     "J",
+     -15.790517807006836
+    ],
+    [
+     "B",
+     -17.49054527282715
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.36e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999998237520102,
+   "mass_B": 3.196900026151996e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999945384829,
+   "min_listed": 1.8198352590554356e-10,
+   "top": [
+    [
+     "K",
+     -2.3841860752327193e-07
+    ],
+    [
+     "//",
+     -15.993741989135742
+    ],
+    [
+     " K",
+     -16.5933837890625
+    ],
+    [
+     "J",
+     -17.258499145507812
+    ],
+    [
+     "#",
+     -18.276432037353516
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 148,
+   "completion_tokens": 1,
+   "cost": 1.261e-05
+  }
+ ]
+}

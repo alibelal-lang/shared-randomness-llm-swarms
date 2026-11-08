@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "z-ai/glm-5.2",
+  "provider_pin": "streamlake/fp8",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:41+0000",
+  "seconds": 28.5,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.001098404,
+  "providers": [
+   "StreamLake"
+  ]
+ },
+ "records": [
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9987272620390604,
+   "mass_B": 0.0010319824353786245,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999870290427327,
+   "min_listed": 5.037059582936771e-07,
+   "top": [
+    [
+     "J",
+     -0.001273548579774797
+    ],
+    [
+     "K",
+     -6.8762736320495605
+    ],
+    [
+     "Based",
+     -8.626274108886719
+    ],
+    [
+     "Given",
+     -11.376273155212402
+    ],
+    [
+     "The",
+     -11.501274108886719
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.5516e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9932060480348613,
+   "mass_B": 0.006692165148348542,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999837664566938,
+   "min_listed": 5.009208072645837e-07,
+   "top": [
+    [
+     "J",
+     -0.006817640271037817
+    ],
+    [
+     "K",
+     -5.006817817687988
+    ],
+    [
+     "R",
+     -10.506817817687988
+    ],
+    [
+     "Just",
+     -11.131817817687988
+    ],
+    [
+     "Since",
+     -11.506817817687988
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 111,
+   "completion_tokens": 1,
+   "cost": 9.844e-06
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9993782043167541,
+   "mass_B": 0.0005527405715873185,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999900070349073,
+   "min_listed": 2.1011269744965904e-07,
+   "top": [
+    [
+     "J",
+     -0.0006219890783540905
+    ],
+    [
+     "K",
+     -7.500621795654297
+    ],
+    [
+     "```",
+     -10.250621795654297
+    ],
+    [
+     "To",
+     -12.500621795654297
+    ],
+    [
+     "Based",
+     -12.625621795654297
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9397926174143905,
+   "mass_B": 0.06007875585078673,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999686677410209,
+   "min_listed": 9.426229673600386e-07,
+   "top": [
+    [
+     "J",
+     -0.062098950147628784
+    ],
+    [
+     "K",
+     -2.812098979949951
+    ],
+    [
+     "I",
+     -10.562098503112793
+    ],
+    [
+     "Based",
+     -10.68709945678711
+    ],
+    [
+     "R",
+     -11.81209945678711
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9963476062600926,
+   "mass_B": 0.0035933899424962297,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999891093061761,
+   "min_listed": 3.453666438741127e-07,
+   "top": [
+    [
+     "J",
+     -0.0036590800154954195
+    ],
+    [
+     "K",
+     -5.628659248352051
+    ],
+    [
+     "R",
+     -11.25365924835205
+    ],
+    [
+     "I",
+     -11.75365924835205
+    ],
+    [
+     "Given",
+     -12.12865924835205
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9448951983666137,
+   "mass_B": 0.053306391599977375,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997034751705917,
+   "min_listed": 1.482495276684225e-05,
+   "top": [
+    [
+     "J",
+     -0.05669903755187988
+    ],
+    [
+     "K",
+     -2.93169903755188
+    ],
+    [
+     "The",
+     -7.431698799133301
+    ],
+    [
+     "Given",
+     -8.9316987991333
+    ],
+    [
+     "Looking",
+     -9.1816987991333
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9997456409026213,
+   "mass_B": 0.00015842082999803533,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999983880674541,
+   "min_listed": 5.042187754848694e-07,
+   "top": [
+    [
+     "J",
+     -0.0002550808130763471
+    ],
+    [
+     "K",
+     -8.750255584716797
+    ],
+    [
+     "The",
+     -10.125255584716797
+    ],
+    [
+     "R",
+     -11.125255584716797
+    ],
+    [
+     "**",
+     -11.750255584716797
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.726e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9996657371510236,
+   "mass_B": 0.0002304827029707277,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999841278088559,
+   "min_listed": 4.4493628727878384e-07,
+   "top": [
+    [
+     "J",
+     -0.00033431872725486755
+    ],
+    [
+     "K",
+     -8.375334739685059
+    ],
+    [
+     "Based",
+     -9.750334739685059
+    ],
+    [
+     "R",
+     -11.500334739685059
+    ],
+    [
+     "The",
+     -12.375334739685059
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999837306751187,
+   "mass_B": 9.609597961374016e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999927136173592,
+   "min_listed": 2.873217760544467e-07,
+   "top": [
+    [
+     "J",
+     -0.0001632108323974535
+    ],
+    [
+     "K",
+     -9.250163078308105
+    ],
+    [
+     "Based",
+     -10.375163078308105
+    ],
+    [
+     "R",
+     -11.250163078308105
+    ],
+    [
+     "The",
+     -12.625163078308105
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9997142078803356,
+   "mass_B": 0.00015841599545174894,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999877352758137,
+   "min_listed": 3.465335830288011e-07,
+   "top": [
+    [
+     "J",
+     -0.0002864413254428655
+    ],
+    [
+     "K",
+     -8.750286102294922
+    ],
+    [
+     "Based",
+     -9.750286102294922
+    ],
+    [
+     "R",
+     -10.500286102294922
+    ],
+    [
+     "The",
+     -11.625286102294922
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.2017991337200578,
+   "mass_B": 0.7981310445886581,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999876970268196,
+   "min_listed": 2.9450114654401916e-07,
+   "top": [
+    [
+     "K",
+     -0.22548247873783112
+    ],
+    [
+     "J",
+     -1.60048246383667
+    ],
+    [
+     "Based",
+     -10.725481986999512
+    ],
+    [
+     "The",
+     -11.850482940673828
+    ],
+    [
+     "R",
+     -11.850482940673828
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9917051796217919,
+   "mass_B": 0.007571762652985905,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998884569920803,
+   "min_listed": 3.934096173777028e-06,
+   "top": [
+    [
+     "J",
+     -0.008329413831233978
+    ],
+    [
+     "K",
+     -4.883329391479492
+    ],
+    [
+     "R",
+     -9.008329391479492
+    ],
+    [
+     "The",
+     -9.383329391479492
+    ],
+    [
+     "Based",
+     -9.633329391479492
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.976924539207161,
+   "mass_B": 0.020275420339879512,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999386613728513,
+   "min_listed": 1.7197253721089462e-06,
+   "top": [
+    [
+     "J",
+     -0.023345867171883583
+    ],
+    [
+     "K",
+     -3.898345947265625
+    ],
+    [
+     "Based",
+     -6.023345947265625
+    ],
+    [
+     "**",
+     -8.773345947265625
+    ],
+    [
+     "R",
+     -10.023345947265625
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.777239504828025,
+   "mass_B": 0.22268267913058998,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999877881965266,
+   "min_listed": 3.6824863643450663e-07,
+   "top": [
+    [
+     "J",
+     -0.25200751423835754
+    ],
+    [
+     "K",
+     -1.5020074844360352
+    ],
+    [
+     "I",
+     -10.877007484436035
+    ],
+    [
+     "The",
+     -11.502007484436035
+    ],
+    [
+     "j",
+     -11.502007484436035
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9995616902932949,
+   "mass_B": 0.00013977976167984304,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999209727851072,
+   "min_listed": 1.3703525644985682e-06,
+   "top": [
+    [
+     "J",
+     -0.00044290098594501615
+    ],
+    [
+     "K",
+     -8.875442504882812
+    ],
+    [
+     "Based",
+     -9.250442504882812
+    ],
+    [
+     "j",
+     -10.312943458557129
+    ],
+    [
+     "The",
+     -10.812942504882812
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9992634654152521,
+   "mass_B": 0.0007096513865223255,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999905329375796,
+   "min_listed": 2.534150470378943e-07,
+   "top": [
+    [
+     "J",
+     -0.0007368059596046805
+    ],
+    [
+     "K",
+     -7.250736713409424
+    ],
+    [
+     "The",
+     -12.625737190246582
+    ],
+    [
+     "R",
+     -12.750737190246582
+    ],
+    [
+     "j",
+     -13.125737190246582
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.5664e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9995353819876021,
+   "mass_B": 0.0004305421226240773,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999918780326617,
+   "min_listed": 2.534839338942959e-07,
+   "top": [
+    [
+     "J",
+     -0.0004652628558687866
+    ],
+    [
+     "K",
+     -7.750465393066406
+    ],
+    [
+     "The",
+     -11.500465393066406
+    ],
+    [
+     "R",
+     -12.250465393066406
+    ],
+    [
+     "Based",
+     -13.000465393066406
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9922780992123943,
+   "mass_B": 0.007576136228443401,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999743445899768,
+   "min_listed": 6.840386159544073e-07,
+   "top": [
+    [
+     "J",
+     -0.007751869037747383
+    ],
+    [
+     "K",
+     -4.882751941680908
+    ],
+    [
+     "Based",
+     -9.75775146484375
+    ],
+    [
+     "The",
+     -10.88275146484375
+    ],
+    [
+     "R",
+     -11.38275146484375
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.992277622360916,
+   "mass_B": 0.007576132615860993,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999649750076859,
+   "min_listed": 7.751165602976013e-07,
+   "top": [
+    [
+     "J",
+     -0.007752349600195885
+    ],
+    [
+     "K",
+     -4.882752418518066
+    ],
+    [
+     "**",
+     -10.007752418518066
+    ],
+    [
+     "The",
+     -10.882752418518066
+    ],
+    [
+     "```",
+     -12.007752418518066
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9035419219804441,
+   "mass_B": 0.0952326150977222,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998563663345551,
+   "min_listed": 4.061603139700293e-06,
+   "top": [
+    [
+     "K",
+     -0.10143277049064636
+    ],
+    [
+     "J",
+     -2.3514328002929688
+    ],
+    [
+     "The",
+     -7.476432800292969
+    ],
+    [
+     "Looking",
+     -8.476432800292969
+    ],
+    [
+     "Considering",
+     -9.226432800292969
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 111,
+   "completion_tokens": 1,
+   "cost": 1.258e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.29403615341379924,
+   "mass_B": 0.7053560639574824,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999581212173896,
+   "min_listed": 1.1664420453869902e-06,
+   "top": [
+    [
+     "J",
+     -0.3490525484085083
+    ],
+    [
+     "K",
+     -1.2240525484085083
+    ],
+    [
+     "#",
+     -7.849052429199219
+    ],
+    [
+     "**",
+     -9.849052429199219
+    ],
+    [
+     "Given",
+     -10.724052429199219
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9840308435380866,
+   "mass_B": 0.015905377451124754,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999832250063194,
+   "min_listed": 3.4109731386884055e-07,
+   "top": [
+    [
+     "K",
+     -0.016098037362098694
+    ],
+    [
+     "J",
+     -4.1410980224609375
+    ],
+    [
+     "R",
+     -10.891098022460938
+    ],
+    [
+     "k",
+     -11.766098022460938
+    ],
+    [
+     "The",
+     -12.016098022460938
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.5288e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9818415645180387,
+   "mass_B": 0.017983055441174046,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999978100110951,
+   "min_listed": 5.973128332588153e-07,
+   "top": [
+    [
+     "J",
+     -0.01832532323896885
+    ],
+    [
+     "K",
+     -4.018325328826904
+    ],
+    [
+     "Based",
+     -9.393325805664062
+    ],
+    [
+     "The",
+     -10.393324851989746
+    ],
+    [
+     "R",
+     -11.268325805664062
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9998619027389383,
+   "mass_B": 0.00010889371068928896,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999992606063641,
+   "min_listed": 1.742737875378513e-07,
+   "top": [
+    [
+     "J",
+     -0.0001382923364872113
+    ],
+    [
+     "K",
+     -9.125138282775879
+    ],
+    [
+     "R",
+     -12.125138282775879
+    ],
+    [
+     "Based",
+     -12.250138282775879
+    ],
+    [
+     "Reason",
+     -13.375138282775879
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9525563124992442,
+   "mass_B": 0.04742498130782895,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999953132803171,
+   "min_listed": 1.4651970405209962e-07,
+   "top": [
+    [
+     "K",
+     -0.04860605299472809
+    ],
+    [
+     "J",
+     -3.0486061573028564
+    ],
+    [
+     "The",
+     -12.173605918884277
+    ],
+    [
+     "k",
+     -13.173605918884277
+    ],
+    [
+     "Given",
+     -13.298605918884277
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9397991885176591,
+   "mass_B": 0.06007935745724621,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999967973533252,
+   "min_listed": 9.426328559203603e-07,
+   "top": [
+    [
+     "K",
+     -0.06208905577659607
+    ],
+    [
+     "J",
+     -2.812088966369629
+    ],
+    [
+     "Based",
+     -10.812088966369629
+    ],
+    [
+     "The",
+     -11.062088966369629
+    ],
+    [
+     "KK",
+     -11.312088966369629
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 1.1412e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.26890293565100437,
+   "mass_B": 0.7309538764629196,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999694606740986,
+   "min_listed": 9.413931005546709e-07,
+   "top": [
+    [
+     "J",
+     -0.31340491771698
+    ],
+    [
+     "K",
+     -1.3134047985076904
+    ],
+    [
+     "Based",
+     -10.31340503692627
+    ],
+    [
+     "R",
+     -10.43840503692627
+    ],
+    [
+     "All",
+     -11.43840503692627
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9240509847583067,
+   "mass_B": 0.07585072042150642,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999827329297905,
+   "min_listed": 3.2030631159769186e-07,
+   "top": [
+    [
+     "K",
+     -0.07898803055286407
+    ],
+    [
+     "J",
+     -2.5789880752563477
+    ],
+    [
+     "The",
+     -9.703988075256348
+    ],
+    [
+     "Based",
+     -12.578988075256348
+    ],
+    [
+     "k",
+     -12.578988075256348
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.6576e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7974706336229288,
+   "mass_B": 0.20163215567592963,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998909558698429,
+   "min_listed": 3.16356585962752e-06,
+   "top": [
+    [
+     "K",
+     -0.22631026804447174
+    ],
+    [
+     "J",
+     -1.6013102531433105
+    ],
+    [
+     "Based",
+     -7.7263102531433105
+    ],
+    [
+     "The",
+     -9.476310729980469
+    ],
+    [
+     "```",
+     -9.601310729980469
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9874477980310846,
+   "mass_B": 0.012430130270831008,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999776942676841,
+   "min_listed": 7.713439789947255e-07,
+   "top": [
+    [
+     "K",
+     -0.012631646357476711
+    ],
+    [
+     "J",
+     -4.387631893157959
+    ],
+    [
+     "The",
+     -10.2626314163208
+    ],
+    [
+     "Based",
+     -11.0126314163208
+    ],
+    [
+     "k",
+     -11.3876314163208
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.5892e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9901099796504546,
+   "mass_B": 0.00970669724850172,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999691954473907,
+   "min_listed": 7.265640512162621e-07,
+   "top": [
+    [
+     "K",
+     -0.009939251467585564
+    ],
+    [
+     "J",
+     -4.634939193725586
+    ],
+    [
+     "KK",
+     -9.759939193725586
+    ],
+    [
+     "R",
+     -10.134939193725586
+    ],
+    [
+     "The",
+     -10.759939193725586
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.726e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.0600583907293267,
+   "mass_B": 0.9394714237285248,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999144175479833,
+   "min_listed": 2.4062572855125296e-06,
+   "top": [
+    [
+     "J",
+     -0.06243787705898285
+    ],
+    [
+     "K",
+     -2.8124380111694336
+    ],
+    [
+     "The",
+     -8.687438011169434
+    ],
+    [
+     "Given",
+     -9.437438011169434
+    ],
+    [
+     "Reason",
+     -10.562438011169434
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5621304640074538,
+   "mass_B": 0.43778761946312084,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999779181933547,
+   "min_listed": 5.638254075476471e-07,
+   "top": [
+    [
+     "K",
+     -0.5760213136672974
+    ],
+    [
+     "J",
+     -0.8260213732719421
+    ],
+    [
+     "Based",
+     -11.076021194458008
+    ],
+    [
+     "R",
+     -11.451021194458008
+    ],
+    [
+     "The",
+     -11.951021194458008
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9838520878475707,
+   "mass_B": 0.015902488104824752,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999739558407184,
+   "min_listed": 8.181008869610929e-07,
+   "top": [
+    [
+     "K",
+     -0.016279710456728935
+    ],
+    [
+     "J",
+     -4.141279697418213
+    ],
+    [
+     "Based",
+     -8.766280174255371
+    ],
+    [
+     "The",
+     -11.016280174255371
+    ],
+    [
+     "Reason",
+     -11.766280174255371
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8175368843195906,
+   "mass_B": 0.1824171304890244,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999871372198849,
+   "min_listed": 4.123229518395942e-07,
+   "top": [
+    [
+     "K",
+     -0.20145925879478455
+    ],
+    [
+     "J",
+     -1.701459288597107
+    ],
+    [
+     "R",
+     -11.576458930969238
+    ],
+    [
+     "The",
+     -12.201458930969238
+    ],
+    [
+     "I",
+     -12.201458930969238
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.84e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9794944528020498,
+   "mass_B": 0.020328756622683193,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999563023057066,
+   "min_listed": 2.079842112625126e-06,
+   "top": [
+    [
+     "K",
+     -0.020718704909086227
+    ],
+    [
+     "J",
+     -3.895718812942505
+    ],
+    [
+     "Based",
+     -10.770718574523926
+    ],
+    [
+     "Given",
+     -10.895718574523926
+    ],
+    [
+     "R",
+     -11.020718574523926
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.37751600531608154,
+   "mass_B": 0.6224186308953238,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999875583424703,
+   "min_listed": 3.1391547518484963e-07,
+   "top": [
+    [
+     "J",
+     -0.4741423726081848
+    ],
+    [
+     "K",
+     -0.97414231300354
+    ],
+    [
+     "Based",
+     -10.599142074584961
+    ],
+    [
+     "All",
+     -12.224142074584961
+    ],
+    [
+     "R",
+     -12.349142074584961
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.24507581837854503,
+   "mass_B": 0.7548866875293457,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999991953362344,
+   "min_listed": 3.5765821575212e-07,
+   "top": [
+    [
+     "J",
+     -0.28118762373924255
+    ],
+    [
+     "K",
+     -1.406187653541565
+    ],
+    [
+     "All",
+     -11.406188011169434
+    ],
+    [
+     "The",
+     -12.156188011169434
+    ],
+    [
+     "R",
+     -12.781188011169434
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9967120886049453,
+   "mass_B": 0.0031723155058482225,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999897820985502,
+   "min_listed": 3.048966295130594e-07,
+   "top": [
+    [
+     "K",
+     -0.0032933284528553486
+    ],
+    [
+     "J",
+     -5.753293514251709
+    ],
+    [
+     "Based",
+     -10.37829303741455
+    ],
+    [
+     "The",
+     -10.50329303741455
+    ],
+    [
+     "KK",
+     -10.87829303741455
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5926186295166898,
+   "mass_B": 0.4073004790326179,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999869592656284,
+   "min_listed": 6.327415134422453e-07,
+   "top": [
+    [
+     "K",
+     -0.5232042074203491
+    ],
+    [
+     "J",
+     -0.8982040882110596
+    ],
+    [
+     "R",
+     -10.77320384979248
+    ],
+    [
+     "Based",
+     -11.02320384979248
+    ],
+    [
+     "The",
+     -12.14820384979248
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8174526727704414,
+   "mass_B": 0.18239834307108346,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999731947546711,
+   "min_listed": 8.199176506273044e-07,
+   "top": [
+    [
+     "K",
+     -0.20156227052211761
+    ],
+    [
+     "J",
+     -1.7015622854232788
+    ],
+    [
+     "Based",
+     -10.45156192779541
+    ],
+    [
+     "k",
+     -10.57656192779541
+    ],
+    [
+     "The",
+     -11.20156192779541
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.6576e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9524192809509293,
+   "mass_B": 0.047418163678929315,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999566614832213,
+   "min_listed": 1.676587762602623e-06,
+   "top": [
+    [
+     "J",
+     -0.04874991998076439
+    ],
+    [
+     "K",
+     -3.0487499237060547
+    ],
+    [
+     "The",
+     -10.048749923706055
+    ],
+    [
+     "I",
+     -11.173749923706055
+    ],
+    [
+     "R",
+     -11.298749923706055
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 105,
+   "completion_tokens": 1,
+   "cost": 1.2496e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9667412035356574,
+   "mass_B": 0.03308006500257838,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999746197545913,
+   "min_listed": 9.6965648535523e-07,
+   "top": [
+    [
+     "K",
+     -0.03382444754242897
+    ],
+    [
+     "J",
+     -3.4088244438171387
+    ],
+    [
+     "(",
+     -9.90882396697998
+    ],
+    [
+     "k",
+     -10.53382396697998
+    ],
+    [
+     "R",
+     -11.03382396697998
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 1.2928e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8352186038586502,
+   "mass_B": 0.1644642895460971,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999476170349209,
+   "min_listed": 1.3811938915518487e-06,
+   "top": [
+    [
+     "J",
+     -0.18006178736686707
+    ],
+    [
+     "K",
+     -1.8050618171691895
+    ],
+    [
+     "R",
+     -9.180062294006348
+    ],
+    [
+     "Based",
+     -10.180062294006348
+    ],
+    [
+     "Given",
+     -10.305062294006348
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.424e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9993343534963773,
+   "mass_B": 0.00048776974611791483,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999680278892035,
+   "min_listed": 5.365170088508772e-07,
+   "top": [
+    [
+     "J",
+     -0.000667138840071857
+    ],
+    [
+     "K",
+     -7.625667095184326
+    ],
+    [
+     "```",
+     -9.375667572021484
+    ],
+    [
+     "R",
+     -10.250666618347168
+    ],
+    [
+     "JJ",
+     -11.375667572021484
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.5152e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9323198800192585,
+   "mass_B": 0.06753702407722742,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999974429068304,
+   "min_listed": 8.784745937316576e-07,
+   "top": [
+    [
+     "J",
+     -0.07007930427789688
+    ],
+    [
+     "K",
+     -2.6950793266296387
+    ],
+    [
+     "Based",
+     -10.320079803466797
+    ],
+    [
+     "The",
+     -10.57007884979248
+    ],
+    [
+     "To",
+     -11.07007884979248
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.31e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7057155347947538,
+   "mass_B": 0.2941860031530397,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999713110015495,
+   "min_listed": 7.53495216620565e-07,
+   "top": [
+    [
+     "J",
+     -0.34854304790496826
+    ],
+    [
+     "K",
+     -1.2235430479049683
+    ],
+    [
+     "Based",
+     -10.473543167114258
+    ],
+    [
+     "The",
+     -11.598543167114258
+    ],
+    [
+     "KK",
+     -12.161043167114258
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.082e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9839778539849476,
+   "mass_B": 0.01590452045114047,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999802113138235,
+   "min_listed": 5.623438272300656e-07,
+   "top": [
+    [
+     "J",
+     -0.01615188829600811
+    ],
+    [
+     "K",
+     -4.1411519050598145
+    ],
+    [
+     "Based",
+     -9.766152381896973
+    ],
+    [
+     "R",
+     -11.766152381896973
+    ],
+    [
+     "The",
+     -11.891151428222656
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9397262334936968,
+   "mass_B": 0.060074688003291465,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999600255162103,
+   "min_listed": 7.34066499259679e-07,
+   "top": [
+    [
+     "J",
+     -0.06216668710112572
+    ],
+    [
+     "K",
+     -2.812166690826416
+    ],
+    [
+     "This",
+     -10.312167167663574
+    ],
+    [
+     "To",
+     -10.437166213989258
+    ],
+    [
+     "R",
+     -10.437166213989258
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9398720266600634,
+   "mass_B": 0.060084012948999135,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999815943346129,
+   "min_listed": 4.4530262989112223e-07,
+   "top": [
+    [
+     "J",
+     -0.06201155483722687
+    ],
+    [
+     "K",
+     -2.812011480331421
+    ],
+    [
+     "Based",
+     -12.37451171875
+    ],
+    [
+     "KK",
+     -12.62451171875
+    ],
+    [
+     "The",
+     -12.74951171875
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8517224137750986,
+   "mass_B": 0.14800715153943808,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999476987912269,
+   "min_listed": 1.5960243464544119e-06,
+   "top": [
+    [
+     "J",
+     -0.1604946106672287
+    ],
+    [
+     "K",
+     -1.9104946851730347
+    ],
+    [
+     "Based",
+     -9.035494804382324
+    ],
+    [
+     "This",
+     -10.535494804382324
+    ],
+    [
+     "R",
+     -11.160494804382324
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9768135551211622,
+   "mass_B": 0.022972453964992933,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999585937384369,
+   "min_listed": 9.797587838482809e-07,
+   "top": [
+    [
+     "J",
+     -0.023459479212760925
+    ],
+    [
+     "K",
+     -3.7734594345092773
+    ],
+    [
+     "Based",
+     -9.523459434509277
+    ],
+    [
+     "R",
+     -10.898459434509277
+    ],
+    [
+     "KK",
+     -11.023459434509277
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8930888171747906,
+   "mass_B": 0.10666424279802501,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999970575806726,
+   "min_listed": 8.957813038381538e-07,
+   "top": [
+    [
+     "J",
+     -0.11306924372911453
+    ],
+    [
+     "K",
+     -2.2380692958831787
+    ],
+    [
+     "R",
+     -8.738069534301758
+    ],
+    [
+     "Based",
+     -11.488069534301758
+    ],
+    [
+     "KK",
+     -11.738069534301758
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.46863802213993294,
+   "mass_B": 0.531036481488402,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999655993998664,
+   "min_listed": 1.3601371284327361e-06,
+   "top": [
+    [
+     "K",
+     -0.6329245567321777
+    ],
+    [
+     "J",
+     -0.7579246163368225
+    ],
+    [
+     "Based",
+     -9.257925033569336
+    ],
+    [
+     "After",
+     -9.632925033569336
+    ],
+    [
+     "R",
+     -9.632925033569336
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8664567443732643,
+   "mass_B": 0.13287546114591497,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999383020442375,
+   "min_listed": 1.9584778926526997e-06,
+   "top": [
+    [
+     "J",
+     -0.14334309101104736
+    ],
+    [
+     "K",
+     -2.018342971801758
+    ],
+    [
+     "Based",
+     -7.768342971801758
+    ],
+    [
+     "Reason",
+     -10.018342971801758
+    ],
+    [
+     "**",
+     -10.268342971801758
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.932216107708242,
+   "mass_B": 0.06752950482386243,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999681756565204,
+   "min_listed": 6.036988055544892e-07,
+   "top": [
+    [
+     "J",
+     -0.07019061595201492
+    ],
+    [
+     "K",
+     -2.695190668106079
+    ],
+    [
+     "Based",
+     -9.0701904296875
+    ],
+    [
+     "This",
+     -10.1951904296875
+    ],
+    [
+     "Ass",
+     -10.5701904296875
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.43770130843976274,
+   "mass_B": 0.5620195714551581,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999802445971451,
+   "min_listed": 9.294074494069492e-07,
+   "top": [
+    [
+     "K",
+     -0.5762186050415039
+    ],
+    [
+     "J",
+     -0.8262185454368591
+    ],
+    [
+     "R",
+     -9.576218605041504
+    ],
+    [
+     "Based",
+     -9.576218605041504
+    ],
+    [
+     "KK",
+     -9.826218605041504
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.932210801322194,
+   "mass_B": 0.06752913451824022,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999762062276646,
+   "min_listed": 5.327592775140962e-07,
+   "top": [
+    [
+     "J",
+     -0.07019630819559097
+    ],
+    [
+     "K",
+     -2.6951961517333984
+    ],
+    [
+     "Based",
+     -9.195196151733398
+    ],
+    [
+     "JJ",
+     -9.695196151733398
+    ],
+    [
+     "KK",
+     -10.320196151733398
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8518014610577709,
+   "mass_B": 0.14802087907371148,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999952742602721,
+   "min_listed": 1.2431011857307857e-06,
+   "top": [
+    [
+     "J",
+     -0.16040180623531342
+    ],
+    [
+     "K",
+     -1.9104019403457642
+    ],
+    [
+     "JJ",
+     -10.160402297973633
+    ],
+    [
+     "KK",
+     -10.785402297973633
+    ],
+    [
+     "R",
+     -11.285402297973633
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9875232576743577,
+   "mass_B": 0.012431084578289108,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999875482635289,
+   "min_listed": 3.6438489563610386e-07,
+   "top": [
+    [
+     "J",
+     -0.012555230408906937
+    ],
+    [
+     "K",
+     -4.387555122375488
+    ],
+    [
+     "Based",
+     -11.262555122375488
+    ],
+    [
+     "R",
+     -11.887555122375488
+    ],
+    [
+     "The",
+     -13.012555122375488
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7548088506200908,
+   "mass_B": 0.24505054843465696,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999561835573915,
+   "min_listed": 1.0348117746825563e-06,
+   "top": [
+    [
+     "J",
+     -0.281290739774704
+    ],
+    [
+     "K",
+     -1.4062907695770264
+    ],
+    [
+     "**",
+     -10.906291007995605
+    ],
+    [
+     "```",
+     -11.343791007995605
+    ],
+    [
+     "Based",
+     -11.343791007995605
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8352122316707096,
+   "mass_B": 0.16446303478793237,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999565782616363,
+   "min_listed": 1.5650857808948797e-06,
+   "top": [
+    [
+     "J",
+     -0.18006941676139832
+    ],
+    [
+     "K",
+     -1.8050694465637207
+    ],
+    [
+     "Based",
+     -8.930068969726562
+    ],
+    [
+     "R",
+     -9.430068969726562
+    ],
+    [
+     "##",
+     -11.180068969726562
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8519012967777583,
+   "mass_B": 0.14803817263840943,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999912096752774,
+   "min_listed": 2.952967671216724e-07,
+   "top": [
+    [
+     "K",
+     -0.16028502583503723
+    ],
+    [
+     "J",
+     -1.9102851152420044
+    ],
+    [
+     "R",
+     -10.160284996032715
+    ],
+    [
+     "KK",
+     -12.910284996032715
+    ],
+    [
+     "k",
+     -13.347784996032715
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.4468e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7307290553259839,
+   "mass_B": 0.26882021254399174,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999043632905934,
+   "min_listed": 4.2177357752579446e-06,
+   "top": [
+    [
+     "J",
+     -0.31371253728866577
+    ],
+    [
+     "K",
+     -1.313712477684021
+    ],
+    [
+     "Based",
+     -8.688712120056152
+    ],
+    [
+     "The",
+     -10.188712120056152
+    ],
+    [
+     "k",
+     -10.813712120056152
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.5476e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9991731047430725,
+   "mass_B": 0.0008040675197929156,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999924703769584,
+   "min_listed": 1.274136654244766e-07,
+   "top": [
+    [
+     "K",
+     -0.0008272373233921826
+    ],
+    [
+     "J",
+     -7.125827312469482
+    ],
+    [
+     "Based",
+     -12.375826835632324
+    ],
+    [
+     "To",
+     -12.625826835632324
+    ],
+    [
+     "```",
+     -13.188326835632324
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.3784e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.939724623148687,
+   "mass_B": 0.060074587742922854,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999521047000952,
+   "min_listed": 1.3714141539609126e-06,
+   "top": [
+    [
+     "K",
+     -0.06216840073466301
+    ],
+    [
+     "J",
+     -2.8121683597564697
+    ],
+    [
+     "The",
+     -10.31216812133789
+    ],
+    [
+     "KK",
+     -10.68716812133789
+    ],
+    [
+     "This",
+     -10.68716812133789
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 105,
+   "completion_tokens": 1,
+   "cost": 1.204e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7547958485892992,
+   "mass_B": 0.2450463418993053,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999581660237509,
+   "min_listed": 1.2481998381249065e-06,
+   "top": [
+    [
+     "K",
+     -0.28130796551704407
+    ],
+    [
+     "J",
+     -1.4063079357147217
+    ],
+    [
+     "KK",
+     -9.7813081741333
+    ],
+    [
+     "After",
+     -11.7188081741333
+    ],
+    [
+     "R",
+     -11.7188081741333
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.4696e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8799542150207392,
+   "mass_B": 0.11908886002333192,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999975793683365,
+   "min_listed": 7.7889793633761e-07,
+   "top": [
+    [
+     "K",
+     -0.12788540124893188
+    ],
+    [
+     "J",
+     -2.127885341644287
+    ],
+    [
+     "Based",
+     -7.252885341644287
+    ],
+    [
+     "All",
+     -9.002885818481445
+    ],
+    [
+     "KK",
+     -10.002885818481445
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 1.424e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9971872240309413,
+   "mass_B": 0.002800893859826529,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999975531369074,
+   "min_listed": 5.300830943288779e-08,
+   "top": [
+    [
+     "K",
+     -0.0028168857097625732
+    ],
+    [
+     "J",
+     -5.877816677093506
+    ],
+    [
+     "KK",
+     -12.752817153930664
+    ],
+    [
+     "Based",
+     -13.377817153930664
+    ],
+    [
+     "k",
+     -13.877817153930664
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9145029212917719,
+   "mass_B": 0.08506202844322851,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998987743219032,
+   "min_listed": 2.067077999775179e-06,
+   "top": [
+    [
+     "K",
+     -0.0893746167421341
+    ],
+    [
+     "J",
+     -2.464374542236328
+    ],
+    [
+     "KK",
+     -9.089374542236328
+    ],
+    [
+     "Given",
+     -9.964374542236328
+    ],
+    [
+     "Depending",
+     -10.401874542236328
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.962460457801246,
+   "mass_B": 0.03731863917916721,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999984488890071,
+   "min_listed": 4.283769231952089e-07,
+   "top": [
+    [
+     "K",
+     -0.038262296468019485
+    ],
+    [
+     "J",
+     -3.288262367248535
+    ],
+    [
+     "KK",
+     -8.788262367248535
+    ],
+    [
+     "```",
+     -11.163262367248535
+    ],
+    [
+     "R",
+     -11.413262367248535
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.6844e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.70571404152704,
+   "mass_B": 0.2941853718990372,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999817895023719,
+   "min_listed": 5.51267825355205e-07,
+   "top": [
+    [
+     "K",
+     -0.3485451638698578
+    ],
+    [
+     "J",
+     -1.2235451936721802
+    ],
+    [
+     "R",
+     -10.59854507446289
+    ],
+    [
+     "Based",
+     -11.22354507446289
+    ],
+    [
+     "KK",
+     -11.47354507446289
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9667112836370316,
+   "mass_B": 0.03307903972119518,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999982295952801,
+   "min_listed": 4.5801887667570504e-07,
+   "top": [
+    [
+     "K",
+     -0.03385539725422859
+    ],
+    [
+     "J",
+     -3.408855438232422
+    ],
+    [
+     "```",
+     -9.658855438232422
+    ],
+    [
+     "KK",
+     -10.158855438232422
+    ],
+    [
+     "R",
+     -10.158855438232422
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8807000592216078,
+   "mass_B": 0.11918978308092668,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999879288204551,
+   "min_listed": 3.2496836363570074e-07,
+   "top": [
+    [
+     "K",
+     -0.1270381659269333
+    ],
+    [
+     "J",
+     -2.1270382404327393
+    ],
+    [
+     "This",
+     -10.37703800201416
+    ],
+    [
+     "KK",
+     -10.75203800201416
+    ],
+    [
+     "R",
+     -11.00203800201416
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9397041194970657,
+   "mass_B": 0.0600732700507722,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999736195149674,
+   "min_listed": 8.317864865126531e-07,
+   "top": [
+    [
+     "K",
+     -0.0621902197599411
+    ],
+    [
+     "J",
+     -2.812190294265747
+    ],
+    [
+     "Based",
+     -9.562190055847168
+    ],
+    [
+     "(K",
+     -9.937190055847168
+    ],
+    [
+     "(J",
+     -10.687190055847168
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5618941317874216,
+   "mass_B": 0.43760356375606535,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999773727800824,
+   "min_listed": 4.672311355261511e-07,
+   "top": [
+    [
+     "K",
+     -0.5764418244361877
+    ],
+    [
+     "J",
+     -0.8264418840408325
+    ],
+    [
+     "KK",
+     -7.951441764831543
+    ],
+    [
+     "R",
+     -9.451441764831543
+    ],
+    [
+     "JJ",
+     -11.326441764831543
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9769713275219988,
+   "mass_B": 0.022976162233766372,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999952410031699,
+   "min_listed": 9.702489289820139e-08,
+   "top": [
+    [
+     "K",
+     -0.023297974839806557
+    ],
+    [
+     "J",
+     -3.7732980251312256
+    ],
+    [
+     "KK",
+     -10.398298263549805
+    ],
+    [
+     "Based",
+     -12.148298263549805
+    ],
+    [
+     "R",
+     -12.773298263549805
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9858810901011275,
+   "mass_B": 0.014062835227596372,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999907219182315,
+   "min_listed": 2.500214096733328e-07,
+   "top": [
+    [
+     "K",
+     -0.014219529926776886
+    ],
+    [
+     "J",
+     -4.264219760894775
+    ],
+    [
+     "KK",
+     -10.889219284057617
+    ],
+    [
+     "Based",
+     -11.264219284057617
+    ],
+    [
+     "R",
+     -12.139219284057617
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7053935458399604,
+   "mass_B": 0.29405175189675387,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998818254116633,
+   "min_listed": 3.8248204864372174e-06,
+   "top": [
+    [
+     "K",
+     -0.34899941086769104
+    ],
+    [
+     "J",
+     -1.2239995002746582
+    ],
+    [
+     "This",
+     -8.9739990234375
+    ],
+    [
+     "Based",
+     -9.8489990234375
+    ],
+    [
+     "R",
+     -10.0989990234375
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9396494616153453,
+   "mass_B": 0.06006977544200135,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999455370681302,
+   "min_listed": 1.2101717939283023e-06,
+   "top": [
+    [
+     "K",
+     -0.062248386442661285
+    ],
+    [
+     "J",
+     -2.812248468399048
+    ],
+    [
+     "Based",
+     -8.812248229980469
+    ],
+    [
+     "The",
+     -11.062248229980469
+    ],
+    [
+     "R",
+     -11.499748229980469
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8806431168871107,
+   "mass_B": 0.11918176973975374,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999863723276103,
+   "min_listed": 5.357459763730093e-07,
+   "top": [
+    [
+     "K",
+     -0.12710538506507874
+    ],
+    [
+     "J",
+     -2.127105474472046
+    ],
+    [
+     "KK",
+     -9.502105712890625
+    ],
+    [
+     "R",
+     -10.377105712890625
+    ],
+    [
+     "JJ",
+     -11.127105712890625
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7056486563251019,
+   "mass_B": 0.29415812405910763,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999702490072294,
+   "min_listed": 8.537413303748361e-07,
+   "top": [
+    [
+     "K",
+     -0.34863781929016113
+    ],
+    [
+     "J",
+     -1.2236378192901611
+    ],
+    [
+     "KK",
+     -9.598637580871582
+    ],
+    [
+     "Based",
+     -9.973637580871582
+    ],
+    [
+     "JJ",
+     -11.098637580871582
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8353463441227956,
+   "mass_B": 0.1644894259371663,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999459078105674,
+   "min_listed": 1.1452257802092243e-06,
+   "top": [
+    [
+     "K",
+     -0.1799088567495346
+    ],
+    [
+     "J",
+     -1.8049089908599854
+    ],
+    [
+     "k",
+     -10.804908752441406
+    ],
+    [
+     "Based",
+     -10.804908752441406
+    ],
+    [
+     "The",
+     -11.054908752441406
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7771941933726314,
+   "mass_B": 0.22266985785706608,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999762320548264,
+   "min_listed": 7.795377626646718e-07,
+   "top": [
+    [
+     "K",
+     -0.2520650327205658
+    ],
+    [
+     "J",
+     -1.5020650625228882
+    ],
+    [
+     "R",
+     -10.62706470489502
+    ],
+    [
+     "KK",
+     -11.00206470489502
+    ],
+    [
+     "Given",
+     -11.00206470489502
+    ]
+   ],
+   "provider": "StreamLake",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 1.2284e-05
+  }
+ ]
+}

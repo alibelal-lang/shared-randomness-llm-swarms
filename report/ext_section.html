@@ -1,0 +1,194 @@
+  <section class="section" id="extended">
+    <h2>Extended study: what the effect depends on</h2>
+    <p class="lede">Across <span class="sx-num" data-draw="ext-n-variants" data-source="ext-mech" data-field="variants">—</span> prompt variants explored with exact probabilities, large populations got stuck below small ones in <span class="sx-num" data-draw="ext-n-stuck" data-source="ext-mech" data-field="stuck">—</span>. Coupling helped in <span class="sx-num" data-draw="ext-n-helped" data-source="ext-mech" data-field="helped">—</span> of those and recovered a median <span class="sx-num" data-draw="ext-median" data-source="ext-mech" data-field="median_recovered">—</span> of the loss. The stag hunt, where the worse option is the safe one, produced stuck populations far more often than the original game.</p>
+    <p class="cap">Exploration: every model on every OpenRouter provider that returns token probabilities, 8 wordings × 4 label versions × 2 games, plus memory of 1–3 rounds and four temperatures. A variant counts as stuck when 32 agents end at least 2 points below 4 agents. Confirmation: the flagged variants re-measured on Adaption by sampling, 500 runs per cell and a 100-replicate bootstrap, as fixed in the protocol before the data existed.</p>
+  </section>
+
+  <div class="tiles" id="ext-tiles">
+    <div class="card tile">
+      <div class="cap">Variants where large populations get stuck</div>
+      <div class="big"><span data-draw="ext-t-stag" data-source="ext_factors" data-where="factor=Game&amp;level=Stag hunt" data-field="responsive">—</span> vs <span data-draw="ext-t-coord" data-source="ext_factors" data-where="factor=Game&amp;level=Original game" data-field="responsive">—</span></div>
+      <div class="cap">Stag hunt vs original game, out of <span data-draw="ext-t-gamen" data-source="ext_factors" data-where="factor=Game&amp;level=Stag hunt" data-field="variants">—</span> variants each</div>
+    </div>
+    <div class="card tile">
+      <div class="cap">Qwen 3.8 27B, fresh Adaption measurement</div>
+      <div class="big"><span data-draw="ext-t-qwen" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_pp">—</span> pts</div>
+      <div class="cap">Coupling effect at 32 agents, 95% <span data-draw="ext-t-qwen-lo" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_lo_pp">—</span> to <span data-draw="ext-t-qwen-hi" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_hi_pp">—</span></div>
+    </div>
+    <div class="card tile">
+      <div class="cap">GLM 5.2, fresh measurement and tail samples</div>
+      <div class="big"><span data-draw="ext-t-glm" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_pp">—</span> pts</div>
+      <div class="cap">Coupling effect at 32 agents, 95% <span data-draw="ext-t-glm-lo" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_lo_pp">—</span> to <span data-draw="ext-t-glm-hi" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_hi_pp">—</span></div>
+    </div>
+    <div class="card tile">
+      <div class="cap">Adaption sets with an effect</div>
+      <div class="big"><span data-draw="ext-t-sets" data-source="ext-setcount" data-field="effect">—</span> of <span data-draw="ext-t-sets-n" data-source="ext-setcount" data-field="total">—</span></div>
+      <div class="cap">Confirmation sets whose bootstrap interval excludes zero</div>
+    </div>
+  </div>
+
+  <section class="section" id="ext-mechanism">
+    <h2>Coupling helps exactly where size hurts</h2>
+    <div class="card">
+      <div class="legend">
+        <span><i class="sw" data-sw="0"></i>Original game</span>
+        <span><i class="sw" data-sw="1"></i>Stag hunt</span>
+        <span><i class="sw" data-sw="muted"></i>Dashed line: coupling recovers the whole loss</span>
+      </div>
+      <p class="cap">One dot per prompt variant and provider, two-round memory, temperature 1, 200 runs per cell. Horizontal: share choosing A at 32 agents minus at 4 agents (left means large populations do worse). Vertical: coupled minus independent sampling at 32 agents.</p>
+      <div class="chart" data-draw="ext-scatter" data-source="ext_mechanism" style="min-height: 22rem"></div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-factors">
+    <h2>Which settings produce stuck populations</h2>
+    <div class="card">
+      <p class="cap">Share of variants that get stuck, pinned provider per model. Each factor is shown over all levels of the others.</p>
+      <div class="chart small-multiples" data-draw="ext-factors" data-source="ext_factors"></div>
+    </div>
+    <div class="card">
+      <h3>Letter or list position?</h3>
+      <p class="cap">Probability of choosing the better option after two rounds of the worse habit, averaged over wordings. The original prompts tied the letter to the list position; the extension separates them.</p>
+      <div class="tablebox">
+        <table data-source="ext_labels" data-row-key="model,game">
+          <thead><tr>
+            <th data-field="model">Model</th>
+            <th data-field="game">Game</th>
+            <th class="n" data-field="letter_J">Better option is J</th>
+            <th class="n" data-field="letter_K">Better option is K</th>
+            <th class="n" data-field="listed_first">Listed first</th>
+            <th class="n" data-field="listed_second">Listed second</th>
+          </tr></thead>
+          <tbody data-draw="ext-labels-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-confirm">
+    <h2>Confirmed on Adaption</h2>
+    <div class="card">
+      <p class="cap">Each set was sampled on Adaption (100–400 samples per prompt) and simulated with 500 runs per cell. Effects in percentage points of the long-run share choosing A. Layer-1 intervals cover run-to-run noise; the bootstrap interval also covers measurement noise and decides the result.</p>
+      <div class="tablebox">
+        <table data-source="ext_sets" data-row-key="set">
+          <thead><tr>
+            <th data-field="model">Model</th>
+            <th data-field="kind">What was measured</th>
+            <th class="n" data-field="variants">Variants</th>
+            <th class="n" data-field="size32_pp">Size effect, 32 vs 4</th>
+            <th class="n" data-field="size64_pp">Size effect, 64 vs 4</th>
+            <th class="n" data-field="coupling32_pp">Coupling, 32 agents</th>
+            <th class="n" data-field="coupling64_pp">Coupling, 64 agents</th>
+            <th class="n" data-field="l2_pp">Bootstrap estimate</th>
+            <th class="n" data-field="l2_lo_pp">Low</th>
+            <th class="n" data-field="l2_hi_pp">High</th>
+            <th data-field="decision">Result</th>
+          </tr></thead>
+          <tbody data-draw="ext-sets-table"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Population size</h3>
+        <div class="controls">
+          <label class="cap" for="ext-set-pick">Set</label>
+          <select id="ext-set-pick" class="dash-select" data-draw="ext-set-pick" data-source="ext_ncurve" aria-label="Confirmation set"></select>
+        </div>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>Independent sampling</span>
+          <span><i class="sw" data-sw="1"></i>Coupled, variance restored</span>
+        </div>
+        <p class="cap">Long-run share choosing A by number of agents, averaged over the set's variants.</p>
+        <div class="chart" data-draw="ext-ncurve" data-source="ext_ncurve" style="min-height: 13rem"></div>
+      </div>
+      <div class="card">
+        <h3>Coupling strength</h3>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>32 agents</span>
+          <span><i class="sw" data-sw="1"></i>64 agents</span>
+        </div>
+        <p class="cap">Coupled minus independent sampling as the probability of sharing randomness rises from 0.1 to 1, same set as on the left.</p>
+        <div class="chart" data-draw="ext-dose" data-source="ext_dose" style="min-height: 13rem"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-measurement">
+    <h2>How stable the measurements are</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Same model, different provider</h3>
+        <p class="cap">The original 84 prompts on each OpenRouter provider. Agreement is the mean absolute gap from the Adaption probabilities; the pinned provider (closest to Adaption) drove the exploration.</p>
+        <div class="tablebox">
+          <table data-source="ext_providers" data-row-key="model,provider">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th data-field="provider">Provider</th>
+              <th data-field="pinned">Pinned</th>
+              <th class="n" data-field="mad_vs_adaption">Gap from Adaption</th>
+              <th class="n" data-field="size_pp">Size effect</th>
+              <th class="n" data-field="coupling_pp">Coupling</th>
+            </tr></thead>
+            <tbody data-draw="ext-providers-table"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Same model on Adaption, hours apart</h3>
+        <p class="cap">Fresh samples of the original prompts against the first run. Under pure sampling noise the statistic stays below the threshold; both models moved by more.</p>
+        <div class="tablebox">
+          <table data-source="ext_retest" data-row-key="model">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th class="n" data-field="sum_z2">Change statistic</th>
+              <th class="n" data-field="critical_99">Noise threshold</th>
+              <th class="n" data-field="abs_z_gt_2">Prompts beyond noise</th>
+              <th class="n" data-field="prompts">Prompts</th>
+              <th class="n" data-field="mean_abs_diff">Mean change</th>
+            </tr></thead>
+            <tbody data-draw="ext-retest-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="related">
+    <h2>How this relates to earlier work</h2>
+    <p class="cap">Citations checked on 8 November 2026 against publisher or arXiv records.</p>
+    <div class="refgrid">
+      <div class="card">
+        <h3>Which convention a population settles on</h3>
+        <ul class="refs">
+          <li><a href="https://doi.org/10.2307/2951777" target="_blank" rel="noopener">Kandori, Mailath &amp; Rob 1993</a> and <a href="https://doi.org/10.2307/2951778" target="_blank" rel="noopener">Young 1993</a>, <i>Econometrica</i>. With rare random mistakes, a finite population ends up at the risk-dominant convention, and leaving a convention gets rarer as the population grows. Our size effect is this pattern with LLM policies. It also explains why the stag hunt, where the worse option is the safe one, got stuck about four times as often.</li>
+          <li><a href="https://doi.org/10.1006/jeth.1996.0076" target="_blank" rel="noopener">Robson &amp; Vega-Redondo 1996</a>, <i>J. Economic Theory</i>, and <a href="https://doi.org/10.2307/2171851" target="_blank" rel="noopener">Bergin &amp; Lipman 1996</a>, <i>Econometrica</i>. Which convention wins depends on how players are matched and how noise varies across states, not only on payoffs. Coupled sampling changes exactly that noise structure while leaving each agent's own choice probability fixed.</li>
+          <li>Effective population size, from population genetics. Correlated reproduction makes a population drift like a smaller one. Our coupled sampler sets the variance to that of 4 agents, which is why it helps only where small populations do better.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Conventions among people and LLM agents</h3>
+        <ul class="refs">
+          <li><a href="https://doi.org/10.1073/pnas.1418838112" target="_blank" rel="noopener">Centola &amp; Baronchelli 2015</a>, <i>PNAS</i>, and <a href="https://doi.org/10.1126/science.aas8827" target="_blank" rel="noopener">Centola et al. 2018</a>, <i>Science</i>. Human groups form shared conventions without central coordination, and a committed minority of about 25% can overturn one.</li>
+          <li><a href="https://doi.org/10.1126/sciadv.adu9368" target="_blank" rel="noopener">Ashery, Aiello &amp; Baronchelli 2025</a>, <i>Science Advances</i>. LLM agent populations form conventions spontaneously and show collective biases no single agent has. We instead measure each model's frozen policy once and simulate many populations from it, which separates the model from population effects and allows a controlled intervention.</li>
+          <li><a href="https://doi.org/10.1038/s41562-025-02172-y" target="_blank" rel="noopener">Akata et al. 2025</a>, <i>Nature Human Behaviour</i>. LLMs played self-interested repeated games well and coordination games worse. Here the coordination failure is collective: it grows with population size while each agent's policy stays fixed.</li>
+          <li><a href="https://arxiv.org/abs/2502.14143" target="_blank" rel="noopener">Hammond et al. 2025</a>, "Multi-Agent Risks from Advanced AI". Names miscoordination among agents with shared interests as a core failure mode; lock-in at the worse convention is a small measured case.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Many copies of one model</h3>
+        <ul class="refs">
+          <li><a href="https://arxiv.org/abs/2101.05853" target="_blank" rel="noopener">Kleinberg &amp; Raghavan 2021</a>, <i>PNAS</i>, and <a href="https://arxiv.org/abs/2211.13972" target="_blank" rel="noopener">Bommasani et al. 2022</a>, <i>NeurIPS</i>. Decision-makers sharing one algorithm can lower welfare and give the same people the same outcomes everywhere. In our games, correlation across copies is neither good nor bad in itself: it amplifies whatever a small group would do, escaping the worse convention in most stuck variants and losing the better one in a few.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Measuring LLM agents reliably</h3>
+        <ul class="refs">
+          <li><a href="https://arxiv.org/abs/2310.11324" target="_blank" rel="noopener">Sclar et al. 2024</a>, <i>ICLR</i>. Meaning-preserving format changes swing accuracy by up to 76 points. Our wordings moved stuck variants from 1 to 10 of 40.</li>
+          <li><a href="https://arxiv.org/abs/2309.03882" target="_blank" rel="noopener">Zheng et al. 2024</a>, <i>ICLR</i>, and <a href="https://aclanthology.org/2024.findings-naacl.130" target="_blank" rel="noopener">Pezeshkpour &amp; Hruschka 2024</a>, <i>Findings of NAACL</i>. Models prefer some answer options regardless of content; Zheng et al. trace this mostly to the option letter. In our two-option prompts the reverse held: list position moved choices by up to 0.86, the letter by at most 0.18.</li>
+          <li><a href="https://doi.org/10.1162/99608f92.5317da47" target="_blank" rel="noopener">Chen, Zaharia &amp; Zou 2024</a>, <i>Harvard Data Science Review</i>. GPT-3.5 and GPT-4 behaved very differently three months apart. Adaption-hosted models moved beyond noise on about 40% of prompts within hours, with no version reported.</li>
+          <li><a href="https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/" target="_blank" rel="noopener">He / Thinking Machines Lab 2025</a>. Identical requests can return different outputs depending on server load. With precision and default sampling settings, this is one plausible source of the provider and retest differences we measured; we did not isolate the cause.</li>
+        </ul>
+      </div>
+    </div>
+  </section>

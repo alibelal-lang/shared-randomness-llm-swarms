@@ -1,0 +1,9 @@
+N,sampler,vs,runs,diff,ci_lo,ci_hi
+4,block:2,independent,200,0.0,0.0,0.0
+4,pair_shared:restore,independent,200,0.0,0.0,0.0
+8,block:2,independent,200,0.0,0.0,0.0
+8,pair_shared:restore,independent,200,0.0,0.0,0.0
+16,block:2,independent,200,0.0,0.0,0.0
+16,pair_shared:restore,independent,200,0.0,0.0,0.0
+32,block:2,independent,200,0.0,0.0,0.0
+32,pair_shared:restore,independent,200,0.0,0.0,0.0

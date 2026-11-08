@@ -1,0 +1,362 @@
+[
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "late_x",
+"mean": 0.0398,
+"lo": 0.0154,
+"hi": 0.0739
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "reward",
+"mean": 0.1565,
+"lo": 0.0911,
+"hi": 0.2474
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "late_x",
+"mean": -0.0004,
+"lo": -0.004,
+"hi": 0.0035
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "reward",
+"mean": 0.0012,
+"lo": -0.009,
+"hi": 0.0117
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "late_x",
+"mean": 0.0192,
+"lo": -0.0005,
+"hi": 0.0467
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "reward",
+"mean": 0.1111,
+"lo": 0.0745,
+"hi": 0.1578
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "late_x",
+"mean": -0.0,
+"lo": -0.0018,
+"hi": 0.001
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "reward",
+"mean": 0.0002,
+"lo": -0.003,
+"hi": 0.0032
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "late_x",
+"mean": 0.0008,
+"lo": -0.0026,
+"hi": 0.0169
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "reward",
+"mean": 0.0045,
+"lo": -0.0069,
+"hi": 0.0495
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "late_x",
+"mean": -0.0001,
+"lo": -0.0015,
+"hi": 0.0008
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "reward",
+"mean": -0.0004,
+"lo": -0.0047,
+"hi": 0.0029
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "late_x",
+"mean": -0.0059,
+"lo": -0.0265,
+"hi": 0.0006
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "reward",
+"mean": -0.0225,
+"lo": -0.0675,
+"hi": 0.0041
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "late_x",
+"mean": -0.0015,
+"lo": -0.0099,
+"hi": 0.0009
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "reward",
+"mean": -0.0289,
+"lo": -0.0683,
+"hi": -0.0037
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.001,
+"hi": 0.0014
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "reward",
+"mean": 0.0,
+"lo": -0.002,
+"hi": 0.0032
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "late_x",
+"mean": 0.0001,
+"lo": -0.001,
+"hi": 0.0012
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "reward",
+"mean": 0.0002,
+"lo": -0.0024,
+"hi": 0.0032
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "late_x",
+"mean": -0.0,
+"lo": -0.0007,
+"hi": 0.0006
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "reward",
+"mean": -0.0001,
+"lo": -0.0015,
+"hi": 0.0017
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "late_x",
+"mean": 0.0001,
+"lo": -0.0005,
+"hi": 0.0013
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "reward",
+"mean": 0.0003,
+"lo": -0.0019,
+"hi": 0.0032
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.001,
+"hi": 0.0011
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "reward",
+"mean": -0.0001,
+"lo": -0.0022,
+"hi": 0.0031
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "late_x",
+"mean": -0.0,
+"lo": -0.0009,
+"hi": 0.0008
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "reward",
+"mean": -0.0001,
+"lo": -0.0024,
+"hi": 0.002
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "late_x",
+"mean": 0.0001,
+"lo": -0.0007,
+"hi": 0.0012
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "reward",
+"mean": 0.0001,
+"lo": -0.0027,
+"hi": 0.0029
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.001,
+"hi": 0.0011
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "reward",
+"mean": 0.0001,
+"lo": -0.0022,
+"hi": 0.0028
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.0015,
+"hi": 0.0014
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"variant_name": "Framing 1, J better",
+"metric": "reward",
+"mean": 0.0001,
+"lo": -0.0038,
+"hi": 0.005
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "late_x",
+"mean": 0.121,
+"lo": 0.0332,
+"hi": 0.2534
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"variant_name": "Framing 1, K better",
+"metric": "reward",
+"mean": 0.3286,
+"lo": 0.1177,
+"hi": 0.5995
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.0016,
+"hi": 0.0023
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"variant_name": "Framing 2, J better",
+"metric": "reward",
+"mean": 0.0007,
+"lo": -0.0044,
+"hi": 0.0062
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "late_x",
+"mean": 0.0,
+"lo": -0.0012,
+"hi": 0.0009
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"variant_name": "Framing 2, K better",
+"metric": "reward",
+"mean": 0.0,
+"lo": -0.0026,
+"hi": 0.002
+}
+]

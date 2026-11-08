@@ -1,0 +1,10 @@
+{
+ "prompts": 84,
+ "corr": 0.858,
+ "mean_abs_diff": 0.0799,
+ "mean_diff": -0.0143,
+ "abs_z_gt_2": 43,
+ "mid_prompts": 59,
+ "mid_mean_abs_diff": 0.0988,
+ "more_extreme_than_predicted": 0.476
+}

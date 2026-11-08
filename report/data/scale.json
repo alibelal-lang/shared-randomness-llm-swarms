@@ -1,0 +1,2562 @@
+[
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.8841,
+"reward": 1.5777
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.8933,
+"reward": 1.5944
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.8936,
+"reward": 1.6091
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.8884,
+"reward": 1.5805
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.8644,
+"reward": 1.4995
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.8837,
+"reward": 1.5736
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.8792,
+"reward": 1.5547
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.8826,
+"reward": 1.5648
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.8507,
+"reward": 1.4532
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.8839,
+"reward": 1.5797
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.8641,
+"reward": 1.4997
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.8759,
+"reward": 1.5534
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.847,
+"reward": 1.4312
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.8845,
+"reward": 1.5773
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.8628,
+"reward": 1.4932
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.8732,
+"reward": 1.535
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9717,
+"reward": 1.8698
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9711,
+"reward": 1.8683
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9696,
+"reward": 1.8653
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9707,
+"reward": 1.8669
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9703,
+"reward": 1.8664
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9708,
+"reward": 1.8676
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9711,
+"reward": 1.8667
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.971,
+"reward": 1.8688
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9706,
+"reward": 1.8671
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.97,
+"reward": 1.8671
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.97,
+"reward": 1.8655
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9705,
+"reward": 1.8714
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.971,
+"reward": 1.8664
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9714,
+"reward": 1.8696
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9707,
+"reward": 1.8674
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9704,
+"reward": 1.8687
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.5834,
+"reward": 0.9129
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.5856,
+"reward": 0.9217
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.5924,
+"reward": 0.9509
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.5867,
+"reward": 0.9237
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.5735,
+"reward": 0.8575
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.5876,
+"reward": 0.9311
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.5854,
+"reward": 0.9065
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.5844,
+"reward": 0.9056
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.5694,
+"reward": 0.8404
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.5879,
+"reward": 0.94
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.5814,
+"reward": 0.883
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.5824,
+"reward": 0.9069
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.5724,
+"reward": 0.8348
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.5835,
+"reward": 0.9355
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.5791,
+"reward": 0.8802
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.578,
+"reward": 0.9035
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9961,
+"reward": 1.9705
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.996,
+"reward": 1.9702
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9956,
+"reward": 1.9693
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9959,
+"reward": 1.969
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9959,
+"reward": 1.9696
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9955,
+"reward": 1.9694
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9958,
+"reward": 1.9695
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9962,
+"reward": 1.9707
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.996,
+"reward": 1.9701
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.996,
+"reward": 1.9704
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.996,
+"reward": 1.97
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9956,
+"reward": 1.9713
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.996,
+"reward": 1.9698
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9967,
+"reward": 1.9716
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.996,
+"reward": 1.9698
+},
+{
+"model": "Qwen 3.8 27B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9958,
+"reward": 1.9704
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9916,
+"reward": 1.9294
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.991,
+"reward": 1.9293
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9898,
+"reward": 1.9263
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9916,
+"reward": 1.9275
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9907,
+"reward": 1.9256
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9903,
+"reward": 1.9272
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9911,
+"reward": 1.9274
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9915,
+"reward": 1.9275
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9909,
+"reward": 1.9244
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9907,
+"reward": 1.9258
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9906,
+"reward": 1.9245
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9905,
+"reward": 1.9292
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9907,
+"reward": 1.9242
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9909,
+"reward": 1.9242
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9907,
+"reward": 1.9242
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9904,
+"reward": 1.9256
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9944,
+"reward": 1.9542
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9944,
+"reward": 1.9538
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9936,
+"reward": 1.9514
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9943,
+"reward": 1.9523
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.994,
+"reward": 1.952
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.994,
+"reward": 1.9531
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.994,
+"reward": 1.953
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9941,
+"reward": 1.9533
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9942,
+"reward": 1.9522
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9944,
+"reward": 1.9534
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9941,
+"reward": 1.9515
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9941,
+"reward": 1.9544
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9942,
+"reward": 1.9524
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9942,
+"reward": 1.9519
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.994,
+"reward": 1.951
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9938,
+"reward": 1.9521
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9887,
+"reward": 1.7609
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9854,
+"reward": 1.7584
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9868,
+"reward": 1.7446
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9885,
+"reward": 1.7507
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9913,
+"reward": 1.7582
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.99,
+"reward": 1.7484
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9912,
+"reward": 1.7555
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9897,
+"reward": 1.7578
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9926,
+"reward": 1.7701
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9888,
+"reward": 1.7484
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9919,
+"reward": 1.7589
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9905,
+"reward": 1.7628
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9923,
+"reward": 1.7733
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9904,
+"reward": 1.7581
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9912,
+"reward": 1.7699
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9909,
+"reward": 1.7589
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.993,
+"reward": 1.8074
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9935,
+"reward": 1.8067
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9916,
+"reward": 1.7958
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9931,
+"reward": 1.8106
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9947,
+"reward": 1.8372
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.994,
+"reward": 1.8232
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.827
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9928,
+"reward": 1.8089
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9949,
+"reward": 1.8493
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.8313
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9948,
+"reward": 1.8372
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9935,
+"reward": 1.8115
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9947,
+"reward": 1.8536
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9943,
+"reward": 1.8384
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9945,
+"reward": 1.8482
+},
+{
+"model": "Qwen 3.5 397B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9934,
+"reward": 1.8097
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9812
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9949,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9798
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.98
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.995,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.98
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9804
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9953,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9948,
+"reward": 1.9793
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9812
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.995,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9953,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9813
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9952,
+"reward": 1.9811
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9954,
+"reward": 1.9803
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9812
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9949,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9798
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.98
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.995,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.98
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9804
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9953,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9948,
+"reward": 1.9793
+},
+{
+"model": "Gemma 4 31B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9813
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9952,
+"reward": 1.9811
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9954,
+"reward": 1.9803
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9813
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9952,
+"reward": 1.9811
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9954,
+"reward": 1.9803
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f0m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9813
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9952,
+"reward": 1.9811
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9806
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9799
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9808
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.981
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9954,
+"reward": 1.9803
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9953,
+"reward": 1.9809
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9952,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.9795
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9804
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9802
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9795
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9797
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9803
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.9805
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9797
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.9807
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9801
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9954,
+"reward": 1.9798
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.979
+},
+{
+"model": "Gemma 4 26B A4B",
+"variant": "f1m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9948,
+"reward": 1.9799
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9941,
+"reward": 1.9775
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9941,
+"reward": 1.9772
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9933,
+"reward": 1.9746
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.994,
+"reward": 1.9765
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9936,
+"reward": 1.9757
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9937,
+"reward": 1.975
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9938,
+"reward": 1.9752
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9939,
+"reward": 1.9763
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9938,
+"reward": 1.9755
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.994,
+"reward": 1.9771
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9937,
+"reward": 1.975
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9937,
+"reward": 1.9762
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9937,
+"reward": 1.9755
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9938,
+"reward": 1.974
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9936,
+"reward": 1.9744
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9934,
+"reward": 1.9751
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.8728,
+"reward": 1.649
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.8863,
+"reward": 1.6753
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.8898,
+"reward": 1.7051
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.8759,
+"reward": 1.6609
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.7035,
+"reward": 1.2448
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.7853,
+"reward": 1.4416
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.7499,
+"reward": 1.3527
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.7795,
+"reward": 1.4334
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.6173,
+"reward": 0.9836
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.7099,
+"reward": 1.2446
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.6467,
+"reward": 1.0899
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.711,
+"reward": 1.314
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.6094,
+"reward": 0.9394
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.6824,
+"reward": 1.1556
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.6201,
+"reward": 0.996
+},
+{
+"model": "GLM 5.2",
+"variant": "f0m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.6844,
+"reward": 1.2598
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9925,
+"reward": 1.9622
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9928,
+"reward": 1.9626
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9914,
+"reward": 1.9595
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.9926,
+"reward": 1.9623
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9921,
+"reward": 1.9612
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9921,
+"reward": 1.9618
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9923,
+"reward": 1.9611
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.9924,
+"reward": 1.9615
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9923,
+"reward": 1.9609
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.9924,
+"reward": 1.9627
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9922,
+"reward": 1.9604
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.992,
+"reward": 1.9631
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.9919,
+"reward": 1.9603
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.9924,
+"reward": 1.9623
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9918,
+"reward": 1.9592
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m0",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9916,
+"reward": 1.9607
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 4,
+"sampler": "independent",
+"late_x": 0.9952,
+"reward": 1.9809
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:restore",
+"late_x": 0.9951,
+"reward": 1.9807
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 4,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9946,
+"reward": 1.9795
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 4,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.9803
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 8,
+"sampler": "independent",
+"late_x": 0.9949,
+"reward": 1.9801
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:restore",
+"late_x": 0.9949,
+"reward": 1.9794
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 8,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9949,
+"reward": 1.9796
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 8,
+"sampler": "block:2",
+"late_x": 0.995,
+"reward": 1.9805
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 16,
+"sampler": "independent",
+"late_x": 0.9951,
+"reward": 1.9803
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:restore",
+"late_x": 0.995,
+"reward": 1.9805
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 16,
+"sampler": "pair_shared:0.3",
+"late_x": 0.995,
+"reward": 1.9796
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 16,
+"sampler": "block:2",
+"late_x": 0.9949,
+"reward": 1.9806
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 32,
+"sampler": "independent",
+"late_x": 0.995,
+"reward": 1.9801
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:restore",
+"late_x": 0.995,
+"reward": 1.9795
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 32,
+"sampler": "pair_shared:0.3",
+"late_x": 0.9947,
+"reward": 1.979
+},
+{
+"model": "GLM 5.2",
+"variant": "f1m1",
+"N": 32,
+"sampler": "block:2",
+"late_x": 0.9947,
+"reward": 1.9797
+}
+]

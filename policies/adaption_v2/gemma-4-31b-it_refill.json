@@ -1,0 +1,141 @@
+{
+ "meta": {
+  "backend": "adaption",
+  "model": "gemma-4-31b-it",
+  "samples_per_prompt": "top-up",
+  "sample_temperature": 1.0,
+  "reasoning_effort": "none",
+  "max_output_tokens": 8,
+  "estimator": "Jeffreys (k+0.5)/(n+1)",
+  "H": 2,
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T22:34:44+0000",
+  "seconds": 9.1,
+  "calls": 56,
+  "errors": 0,
+  "total_cost": 0.00051776,
+  "providers": [
+   "adaption"
+  ],
+  "topup_of": "policies/adaption_gemma-4-31b-it.json"
+ },
+ "records": [
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9772727272727273,
+   "mass_B": 0.022727272727272728,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "gemma-4-31b-it",
+   "prompt_tokens": 3108,
+   "completion_tokens": 42,
+   "cost": 0.0001916,
+   "counts": {
+    "J": 0,
+    "K": 21,
+    "invalid": 0,
+    "errors": 0,
+    "n": 21
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9736842105263158,
+   "mass_B": 0.02631578947368421,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "gemma-4-31b-it",
+   "prompt_tokens": 2664,
+   "completion_tokens": 36,
+   "cost": 0.00016496,
+   "counts": {
+    "J": 0,
+    "K": 18,
+    "invalid": 0,
+    "errors": 0,
+    "n": 18
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.95,
+   "mass_B": 0.05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "gemma-4-31b-it",
+   "prompt_tokens": 1332,
+   "completion_tokens": 18,
+   "cost": 8.504e-05,
+   "counts": {
+    "J": 0,
+    "K": 9,
+    "invalid": 0,
+    "errors": 0,
+    "n": 9
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9444444444444444,
+   "mass_B": 0.05555555555555555,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "gemma-4-31b-it",
+   "prompt_tokens": 1184,
+   "completion_tokens": 16,
+   "cost": 7.616e-05,
+   "counts": {
+    "J": 0,
+    "K": 8,
+    "invalid": 0,
+    "errors": 0,
+    "n": 8
+   },
+   "invalid_examples": []
+  }
+ ]
+}

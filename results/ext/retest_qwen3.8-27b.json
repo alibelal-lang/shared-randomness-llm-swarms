@@ -1,0 +1,42 @@
+{
+ "orig": "policies/adaption_qwen3.8-27b.json",
+ "fresh": "policies/adaption_v2/qwen3.8-27b_retest.json",
+ "prompts": 84,
+ "sum_z2": 371.9,
+ "critical_99": 117.6,
+ "consistent": false,
+ "abs_z_gt_2": 33,
+ "mean_abs_diff": 0.0595,
+ "largest": [
+  {
+   "prompt": "f0m0 BA.AA",
+   "z": 5.8,
+   "orig": 0.825,
+   "fresh": 0.973
+  },
+  {
+   "prompt": "f0m0 AA.AB",
+   "z": 4.84,
+   "orig": 0.53,
+   "fresh": 0.74
+  },
+  {
+   "prompt": "f0m0 AB.BB",
+   "z": 4.26,
+   "orig": 0.35,
+   "fresh": 0.549
+  },
+  {
+   "prompt": "f0m0 BA.AB",
+   "z": 4.18,
+   "orig": 0.75,
+   "fresh": 0.567
+  },
+  {
+   "prompt": "f0m1 AB",
+   "z": 4.1,
+   "orig": 0.779,
+   "fresh": 0.91
+  }
+ ]
+}

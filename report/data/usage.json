@@ -1,0 +1,42 @@
+[
+{
+"item": "Policy extraction: Qwen 3.8 27B",
+"calls": 16800,
+"credits": 0.1397
+},
+{
+"item": "Policy extraction: Qwen 3.5 397B",
+"calls": 8400,
+"credits": 0.6984
+},
+{
+"item": "Policy extraction: Gemma 4 31B",
+"calls": 8400,
+"credits": 0.0778
+},
+{
+"item": "Policy extraction: Gemma 4 26B A4B",
+"calls": 8400,
+"credits": 0.0668
+},
+{
+"item": "Policy extraction: GLM 5.2",
+"calls": 8400,
+"credits": 0.5933
+},
+{
+"item": "Live validation: Qwen 3.8 27B",
+"calls": 24000,
+"credits": 0.2037
+},
+{
+"item": "AutoScientist fine-tune: independent rollouts",
+"calls": 1,
+"credits": null
+},
+{
+"item": "AutoScientist fine-tune: coupled rollouts",
+"calls": 1,
+"credits": null
+}
+]

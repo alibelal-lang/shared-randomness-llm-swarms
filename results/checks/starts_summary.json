@@ -1,0 +1,112 @@
+[
+ {
+  "N": 4,
+  "sampler": "independent",
+  "from_B_reach_A": 1.0,
+  "from_B_median_round": 7.0,
+  "from_B_then_left_A": 0.042,
+  "from_A_left_A": 0.052,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.961,
+  "late_x_from_A": 0.962
+ },
+ {
+  "N": 4,
+  "sampler": "pair_shared:restore",
+  "from_B_reach_A": 0.998,
+  "from_B_median_round": 7.0,
+  "from_B_then_left_A": 0.032,
+  "from_A_left_A": 0.038,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.956,
+  "late_x_from_A": 0.957
+ },
+ {
+  "N": 8,
+  "sampler": "independent",
+  "from_B_reach_A": 0.966,
+  "from_B_median_round": 16.0,
+  "from_B_then_left_A": 0.12,
+  "from_A_left_A": 0.174,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.884,
+  "late_x_from_A": 0.901
+ },
+ {
+  "N": 8,
+  "sampler": "pair_shared:restore",
+  "from_B_reach_A": 0.996,
+  "from_B_median_round": 8.0,
+  "from_B_then_left_A": 0.066,
+  "from_A_left_A": 0.096,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.946,
+  "late_x_from_A": 0.951
+ },
+ {
+  "N": 16,
+  "sampler": "independent",
+  "from_B_reach_A": 0.86,
+  "from_B_median_round": 27.0,
+  "from_B_then_left_A": 0.379,
+  "from_A_left_A": 0.488,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.769,
+  "late_x_from_A": 0.804
+ },
+ {
+  "N": 16,
+  "sampler": "pair_shared:restore",
+  "from_B_reach_A": 0.994,
+  "from_B_median_round": 10.0,
+  "from_B_then_left_A": 0.151,
+  "from_A_left_A": 0.176,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.929,
+  "late_x_from_A": 0.933
+ },
+ {
+  "N": 32,
+  "sampler": "independent",
+  "from_B_reach_A": 0.632,
+  "from_B_median_round": 30.5,
+  "from_B_then_left_A": 0.611,
+  "from_A_left_A": 0.81,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.704,
+  "late_x_from_A": 0.725
+ },
+ {
+  "N": 32,
+  "sampler": "pair_shared:restore",
+  "from_B_reach_A": 0.992,
+  "from_B_median_round": 11.0,
+  "from_B_then_left_A": 0.183,
+  "from_A_left_A": 0.242,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.907,
+  "late_x_from_A": 0.906
+ },
+ {
+  "N": 64,
+  "sampler": "independent",
+  "from_B_reach_A": 0.358,
+  "from_B_median_round": 41.0,
+  "from_B_then_left_A": 0.777,
+  "from_A_left_A": 0.968,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.686,
+  "late_x_from_A": 0.69
+ },
+ {
+  "N": 64,
+  "sampler": "pair_shared:restore",
+  "from_B_reach_A": 0.99,
+  "from_B_median_round": 10.0,
+  "from_B_then_left_A": 0.216,
+  "from_A_left_A": 0.262,
+  "from_A_reach_B": 0.0,
+  "late_x_from_B": 0.891,
+  "late_x_from_A": 0.898
+ }
+]

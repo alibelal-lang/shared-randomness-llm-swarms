@@ -1,0 +1,103 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_v2/glm-5.2_stag_f7.json --framing 7 --mapping 1 --init incumbent_B --seeds 500 --seed-offset 0 --N 4 8 16 32 64 --samplers independent pair_shared:restore pair_shared:0.3 block:2 pair_shared:0.1 pair_shared:0.2 pair_shared:0.5 pair_shared:0.75 pair_shared:1 --out results/ext/glm-5.2_stag_f7/f7m1_incumbent_B",
+ "created": "2026-11-08T02:16:55+0000",
+ "seconds": 167.3,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_v2/glm-5.2_stag_f7.json",
+  "framing": 7,
+  "mapping": 1,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2",
+   "pair_shared:0.1",
+   "pair_shared:0.2",
+   "pair_shared:0.5",
+   "pair_shared:0.75",
+   "pair_shared:1"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/ext/glm-5.2_stag_f7/f7m1_incumbent_B",
+  "func": "<function cmd_simulate at 0x1013dd4e0>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "glm-5.2",
+   "samples_per_prompt": 200,
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "top_p": "server default (0.95)",
+   "H": 2,
+   "game": "stag",
+   "framings": [
+    7
+   ],
+   "mappings": [
+    1,
+    2
+   ],
+   "repeats": 1,
+   "prompt_hash": "c691143a9f822f36",
+   "created": "2026-11-08T02:13:43+0000",
+   "seconds": 1051.9,
+   "calls": 8400,
+   "errors": 0,
+   "total_cost": 1.01964792,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 7,
+  "mapping": 1,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 0.9879175550817342,
+  "min_valid_mass": 0.8905472636815921,
+  "bounded_histories": [],
+  "samples": 4200,
+  "invalid_rate": 0.012142857142857143
+ },
+ "pA": {
+  "-": 0.19010416666666669,
+  "AA": 0.7437810945273632,
+  "AB": 0.22486772486772494,
+  "BA": 0.43249999999999994,
+  "BB": 0.4502487562189055,
+  "AA.AA": 0.8930348258706468,
+  "AA.AB": 0.44072164948453607,
+  "AA.BA": 0.6343283582089552,
+  "AA.BB": 0.9228855721393034,
+  "AB.AA": 0.7238805970149254,
+  "AB.AB": 0.15174129353233828,
+  "AB.BA": 0.6194029850746269,
+  "AB.BB": 0.15174129353233828,
+  "BA.AA": 0.8798882681564246,
+  "BA.AB": 0.6343283582089552,
+  "BA.BA": 0.5049751243781094,
+  "BA.BB": 0.5796019900497512,
+  "BB.AA": 0.9925373134328358,
+  "BB.AB": 0.4502487562189055,
+  "BB.BA": 0.6393034825870647,
+  "BB.BB": 0.6094527363184079
+ }
+}

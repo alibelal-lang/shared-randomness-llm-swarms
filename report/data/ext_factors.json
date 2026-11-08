@@ -1,0 +1,212 @@
+[
+{
+"factor": "Game",
+"level": "Original game",
+"order": 0,
+"responsive": 10,
+"variants": 160,
+"share": 0.062,
+"mean_coupling_pp": -0.2,
+"mean_p_incumbent": 0.672
+},
+{
+"factor": "Game",
+"level": "Stag hunt",
+"order": 1,
+"responsive": 37,
+"variants": 160,
+"share": 0.231,
+"mean_coupling_pp": 2.8,
+"mean_p_incumbent": 0.49
+},
+{
+"factor": "Wording",
+"level": "original wording 1",
+"order": 0,
+"responsive": 8,
+"variants": 40,
+"share": 0.2,
+"mean_coupling_pp": 2.3,
+"mean_p_incumbent": 0.621
+},
+{
+"factor": "Wording",
+"level": "original wording 2",
+"order": 1,
+"responsive": 9,
+"variants": 40,
+"share": 0.225,
+"mean_coupling_pp": 3.0,
+"mean_p_incumbent": 0.619
+},
+{
+"factor": "Wording",
+"level": "formal payoff table",
+"order": 2,
+"responsive": 3,
+"variants": 40,
+"share": 0.075,
+"mean_coupling_pp": 0.8,
+"mean_p_incumbent": 0.62
+},
+{
+"factor": "Wording",
+"level": "strangers, dollars",
+"order": 3,
+"responsive": 3,
+"variants": 40,
+"share": 0.075,
+"mean_coupling_pp": 0.9,
+"mean_p_incumbent": 0.661
+},
+{
+"factor": "Wording",
+"level": "AI agents, protocols",
+"order": 4,
+"responsive": 7,
+"variants": 40,
+"share": 0.175,
+"mean_coupling_pp": 2.4,
+"mean_p_incumbent": 0.558
+},
+{
+"factor": "Wording",
+"level": "terse",
+"order": 5,
+"responsive": 1,
+"variants": 40,
+"share": 0.025,
+"mean_coupling_pp": -0.3,
+"mean_p_incumbent": 0.598
+},
+{
+"factor": "Wording",
+"level": "per-option description",
+"order": 6,
+"responsive": 10,
+"variants": 40,
+"share": 0.25,
+"mean_coupling_pp": 0.9,
+"mean_p_incumbent": 0.403
+},
+{
+"factor": "Wording",
+"level": "business standards",
+"order": 7,
+"responsive": 6,
+"variants": 40,
+"share": 0.15,
+"mean_coupling_pp": 0.6,
+"mean_p_incumbent": 0.569
+},
+{
+"factor": "Better option's letter",
+"level": "J",
+"order": 0,
+"responsive": 28,
+"variants": 160,
+"share": 0.175,
+"mean_coupling_pp": 1.7,
+"mean_p_incumbent": 0.58
+},
+{
+"factor": "Better option's letter",
+"level": "K",
+"order": 1,
+"responsive": 19,
+"variants": 160,
+"share": 0.119,
+"mean_coupling_pp": 1.0,
+"mean_p_incumbent": 0.582
+},
+{
+"factor": "Better option's position",
+"level": "Listed first",
+"order": 0,
+"responsive": 22,
+"variants": 160,
+"share": 0.138,
+"mean_coupling_pp": 1.4,
+"mean_p_incumbent": 0.483
+},
+{
+"factor": "Better option's position",
+"level": "Listed second",
+"order": 1,
+"responsive": 25,
+"variants": 160,
+"share": 0.156,
+"mean_coupling_pp": 1.2,
+"mean_p_incumbent": 0.679
+},
+{
+"factor": "Memory (rounds)",
+"level": "1",
+"order": 1,
+"responsive": 9,
+"variants": 80,
+"share": 0.113,
+"mean_coupling_pp": 1.9,
+"mean_p_incumbent": 0.756
+},
+{
+"factor": "Memory (rounds)",
+"level": "2",
+"order": 2,
+"responsive": 17,
+"variants": 80,
+"share": 0.212,
+"mean_coupling_pp": 2.6,
+"mean_p_incumbent": 0.62
+},
+{
+"factor": "Memory (rounds)",
+"level": "3",
+"order": 3,
+"responsive": 19,
+"variants": 80,
+"share": 0.237,
+"mean_coupling_pp": 2.7,
+"mean_p_incumbent": 0.611
+},
+{
+"factor": "Temperature",
+"level": "0.5",
+"order": 0,
+"responsive": 44,
+"variants": 320,
+"share": 0.138,
+"mean_coupling_pp": 0.9,
+"mean_p_incumbent": 0.59
+},
+{
+"factor": "Temperature",
+"level": "0.75",
+"order": 1,
+"responsive": 52,
+"variants": 320,
+"share": 0.163,
+"mean_coupling_pp": 1.2,
+"mean_p_incumbent": 0.585
+},
+{
+"factor": "Temperature",
+"level": "1",
+"order": 2,
+"responsive": 47,
+"variants": 320,
+"share": 0.147,
+"mean_coupling_pp": 1.3,
+"mean_p_incumbent": 0.581
+},
+{
+"factor": "Temperature",
+"level": "1.5",
+"order": 3,
+"responsive": 41,
+"variants": 320,
+"share": 0.128,
+"mean_coupling_pp": 1.3,
+"mean_p_incumbent": 0.575
+}
+]

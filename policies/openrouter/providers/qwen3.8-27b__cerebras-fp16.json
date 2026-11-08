@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "qwen/qwen3.8-27b",
+  "provider_pin": "cerebras/fp16",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:18+0000",
+  "seconds": 5.6,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.01242294,
+  "providers": [
+   "Cerebras"
+  ]
+ },
+ "records": [
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9368059524121449,
+   "mass_B": 0.060830047394815165,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998887072109452,
+   "min_listed": 9.19780055043868e-06,
+   "top": [
+    [
+     "J",
+     -0.06529634445905685
+    ],
+    [
+     "K",
+     -2.7996714115142822
+    ],
+    [
+     "The",
+     -7.080921173095703
+    ],
+    [
+     "This",
+     -7.299671173095703
+    ],
+    [
+     "Based",
+     -8.737171173095703
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 0.00012425
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5630131582873895,
+   "mass_B": 0.43164909122012224,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995657729411638,
+   "min_listed": 3.661171634526124e-05,
+   "top": [
+    [
+     "J",
+     -0.5745173096656799
+    ],
+    [
+     "K",
+     -0.8401423096656799
+    ],
+    [
+     "The",
+     -6.277642250061035
+    ],
+    [
+     "To",
+     -7.519829750061035
+    ],
+    [
+     "In",
+     -7.574517250061035
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8010184328745541,
+   "mass_B": 0.19324689309392762,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995809199303034,
+   "min_listed": 3.234345323793463e-05,
+   "top": [
+    [
+     "J",
+     -0.2219116985797882
+    ],
+    [
+     "K",
+     -1.6437866687774658
+    ],
+    [
+     "The",
+     -6.331286907196045
+    ],
+    [
+     "To",
+     -6.956286907196045
+    ],
+    [
+     "Let",
+     -7.362536907196045
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7984315206362195,
+   "mass_B": 0.19565698283425575,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995871948027678,
+   "min_listed": 2.8898959153540904e-05,
+   "top": [
+    [
+     "J",
+     -0.22514227032661438
+    ],
+    [
+     "K",
+     -1.631392240524292
+    ],
+    [
+     "The",
+     -6.037642478942871
+    ],
+    [
+     "To",
+     -7.037642478942871
+    ],
+    [
+     "Let",
+     -7.678267478942871
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9959111004522575,
+   "mass_B": 0.0014287255416592908,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998383247197419,
+   "min_listed": 1.6121657801922287e-05,
+   "top": [
+    [
+     "J",
+     -0.004097281955182552
+    ],
+    [
+     "K",
+     -6.5509724617004395
+    ],
+    [
+     "The",
+     -6.5509724617004395
+    ],
+    [
+     "Since",
+     -8.355659484863281
+    ],
+    [
+     "In",
+     -9.136909484863281
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9913150668437182,
+   "mass_B": 0.0053667827538914255,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997814822129281,
+   "min_listed": 2.4467822652910207e-05,
+   "top": [
+    [
+     "J",
+     -0.008776779286563396
+    ],
+    [
+     "K",
+     -5.227526664733887
+    ],
+    [
+     "The",
+     -6.399401664733887
+    ],
+    [
+     "This",
+     -8.258776664733887
+    ],
+    [
+     "Based",
+     -8.610339164733887
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7940653040818617,
+   "mass_B": 0.20076372033731163,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996307240371493,
+   "min_listed": 2.785662997061678e-05,
+   "top": [
+    [
+     "J",
+     -0.23062662780284882
+    ],
+    [
+     "K",
+     -1.6056265830993652
+    ],
+    [
+     "The",
+     -6.215001583099365
+    ],
+    [
+     "To",
+     -7.347814083099365
+    ],
+    [
+     "This",
+     -7.613439083099365
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9738151181789984,
+   "mass_B": 0.02151437759306486,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996648418784134,
+   "min_listed": 2.6194225283819798e-05,
+   "top": [
+    [
+     "J",
+     -0.026533810421824455
+    ],
+    [
+     "K",
+     -3.839033842086792
+    ],
+    [
+     "The",
+     -6.151533603668213
+    ],
+    [
+     "To",
+     -7.557783603668213
+    ],
+    [
+     "Let",
+     -7.893721103668213
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9759233840642111,
+   "mass_B": 0.01963147473044384,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996803999092724,
+   "min_listed": 2.751075202011804e-05,
+   "top": [
+    [
+     "J",
+     -0.0243711955845356
+    ],
+    [
+     "K",
+     -3.9306211471557617
+    ],
+    [
+     "The",
+     -6.164996147155762
+    ],
+    [
+     "To",
+     -7.821246147155762
+    ],
+    [
+     "This",
+     -8.375933647155762
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9492398570124019,
+   "mass_B": 0.04302897070457246,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994845898117636,
+   "min_listed": 3.600620933577714e-05,
+   "top": [
+    [
+     "J",
+     -0.05213169753551483
+    ],
+    [
+     "K",
+     -3.1458816528320312
+    ],
+    [
+     "The",
+     -5.724006652832031
+    ],
+    [
+     "To",
+     -6.724006652832031
+    ],
+    [
+     "Based",
+     -7.567756652832031
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8675420944652198,
+   "mass_B": 0.1249812848284656,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994329411807934,
+   "min_listed": 4.901712665142353e-05,
+   "top": [
+    [
+     "J",
+     -0.14209124445915222
+    ],
+    [
+     "K",
+     -2.0795912742614746
+    ],
+    [
+     "The",
+     -6.032716274261475
+    ],
+    [
+     "To",
+     -6.610841274261475
+    ],
+    [
+     "In",
+     -7.329591274261475
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3750370663146974,
+   "mass_B": 0.6183316069617337,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999406957267761,
+   "min_listed": 5.1230906945549385e-05,
+   "top": [
+    [
+     "K",
+     -0.4807303845882416
+    ],
+    [
+     "J",
+     -0.980730414390564
+    ],
+    [
+     "The",
+     -6.0432305335998535
+    ],
+    [
+     "In",
+     -7.0432305335998535
+    ],
+    [
+     "To",
+     -7.3088555335998535
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9820692848004303,
+   "mass_B": 0.011613424262581233,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999576538264793,
+   "min_listed": 3.472352630897398e-05,
+   "top": [
+    [
+     "J",
+     -0.018093418329954147
+    ],
+    [
+     "K",
+     -4.455593585968018
+    ],
+    [
+     "The",
+     -5.955593585968018
+    ],
+    [
+     "To",
+     -6.893093585968018
+    ],
+    [
+     "Let",
+     -7.463406085968018
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.41420428053214764,
+   "mass_B": 0.5750656932289375,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994657993958883,
+   "min_listed": 5.7024971268171164e-05,
+   "top": [
+    [
+     "K",
+     -0.5532709956169128
+    ],
+    [
+     "J",
+     -0.8813959956169128
+    ],
+    [
+     "The",
+     -5.4595208168029785
+    ],
+    [
+     "To",
+     -6.1626458168029785
+    ],
+    [
+     "Let",
+     -6.8032708168029785
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8379031585244082,
+   "mass_B": 0.15499650617948055,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999455426514511,
+   "min_listed": 4.113183426575503e-05,
+   "top": [
+    [
+     "J",
+     -0.176852747797966
+    ],
+    [
+     "K",
+     -1.8643527030944824
+    ],
+    [
+     "The",
+     -6.145602703094482
+    ],
+    [
+     "To",
+     -6.614352703094482
+    ],
+    [
+     "In",
+     -7.262790203094482
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8975409503554191,
+   "mass_B": 0.09460011383654779,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9993230259624596,
+   "min_listed": 5.7915029932695886e-05,
+   "top": [
+    [
+     "J",
+     -0.10809653252363205
+    ],
+    [
+     "K",
+     -2.3580965995788574
+    ],
+    [
+     "The",
+     -5.795596599578857
+    ],
+    [
+     "To",
+     -7.092471599578857
+    ],
+    [
+     "In",
+     -7.233096599578857
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6619153942906161,
+   "mass_B": 0.3276718711365306,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999380728371871,
+   "min_listed": 5.1519242288439955e-05,
+   "top": [
+    [
+     "J",
+     -0.4126175343990326
+    ],
+    [
+     "K",
+     -1.115742564201355
+    ],
+    [
+     "The",
+     -5.6469926834106445
+    ],
+    [
+     "To",
+     -6.1313676834106445
+    ],
+    [
+     "Let",
+     -6.6469926834106445
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9804592081291695,
+   "mass_B": 0.015121928310044332,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997141823091367,
+   "min_listed": 2.220824631052678e-05,
+   "top": [
+    [
+     "J",
+     -0.01973423734307289
+    ],
+    [
+     "K",
+     -4.1916093826293945
+    ],
+    [
+     "The",
+     -6.1447343826293945
+    ],
+    [
+     "Since",
+     -8.215046882629395
+    ],
+    [
+     "To",
+     -8.238484382629395
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4160219483741911,
+   "mass_B": 0.5775892751105679,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996183155683884,
+   "min_listed": 3.7562023879159965e-05,
+   "top": [
+    [
+     "K",
+     -0.5488922595977783
+    ],
+    [
+     "J",
+     -0.8770172595977783
+    ],
+    [
+     "The",
+     -6.158267021179199
+    ],
+    [
+     "To",
+     -6.533267021179199
+    ],
+    [
+     "Let",
+     -7.283267021179199
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7552602138626929,
+   "mass_B": 0.23765317049368342,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995751042038776,
+   "min_listed": 3.4021919353586876e-05,
+   "top": [
+    [
+     "J",
+     -0.2806929349899292
+    ],
+    [
+     "K",
+     -1.4369429349899292
+    ],
+    [
+     "The",
+     -5.968193054199219
+    ],
+    [
+     "To",
+     -6.671318054199219
+    ],
+    [
+     "Let",
+     -6.983818054199219
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7288513399718626,
+   "mass_B": 0.2639724622357079,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994996223031974,
+   "min_listed": 4.282139772931206e-05,
+   "top": [
+    [
+     "J",
+     -0.31628549098968506
+    ],
+    [
+     "K",
+     -1.331910490989685
+    ],
+    [
+     "The",
+     -5.691285610198975
+    ],
+    [
+     "To",
+     -7.175660610198975
+    ],
+    [
+     "Based",
+     -7.785035610198975
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5455721824011758,
+   "mass_B": 0.45228544975995855,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998680450099564,
+   "min_listed": 1.1428740571363282e-05,
+   "top": [
+    [
+     "K",
+     -0.6059417724609375
+    ],
+    [
+     "J",
+     -0.7934417724609375
+    ],
+    [
+     "This",
+     -7.1996917724609375
+    ],
+    [
+     "The",
+     -7.4965667724609375
+    ],
+    [
+     "To",
+     -8.949691772460938
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 0.00012425
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9929642713476988,
+   "mass_B": 0.0041217576928421346,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999823113055016,
+   "min_listed": 1.533726445832419e-05,
+   "top": [
+    [
+     "K",
+     -0.007100348826497793
+    ],
+    [
+     "J",
+     -5.491475582122803
+    ],
+    [
+     "The",
+     -6.616475582122803
+    ],
+    [
+     "To",
+     -8.210225105285645
+    ],
+    [
+     "This",
+     -8.499287605285645
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6859541349747162,
+   "mass_B": 0.3091837427958252,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995750698667543,
+   "min_listed": 3.998746444143076e-05,
+   "top": [
+    [
+     "K",
+     -0.37694451212882996
+    ],
+    [
+     "J",
+     -1.1738195419311523
+    ],
+    [
+     "The",
+     -6.455069541931152
+    ],
+    [
+     "To",
+     -7.416007041931152
+    ],
+    [
+     "This",
+     -7.728507041931152
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8133932132150037,
+   "mass_B": 0.18149256604165945,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999542881844435,
+   "min_listed": 4.283720482331935e-05,
+   "top": [
+    [
+     "K",
+     -0.20654062926769257
+    ],
+    [
+     "J",
+     -1.706540584564209
+    ],
+    [
+     "The",
+     -6.394040584564209
+    ],
+    [
+     "In",
+     -7.534665584564209
+    ],
+    [
+     "To",
+     -7.628415584564209
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9970041759693722,
+   "mass_B": 0.000697059986071293,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998881945612694,
+   "min_listed": 9.788879016980672e-06,
+   "top": [
+    [
+     "K",
+     -0.003013951936736703
+    ],
+    [
+     "The",
+     -6.628014087677002
+    ],
+    [
+     "J",
+     -7.268639087677002
+    ],
+    [
+     "To",
+     -8.698326110839844
+    ],
+    [
+     "Since",
+     -8.745201110839844
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8550795200872335,
+   "mass_B": 0.13742378882625464,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995604379266715,
+   "min_listed": 2.99981934086475e-05,
+   "top": [
+    [
+     "K",
+     -0.15656080842018127
+    ],
+    [
+     "J",
+     -1.9846857786178589
+    ],
+    [
+     "The",
+     -5.640935897827148
+    ],
+    [
+     "To",
+     -6.765935897827148
+    ],
+    [
+     "Let",
+     -7.422185897827148
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.986610334196427,
+   "mass_B": 0.009522430230318022,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997801936320739,
+   "min_listed": 1.767838791019007e-05,
+   "top": [
+    [
+     "K",
+     -0.013480115681886673
+    ],
+    [
+     "J",
+     -4.654105186462402
+    ],
+    [
+     "The",
+     -6.247855186462402
+    ],
+    [
+     "To",
+     -7.825980186462402
+    ],
+    [
+     "Since",
+     -8.529105186462402
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.616315222539358,
+   "mass_B": 0.37967686205682594,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995387441498728,
+   "min_listed": 3.854258462441627e-05,
+   "top": [
+    [
+     "K",
+     -0.48405975103378296
+    ],
+    [
+     "J",
+     -0.968434751033783
+    ],
+    [
+     "The",
+     -6.655934810638428
+    ],
+    [
+     "This",
+     -7.773122310638428
+    ],
+    [
+     "In",
+     -8.06218433380127
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 0.00014207
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9590071298331622,
+   "mass_B": 0.03493183228081746,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996067762000596,
+   "min_listed": 2.923060545000941e-05,
+   "top": [
+    [
+     "K",
+     -0.04185676947236061
+    ],
+    [
+     "J",
+     -3.3543567657470703
+    ],
+    [
+     "The",
+     -5.86998176574707
+    ],
+    [
+     "To",
+     -7.07310676574707
+    ],
+    [
+     "Let",
+     -7.83873176574707
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9667275250055721,
+   "mass_B": 0.026167100255070463,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996120345784918,
+   "min_listed": 3.6101004311772855e-05,
+   "top": [
+    [
+     "K",
+     -0.033877428621053696
+    ],
+    [
+     "J",
+     -3.643252372741699
+    ],
+    [
+     "The",
+     -5.737002372741699
+    ],
+    [
+     "To",
+     -6.565127372741699
+    ],
+    [
+     "Let",
+     -7.776064872741699
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5577285369519277,
+   "mass_B": 0.43435942131943023,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9992616764493577,
+   "min_listed": 5.195496431405564e-05,
+   "top": [
+    [
+     "K",
+     -0.5838829278945923
+    ],
+    [
+     "J",
+     -0.8338829278945923
+    ],
+    [
+     "The",
+     -5.849507808685303
+    ],
+    [
+     "To",
+     -7.091695308685303
+    ],
+    [
+     "In",
+     -7.271382808685303
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6286721812806705,
+   "mass_B": 0.3638475554516126,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994104746919522,
+   "min_listed": 5.856369103077581e-05,
+   "top": [
+    [
+     "K",
+     -0.46414533257484436
+    ],
+    [
+     "J",
+     -1.011020302772522
+    ],
+    [
+     "The",
+     -6.011020183563232
+    ],
+    [
+     "To",
+     -6.573520183563232
+    ],
+    [
+     "This",
+     -7.425082683563232
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5072555079923873,
+   "mass_B": 0.48402658707592283,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9993174592147643,
+   "min_listed": 4.615856603235996e-05,
+   "top": [
+    [
+     "K",
+     -0.6787404417991638
+    ],
+    [
+     "J",
+     -0.7256154417991638
+    ],
+    [
+     "The",
+     -5.725615501403809
+    ],
+    [
+     "To",
+     -6.366240501403809
+    ],
+    [
+     "Let",
+     -7.264678001403809
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9891561532824701,
+   "mass_B": 0.004303171880327686,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997019490655636,
+   "min_listed": 2.4415842380646428e-05,
+   "top": [
+    [
+     "K",
+     -0.010903069749474525
+    ],
+    [
+     "J",
+     -5.4484028816223145
+    ],
+    [
+     "The",
+     -5.6515278816223145
+    ],
+    [
+     "To",
+     -7.0421528816223145
+    ],
+    [
+     "Let",
+     -7.9562153816223145
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.609851807004272,
+   "mass_B": 0.38163552042536325,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9993344591758839,
+   "min_listed": 6.693913656771756e-05,
+   "top": [
+    [
+     "K",
+     -0.4945392906665802
+    ],
+    [
+     "J",
+     -0.9632892608642578
+    ],
+    [
+     "The",
+     -5.775789260864258
+    ],
+    [
+     "To",
+     -6.619539260864258
+    ],
+    [
+     "This",
+     -7.533601760864258
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9583616393610452,
+   "mass_B": 0.03601497868224123,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995553841870434,
+   "min_listed": 3.750607589912376e-05,
+   "top": [
+    [
+     "K",
+     -0.042570456862449646
+    ],
+    [
+     "J",
+     -3.3238203525543213
+    ],
+    [
+     "The",
+     -6.1363205909729
+    ],
+    [
+     "To",
+     -7.2613205909729
+    ],
+    [
+     "In",
+     -7.7378830909729
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7594621560480145,
+   "mass_B": 0.23162286417989464,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9993333509260013,
+   "min_listed": 5.135711475617151e-05,
+   "top": [
+    [
+     "K",
+     -0.2751447856426239
+    ],
+    [
+     "J",
+     -1.4626448154449463
+    ],
+    [
+     "The",
+     -5.665769577026367
+    ],
+    [
+     "To",
+     -6.368894577026367
+    ],
+    [
+     "Let",
+     -7.322019577026367
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9486782797272774,
+   "mass_B": 0.04649964972600499,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996998358600805,
+   "min_listed": 3.771328125531055e-05,
+   "top": [
+    [
+     "K",
+     -0.05268554762005806
+    ],
+    [
+     "J",
+     -3.068310499191284
+    ],
+    [
+     "The",
+     -6.099560737609863
+    ],
+    [
+     "To",
+     -7.662060737609863
+    ],
+    [
+     "Since",
+     -7.966748237609863
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8074433455272744,
+   "mass_B": 0.18588400175624978,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995016605956816,
+   "min_listed": 3.608954140802403e-05,
+   "top": [
+    [
+     "K",
+     -0.21388238668441772
+    ],
+    [
+     "J",
+     -1.6826324462890625
+    ],
+    [
+     "The",
+     -5.8388824462890625
+    ],
+    [
+     "To",
+     -7.0888824462890625
+    ],
+    [
+     "This",
+     -7.6904449462890625
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.618391905394579,
+   "mass_B": 0.3750736391618607,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9994161212200423,
+   "min_listed": 5.411588555780881e-05,
+   "top": [
+    [
+     "K",
+     -0.48063287138938904
+    ],
+    [
+     "J",
+     -0.9806329011917114
+    ],
+    [
+     "The",
+     -5.902507781982422
+    ],
+    [
+     "To",
+     -7.230632781982422
+    ],
+    [
+     "This",
+     -7.605632781982422
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.497471903241459,
+   "mass_B": 0.497471903241459,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995537829283911,
+   "min_listed": 3.0391687079059647e-05,
+   "top": [
+    [
+     "J",
+     -0.6982161998748779
+    ],
+    [
+     "K",
+     -0.6982161998748779
+    ],
+    [
+     "The",
+     -6.166966438293457
+    ],
+    [
+     "To",
+     -7.682591438293457
+    ],
+    [
+     "In",
+     -7.690403938293457
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 0.0001589
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8495960350414318,
+   "mass_B": 0.14996261255960858,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999743546513968,
+   "min_listed": 1.8040175918967978e-06,
+   "top": [
+    [
+     "J",
+     -0.16299429535865784
+    ],
+    [
+     "K",
+     -1.8973692655563354
+    ],
+    [
+     "The",
+     -8.678619384765625
+    ],
+    [
+     "I",
+     -9.475494384765625
+    ],
+    [
+     "JJ",
+     -9.694244384765625
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 0.00011534
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8754726312612859,
+   "mass_B": 0.1241684318196713,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999658142356599,
+   "min_listed": 2.2955128146315782e-06,
+   "top": [
+    [
+     "J",
+     -0.13299138844013214
+    ],
+    [
+     "K",
+     -2.086116313934326
+    ],
+    [
+     "JJ",
+     -9.039241790771484
+    ],
+    [
+     "The",
+     -9.461116790771484
+    ],
+    [
+     "You",
+     -10.601741790771484
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4334159343889262,
+   "mass_B": 0.5652809444853182,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998542856650021,
+   "min_listed": 1.0614971337895361e-05,
+   "top": [
+    [
+     "K",
+     -0.5704324245452881
+    ],
+    [
+     "J",
+     -0.8360574245452881
+    ],
+    [
+     "The",
+     -7.726682662963867
+    ],
+    [
+     "It",
+     -8.945432662963867
+    ],
+    [
+     "0",
+     -8.992307662963867
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4261448256597236,
+   "mass_B": 0.5734405416056066,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999494890216577,
+   "min_listed": 4.38486883259392e-06,
+   "top": [
+    [
+     "K",
+     -0.5561010241508484
+    ],
+    [
+     "J",
+     -0.8529760241508484
+    ],
+    [
+     "The",
+     -9.149850845336914
+    ],
+    [
+     "JJ",
+     -9.915475845336914
+    ],
+    [
+     "It",
+     -10.102975845336914
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9502021631173402,
+   "mass_B": 0.04957813022760904,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999988998835297,
+   "min_listed": 8.025628207197427e-07,
+   "top": [
+    [
+     "J",
+     -0.05108051374554634
+    ],
+    [
+     "K",
+     -3.0042054653167725
+    ],
+    [
+     "JJ",
+     -9.066705703735352
+    ],
+    [
+     "The",
+     -9.863580703735352
+    ],
+    [
+     "It",
+     -11.707330703735352
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5690859156332795,
+   "mass_B": 0.4295685860541745,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998754548984629,
+   "min_listed": 8.72200806258346e-06,
+   "top": [
+    [
+     "J",
+     -0.5637238621711731
+    ],
+    [
+     "K",
+     -0.8449738621711731
+    ],
+    [
+     "The",
+     -7.532474040985107
+    ],
+    [
+     "It",
+     -8.98559856414795
+    ],
+    [
+     "0",
+     -9.25903606414795
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5997385175917386,
+   "mass_B": 0.39951198158651796,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999442471862814,
+   "min_listed": 5.361525902990502e-06,
+   "top": [
+    [
+     "J",
+     -0.511261522769928
+    ],
+    [
+     "K",
+     -0.917511522769928
+    ],
+    [
+     "The",
+     -7.995636463165283
+    ],
+    [
+     "0",
+     -9.448761940002441
+    ],
+    [
+     "It",
+     -9.761261940002441
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.49568877344457013,
+   "mass_B": 0.5034947357984669,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999451504552241,
+   "min_listed": 4.644011480139633e-06,
+   "top": [
+    [
+     "K",
+     -0.6861820220947266
+    ],
+    [
+     "J",
+     -0.7018070220947266
+    ],
+    [
+     "The",
+     -7.920557022094727
+    ],
+    [
+     "0",
+     -9.139307022094727
+    ],
+    [
+     "It",
+     -9.451807022094727
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6720642700660873,
+   "mass_B": 0.3275379565187689,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999619962034533,
+   "min_listed": 2.838028729810735e-06,
+   "top": [
+    [
+     "J",
+     -0.3974013030529022
+    ],
+    [
+     "K",
+     -1.1161513328552246
+    ],
+    [
+     "The",
+     -8.928650856018066
+    ],
+    [
+     "JJ",
+     -9.897400856018066
+    ],
+    [
+     "I",
+     -10.436463356018066
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.14986916318728039,
+   "mass_B": 0.8490666715677087,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999367616574183,
+   "min_listed": 4.603852365946982e-06,
+   "top": [
+    [
+     "K",
+     -0.1636175662279129
+    ],
+    [
+     "J",
+     -1.8979926109313965
+    ],
+    [
+     "The",
+     -7.4448676109313965
+    ],
+    [
+     "It",
+     -9.101117134094238
+    ],
+    [
+     "0",
+     -9.319867134094238
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5302490516852251,
+   "mass_B": 0.46794314571063017,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998779842338368,
+   "min_listed": 1.0599312146349253e-05,
+   "top": [
+    [
+     "J",
+     -0.6344084739685059
+    ],
+    [
+     "K",
+     -0.7594084739685059
+    ],
+    [
+     "The",
+     -7.306283473968506
+    ],
+    [
+     "0",
+     -8.337533950805664
+    ],
+    [
+     "It",
+     -8.478158950805664
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3071615229141222,
+   "mass_B": 0.6921991565512187,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999386152609082,
+   "min_listed": 5.723060890954834e-06,
+   "top": [
+    [
+     "K",
+     -0.36788156628608704
+    ],
+    [
+     "J",
+     -1.1803815364837646
+    ],
+    [
+     "The",
+     -8.242881774902344
+    ],
+    [
+     "It",
+     -9.946006774902344
+    ],
+    [
+     "0",
+     -10.321006774902344
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7020017582921605,
+   "mass_B": 0.2972462466899984,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999312623851487,
+   "min_listed": 6.082657349352542e-06,
+   "top": [
+    [
+     "J",
+     -0.3538193702697754
+    ],
+    [
+     "K",
+     -1.2131943702697754
+    ],
+    [
+     "The",
+     -8.119443893432617
+    ],
+    [
+     "JJ",
+     -9.166318893432617
+    ],
+    [
+     "It",
+     -10.096006393432617
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.553754409236021,
+   "mass_B": 0.444954168100993,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999043213254423,
+   "min_listed": 6.45659198713926e-06,
+   "top": [
+    [
+     "J",
+     -0.5910339951515198
+    ],
+    [
+     "K",
+     -0.8097839951515198
+    ],
+    [
+     "The",
+     -7.747283935546875
+    ],
+    [
+     "It",
+     -8.669158935546875
+    ],
+    [
+     "0",
+     -8.716033935546875
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8702778259750726,
+   "mass_B": 0.12935525842293397,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999730525794989,
+   "min_listed": 2.0295576024144026e-06,
+   "top": [
+    [
+     "J",
+     -0.13894277811050415
+    ],
+    [
+     "K",
+     -2.0451927185058594
+    ],
+    [
+     "The",
+     -8.93581771850586
+    ],
+    [
+     "JJ",
+     -9.42019271850586
+    ],
+    [
+     "2",
+     -10.65456771850586
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6177104996157691,
+   "mass_B": 0.3805604103035098,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999921002443022,
+   "min_listed": 6.11251206407648e-06,
+   "top": [
+    [
+     "J",
+     -0.48173537850379944
+    ],
+    [
+     "K",
+     -0.966110348701477
+    ],
+    [
+     "The",
+     -6.7942352294921875
+    ],
+    [
+     "It",
+     -8.903610229492188
+    ],
+    [
+     "JJ",
+     -9.294235229492188
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.42977454505619445,
+   "mass_B": 0.5693587669800785,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999148518583659,
+   "min_listed": 7.640902605819435e-06,
+   "top": [
+    [
+     "K",
+     -0.5632445216178894
+    ],
+    [
+     "J",
+     -0.8444945216178894
+    ],
+    [
+     "The",
+     -7.828869342803955
+    ],
+    [
+     "It",
+     -9.821057319641113
+    ],
+    [
+     "JJ",
+     -10.039807319641113
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9631367416260913,
+   "mass_B": 0.03676588190070019,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999934195440774,
+   "min_listed": 4.5632548038280704e-07,
+   "top": [
+    [
+     "J",
+     -0.037559881806373596
+    ],
+    [
+     "K",
+     -3.303184986114502
+    ],
+    [
+     "The",
+     -10.428184509277344
+    ],
+    [
+     "JJ",
+     -10.428184509277344
+    ],
+    [
+     "2",
+     -11.600059509277344
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.480207222480363,
+   "mass_B": 0.5192278085003105,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999564528358548,
+   "min_listed": 3.818223965525477e-06,
+   "top": [
+    [
+     "K",
+     -0.6554125547409058
+    ],
+    [
+     "J",
+     -0.7335375547409058
+    ],
+    [
+     "The",
+     -8.358537673950195
+    ],
+    [
+     "0",
+     -9.436662673950195
+    ],
+    [
+     "It",
+     -10.108537673950195
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5422667786336683,
+   "mass_B": 0.4566344096446199,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999363517601638,
+   "min_listed": 4.698592301779409e-06,
+   "top": [
+    [
+     "J",
+     -0.6119971871376038
+    ],
+    [
+     "K",
+     -0.7838721871376038
+    ],
+    [
+     "The",
+     -7.361997127532959
+    ],
+    [
+     "It",
+     -9.330747604370117
+    ],
+    [
+     "0",
+     -9.947935104370117
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.13843128282039957,
+   "mass_B": 0.8613483710060522,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999802072886378,
+   "min_listed": 1.589038079525423e-06,
+   "top": [
+    [
+     "K",
+     -0.14925624430179596
+    ],
+    [
+     "J",
+     -1.9773812294006348
+    ],
+    [
+     "The",
+     -9.133631706237793
+    ],
+    [
+     "JJ",
+     -10.977381706237793
+    ],
+    [
+     "It",
+     -11.196131706237793
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8885657476967515,
+   "mass_B": 0.11121704150715886,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999835820809639,
+   "min_listed": 1.3803866783211819e-06,
+   "top": [
+    [
+     "K",
+     -0.1181466355919838
+    ],
+    [
+     "J",
+     -2.1962716579437256
+    ],
+    [
+     "The",
+     -9.508771896362305
+    ],
+    [
+     "I",
+     -9.961896896362305
+    ],
+    [
+     "You",
+     -11.415021896362305
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 0.00011534
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9859178397548131,
+   "mass_B": 0.013845332721498993,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999753589062168,
+   "min_listed": 1.776714668753861e-06,
+   "top": [
+    [
+     "K",
+     -0.014182254672050476
+    ],
+    [
+     "J",
+     -4.279807090759277
+    ],
+    [
+     "The",
+     -9.623557090759277
+    ],
+    [
+     "It",
+     -10.045432090759277
+    ],
+    [
+     "k",
+     -10.623557090759277
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7300715207263713,
+   "mass_B": 0.26857831106425983,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998817601523126,
+   "min_listed": 9.645805612937065e-06,
+   "top": [
+    [
+     "K",
+     -0.3146127760410309
+    ],
+    [
+     "J",
+     -1.3146127462387085
+    ],
+    [
+     "The",
+     -7.533362865447998
+    ],
+    [
+     "It",
+     -8.83023738861084
+    ],
+    [
+     "0",
+     -8.92398738861084
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9993751379870559,
+   "mass_B": 0.0005111997553328602,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999927495123103,
+   "min_listed": 7.867839445296691e-07,
+   "top": [
+    [
+     "K",
+     -0.0006250573205761611
+    ],
+    [
+     "J",
+     -7.578750133514404
+    ],
+    [
+     "The",
+     -10.016249656677246
+    ],
+    [
+     "k",
+     -10.703749656677246
+    ],
+    [
+     "It",
+     -11.250624656677246
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8351194670809998,
+   "mass_B": 0.16444476345688144,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999480305821723,
+   "min_listed": 3.965046205428788e-06,
+   "top": [
+    [
+     "K",
+     -0.18018049001693726
+    ],
+    [
+     "J",
+     -1.805180549621582
+    ],
+    [
+     "The",
+     -8.945805549621582
+    ],
+    [
+     "It",
+     -10.164555549621582
+    ],
+    [
+     "You",
+     -10.555180549621582
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7971378892014874,
+   "mass_B": 0.20154802170635286,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998573264960098,
+   "min_listed": 9.971395781382151e-06,
+   "top": [
+    [
+     "K",
+     -0.22672760486602783
+    ],
+    [
+     "J",
+     -1.6017276048660278
+    ],
+    [
+     "The",
+     -7.726727485656738
+    ],
+    [
+     "It",
+     -8.882977485656738
+    ],
+    [
+     "0",
+     -8.898602485656738
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 0.00013118
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8309453802000532,
+   "mass_B": 0.16881680358336273,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999807170449162,
+   "min_listed": 1.6446159690278076e-06,
+   "top": [
+    [
+     "K",
+     -0.18519121408462524
+    ],
+    [
+     "J",
+     -1.7789411544799805
+    ],
+    [
+     "The",
+     -9.18519115447998
+    ],
+    [
+     "k",
+     -10.95081615447998
+    ],
+    [
+     "It",
+     -11.04456615447998
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.823411055921087,
+   "mass_B": 0.17531433822942175,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999340311850803,
+   "min_listed": 5.30200929028634e-06,
+   "top": [
+    [
+     "K",
+     -0.19429974257946014
+    ],
+    [
+     "J",
+     -1.7411746978759766
+    ],
+    [
+     "The",
+     -7.225549697875977
+    ],
+    [
+     "It",
+     -8.913049697875977
+    ],
+    [
+     "0",
+     -9.538049697875977
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8348044007910655,
+   "mass_B": 0.16438273057810857,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999462194022029,
+   "min_listed": 5.375369701449477e-06,
+   "top": [
+    [
+     "K",
+     -0.18055783212184906
+    ],
+    [
+     "J",
+     -1.8055578470230103
+    ],
+    [
+     "The",
+     -7.774307727813721
+    ],
+    [
+     "It",
+     -9.539933204650879
+    ],
+    [
+     "0",
+     -9.852433204650879
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9466122525119861,
+   "mass_B": 0.05257624710936385,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999428134882559,
+   "min_listed": 4.7470326656336415e-06,
+   "top": [
+    [
+     "K",
+     -0.05486571788787842
+    ],
+    [
+     "J",
+     -2.945490837097168
+    ],
+    [
+     "The",
+     -7.695490837097168
+    ],
+    [
+     "It",
+     -9.523615837097168
+    ],
+    [
+     "Based",
+     -10.343928337097168
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7813139076048299,
+   "mass_B": 0.21696304277457978,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998889843539016,
+   "min_listed": 8.294619651139779e-06,
+   "top": [
+    [
+     "K",
+     -0.24677827954292297
+    ],
+    [
+     "J",
+     -1.5280282497406006
+    ],
+    [
+     "The",
+     -7.29365348815918
+    ],
+    [
+     "0",
+     -8.26240348815918
+    ],
+    [
+     "It",
+     -8.46552848815918
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5997756958333957,
+   "mass_B": 0.399536747634655,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999480743380847,
+   "min_listed": 4.410544304028957e-06,
+   "top": [
+    [
+     "K",
+     -0.5111995339393616
+    ],
+    [
+     "J",
+     -0.9174495339393616
+    ],
+    [
+     "The",
+     -8.058074951171875
+    ],
+    [
+     "0",
+     -9.839324951171875
+    ],
+    [
+     "It",
+     -9.917449951171875
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8704794911038563,
+   "mass_B": 0.12737930684985183,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999269407004172,
+   "min_listed": 5.64904826511631e-06,
+   "top": [
+    [
+     "K",
+     -0.138711079955101
+    ],
+    [
+     "J",
+     -2.0605859756469727
+    ],
+    [
+     "The",
+     -6.498085975646973
+    ],
+    [
+     "It",
+     -8.544960975646973
+    ],
+    [
+     "You",
+     -9.451210975646973
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9842274545621321,
+   "mass_B": 0.015180049780204805,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999634017736138,
+   "min_listed": 3.287859856068909e-06,
+   "top": [
+    [
+     "K",
+     -0.01589825563132763
+    ],
+    [
+     "J",
+     -4.18777322769165
+    ],
+    [
+     "The",
+     -8.047148704528809
+    ],
+    [
+     "It",
+     -9.656523704528809
+    ],
+    [
+     "k",
+     -9.953398704528809
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9722938360277609,
+   "mass_B": 0.027154237899790958,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999662405246145,
+   "min_listed": 2.6303078833599208e-06,
+   "top": [
+    [
+     "K",
+     -0.02809721976518631
+    ],
+    [
+     "J",
+     -3.606222152709961
+    ],
+    [
+     "The",
+     -8.090597152709961
+    ],
+    [
+     "It",
+     -9.793722152709961
+    ],
+    [
+     "0",
+     -10.199972152709961
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8116334166009197,
+   "mass_B": 0.18684862196850366,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999006665875588,
+   "min_listed": 7.906942746423306e-06,
+   "top": [
+    [
+     "K",
+     -0.20870649814605713
+    ],
+    [
+     "J",
+     -1.6774564981460571
+    ],
+    [
+     "The",
+     -7.396206378936768
+    ],
+    [
+     "0",
+     -8.583706855773926
+    ],
+    [
+     "It",
+     -8.583706855773926
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.73950328240412,
+   "mass_B": 0.2595900745898019,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999186415408311,
+   "min_listed": 6.50849776793353e-06,
+   "top": [
+    [
+     "K",
+     -0.30177655816078186
+    ],
+    [
+     "J",
+     -1.3486515283584595
+    ],
+    [
+     "The",
+     -7.80177640914917
+    ],
+    [
+     "It",
+     -9.708026885986328
+    ],
+    [
+     "0",
+     -9.731464385986328
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9778230471927472,
+   "mass_B": 0.021943120504787268,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999801186526663,
+   "min_listed": 1.950496494515964e-06,
+   "top": [
+    [
+     "K",
+     -0.022426558658480644
+    ],
+    [
+     "J",
+     -3.8193016052246094
+    ],
+    [
+     "The",
+     -9.36617660522461
+    ],
+    [
+     "It",
+     -10.45992660522461
+    ],
+    [
+     "k",
+     -10.75680160522461
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8427815079346511,
+   "mass_B": 0.15589889850759134,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999172752485234,
+   "min_listed": 6.545896385442397e-06,
+   "top": [
+    [
+     "K",
+     -0.17104753851890564
+    ],
+    [
+     "J",
+     -1.858547568321228
+    ],
+    [
+     "The",
+     -7.389797687530518
+    ],
+    [
+     "0",
+     -8.65542221069336
+    ],
+    [
+     "It",
+     -8.93667221069336
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7304345750344823,
+   "mass_B": 0.2687118552677479,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999429561137387,
+   "min_listed": 4.487945540478489e-06,
+   "top": [
+    [
+     "K",
+     -0.31411561369895935
+    ],
+    [
+     "J",
+     -1.3141156435012817
+    ],
+    [
+     "The",
+     -7.829740524291992
+    ],
+    [
+     "0",
+     -9.110990524291992
+    ],
+    [
+     "It",
+     -9.610990524291992
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9404917502233979,
+   "mass_B": 0.059191490357896274,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999777962340767,
+   "min_listed": 1.8614305931001949e-06,
+   "top": [
+    [
+     "K",
+     -0.06135240197181702
+    ],
+    [
+     "J",
+     -2.826977491378784
+    ],
+    [
+     "The",
+     -8.670727729797363
+    ],
+    [
+     "It",
+     -10.326977729797363
+    ],
+    [
+     "You",
+     -11.264477729797363
+    ]
+   ],
+   "provider": "Cerebras",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 0.00014603
+  }
+ ]
+}

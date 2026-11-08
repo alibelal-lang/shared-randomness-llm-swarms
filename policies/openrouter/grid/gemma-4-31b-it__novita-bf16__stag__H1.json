@@ -1,0 +1,1633 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "google/gemma-4-31b-it",
+  "provider_pin": "novita/bf16",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 1,
+  "game": "stag",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "repeats": 1,
+  "prompt_hash": "afb40a5f41ea60b4",
+  "created": "2026-11-07T21:12:22+0000",
+  "seconds": 35.3,
+  "calls": 40,
+  "errors": 0,
+  "total_cost": 0.00092096,
+  "providers": [
+   "Novita"
+  ]
+ },
+ "records": [
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0002611870594364352,
+   "mass_B": 0.9997266057372395,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999990758355269,
+   "min_listed": 3.431186383408317e-08,
+   "top": [
+    [
+     "K",
+     -0.0002739054325502366
+    ],
+    [
+     "J",
+     -8.250273704528809
+    ],
+    [
+     "C",
+     -12.250273704528809
+    ],
+    [
+     "Since",
+     -13.187773704528809
+    ],
+    [
+     "//",
+     -13.437773704528809
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.946535603308085,
+   "mass_B": 0.05339972085644693,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999904656032065,
+   "min_listed": 2.1183678085313809e-07,
+   "top": [
+    [
+     "J",
+     -0.05494978278875351
+    ],
+    [
+     "K",
+     -2.9299497604370117
+    ],
+    [
+     "#",
+     -10.554949760437012
+    ],
+    [
+     "C",
+     -11.242449760437012
+    ],
+    [
+     "Since",
+     -12.054949760437012
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999612884096345,
+   "mass_B": 0.00037998053523082394,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999986137031643,
+   "min_listed": 1.9548036184725927e-08,
+   "top": [
+    [
+     "J",
+     -0.0003906917118001729
+    ],
+    [
+     "K",
+     -7.875390529632568
+    ],
+    [
+     " J",
+     -12.562891006469727
+    ],
+    [
+     "#",
+     -12.875391006469727
+    ],
+    [
+     "C",
+     -13.437891006469727
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 161,
+   "completion_tokens": 1,
+   "cost": 2.294e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999933462634393,
+   "mass_B": 2.902295497941424e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991112974785,
+   "min_listed": 1.3440281774008495e-08,
+   "top": [
+    [
+     "J",
+     -9.059865078597795e-06
+    ],
+    [
+     "K",
+     -12.750008583068848
+    ],
+    [
+     " J",
+     -12.937508583068848
+    ],
+    [
+     "C",
+     -13.687508583068848
+    ],
+    [
+     "#",
+     -13.812508583068848
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9889442068657707,
+   "mass_B": 0.010986103378724289,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999955403149262,
+   "min_listed": 8.142172910599733e-08,
+   "top": [
+    [
+     "J",
+     -0.011123903095722198
+    ],
+    [
+     "K",
+     -4.511124134063721
+    ],
+    [
+     "#",
+     -10.136123657226562
+    ],
+    [
+     "C",
+     -11.261123657226562
+    ],
+    [
+     "S",
+     -11.823623657226562
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999912427105886,
+   "mass_B": 1.8738628115041854e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997245913222,
+   "min_listed": 1.2625976266397456e-08,
+   "top": [
+    [
+     "K",
+     -8.821448318485636e-06
+    ],
+    [
+     "//",
+     -12.500008583068848
+    ],
+    [
+     "J",
+     -13.187508583068848
+    ],
+    [
+     "**",
+     -13.812508583068848
+    ],
+    [
+     "#",
+     -13.875008583068848
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 161,
+   "completion_tokens": 1,
+   "cost": 2.294e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999919103686676,
+   "mass_B": 4.222815032189829e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999653862166,
+   "min_listed": 1.2626000348558993e-08,
+   "top": [
+    [
+     "K",
+     -8.22540732769994e-06
+    ],
+    [
+     "J",
+     -12.375008583068848
+    ],
+    [
+     "**",
+     -13.812508583068848
+    ],
+    [
+     "C",
+     -14.312508583068848
+    ],
+    [
+     "Since",
+     -14.312508583068848
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999957090680622,
+   "mass_B": 6.412036513287933e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996000346556,
+   "min_listed": 1.0467361864851814e-08,
+   "top": [
+    [
+     "K",
+     -4.410734163684538e-06
+    ],
+    [
+     "Since",
+     -13.000004768371582
+    ],
+    [
+     "**",
+     -14.937504768371582
+    ],
+    [
+     "C",
+     -15.125004768371582
+    ],
+    [
+     "In",
+     -15.250004768371582
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9998804963477158,
+   "mass_B": 0.0001088956838407324,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994755481503,
+   "min_listed": 2.510697444770765e-08,
+   "top": [
+    [
+     "K",
+     -0.00011979816190432757
+    ],
+    [
+     "J",
+     -9.125120162963867
+    ],
+    [
+     "#",
+     -12.500120162963867
+    ],
+    [
+     "C",
+     -13.187620162963867
+    ],
+    [
+     "//",
+     -13.750120162963867
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999993083333999,
+   "mass_B": 3.2241867372567335e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999690534532,
+   "min_listed": 3.398267819495071e-09,
+   "top": [
+    [
+     "K",
+     -7.152555099310121e-07
+    ],
+    [
+     "**",
+     -15.625000953674316
+    ],
+    [
+     "#",
+     -15.750000953674316
+    ],
+    [
+     "//",
+     -16.125
+    ],
+    [
+     "Since",
+     -16.5
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9997900487386527,
+   "mass_B": 0.00020342471411898496,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999990002769199,
+   "min_listed": 2.081246766070668e-08,
+   "top": [
+    [
+     "J",
+     -0.00021419614495243877
+    ],
+    [
+     "K",
+     -8.500214576721191
+    ],
+    [
+     " J",
+     -12.375214576721191
+    ],
+    [
+     "#",
+     -12.687714576721191
+    ],
+    [
+     "**",
+     -14.000214576721191
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 161,
+   "completion_tokens": 1,
+   "cost": 2.294e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999972893682959,
+   "mass_B": 3.4663042725072227e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991087264892,
+   "min_listed": 8.677731225018677e-09,
+   "top": [
+    [
+     "J",
+     -6.437280717364047e-06
+    ],
+    [
+     " J",
+     -12.500006675720215
+    ],
+    [
+     "#",
+     -14.500006675720215
+    ],
+    [
+     "**",
+     -14.812506675720215
+    ],
+    [
+     "K",
+     -14.875006675720215
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999606473100571,
+   "mass_B": 3.120160544208462e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999992269747597,
+   "min_listed": 1.262559095805971e-08,
+   "top": [
+    [
+     "J",
+     -4.100715523236431e-05
+    ],
+    [
+     "K",
+     -10.375041007995605
+    ],
+    [
+     "#",
+     -12.250041007995605
+    ],
+    [
+     " J",
+     -13.312541007995605
+    ],
+    [
+     "**",
+     -13.687541007995605
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9980319795033186,
+   "mass_B": 0.0019266469745596948,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999964350384377,
+   "min_listed": 4.681912302507277e-08,
+   "top": [
+    [
+     "J",
+     -0.0019741824362426996
+    ],
+    [
+     "K",
+     -6.251974105834961
+    ],
+    [
+     "#",
+     -10.376974105834961
+    ],
+    [
+     " J",
+     -12.376974105834961
+    ],
+    [
+     "**",
+     -13.001974105834961
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999912754333034,
+   "mass_B": 4.78506719451317e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994399937351,
+   "min_listed": 8.410697376607102e-09,
+   "top": [
+    [
+     "J",
+     -1.0847986231965479e-05
+    ],
+    [
+     "K",
+     -12.25001049041748
+    ],
+    [
+     "#",
+     -12.93751049041748
+    ],
+    [
+     " J",
+     -13.06251049041748
+    ],
+    [
+     "**",
+     -14.50001049041748
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9992816293727207,
+   "mass_B": 0.0007096642453885429,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999993632529711,
+   "min_listed": 1.1134481853766801e-08,
+   "top": [
+    [
+     "K",
+     -0.0007186928996816278
+    ],
+    [
+     "J",
+     -7.250718593597412
+    ],
+    [
+     "//",
+     -12.68821907043457
+    ],
+    [
+     "C",
+     -13.43821907043457
+    ],
+    [
+     "#",
+     -13.50071907043457
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 161,
+   "completion_tokens": 1,
+   "cost": 2.294e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999971921429874,
+   "mass_B": 3.059014453095186e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996089159012,
+   "min_listed": 8.677764327999391e-09,
+   "top": [
+    [
+     "K",
+     -2.861018856492592e-06
+    ],
+    [
+     "Since",
+     -14.00000286102295
+    ],
+    [
+     "C",
+     -14.37500286102295
+    ],
+    [
+     "J",
+     -15.00000286102295
+    ],
+    [
+     "B",
+     -15.18750286102295
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.0229762827488494,
+   "mass_B": 0.9769797557542643,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999937292440626,
+   "min_listed": 9.11469733523217e-08,
+   "top": [
+    [
+     "J",
+     -0.023292848840355873
+    ],
+    [
+     "K",
+     -3.7732927799224854
+    ],
+    [
+     "C",
+     -11.148292541503906
+    ],
+    [
+     "#",
+     -11.273292541503906
+    ],
+    [
+     " J",
+     -12.585792541503906
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9148611539641008,
+   "mass_B": 0.08509533532653282,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999963908846664,
+   "min_listed": 8.018065699484137e-08,
+   "top": [
+    [
+     "K",
+     -0.0889829695224762
+    ],
+    [
+     "J",
+     -2.4639830589294434
+    ],
+    [
+     "#",
+     -10.838982582092285
+    ],
+    [
+     "C",
+     -11.901482582092285
+    ],
+    [
+     "Since",
+     -12.151482582092285
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999957264612471,
+   "mass_B": 2.7264283015404637e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994640430635,
+   "min_listed": 4.644801655966656e-09,
+   "top": [
+    [
+     "J",
+     -1.811964830267243e-05
+    ],
+    [
+     " J",
+     -11.187518119812012
+    ],
+    [
+     "K",
+     -12.812518119812012
+    ],
+    [
+     "C",
+     -14.625018119812012
+    ],
+    [
+     "#",
+     -15.000018119812012
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 135,
+   "completion_tokens": 1,
+   "cost": 1.93e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9889712393368051,
+   "mass_B": 0.010986475324364798,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999975822021185,
+   "min_listed": 5.957134111486425e-08,
+   "top": [
+    [
+     "K",
+     -0.011090421117842197
+    ],
+    [
+     "J",
+     -4.511090278625488
+    ],
+    [
+     "C",
+     -10.761090278625488
+    ],
+    [
+     "#",
+     -11.511090278625488
+    ],
+    [
+     "Since",
+     -12.511090278625488
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 179,
+   "completion_tokens": 1,
+   "cost": 2.546e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999977146533535,
+   "mass_B": 1.0145237594389173e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999985816659844,
+   "min_listed": 9.833101448140822e-09,
+   "top": [
+    [
+     "J",
+     -1.1801649634435307e-05
+    ],
+    [
+     " J",
+     -11.562511444091797
+    ],
+    [
+     "//",
+     -15.187511444091797
+    ],
+    [
+     "#",
+     -15.750011444091797
+    ],
+    [
+     "j",
+     -15.875011444091797
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9940822984758484,
+   "mass_B": 0.005911021483688391,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999986957751309,
+   "min_listed": 2.202834797027219e-08,
+   "top": [
+    [
+     "J",
+     -0.005936490371823311
+    ],
+    [
+     "K",
+     -5.130936622619629
+    ],
+    [
+     "C",
+     -12.568436622619629
+    ],
+    [
+     " J",
+     -13.630936622619629
+    ],
+    [
+     "T",
+     -14.255936622619629
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0028009058799847385,
+   "mass_B": 0.997191383021812,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994150675608,
+   "min_listed": 6.330963889035114e-09,
+   "top": [
+    [
+     "K",
+     -0.002812598831951618
+    ],
+    [
+     "J",
+     -5.877812385559082
+    ],
+    [
+     "//",
+     -12.940312385559082
+    ],
+    [
+     "JK",
+     -13.252812385559082
+    ],
+    [
+     "C",
+     -13.377812385559082
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999270270135171,
+   "mass_B": 6.605153150093771e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994849521611,
+   "min_listed": 5.101024747097042e-09,
+   "top": [
+    [
+     "J",
+     -7.509902934543788e-05
+    ],
+    [
+     "K",
+     -9.625075340270996
+    ],
+    [
+     "C",
+     -12.187575340270996
+    ],
+    [
+     " J",
+     -13.062575340270996
+    ],
+    [
+     "#",
+     -14.625075340270996
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999995872836789,
+   "mass_B": 3.2241867372567335e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999623257604,
+   "min_listed": 8.327813443461797e-10,
+   "top": [
+    [
+     "K",
+     -4.768370445162873e-07
+    ],
+    [
+     "//",
+     -15.1875
+    ],
+    [
+     " K",
+     -16.5625
+    ],
+    [
+     "J",
+     -17.25
+    ],
+    [
+     "#",
+     -17.8125
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 135,
+   "completion_tokens": 1,
+   "cost": 1.93e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999999684332068,
+   "mass_B": 4.3204126993085624e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000065389777,
+   "min_listed": 2.8780153152466077e-10,
+   "top": [
+    [
+     "K",
+     -1.1920928244535389e-07
+    ],
+    [
+     " K",
+     -16.25
+    ],
+    [
+     "//",
+     -16.875
+    ],
+    [
+     "C",
+     -18.1875
+    ],
+    [
+     "S",
+     -18.375
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999994342423318,
+   "mass_B": 1.3574320241537807e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999838090311,
+   "min_listed": 8.86491126546674e-10,
+   "top": [
+    [
+     "K",
+     -5.960462772236497e-07
+    ],
+    [
+     "//",
+     -15.500000953674316
+    ],
+    [
+     "J",
+     -15.812500953674316
+    ],
+    [
+     "C",
+     -16.125
+    ],
+    [
+     " K",
+     -17.3125
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999995958212389,
+   "mass_B": 6.412060973312742e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999325325152,
+   "min_listed": 8.327813443461797e-10,
+   "top": [
+    [
+     "K",
+     -4.768370445162873e-07
+    ],
+    [
+     "//",
+     -15.6875
+    ],
+    [
+     " K",
+     -16.4375
+    ],
+    [
+     "J",
+     -16.5625
+    ],
+    [
+     "C",
+     -16.8125
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9998740533156076,
+   "mass_B": 0.0001233939165867535,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997039820775,
+   "min_listed": 4.644278989266778e-09,
+   "top": [
+    [
+     "J",
+     -0.00012885693286079913
+    ],
+    [
+     "K",
+     -9.000128746032715
+    ],
+    [
+     " J",
+     -12.750128746032715
+    ],
+    [
+     "C",
+     -13.625128746032715
+    ],
+    [
+     "#",
+     -14.875128746032715
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999988298330253,
+   "mass_B": 3.256300829617523e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995706432059,
+   "min_listed": 2.1940782403040906e-09,
+   "top": [
+    [
+     "J",
+     -3.576272320060525e-06
+    ],
+    [
+     " J",
+     -12.937503814697266
+    ],
+    [
+     "K",
+     -14.937503814697266
+    ],
+    [
+     "#",
+     -15.500003814697266
+    ],
+    [
+     "//",
+     -16.062503814697266
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 135,
+   "completion_tokens": 1,
+   "cost": 1.93e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999992701292982,
+   "mass_B": 1.3440409951135022e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000009712283,
+   "min_listed": 7.349269569157389e-10,
+   "top": [
+    [
+     "K",
+     -9.536738616588991e-07
+    ],
+    [
+     "//",
+     -14.312500953674316
+    ],
+    [
+     " K",
+     -15.312500953674316
+    ],
+    [
+     "C",
+     -17.375
+    ],
+    [
+     "B",
+     -17.5625
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999939873229845,
+   "mass_B": 5.8290994634184564e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996555671566,
+   "min_listed": 4.09883544041964e-09,
+   "top": [
+    [
+     "J",
+     -6.341733387671411e-05
+    ],
+    [
+     "K",
+     -9.750062942504883
+    ],
+    [
+     " J",
+     -12.625062942504883
+    ],
+    [
+     "#",
+     -14.625062942504883
+    ],
+    [
+     "S",
+     -14.625062942504883
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9993641737274641,
+   "mass_B": 0.0006263275665683065,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996182414491,
+   "min_listed": 1.1135395096782412e-08,
+   "top": [
+    [
+     "K",
+     -0.0006369707407429814
+    ],
+    [
+     "J",
+     -7.375637054443359
+    ],
+    [
+     "//",
+     -12.00063705444336
+    ],
+    [
+     " K",
+     -13.87563705444336
+    ],
+    [
+     "#",
+     -14.12563705444336
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 135,
+   "completion_tokens": 1,
+   "cost": 1.93e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999976111780576,
+   "mass_B": 1.5534927603056423e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997743102137,
+   "min_listed": 2.335584129235952e-09,
+   "top": [
+    [
+     "J",
+     -4.6491513785440475e-06
+    ],
+    [
+     " J",
+     -13.000004768371582
+    ],
+    [
+     "K",
+     -13.375004768371582
+    ],
+    [
+     "#",
+     -15.312504768371582
+    ],
+    [
+     "//",
+     -15.750004768371582
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.0017005526923327997,
+   "mass_B": 0.9982021673500164,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999975847618325,
+   "min_listed": 2.354617513185295e-08,
+   "top": [
+    [
+     "J",
+     -0.0018020119750872254
+    ],
+    [
+     "K",
+     -6.37680196762085
+    ],
+    [
+     "C",
+     -9.376802444458008
+    ],
+    [
+     "//",
+     -12.064302444458008
+    ],
+    [
+     " J",
+     -12.876802444458008
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8354775621410098,
+   "mass_B": 0.16451529189924996,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999989703486476,
+   "min_listed": 1.4418519938466037e-08,
+   "top": [
+    [
+     "K",
+     -0.17975182831287384
+    ],
+    [
+     "J",
+     -1.8047518730163574
+    ],
+    [
+     "C",
+     -12.3672513961792
+    ],
+    [
+     "S",
+     -14.1797513961792
+    ],
+    [
+     "#",
+     -14.9297513961792
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999999971824863,
+   "mass_B": 7.823256733461685e-10,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000933290478,
+   "min_listed": 5.376840478137499e-10,
+   "top": [
+    [
+     "K",
+     -2.3841855067985307e-07
+    ],
+    [
+     " K",
+     -15.375
+    ],
+    [
+     "//",
+     -16.5
+    ],
+    [
+     "k",
+     -18.3125
+    ],
+    [
+     "C",
+     -18.75
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9988219225023306,
+   "mass_B": 0.0011694991542303562,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995638062708,
+   "min_listed": 5.5961854060470076e-09,
+   "top": [
+    [
+     "K",
+     -0.0011797142215073109
+    ],
+    [
+     "J",
+     -6.7511796951293945
+    ],
+    [
+     "//",
+     -12.126179695129395
+    ],
+    [
+     " K",
+     -13.876179695129395
+    ],
+    [
+     "C",
+     -13.938679695129395
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999999394017881,
+   "mass_B": 3.6534682768190175e-08,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996520112738,
+   "min_listed": 2.409723527998726e-09,
+   "top": [
+    [
+     "J",
+     -3.6954811548639555e-06
+    ],
+    [
+     " J",
+     -12.687503814697266
+    ],
+    [
+     "#",
+     -16.312503814697266
+    ],
+    [
+     "K",
+     -17.125003814697266
+    ],
+    [
+     "C",
+     -17.187503814697266
+    ]
+   ],
+   "provider": "Novita",
+   "served_model": "google/gemma-4-31b-it",
+   "prompt_tokens": 151,
+   "completion_tokens": 1,
+   "cost": 2.154e-05
+  }
+ ]
+}

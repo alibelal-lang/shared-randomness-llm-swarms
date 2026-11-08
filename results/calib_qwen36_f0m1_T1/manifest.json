@@ -1,0 +1,91 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/qwen3.6-35b-a3b.json --framing 0 --mapping 1 --seeds 200 --seed-offset 10000 --samplers independent pair_shared:restore block:2 --out results/calib_qwen36_f0m1_T1",
+ "created": "2026-11-07T12:39:39+0000",
+ "seconds": 6.2,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/qwen3.6-35b-a3b.json",
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32
+  ],
+  "T": 100,
+  "seeds": 200,
+  "seed_offset": 10000,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "block:2"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/calib_qwen36_f0m1_T1",
+  "func": "<function cmd_simulate at 0x1035eb480>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "openrouter",
+   "model": "qwen/qwen3.6-35b-a3b",
+   "provider_pin": "coreweave",
+   "top_logprobs": 20,
+   "disable_reasoning": true,
+   "H": 2,
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 2,
+   "prompt_hash": "0adadb7b1d5603ae",
+   "created": "2026-11-07T12:34:48+0000",
+   "seconds": 10.3,
+   "calls": 168,
+   "errors": 0,
+   "total_cost": 0.00263392,
+   "providers": [
+    "CoreWeave"
+   ]
+  },
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.06603723471791467,
+  "mean_valid_mass": 0.975669906066088,
+  "min_valid_mass": 0.9597210394618373,
+  "bounded_histories": []
+ },
+ "pA": {
+  "-": 0.7978124860305432,
+  "AA": 0.9770266588152351,
+  "AB": 0.9149200574325442,
+  "BA": 0.9149240025974296,
+  "BB": 0.7973470244550067,
+  "AA.AA": 0.9964067869643892,
+  "AA.AB": 0.904650536386234,
+  "AA.BA": 0.9512969969494168,
+  "AA.BB": 0.9395684214021703,
+  "AB.AA": 0.9375393879019024,
+  "AB.AB": 0.7981867777396212,
+  "AB.BA": 0.8802405187411183,
+  "AB.BB": 0.8175744828610095,
+  "BA.AA": 0.9647863178982746,
+  "BA.AB": 0.8354835371034369,
+  "BA.BA": 0.8807093383885195,
+  "BA.BB": 0.8354835371034369,
+  "BB.AA": 0.9046833129716385,
+  "BB.AB": 0.8175744761936437,
+  "BB.BA": 0.8670518760124298,
+  "BB.BB": 0.6223656407951708
+ }
+}

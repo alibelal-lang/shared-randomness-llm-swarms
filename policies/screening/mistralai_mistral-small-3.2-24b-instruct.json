@@ -1,0 +1,868 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "mistralai/mistral-small-3.2-24b-instruct",
+  "provider_pin": null,
+  "top_logprobs": 20,
+  "disable_reasoning": false,
+  "H": 2,
+  "framings": [
+   0
+  ],
+  "mappings": [
+   0
+  ],
+  "repeats": 1,
+  "prompt_hash": "354aaa6e76c8c655",
+  "created": "2026-11-07T12:37:40+0000",
+  "seconds": 8.1,
+  "calls": 21,
+  "errors": 0,
+  "total_cost": 0.00018342,
+  "providers": [
+   "Parasail"
+  ]
+ },
+ "records": [
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9996002880932943,
+   "min_listed": 2.3896558985367765e-05,
+   "top": [
+    [
+     "Al",
+     -0.6417760848999023
+    ],
+    [
+     "To",
+     -1.1417760848999023
+    ],
+    [
+     "This",
+     -2.3917760848999023
+    ],
+    [
+     "Given",
+     -3.6417760848999023
+    ],
+    [
+     "In",
+     -3.7667760848999023
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 108,
+   "completion_tokens": 1,
+   "cost": 1.002e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998255009264483,
+   "min_listed": 6.8132991265968474e-06,
+   "top": [
+    [
+     "Given",
+     -0.3966338336467743
+    ],
+    [
+     "Al",
+     -1.6466338634490967
+    ],
+    [
+     "To",
+     -2.1466338634490967
+    ],
+    [
+     "In",
+     -4.771633625030518
+    ],
+    [
+     "Based",
+     -5.771633625030518
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 8.35e-06
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998368924261696,
+   "min_listed": 6.53867761894997e-06,
+   "top": [
+    [
+     "Given",
+     -1.2502751350402832
+    ],
+    [
+     "Al",
+     -0.500275194644928
+    ],
+    [
+     "To",
+     -2.375275135040283
+    ],
+    [
+     "This",
+     -5.125275135040283
+    ],
+    [
+     "In",
+     -5.750275135040283
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 7.71e-06
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998702826464166,
+   "min_listed": 5.017639830714132e-06,
+   "top": [
+    [
+     "Given",
+     -1.7025508880615234
+    ],
+    [
+     "Al",
+     -0.3275509476661682
+    ],
+    [
+     "To",
+     -2.4525508880615234
+    ],
+    [
+     "This",
+     -5.452550888061523
+    ],
+    [
+     "In",
+     -5.952550888061523
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 8.35e-06
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.999858960895007,
+   "min_listed": 4.727272271677531e-06,
+   "top": [
+    [
+     "To",
+     -1.949662208557129
+    ],
+    [
+     "Al",
+     -0.4496622085571289
+    ],
+    [
+     "Given",
+     -1.574662208557129
+    ],
+    [
+     "This",
+     -5.449662208557129
+    ],
+    [
+     "In",
+     -5.574662208557129
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 7.71e-06
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 4.279857555717879e-05,
+   "mass_B": 1.5744716058908684e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998523533168504,
+   "min_listed": 7.437277248632791e-06,
+   "top": [
+    [
+     "Given",
+     -0.05900610610842705
+    ],
+    [
+     "Al",
+     -3.8090062141418457
+    ],
+    [
+     "Based",
+     -4.184006214141846
+    ],
+    [
+     "To",
+     -4.184006214141846
+    ],
+    [
+     "In",
+     -5.934006214141846
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.999858695898609,
+   "min_listed": 5.50059726899919e-06,
+   "top": [
+    [
+     "Al",
+     -0.29815348982810974
+    ],
+    [
+     "To",
+     -1.9231535196304321
+    ],
+    [
+     "Given",
+     -2.2981534004211426
+    ],
+    [
+     "This",
+     -5.548153400421143
+    ],
+    [
+     "Let",
+     -5.673153400421143
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.999886450189422,
+   "min_listed": 4.4218988714056794e-06,
+   "top": [
+    [
+     "Al",
+     -0.2039412409067154
+    ],
+    [
+     "To",
+     -2.0789413452148438
+    ],
+    [
+     "Given",
+     -2.9539413452148438
+    ],
+    [
+     "Let",
+     -5.828941345214844
+    ],
+    [
+     "This",
+     -6.328941345214844
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998366819709692,
+   "min_listed": 6.013632913160919e-06,
+   "top": [
+    [
+     "To",
+     -1.2714811563491821
+    ],
+    [
+     "Al",
+     -0.5214811563491821
+    ],
+    [
+     "Given",
+     -2.1464810371398926
+    ],
+    [
+     "This",
+     -6.021481037139893
+    ],
+    [
+     "Based",
+     -6.146481037139893
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9999179340972074,
+   "min_listed": 3.0066372359681284e-06,
+   "top": [
+    [
+     "Al",
+     -0.1521885097026825
+    ],
+    [
+     "To",
+     -2.152188539505005
+    ],
+    [
+     "Given",
+     -3.902188539505005
+    ],
+    [
+     "Let",
+     -6.402188301086426
+    ],
+    [
+     "This",
+     -6.652188301086426
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998569301726113,
+   "min_listed": 5.659406854388217e-06,
+   "top": [
+    [
+     "Given",
+     -0.2071913331747055
+    ],
+    [
+     "Al",
+     -1.8321913480758667
+    ],
+    [
+     "Based",
+     -4.332191467285156
+    ],
+    [
+     "To",
+     -4.582191467285156
+    ],
+    [
+     "This",
+     -7.082191467285156
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998255848658582,
+   "min_listed": 6.250839634882945e-06,
+   "top": [
+    [
+     "Al",
+     -0.5452945232391357
+    ],
+    [
+     "Given",
+     -1.0452945232391357
+    ],
+    [
+     "To",
+     -2.9202945232391357
+    ],
+    [
+     "Based",
+     -5.295294761657715
+    ],
+    [
+     "This",
+     -5.545294761657715
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9999218813077583,
+   "min_listed": 2.7164491296572008e-06,
+   "top": [
+    [
+     "Al",
+     -0.12868523597717285
+    ],
+    [
+     "To",
+     -2.378685235977173
+    ],
+    [
+     "Given",
+     -3.753685235977173
+    ],
+    [
+     "Let",
+     -6.128684997558594
+    ],
+    [
+     "This",
+     -6.878684997558594
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9999312113256557,
+   "min_listed": 2.391585735055234e-06,
+   "top": [
+    [
+     "To",
+     -2.2560534477233887
+    ],
+    [
+     "Al",
+     -0.13105344772338867
+    ],
+    [
+     "Given",
+     -4.256053447723389
+    ],
+    [
+     "Let",
+     -6.381053447723389
+    ],
+    [
+     "This",
+     -6.881053447723389
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998325057799129,
+   "min_listed": 6.249313737262089e-06,
+   "top": [
+    [
+     "To",
+     -2.9205384254455566
+    ],
+    [
+     "Al",
+     -0.5455385446548462
+    ],
+    [
+     "Given",
+     -1.0455385446548462
+    ],
+    [
+     "Based",
+     -5.045538425445557
+    ],
+    [
+     "This",
+     -5.670538425445557
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998416202896763,
+   "min_listed": 6.6708470638408495e-06,
+   "top": [
+    [
+     "Given",
+     -0.2927633225917816
+    ],
+    [
+     "Al",
+     -1.542763352394104
+    ],
+    [
+     "To",
+     -3.9177632331848145
+    ],
+    [
+     "Based",
+     -4.1677632331848145
+    ],
+    [
+     "Let",
+     -6.6677632331848145
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9999233982808586,
+   "min_listed": 2.9015759475377846e-06,
+   "top": [
+    [
+     "Al",
+     -0.1252562254667282
+    ],
+    [
+     "To",
+     -2.375256299972534
+    ],
+    [
+     "Given",
+     -3.875256299972534
+    ],
+    [
+     "Let",
+     -6.500256061553955
+    ],
+    [
+     "This",
+     -6.750256061553955
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 0.0,
+   "found_A": false,
+   "found_B": false,
+   "listed_mass": 0.9998777078760122,
+   "min_listed": 4.982501349063578e-06,
+   "top": [
+    [
+     "To",
+     -1.4595788717269897
+    ],
+    [
+     "Al",
+     -0.33457884192466736
+    ],
+    [
+     "Given",
+     -3.0845787525177
+    ],
+    [
+     "Let",
+     -6.209578990936279
+    ],
+    [
+     "This",
+     -6.334578990936279
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 3.650675235105994e-06,
+   "found_A": false,
+   "found_B": true,
+   "listed_mass": 0.9999033340065546,
+   "min_listed": 3.650675235105994e-06,
+   "top": [
+    [
+     "Al",
+     -0.1455981433391571
+    ],
+    [
+     "To",
+     -2.3955981731414795
+    ],
+    [
+     "Given",
+     -3.2705981731414795
+    ],
+    [
+     "Let",
+     -5.7705979347229
+    ],
+    [
+     "This",
+     -6.5205979347229
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 4.822233619585196e-06,
+   "found_A": false,
+   "found_B": true,
+   "listed_mass": 0.9998849533269804,
+   "min_listed": 4.255606232823237e-06,
+   "top": [
+    [
+     "To",
+     -2.4297733306884766
+    ],
+    [
+     "Al",
+     -0.17977343499660492
+    ],
+    [
+     "Given",
+     -2.6797733306884766
+    ],
+    [
+     "Let",
+     -5.679773330688477
+    ],
+    [
+     "This",
+     -6.304773330688477
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 9.15e-06
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.0,
+   "mass_B": 2.916361153425017e-05,
+   "found_A": false,
+   "found_B": true,
+   "listed_mass": 0.9998633712013062,
+   "min_listed": 8.355514598329842e-06,
+   "top": [
+    [
+     "Given",
+     -0.1925891488790512
+    ],
+    [
+     "Al",
+     -2.067589044570923
+    ],
+    [
+     "To",
+     -3.317589044570923
+    ],
+    [
+     "Based",
+     -4.942589282989502
+    ],
+    [
+     "In",
+     -6.192589282989502
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "mistralai/mistral-small-3.2-24b-instruct",
+   "prompt_tokens": 141,
+   "completion_tokens": 1,
+   "cost": 8.51e-06
+  }
+ ]
+}

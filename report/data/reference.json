@@ -1,0 +1,38 @@
+[
+{
+"N": 4,
+"indep_first": 0.3911,
+"restore_first": 0.3911,
+"restore_terminal": 0.3085,
+"plan_indep_first": 0.3911,
+"plan_restore_first": 0.3911,
+"plan_restore_terminal": 0.3085
+},
+{
+"N": 8,
+"indep_first": 0.0255,
+"restore_first": 0.6308,
+"restore_terminal": 0.4153,
+"plan_indep_first": 0.0255,
+"plan_restore_first": 0.6308,
+"plan_restore_terminal": 0.4153
+},
+{
+"N": 16,
+"indep_first": 0.00016,
+"restore_first": 0.6941,
+"restore_terminal": 0.4295,
+"plan_indep_first": 0.00016,
+"plan_restore_first": 0.6941,
+"plan_restore_terminal": 0.4295
+},
+{
+"N": 32,
+"indep_first": 9.4e-08,
+"restore_first": 0.7157,
+"restore_terminal": 0.4314,
+"plan_indep_first": "< 0.00001",
+"plan_restore_first": 0.7157,
+"plan_restore_terminal": 0.4314
+}
+]

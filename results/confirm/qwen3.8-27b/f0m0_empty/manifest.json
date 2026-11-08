@@ -1,0 +1,96 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_qwen3.8-27b.json --framing 0 --mapping 0 --init empty --seeds 500 --seed-offset 0 --out results/confirm/qwen3.8-27b/f0m0_empty",
+ "created": "2026-11-07T15:31:41+0000",
+ "seconds": 237.6,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_qwen3.8-27b.json",
+  "framing": 0,
+  "mapping": 0,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2"
+  ],
+  "N0": 4,
+  "init": "empty",
+  "threshold": 0.75,
+  "out": "results/confirm/qwen3.8-27b/f0m0_empty",
+  "func": "<function cmd_simulate at 0x103219590>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "qwen3.8-27b",
+   "samples_per_prompt": 200,
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "H": 2,
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 1,
+   "prompt_hash": "0adadb7b1d5603ae",
+   "created": "2026-11-07T15:23:39+0000",
+   "seconds": 2883.4,
+   "calls": 16800,
+   "errors": 0,
+   "total_cost": 0.1396966,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 0,
+  "mapping": 0,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 0.9969201610992655,
+  "min_valid_mass": 0.9651741293532339,
+  "bounded_histories": [],
+  "samples": 4200,
+  "invalid_rate": 0.0030952380952380953
+ },
+ "pA": {
+  "-": 0.9029850746268658,
+  "AA": 0.9179104477611941,
+  "AB": 0.6136363636363635,
+  "BA": 0.7587064676616915,
+  "BB": 0.5398009950248757,
+  "AA.AA": 0.9776119402985075,
+  "AA.AB": 0.5298507462686567,
+  "AA.BA": 0.7487562189054726,
+  "AA.BB": 0.7139303482587065,
+  "AB.AA": 0.7835820895522388,
+  "AB.AB": 0.4452736318407961,
+  "AB.BA": 0.6005025125628141,
+  "AB.BB": 0.35074626865671643,
+  "BA.AA": 0.8233830845771144,
+  "BA.AB": 0.7487562189054726,
+  "BA.BA": 0.7238805970149254,
+  "BA.BB": 0.43532338308457713,
+  "BB.AA": 0.8781094527363185,
+  "BB.AB": 0.345771144278607,
+  "BB.BA": 0.5077319587628866,
+  "BB.BB": 0.5575
+ }
+}

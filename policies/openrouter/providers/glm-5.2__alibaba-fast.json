@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "z-ai/glm-5.2",
+  "provider_pin": "alibaba/fast",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:27+0000",
+  "seconds": 14.1,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.02690688,
+  "providers": [
+   "Alibaba"
+  ]
+ },
+ "records": [
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9668042983744329,
+   "mass_B": 0.033082226084339666,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999640819251087,
+   "min_listed": 1.2451443174606405e-06,
+   "top": [
+    [
+     "J",
+     -0.033759184181690216
+    ],
+    [
+     "K",
+     -3.408759117126465
+    ],
+    [
+     "R",
+     -11.033759117126465
+    ],
+    [
+     "I",
+     -11.658759117126465
+    ],
+    [
+     "In",
+     -11.783759117126465
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9996583437269434,
+   "mass_B": 0.00029594367307755036,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999840536939254,
+   "min_listed": 4.449333170185316e-07,
+   "top": [
+    [
+     "J",
+     -0.00034171465085819364
+    ],
+    [
+     "K",
+     -8.125341415405273
+    ],
+    [
+     "I",
+     -11.625341415405272
+    ],
+    [
+     "The",
+     -12.500341415405272
+    ],
+    [
+     "Either",
+     -12.625341415405272
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 111,
+   "completion_tokens": 1,
+   "cost": 0.00026367
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9996988488532895,
+   "mass_B": 0.00020340706080082088,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999859893415879,
+   "min_listed": 3.0581014733632615e-07,
+   "top": [
+    [
+     "J",
+     -0.00030119650182314217
+    ],
+    [
+     "K",
+     -8.500301361083984
+    ],
+    [
+     "Based",
+     -10.500301361083984
+    ],
+    [
+     "The",
+     -10.625301361083984
+    ],
+    [
+     "Since",
+     -11.625301361083984
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9998924734589592,
+   "mass_B": 2.4298189443974773e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999841245358271,
+   "min_listed": 5.368169268682463e-07,
+   "top": [
+    [
+     "J",
+     -0.00010847456724150106
+    ],
+    [
+     "R",
+     -10.50010871887207
+    ],
+    [
+     "K",
+     -10.62510871887207
+    ],
+    [
+     "The",
+     -11.00010871887207
+    ],
+    [
+     "To",
+     -12.50010871887207
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9921808142430494,
+   "mass_B": 0.007575395685068434,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999517488450003,
+   "min_listed": 1.277826853862297e-06,
+   "top": [
+    [
+     "J",
+     -0.007849915884435177
+    ],
+    [
+     "K",
+     -4.88284969329834
+    ],
+    [
+     "R",
+     -9.75784969329834
+    ],
+    [
+     "Reason",
+     -10.50784969329834
+    ],
+    [
+     "The",
+     -10.63284969329834
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9998421918100967,
+   "mass_B": 6.604611444125634e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999983962444686,
+   "min_listed": 5.714108514961739e-07,
+   "top": [
+    [
+     "J",
+     -0.0001578206429257989
+    ],
+    [
+     "K",
+     -9.625157356262209
+    ],
+    [
+     "The",
+     -10.250157356262209
+    ],
+    [
+     "R",
+     -11.375157356262209
+    ],
+    [
+     "Based",
+     -12.000157356262209
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8806380005963759,
+   "mass_B": 0.11918140034339965,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999539386750246,
+   "min_listed": 1.9905320882979423e-06,
+   "top": [
+    [
+     "J",
+     -0.127108633518219
+    ],
+    [
+     "K",
+     -2.127108573913574
+    ],
+    [
+     "The",
+     -10.127108573913574
+    ],
+    [
+     "Consider",
+     -10.752108573913574
+    ],
+    [
+     "Given",
+     -11.377108573913574
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9996489327134428,
+   "mass_B": 0.0002611668841370728,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999788430069029,
+   "min_listed": 4.179721839757617e-07,
+   "top": [
+    [
+     "J",
+     -0.0003511289251036942
+    ],
+    [
+     "K",
+     -8.250350952148438
+    ],
+    [
+     "The",
+     -10.375350952148438
+    ],
+    [
+     "Reason",
+     -11.250350952148438
+    ],
+    [
+     "R",
+     -11.750350952148438
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9996409513780614,
+   "mass_B": 0.00026116464253334547,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999808453494485,
+   "min_listed": 4.44925254983511e-07,
+   "top": [
+    [
+     "J",
+     -0.0003591130953282118
+    ],
+    [
+     "K",
+     -8.250359535217285
+    ],
+    [
+     "The",
+     -10.000359535217283
+    ],
+    [
+     "R",
+     -11.625359535217283
+    ],
+    [
+     "Reason",
+     -12.000359535217283
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9952961560004824,
+   "mass_B": 0.004609133306128004,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999783303367887,
+   "min_listed": 6.054971871312384e-07,
+   "top": [
+    [
+     "J",
+     -0.004715631250292063
+    ],
+    [
+     "K",
+     -5.379715442657471
+    ],
+    [
+     "R",
+     -10.379715919494627
+    ],
+    [
+     "The",
+     -11.442215919494627
+    ],
+    [
+     "I",
+     -11.504715919494627
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.2688633176900789,
+   "mass_B": 0.7308463143779864,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999442337413016,
+   "min_listed": 1.6519537117645992e-06,
+   "top": [
+    [
+     "K",
+     -0.3135520815849304
+    ],
+    [
+     "J",
+     -1.3135521411895752
+    ],
+    [
+     "Based",
+     -9.438551902770996
+    ],
+    [
+     "Reason",
+     -10.188551902770996
+    ],
+    [
+     "R",
+     -10.688551902770996
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8169886233953885,
+   "mass_B": 0.1822948078104668,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999123992192978,
+   "min_listed": 4.715619234219255e-06,
+   "top": [
+    [
+     "J",
+     -0.20213010907173157
+    ],
+    [
+     "K",
+     -1.7021300792694092
+    ],
+    [
+     "Based",
+     -8.827130317687988
+    ],
+    [
+     "All",
+     -8.952130317687988
+    ],
+    [
+     "The",
+     -9.202130317687988
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999018894185389,
+   "mass_B": 5.143980707877344e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999876852730799,
+   "min_listed": 3.465986937399569e-07,
+   "top": [
+    [
+     "J",
+     -9.846202738117428e-05
+    ],
+    [
+     "K",
+     -9.87509822845459
+    ],
+    [
+     "The",
+     -11.50009822845459
+    ],
+    [
+     "Reason",
+     -12.37509822845459
+    ],
+    [
+     "Based",
+     -12.56259822845459
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9146944573894924,
+   "mass_B": 0.08507983647012027,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999344062375956,
+   "min_listed": 1.942247531846905e-06,
+   "top": [
+    [
+     "J",
+     -0.08916519582271576
+    ],
+    [
+     "K",
+     -2.464165210723877
+    ],
+    [
+     "The",
+     -10.71416473388672
+    ],
+    [
+     "Based",
+     -10.71416473388672
+    ],
+    [
+     "Reason",
+     -10.96416473388672
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.997235570459113,
+   "mass_B": 0.002181444428516356,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998646942759862,
+   "min_listed": 5.755995696808096e-06,
+   "top": [
+    [
+     "J",
+     -0.0027682576328516006
+    ],
+    [
+     "K",
+     -6.127768039703369
+    ],
+    [
+     "R",
+     -9.252768516540527
+    ],
+    [
+     "The",
+     -9.752768516540527
+    ],
+    [
+     "Consider",
+     -10.127768516540527
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9897169162588242,
+   "mass_B": 0.009702842462018363,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999283387781913,
+   "min_listed": 1.8546103789994865e-06,
+   "top": [
+    [
+     "J",
+     -0.010336319915950298
+    ],
+    [
+     "K",
+     -4.635336399078369
+    ],
+    [
+     "R",
+     -8.010335922241211
+    ],
+    [
+     "Reason",
+     -10.010335922241213
+    ],
+    [
+     "Based",
+     -10.385335922241213
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.972843761168889,
+   "mass_B": 0.025925406056282876,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998173017519195,
+   "min_listed": 4.6551723470937315e-06,
+   "top": [
+    [
+     "J",
+     -0.027531784027814865
+    ],
+    [
+     "K",
+     -3.652531862258911
+    ],
+    [
+     "Based",
+     -8.027531623840332
+    ],
+    [
+     "R",
+     -8.027531623840332
+    ],
+    [
+     "The",
+     -9.027531623840332
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9957512705329677,
+   "mass_B": 0.004069408267225948,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999946377621688,
+   "min_listed": 1.4531773023218308e-06,
+   "top": [
+    [
+     "J",
+     -0.0042577809654176235
+    ],
+    [
+     "K",
+     -5.504257678985596
+    ],
+    [
+     "The",
+     -10.379258155822754
+    ],
+    [
+     "Reason",
+     -11.129258155822754
+    ],
+    [
+     "Based",
+     -11.254258155822754
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999799649338783,
+   "mass_B": 9.609240555376725e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999785630371189,
+   "min_listed": 5.367677820604388e-07,
+   "top": [
+    [
+     "J",
+     -0.0002003707340918481
+    ],
+    [
+     "K",
+     -9.250200271606444
+    ],
+    [
+     "The",
+     -10.625200271606444
+    ],
+    [
+     "R",
+     -10.875200271606444
+    ],
+    [
+     "Based",
+     -11.375200271606444
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9977829842478886,
+   "mass_B": 0.0010310065953032259,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999343098875885,
+   "min_listed": 2.8958867202712854e-06,
+   "top": [
+    [
+     "J",
+     -0.002219476969912648
+    ],
+    [
+     "K",
+     -6.8772196769714355
+    ],
+    [
+     "Based",
+     -7.0022196769714355
+    ],
+    [
+     "Consider",
+     -9.752219200134276
+    ],
+    [
+     "Given",
+     -10.252219200134276
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9982323951722814,
+   "mass_B": 0.0015007818612237688,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999496416931068,
+   "min_listed": 1.4567988967309301e-06,
+   "top": [
+    [
+     "J",
+     -0.0017691688844934106
+    ],
+    [
+     "K",
+     -6.501769065856934
+    ],
+    [
+     "Based",
+     -9.626769065856934
+    ],
+    [
+     "R",
+     -10.001769065856934
+    ],
+    [
+     "Reason",
+     -10.501769065856934
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.903553514407122,
+   "mass_B": 0.09523384118775279,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997799807672109,
+   "min_listed": 7.128423881039769e-06,
+   "top": [
+    [
+     "K",
+     -0.10141994059085846
+    ],
+    [
+     "J",
+     -2.3514199256896973
+    ],
+    [
+     "R",
+     -8.101420402526855
+    ],
+    [
+     "I",
+     -8.351420402526855
+    ],
+    [
+     "The",
+     -9.476420402526855
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 111,
+   "completion_tokens": 1,
+   "cost": 0.00026367
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.981943866858634,
+   "mass_B": 0.01798493346183316,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999799384863346,
+   "min_listed": 4.952412093303416e-07,
+   "top": [
+    [
+     "K",
+     -0.018221134319901463
+    ],
+    [
+     "J",
+     -4.018220901489258
+    ],
+    [
+     "I",
+     -11.018220901489258
+    ],
+    [
+     "R",
+     -11.768220901489258
+    ],
+    [
+     "The",
+     -12.018220901489258
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.3774572804277622,
+   "mass_B": 0.6223218470218748,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999698136699199,
+   "min_listed": 1.2413668047478083e-06,
+   "top": [
+    [
+     "J",
+     -0.4742978811264038
+    ],
+    [
+     "K",
+     -0.9742978811264038
+    ],
+    [
+     "Given",
+     -9.349297523498535
+    ],
+    [
+     "Based",
+     -10.099297523498535
+    ],
+    [
+     "I",
+     -11.349297523498535
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7544189095900655,
+   "mass_B": 0.2449239750188166,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999503408973857,
+   "min_listed": 2.641118914162058e-06,
+   "top": [
+    [
+     "K",
+     -0.28180748224258423
+    ],
+    [
+     "J",
+     -1.4068074226379397
+    ],
+    [
+     "R",
+     -7.7818074226379395
+    ],
+    [
+     "Given",
+     -9.906807899475098
+    ],
+    [
+     "I",
+     -10.281807899475098
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9946258764299777,
+   "mass_B": 0.005219316957385812,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999529397742869,
+   "min_listed": 1.2033656004271544e-06,
+   "top": [
+    [
+     "K",
+     -0.005388616118580103
+    ],
+    [
+     "J",
+     -5.2553887367248535
+    ],
+    [
+     "I",
+     -10.630388259887695
+    ],
+    [
+     "R",
+     -11.005388259887695
+    ],
+    [
+     "The",
+     -11.255388259887695
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 128,
+   "completion_tokens": 1,
+   "cost": 0.00030294
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9240860631007619,
+   "mass_B": 0.07585350544266613,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999823632087897,
+   "min_listed": 4.660598229493833e-07,
+   "top": [
+    [
+     "K",
+     -0.07895144075155258
+    ],
+    [
+     "J",
+     -2.578951358795166
+    ],
+    [
+     "R",
+     -11.203951835632324
+    ],
+    [
+     "The",
+     -11.828951835632324
+    ],
+    [
+     "I",
+     -12.578951835632324
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9947276612396739,
+   "mass_B": 0.0052198520691322985,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999864964510116,
+   "min_listed": 3.907154791176528e-07,
+   "top": [
+    [
+     "K",
+     -0.00528628658503294
+    ],
+    [
+     "J",
+     -5.25528621673584
+    ],
+    [
+     "Based",
+     -11.13028621673584
+    ],
+    [
+     "I",
+     -12.25528621673584
+    ],
+    [
+     "The",
+     -12.38028621673584
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5924259042169866,
+   "mass_B": 0.40716797244638225,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999182048519135,
+   "min_listed": 2.3501555212694144e-06,
+   "top": [
+    [
+     "K",
+     -0.5235294699668884
+    ],
+    [
+     "J",
+     -0.8985294699668884
+    ],
+    [
+     "R",
+     -9.398529052734377
+    ],
+    [
+     "Based",
+     -9.523529052734377
+    ],
+    [
+     "The",
+     -10.148529052734377
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9739406171859263,
+   "mass_B": 0.0259546405793992,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999766153917473,
+   "min_listed": 8.098592786190748e-07,
+   "top": [
+    [
+     "K",
+     -0.02640494517982006
+    ],
+    [
+     "J",
+     -3.651404857635498
+    ],
+    [
+     "R",
+     -10.526405334472656
+    ],
+    [
+     "The",
+     -10.776405334472656
+    ],
+    [
+     "Based",
+     -11.526405334472656
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8932035329814983,
+   "mass_B": 0.1066788468571693,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999784230638364,
+   "min_listed": 7.427222761196901e-07,
+   "top": [
+    [
+     "K",
+     -0.11294320970773696
+    ],
+    [
+     "J",
+     -2.237943172454834
+    ],
+    [
+     "I",
+     -10.237943649291992
+    ],
+    [
+     "R",
+     -11.112943649291992
+    ],
+    [
+     "Given",
+     -11.487943649291992
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.06751094374242717,
+   "mass_B": 0.9319597618273222,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999342920261484,
+   "min_listed": 2.540966489668749e-06,
+   "top": [
+    [
+     "J",
+     -0.07046563923358917
+    ],
+    [
+     "K",
+     -2.695465564727783
+    ],
+    [
+     "Based",
+     -8.445466041564941
+    ],
+    [
+     "The",
+     -8.945466041564941
+    ],
+    [
+     "Given",
+     -10.69546604156494
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9920981419148107,
+   "mass_B": 0.006684673514281645,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999126955869398,
+   "min_listed": 3.69718667733396e-06,
+   "top": [
+    [
+     "K",
+     -0.007938028313219547
+    ],
+    [
+     "J",
+     -5.007937908172607
+    ],
+    [
+     "A",
+     -7.632937908172607
+    ],
+    [
+     "The",
+     -7.882937908172607
+    ],
+    [
+     "R",
+     -8.632938385009766
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.24496666506429193,
+   "mass_B": 0.7545504266669366,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999384203145708,
+   "min_listed": 2.8119471544137035e-06,
+   "top": [
+    [
+     "J",
+     -0.2816331684589386
+    ],
+    [
+     "K",
+     -1.4066331386566162
+    ],
+    [
+     "Based",
+     -8.406633377075195
+    ],
+    [
+     "The",
+     -9.656633377075195
+    ],
+    [
+     "**",
+     -10.156633377075195
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5309583062082819,
+   "mass_B": 0.4685690606303719,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999162876092841,
+   "min_listed": 4.459063019068145e-06,
+   "top": [
+    [
+     "K",
+     -0.633071780204773
+    ],
+    [
+     "J",
+     -0.758071780204773
+    ],
+    [
+     "R",
+     -8.758071899414062
+    ],
+    [
+     "The",
+     -10.008071899414062
+    ],
+    [
+     "Based",
+     -10.133071899414062
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7307104576435077,
+   "mass_B": 0.2688133548160225,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999514822964832,
+   "min_listed": 2.1207561268468453e-06,
+   "top": [
+    [
+     "K",
+     -0.31373798847198486
+    ],
+    [
+     "J",
+     -1.3137379884719849
+    ],
+    [
+     "**",
+     -8.563737869262695
+    ],
+    [
+     "Based",
+     -8.938737869262695
+    ],
+    [
+     "Given",
+     -10.188737869262695
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9240625928635585,
+   "mass_B": 0.07585164272238402,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999787912428739,
+   "min_listed": 4.66048711349768e-07,
+   "top": [
+    [
+     "K",
+     -0.07897600531578064
+    ],
+    [
+     "J",
+     -2.5789759159088135
+    ],
+    [
+     "R",
+     -10.203975677490234
+    ],
+    [
+     "I",
+     -12.078975677490234
+    ],
+    [
+     "The",
+     -12.203975677490234
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5923467414921422,
+   "mass_B": 0.4071135647543168,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999069252119365,
+   "min_listed": 3.0172536708954406e-06,
+   "top": [
+    [
+     "K",
+     -0.5236631035804749
+    ],
+    [
+     "J",
+     -0.8986631035804749
+    ],
+    [
+     "Based",
+     -8.273663520812988
+    ],
+    [
+     "R",
+     -10.023663520812988
+    ],
+    [
+     "Analysis",
+     -10.648663520812988
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9988909161192469,
+   "mass_B": 0.0010321517273875966,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999721847438638,
+   "min_listed": 6.076844557802235e-07,
+   "top": [
+    [
+     "K",
+     -0.0011096993694081905
+    ],
+    [
+     "J",
+     -6.876109600067139
+    ],
+    [
+     "The",
+     -11.626110076904297
+    ],
+    [
+     "R",
+     -11.751110076904297
+    ],
+    [
+     "P",
+     -12.063610076904297
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6512041440932861,
+   "mass_B": 0.3485644708128892,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999488204219027,
+   "min_listed": 1.4719357452406656e-06,
+   "top": [
+    [
+     "K",
+     -0.4289321005344391
+    ],
+    [
+     "J",
+     -1.0539320707321167
+    ],
+    [
+     "R",
+     -10.053932189941406
+    ],
+    [
+     "Based",
+     -10.428932189941406
+    ],
+    [
+     "The",
+     -10.428932189941406
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9463827501337244,
+   "mass_B": 0.05339125508967664,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999546172336903,
+   "min_listed": 2.009533262893029e-06,
+   "top": [
+    [
+     "K",
+     -0.055108193308115005
+    ],
+    [
+     "J",
+     -2.9301083087921143
+    ],
+    [
+     "Based",
+     -10.180108070373535
+    ],
+    [
+     "Consider",
+     -10.680108070373535
+    ],
+    [
+     "Analysis",
+     -10.680108070373535
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9888426129940396,
+   "mass_B": 0.010985050474137248,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999657541698175,
+   "min_listed": 9.918241849003433e-07,
+   "top": [
+    [
+     "K",
+     -0.011220097541809082
+    ],
+    [
+     "J",
+     -4.5112199783325195
+    ],
+    [
+     "R",
+     -9.63621997833252
+    ],
+    [
+     "I",
+     -10.63621997833252
+    ],
+    [
+     "KK",
+     -12.01121997833252
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 144,
+   "completion_tokens": 1,
+   "cost": 0.0003399
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9934544891565108,
+   "mass_B": 0.0059072795748326525,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999388469570606,
+   "min_listed": 2.7086238340497755e-06,
+   "top": [
+    [
+     "J",
+     -0.006569928955286741
+    ],
+    [
+     "K",
+     -5.131569862365723
+    ],
+    [
+     "I",
+     -7.881569862365723
+    ],
+    [
+     "This",
+     -10.006569862365724
+    ],
+    [
+     "Round",
+     -10.381569862365724
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 105,
+   "completion_tokens": 1,
+   "cost": 0.00024981
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9958872172405152,
+   "mass_B": 0.004069963272360701,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999823064273922,
+   "min_listed": 3.2429221589196623e-07,
+   "top": [
+    [
+     "J",
+     -0.004121263511478901
+    ],
+    [
+     "K",
+     -5.50412130355835
+    ],
+    [
+     "KK",
+     -11.691620826721191
+    ],
+    [
+     "The",
+     -12.004120826721191
+    ],
+    [
+     "Based",
+     -13.129120826721191
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9034333360347337,
+   "mass_B": 0.09522117235194612,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999415759930128,
+   "min_listed": 2.7911608783042096e-06,
+   "top": [
+    [
+     "J",
+     -0.10155295580625534
+    ],
+    [
+     "K",
+     -2.351552963256836
+    ],
+    [
+     "#",
+     -6.851552963256836
+    ],
+    [
+     "Based",
+     -9.476552963256836
+    ],
+    [
+     "R",
+     -9.851552963256836
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9392641689374135,
+   "mass_B": 0.06004486076438118,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998673499715308,
+   "min_listed": 4.2221626777652214e-06,
+   "top": [
+    [
+     "J",
+     -0.06266329437494278
+    ],
+    [
+     "K",
+     -2.812663316726685
+    ],
+    [
+     "```",
+     -8.437663078308105
+    ],
+    [
+     "Based",
+     -9.437663078308104
+    ],
+    [
+     "#",
+     -9.437663078308104
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.866594156382259,
+   "mass_B": 0.13289653000188523,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998814797237383,
+   "min_listed": 3.659497694661722e-06,
+   "top": [
+    [
+     "J",
+     -0.14318451285362244
+    ],
+    [
+     "K",
+     -2.0181844234466553
+    ],
+    [
+     "KK",
+     -9.518184661865234
+    ],
+    [
+     "I",
+     -9.643184661865234
+    ],
+    [
+     "#",
+     -9.643184661865234
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.991142863656616,
+   "mass_B": 0.008575063954581148,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999899827460493,
+   "min_listed": 2.2403088375434027e-06,
+   "top": [
+    [
+     "J",
+     -0.008896593935787678
+    ],
+    [
+     "K",
+     -4.758896827697754
+    ],
+    [
+     "Consider",
+     -10.008896827697754
+    ],
+    [
+     "The",
+     -10.508896827697754
+    ],
+    [
+     "R",
+     -10.571396827697754
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9320069728404095,
+   "mass_B": 0.06751435615168165,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.99990919492123,
+   "min_listed": 2.8794405298624475e-06,
+   "top": [
+    [
+     "J",
+     -0.07041498273611069
+    ],
+    [
+     "K",
+     -2.6954150199890137
+    ],
+    [
+     "My",
+     -8.570414543151855
+    ],
+    [
+     "The",
+     -10.320414543151855
+    ],
+    [
+     "R",
+     -10.570414543151855
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9239044483064836,
+   "mass_B": 0.07583869536785168,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999376389405427,
+   "min_listed": 1.9618034402612514e-06,
+   "top": [
+    [
+     "J",
+     -0.0791466236114502
+    ],
+    [
+     "K",
+     -2.57914662361145
+    ],
+    [
+     "Based",
+     -9.704146385192873
+    ],
+    [
+     "R",
+     -10.079146385192873
+    ],
+    [
+     "KK",
+     -10.704146385192873
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8173018494366486,
+   "mass_B": 0.182364687119516,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999503570021933,
+   "min_listed": 1.8473711293818919e-06,
+   "top": [
+    [
+     "J",
+     -0.20174679160118103
+    ],
+    [
+     "K",
+     -1.7017468214035034
+    ],
+    [
+     "Based",
+     -8.951746940612793
+    ],
+    [
+     "Just",
+     -10.576746940612791
+    ],
+    [
+     "The",
+     -10.701746940612791
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9239209347343877,
+   "mass_B": 0.07584005148152553,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999545517368529,
+   "min_listed": 1.3483496173433367e-06,
+   "top": [
+    [
+     "J",
+     -0.07912877947092056
+    ],
+    [
+     "K",
+     -2.5791287422180176
+    ],
+    [
+     "R",
+     -9.579129219055176
+    ],
+    [
+     "```",
+     -9.829129219055176
+    ],
+    [
+     "Based",
+     -11.329129219055176
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9316858754303609,
+   "mass_B": 0.06749110045981074,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.99981523418019,
+   "min_listed": 5.377646283702959e-06,
+   "top": [
+    [
+     "J",
+     -0.07075956463813782
+    ],
+    [
+     "K",
+     -2.695759534835815
+    ],
+    [
+     "Based",
+     -8.195759773254395
+    ],
+    [
+     "```",
+     -9.820759773254396
+    ],
+    [
+     "This",
+     -9.945759773254396
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8352688114305684,
+   "mass_B": 0.16447417110118442,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999411642784252,
+   "min_listed": 1.470362985343984e-06,
+   "top": [
+    [
+     "J",
+     -0.18000167608261108
+    ],
+    [
+     "K",
+     -1.805001735687256
+    ],
+    [
+     "Based",
+     -9.430001258850098
+    ],
+    [
+     "The",
+     -10.805001258850098
+    ],
+    [
+     "R",
+     -10.992501258850098
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6787051793551295,
+   "mass_B": 0.320597616344901,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998077542821494,
+   "min_listed": 6.875346787841602e-06,
+   "top": [
+    [
+     "J",
+     -0.3875684440135956
+    ],
+    [
+     "K",
+     -1.137568473815918
+    ],
+    [
+     "(",
+     -8.887568473815918
+    ],
+    [
+     "(K",
+     -9.387568473815918
+    ],
+    [
+     "This",
+     -9.887568473815918
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9322422997499299,
+   "mass_B": 0.06753140468464039,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999544974322816,
+   "min_listed": 1.360493885370005e-06,
+   "top": [
+    [
+     "J",
+     -0.07016251981258392
+    ],
+    [
+     "K",
+     -2.695162534713745
+    ],
+    [
+     "R",
+     -9.945162773132324
+    ],
+    [
+     "Based",
+     -9.945162773132324
+    ],
+    [
+     "KK",
+     -10.195162773132324
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.879898292669388,
+   "mass_B": 0.11908127933447543,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997794916176761,
+   "min_listed": 6.941804790499939e-06,
+   "top": [
+    [
+     "J",
+     -0.12794895470142365
+    ],
+    [
+     "K",
+     -2.1279489994049072
+    ],
+    [
+     "My",
+     -8.502948760986328
+    ],
+    [
+     "#",
+     -8.627948760986328
+    ],
+    [
+     "I",
+     -9.377948760986328
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9454172668016007,
+   "mass_B": 0.053336788041868394,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998352660157408,
+   "min_listed": 3.7504733402079396e-06,
+   "top": [
+    [
+     "J",
+     -0.05612889677286148
+    ],
+    [
+     "K",
+     -2.931128978729248
+    ],
+    [
+     "Based",
+     -7.181128978729248
+    ],
+    [
+     "My",
+     -9.43112850189209
+    ],
+    [
+     "The",
+     -9.68112850189209
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9042406548040672,
+   "mass_B": 0.09530625389244364,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998374506723392,
+   "min_listed": 4.326899295868362e-06,
+   "top": [
+    [
+     "J",
+     -0.10065974295139311
+    ],
+    [
+     "K",
+     -2.3506598472595215
+    ],
+    [
+     "R",
+     -10.163159370422363
+    ],
+    [
+     "The",
+     -10.288159370422363
+    ],
+    [
+     "I",
+     -10.413159370422363
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9734936025957438,
+   "mass_B": 0.025942725095384048,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998872898616771,
+   "min_listed": 3.627872927507562e-06,
+   "top": [
+    [
+     "J",
+     -0.026864025741815567
+    ],
+    [
+     "K",
+     -3.651864051818848
+    ],
+    [
+     "```",
+     -8.151864051818848
+    ],
+    [
+     "The",
+     -10.464364051818848
+    ],
+    [
+     "G",
+     -11.026864051818848
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7055761907739218,
+   "mass_B": 0.2941278983916961,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999092881315053,
+   "min_listed": 2.0478080562820883e-06,
+   "top": [
+    [
+     "J",
+     -0.34874051809310913
+    ],
+    [
+     "K",
+     -1.223740577697754
+    ],
+    [
+     "The",
+     -9.473740577697754
+    ],
+    [
+     "Based",
+     -9.723740577697754
+    ],
+    [
+     "R",
+     -10.973740577697754
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9240832677571262,
+   "mass_B": 0.07585337884857685,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999841698532763,
+   "min_listed": 4.1129595792937713e-07,
+   "top": [
+    [
+     "J",
+     -0.0789530947804451
+    ],
+    [
+     "K",
+     -2.5789530277252197
+    ],
+    [
+     "Based",
+     -11.70395278930664
+    ],
+    [
+     "The",
+     -11.82895278930664
+    ],
+    [
+     "Considering",
+     -11.95395278930664
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9318800383478256,
+   "mass_B": 0.0675051655747961,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997108533422256,
+   "min_listed": 5.725670379180941e-06,
+   "top": [
+    [
+     "J",
+     -0.07055118680000305
+    ],
+    [
+     "K",
+     -2.6955511569976807
+    ],
+    [
+     "KK",
+     -9.508050918579102
+    ],
+    [
+     "JJ",
+     -10.508050918579102
+    ],
+    [
+     "R",
+     -10.508050918579102
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9769318488238075,
+   "mass_B": 0.022975236479889024,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999799383305201,
+   "min_listed": 3.837255252722434e-07,
+   "top": [
+    [
+     "K",
+     -0.02333838492631912
+    ],
+    [
+     "J",
+     -3.7733383178710938
+    ],
+    [
+     "The",
+     -10.648338317871094
+    ],
+    [
+     "##",
+     -10.898338317871094
+    ],
+    [
+     "Based",
+     -11.398338317871094
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6789246169881775,
+   "mass_B": 0.32070128089771915,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998912708571176,
+   "min_listed": 3.2487339926946542e-06,
+   "top": [
+    [
+     "K",
+     -0.38724517822265625
+    ],
+    [
+     "J",
+     -1.1372451782226562
+    ],
+    [
+     "I",
+     -9.887245178222656
+    ],
+    [
+     "R",
+     -10.012245178222656
+    ],
+    [
+     "KK",
+     -10.449745178222656
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7546796725644545,
+   "mass_B": 0.24500860315959042,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999270210363731,
+   "min_listed": 2.057617669108602e-06,
+   "top": [
+    [
+     "K",
+     -0.2814618945121765
+    ],
+    [
+     "J",
+     -1.4064619541168213
+    ],
+    [
+     "Based",
+     -9.406461715698242
+    ],
+    [
+     "(K",
+     -9.906461715698242
+    ],
+    [
+     "R",
+     -10.156461715698242
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8350130630801358,
+   "mass_B": 0.1644238284188126,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999196359247086,
+   "min_listed": 2.746156275568033e-06,
+   "top": [
+    [
+     "K",
+     -0.18030790984630585
+    ],
+    [
+     "J",
+     -1.8053078651428225
+    ],
+    [
+     "The",
+     -8.80530834197998
+    ],
+    [
+     "I",
+     -9.05530834197998
+    ],
+    [
+     "This",
+     -10.05530834197998
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 105,
+   "completion_tokens": 1,
+   "cost": 0.00024981
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9668414030444166,
+   "mass_B": 0.03308349598290347,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999900548198434,
+   "min_listed": 3.567534285393954e-07,
+   "top": [
+    [
+     "K",
+     -0.03372080624103546
+    ],
+    [
+     "J",
+     -3.4087207317352295
+    ],
+    [
+     "KK",
+     -10.158720970153809
+    ],
+    [
+     "R",
+     -11.408720970153809
+    ],
+    [
+     "Given",
+     -13.158720970153809
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 121,
+   "completion_tokens": 1,
+   "cost": 0.00028677
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.49977361226905137,
+   "mass_B": 0.49977361226905137,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998935723308906,
+   "min_listed": 3.4795774257690854e-06,
+   "top": [
+    [
+     "J",
+     -0.693600058555603
+    ],
+    [
+     "K",
+     -0.693600058555603
+    ],
+    [
+     "R",
+     -8.693599700927734
+    ],
+    [
+     "```",
+     -9.818599700927734
+    ],
+    [
+     "KK",
+     -10.693599700927734
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9626110977020965,
+   "mass_B": 0.03732448526622484,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999814109519674,
+   "min_listed": 5.501328927849948e-07,
+   "top": [
+    [
+     "K",
+     -0.0381057932972908
+    ],
+    [
+     "J",
+     -3.2881057262420654
+    ],
+    [
+     "KK",
+     -11.663105964660645
+    ],
+    [
+     "I",
+     -11.663105964660645
+    ],
+    [
+     "Based",
+     -11.788105964660645
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8931399548609738,
+   "mass_B": 0.10667034634957749,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999734592445291,
+   "min_listed": 1.0151112822020812e-06,
+   "top": [
+    [
+     "K",
+     -0.11301198601722716
+    ],
+    [
+     "J",
+     -2.2380120754241943
+    ],
+    [
+     "The",
+     -9.988012313842772
+    ],
+    [
+     "(K",
+     -10.113012313842772
+    ],
+    [
+     "R",
+     -10.863012313842772
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.499766522578125,
+   "mass_B": 0.499766522578125,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998952018534603,
+   "min_listed": 2.5456768103632374e-06,
+   "top": [
+    [
+     "J",
+     -0.6936142444610596
+    ],
+    [
+     "K",
+     -0.6936142444610596
+    ],
+    [
+     "My",
+     -9.56861400604248
+    ],
+    [
+     "Based",
+     -9.69361400604248
+    ],
+    [
+     "I",
+     -9.81861400604248
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7546883767117197,
+   "mass_B": 0.24501143628421762,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999197841341623,
+   "min_listed": 2.642063620806835e-06,
+   "top": [
+    [
+     "K",
+     -0.2814503610134125
+    ],
+    [
+     "J",
+     -1.4064503908157349
+    ],
+    [
+     "#",
+     -9.656450271606444
+    ],
+    [
+     "KK",
+     -10.781450271606444
+    ],
+    [
+     "Based",
+     -10.781450271606444
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.22254303870094957,
+   "mass_B": 0.7767515047130182,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999891187227765,
+   "min_listed": 3.7168463591699867e-06,
+   "top": [
+    [
+     "J",
+     -0.25263479351997375
+    ],
+    [
+     "K",
+     -1.5026347637176514
+    ],
+    [
+     "Based",
+     -8.62763500213623
+    ],
+    [
+     "Consider",
+     -9.25263500213623
+    ],
+    [
+     "R",
+     -9.37763500213623
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9624786720321918,
+   "mass_B": 0.03731935098250964,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999964245875957,
+   "min_listed": 9.653807114599632e-07,
+   "top": [
+    [
+     "K",
+     -0.0382433719933033
+    ],
+    [
+     "J",
+     -3.288243293762207
+    ],
+    [
+     "KK",
+     -9.163243293762209
+    ],
+    [
+     "This",
+     -11.538243293762209
+    ],
+    [
+     "R",
+     -11.788243293762209
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6786800376715426,
+   "mass_B": 0.3205857689174489,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998500883428251,
+   "min_listed": 7.318496354715716e-06,
+   "top": [
+    [
+     "K",
+     -0.3876054883003235
+    ],
+    [
+     "J",
+     -1.1376054286956787
+    ],
+    [
+     "KK",
+     -8.512605667114258
+    ],
+    [
+     "Based",
+     -9.387605667114258
+    ],
+    [
+     "**",
+     -9.762605667114258
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7547689004566477,
+   "mass_B": 0.2450375785159103,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999968063550516,
+   "min_listed": 8.578440961541855e-07,
+   "top": [
+    [
+     "K",
+     -0.2813436686992645
+    ],
+    [
+     "J",
+     -1.406343698501587
+    ],
+    [
+     "My",
+     -10.281343460083008
+    ],
+    [
+     "```",
+     -10.656343460083008
+    ],
+    [
+     "KK",
+     -10.656343460083008
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9901791920908622,
+   "mass_B": 0.009707373035058978,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999779222764917,
+   "min_listed": 4.993944485008213e-07,
+   "top": [
+    [
+     "K",
+     -0.009869350120425224
+    ],
+    [
+     "J",
+     -4.634869575500488
+    ],
+    [
+     "KK",
+     -10.509869575500488
+    ],
+    [
+     "(",
+     -10.759869575500488
+    ],
+    [
+     "R",
+     -11.572369575500488
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.797826425827859,
+   "mass_B": 0.20172212004634268,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998836938944115,
+   "min_listed": 4.063912370081997e-06,
+   "top": [
+    [
+     "K",
+     -0.2258642166852951
+    ],
+    [
+     "J",
+     -1.6008641719818115
+    ],
+    [
+     "KK",
+     -9.10086441040039
+    ],
+    [
+     "I",
+     -10.22586441040039
+    ],
+    [
+     "Based",
+     -10.47586441040039
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9856752571338516,
+   "mass_B": 0.014059905149685852,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999304390100118,
+   "min_listed": 1.9661600340106574e-06,
+   "top": [
+    [
+     "K",
+     -0.014428332448005676
+    ],
+    [
+     "J",
+     -4.26442813873291
+    ],
+    [
+     "Based",
+     -9.63942813873291
+    ],
+    [
+     "KK",
+     -10.26442813873291
+    ],
+    [
+     "R",
+     -10.63942813873291
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.34820235114575504,
+   "mass_B": 0.6505250809825509,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998351111836236,
+   "min_listed": 3.996921972023315e-06,
+   "top": [
+    [
+     "J",
+     -0.4299862086772918
+    ],
+    [
+     "K",
+     -1.0549862384796145
+    ],
+    [
+     "(K",
+     -7.804986000061035
+    ],
+    [
+     "Based",
+     -8.179986000061035
+    ],
+    [
+     "(J",
+     -8.804986000061035
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.592397126177484,
+   "mass_B": 0.40714819360836757,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998786623328356,
+   "min_listed": 4.124450784784461e-06,
+   "top": [
+    [
+     "K",
+     -0.5235780477523804
+    ],
+    [
+     "J",
+     -0.8985780477523804
+    ],
+    [
+     "KK",
+     -9.523577690124512
+    ],
+    [
+     "k",
+     -9.773577690124512
+    ],
+    [
+     "After",
+     -10.148577690124512
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8669207684144604,
+   "mass_B": 0.13294660173526193,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999593744969456,
+   "min_listed": 1.7292756085758523e-06,
+   "top": [
+    [
+     "K",
+     -0.14280769228935242
+    ],
+    [
+     "J",
+     -2.017807722091675
+    ],
+    [
+     "I",
+     -10.642807960510254
+    ],
+    [
+     "The",
+     -11.267807960510254
+    ],
+    [
+     "R",
+     -11.642807960510254
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9946416807798654,
+   "mass_B": 0.005219396598449926,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999808211904675,
+   "min_listed": 8.270721069162129e-07,
+   "top": [
+    [
+     "K",
+     -0.0053735580295324326
+    ],
+    [
+     "J",
+     -5.255373477935791
+    ],
+    [
+     "The",
+     -10.13037395477295
+    ],
+    [
+     "KK",
+     -10.88037395477295
+    ],
+    [
+     "Based",
+     -11.38037395477295
+    ]
+   ],
+   "provider": "Alibaba",
+   "served_model": "z-ai/glm-5.2",
+   "prompt_tokens": 136,
+   "completion_tokens": 1,
+   "cost": 0.00032142
+  }
+ ]
+}

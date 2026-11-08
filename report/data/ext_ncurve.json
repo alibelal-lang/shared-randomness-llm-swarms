@@ -1,0 +1,962 @@
+[
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 4,
+"x_independent": 0.752,
+"x_coupled": 0.752
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 8,
+"x_independent": 0.75,
+"x_coupled": 0.753
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 16,
+"x_independent": 0.75,
+"x_coupled": 0.752
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"x_independent": 0.75,
+"x_coupled": 0.753
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"x_independent": 0.75,
+"x_coupled": 0.751
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 4,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 8,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 16,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 4,
+"x_independent": 0.648,
+"x_coupled": 0.647
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 8,
+"x_independent": 0.592,
+"x_coupled": 0.608
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 16,
+"x_independent": 0.589,
+"x_coupled": 0.593
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"x_independent": 0.588,
+"x_coupled": 0.59
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"x_independent": 0.588,
+"x_coupled": 0.59
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 4,
+"x_independent": 0.981,
+"x_coupled": 0.983
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 8,
+"x_independent": 0.975,
+"x_coupled": 0.976
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 16,
+"x_independent": 0.969,
+"x_coupled": 0.982
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"x_independent": 0.964,
+"x_coupled": 0.981
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"x_independent": 0.962,
+"x_coupled": 0.977
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 4,
+"x_independent": 0.998,
+"x_coupled": 0.998
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 8,
+"x_independent": 0.997,
+"x_coupled": 0.998
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 16,
+"x_independent": 0.993,
+"x_coupled": 0.997
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"x_independent": 0.98,
+"x_coupled": 0.996
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"x_independent": 0.963,
+"x_coupled": 0.993
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 4,
+"x_independent": 0.568,
+"x_coupled": 0.569
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 8,
+"x_independent": 0.556,
+"x_coupled": 0.565
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 16,
+"x_independent": 0.55,
+"x_coupled": 0.564
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"x_independent": 0.548,
+"x_coupled": 0.563
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"x_independent": 0.548,
+"x_coupled": 0.563
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 4,
+"x_independent": 0.402,
+"x_coupled": 0.402
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 8,
+"x_independent": 0.37,
+"x_coupled": 0.388
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 16,
+"x_independent": 0.365,
+"x_coupled": 0.388
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"x_independent": 0.364,
+"x_coupled": 0.384
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"x_independent": 0.363,
+"x_coupled": 0.393
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 4,
+"x_independent": 0.321,
+"x_coupled": 0.319
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 8,
+"x_independent": 0.315,
+"x_coupled": 0.319
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 16,
+"x_independent": 0.315,
+"x_coupled": 0.32
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"x_independent": 0.314,
+"x_coupled": 0.319
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"x_independent": 0.314,
+"x_coupled": 0.321
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 4,
+"x_independent": 0.961,
+"x_coupled": 0.956
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 8,
+"x_independent": 0.884,
+"x_coupled": 0.946
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 16,
+"x_independent": 0.769,
+"x_coupled": 0.929
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"x_independent": 0.704,
+"x_coupled": 0.907
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"x_independent": 0.686,
+"x_coupled": 0.891
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 4,
+"x_independent": 0.663,
+"x_coupled": 0.666
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 8,
+"x_independent": 0.638,
+"x_coupled": 0.66
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 16,
+"x_independent": 0.631,
+"x_coupled": 0.661
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"x_independent": 0.627,
+"x_coupled": 0.656
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"x_independent": 0.627,
+"x_coupled": 0.658
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 4,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 8,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 16,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 4,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 8,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 16,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 4,
+"x_independent": 0.964,
+"x_coupled": 0.967
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 8,
+"x_independent": 0.921,
+"x_coupled": 0.941
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 16,
+"x_independent": 0.9,
+"x_coupled": 0.923
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"x_independent": 0.897,
+"x_coupled": 0.916
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"x_independent": 0.897,
+"x_coupled": 0.912
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 4,
+"x_independent": 0.992,
+"x_coupled": 0.991
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 8,
+"x_independent": 0.993,
+"x_coupled": 0.992
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 16,
+"x_independent": 0.993,
+"x_coupled": 0.992
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"x_independent": 0.993,
+"x_coupled": 0.992
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"x_independent": 0.993,
+"x_coupled": 0.992
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 4,
+"x_independent": 0.859,
+"x_coupled": 0.862
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 8,
+"x_independent": 0.851,
+"x_coupled": 0.859
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 16,
+"x_independent": 0.847,
+"x_coupled": 0.859
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"x_independent": 0.847,
+"x_coupled": 0.859
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"x_independent": 0.845,
+"x_coupled": 0.858
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 4,
+"x_independent": 0.992,
+"x_coupled": 0.992
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 8,
+"x_independent": 0.993,
+"x_coupled": 0.993
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 16,
+"x_independent": 0.994,
+"x_coupled": 0.993
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"x_independent": 0.994,
+"x_coupled": 0.993
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"x_independent": 0.994,
+"x_coupled": 0.993
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 4,
+"x_independent": 0.423,
+"x_coupled": 0.417
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 8,
+"x_independent": 0.425,
+"x_coupled": 0.432
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 16,
+"x_independent": 0.426,
+"x_coupled": 0.432
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"x_independent": 0.412,
+"x_coupled": 0.43
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"x_independent": 0.406,
+"x_coupled": 0.426
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 4,
+"x_independent": 0.925,
+"x_coupled": 0.924
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 8,
+"x_independent": 0.891,
+"x_coupled": 0.912
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 16,
+"x_independent": 0.879,
+"x_coupled": 0.896
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"x_independent": 0.88,
+"x_coupled": 0.892
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"x_independent": 0.879,
+"x_coupled": 0.889
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 4,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 8,
+"x_independent": 0.994,
+"x_coupled": 0.995
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 16,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"x_independent": 0.995,
+"x_coupled": 0.996
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"x_independent": 0.995,
+"x_coupled": 0.995
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 4,
+"x_independent": 0.908,
+"x_coupled": 0.906
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 8,
+"x_independent": 0.897,
+"x_coupled": 0.906
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 16,
+"x_independent": 0.893,
+"x_coupled": 0.905
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"x_independent": 0.894,
+"x_coupled": 0.905
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"x_independent": 0.893,
+"x_coupled": 0.905
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 4,
+"x_independent": 0.583,
+"x_coupled": 0.585
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 8,
+"x_independent": 0.583,
+"x_coupled": 0.583
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 16,
+"x_independent": 0.582,
+"x_coupled": 0.585
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"x_independent": 0.583,
+"x_coupled": 0.583
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"x_independent": 0.582,
+"x_coupled": 0.583
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 4,
+"x_independent": 0.588,
+"x_coupled": 0.59
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 8,
+"x_independent": 0.586,
+"x_coupled": 0.588
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 16,
+"x_independent": 0.586,
+"x_coupled": 0.588
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"x_independent": 0.585,
+"x_coupled": 0.586
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"x_independent": 0.586,
+"x_coupled": 0.589
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 4,
+"x_independent": 0.734,
+"x_coupled": 0.734
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 8,
+"x_independent": 0.67,
+"x_coupled": 0.723
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 16,
+"x_independent": 0.633,
+"x_coupled": 0.715
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"x_independent": 0.628,
+"x_coupled": 0.709
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"x_independent": 0.624,
+"x_coupled": 0.707
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 4,
+"x_independent": 0.917,
+"x_coupled": 0.921
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 8,
+"x_independent": 0.877,
+"x_coupled": 0.911
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 16,
+"x_independent": 0.856,
+"x_coupled": 0.901
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"x_independent": 0.849,
+"x_coupled": 0.899
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"x_independent": 0.846,
+"x_coupled": 0.896
+}
+]

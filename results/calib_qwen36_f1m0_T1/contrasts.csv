@@ -1,0 +1,9 @@
+N,sampler,vs,runs,diff,ci_lo,ci_hi
+4,block:2,independent,200,0.0,0.0,0.0
+4,pair_shared:restore,independent,200,0.0,0.0,0.0
+8,block:2,independent,200,0.015,-0.001888585541958223,0.031888585541958225
+8,pair_shared:restore,independent,200,0.015,-0.001888585541958223,0.031888585541958225
+16,block:2,independent,200,0.685,0.6204598313696489,0.7495401686303512
+16,pair_shared:restore,independent,200,0.685,0.6204598313696489,0.7495401686303512
+32,block:2,independent,200,1.0,1.0,1.0
+32,pair_shared:restore,independent,200,1.0,1.0,1.0

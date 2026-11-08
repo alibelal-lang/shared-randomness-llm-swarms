@@ -1,0 +1,103 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_v2/qwen3.8-27b_stag.json --framing 1 --mapping 0 --init incumbent_B --seeds 500 --seed-offset 0 --N 4 8 16 32 64 --samplers independent pair_shared:restore pair_shared:0.3 block:2 pair_shared:0.1 pair_shared:0.2 pair_shared:0.5 pair_shared:0.75 pair_shared:1 --out results/ext/qwen3.8-27b_stag/f1m0_incumbent_B",
+ "created": "2026-11-08T00:20:38+0000",
+ "seconds": 25.0,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_v2/qwen3.8-27b_stag.json",
+  "framing": 1,
+  "mapping": 0,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2",
+   "pair_shared:0.1",
+   "pair_shared:0.2",
+   "pair_shared:0.5",
+   "pair_shared:0.75",
+   "pair_shared:1"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/ext/qwen3.8-27b_stag/f1m0_incumbent_B",
+  "func": "<function cmd_simulate at 0x105cdd4e0>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "qwen3.8-27b",
+   "samples_per_prompt": 200,
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "H": 2,
+   "game": "stag",
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 1,
+   "prompt_hash": "f924bf551ad7bccd",
+   "created": "2026-11-08T00:19:48+0000",
+   "seconds": 2100.6,
+   "calls": 16800,
+   "errors": 0,
+   "total_cost": 0.16012200000000001,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 1,
+  "mapping": 0,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 0.998104714522625,
+  "min_valid_mass": 0.9651741293532339,
+  "bounded_histories": [],
+  "samples": 4200,
+  "invalid_rate": 0.0019047619047619048
+ },
+ "pA": {
+  "-": 0.5398009950248757,
+  "AA": 0.7288557213930348,
+  "AB": 0.35250000000000004,
+  "BA": 0.2960199004975124,
+  "BB": 0.35074626865671643,
+  "AA.AA": 0.8432835820895522,
+  "AA.AB": 0.26616915422885573,
+  "AA.BA": 0.38557213930348255,
+  "AA.BB": 0.6044776119402985,
+  "AB.AA": 0.4651741293532339,
+  "AB.AB": 0.14179104477611942,
+  "AB.BA": 0.23134328358208955,
+  "AB.BB": 0.27611940298507465,
+  "BA.AA": 0.6592039800995024,
+  "BA.AB": 0.4800995024875621,
+  "BA.BA": 0.33084577114427854,
+  "BA.BB": 0.25000000000000006,
+  "BB.AA": 0.6791044776119403,
+  "BB.AB": 0.20149253731343283,
+  "BB.BA": 0.3756218905472637,
+  "BB.BB": 0.31094527363184077
+ }
+}

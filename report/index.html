@@ -1,0 +1,945 @@
+<meta name="dash-one-writer">
+<style>
+  .sx { font-family: var(--font-anthropic-sans); color: var(--color-fg); display: grid; gap: var(--cds-gap-xl); max-width: 76rem; margin-inline: auto; }
+  .sx h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; margin: 0; text-wrap: balance; }
+  .sx h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .sx h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .sx p { margin: 0; max-width: 68ch; line-height: 1.5; }
+  .sx .muted { color: var(--color-fg-muted); }
+  .sx .cap { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .sx .head { display: grid; gap: var(--cds-gap-sm); }
+  .sx .lede { font-size: var(--cds-font-size-body); }
+  .sx .sx-num { font-variant-numeric: tabular-nums; font-weight: var(--cds-font-weight-medium); }
+  .sx .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 13rem), 1fr)); gap: var(--cds-gap-md); }
+  .sx .card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; display: grid; gap: var(--cds-gap-sm); align-content: start; }
+  .sx .tile .big { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; line-height: 1.1; }
+  .sx .section { display: grid; gap: var(--cds-gap-md); }
+  .sx .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr)); gap: var(--cds-gap-md); }
+  .sx .legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); align-items: center; }
+  .sx .legend span { display: inline-flex; align-items: center; gap: var(--cds-gap-xs); }
+  .sx .sw { width: 0.75rem; height: 0.125rem; border-radius: 1px; display: inline-block; }
+  .sx .controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); align-items: center; }
+  .sx .seg { display: inline-flex; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+  .sx .seg button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); border: 0; background: transparent; color: var(--color-fg-muted); cursor: pointer; }
+  .sx .seg button[aria-pressed="true"] { background: var(--color-bg); color: var(--color-fg); }
+  .sx .seg button:focus-visible, .sx select:focus-visible { outline: 2px solid var(--cds-chart-axis); outline-offset: 1px; }
+  .sx .chart { position: relative; min-width: 0; }
+  .sx .chart svg { display: block; overflow: visible; }
+  .sx .small-multiples { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: var(--cds-gap-md); min-height: 15rem; }
+  .sx .panel-title { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-bottom: var(--cds-gap-xs); }
+  .sx .tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .sx .tip .t { color: var(--cds-text-secondary); }
+  .sx .tablebox { overflow-x: auto; }
+  .sx table { border-collapse: collapse; width: 100%; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .sx th { text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); white-space: nowrap; }
+  .sx td { padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); }
+  .sx td.n, .sx th.n { text-align: right; }
+  .sx details { border-top: 1px solid var(--color-border-line); padding-top: var(--cds-pad-md); }
+  .sx summary { cursor: pointer; font-weight: var(--cds-font-weight-medium); }
+  .sx dl { display: grid; grid-template-columns: minmax(8rem, 14rem) 1fr; gap: var(--cds-gap-sm) var(--cds-gap-md); margin: var(--cds-gap-md) 0 0; }
+  .sx dt { font-weight: var(--cds-font-weight-medium); }
+  .sx dd { margin: 0; color: var(--color-fg-muted); line-height: 1.5; }
+  .sx .good { color: var(--color-ok); }
+  .sx [data-dash-source-state=empty] { color: transparent; }
+  .sx [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  .sx .refgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: var(--cds-gap-md); }
+  .sx .refs { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--cds-gap-sm); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .sx .refs li { line-height: 1.5; }
+  .sx .refs a { color: var(--color-fg); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
+  .sx .refs a:focus-visible { outline: 2px solid var(--cds-chart-axis); outline-offset: 1px; }
+  @media (max-width: 40rem) { .sx dl { grid-template-columns: 1fr; } }
+</style>
+
+<div class="sx">
+  <header class="head" id="top">
+    <h1>Swarm exploration findings</h1>
+    <p class="lede">For the main model, Qwen 3.8 27B served on Adaption, coordinating exploration across pairs raised the long-run share of agents choosing the better convention by <b class="sx-num" data-draw="hl-primary" data-source="headline" data-field="primary_pp" data-where="model=Qwen 3.8 27B">—</b> percentage points at 32 agents (95% interval <span class="sx-num" data-draw="hl-lo" data-source="headline" data-field="primary_lo_pp" data-where="model=Qwen 3.8 27B">—</span> to <span class="sx-num" data-draw="hl-hi" data-source="headline" data-field="primary_hi_pp" data-where="model=Qwen 3.8 27B">—</span>), so under the locked protocol the result is: <b data-draw="hl-decision" data-source="headline" data-field="decision" data-where="model=Qwen 3.8 27B">—</b>. Across all <span class="sx-num" data-draw="hl-total" data-source="effect-count" data-field="total">—</span> Adaption models, <span class="sx-num" data-draw="hl-claimed" data-source="effect-count" data-field="claimed">—</span> met the same rule. Each effect comes from prompt variants where larger populations settle below nearly all A; models that adopt A almost immediately show none.</p>
+    <p class="cap">Repeated pairwise coordination game: both choose A and each gets 2, both choose B and each gets 1, a mismatch pays 0. Agents remember their last two rounds and start from a B–B habit. Every LLM decision probability was measured through Adaption's hosted inference. The extended study further down varies the game, wording, labels, memory, temperature and provider, and re-measures on Adaption.</p>
+  </header>
+
+  <div class="tiles">
+    <div class="card tile" id="tile-primary">
+      <div class="cap">Coupled minus independent sampling, 32 agents</div>
+      <div class="big"><span data-draw="t-primary" data-source="headline" data-field="primary_pp" data-where="model=Qwen 3.8 27B">—</span> pts</div>
+      <div class="cap">Long-run share choosing A, averaged over four prompt variants</div>
+    </div>
+    <div class="card tile" id="tile-n">
+      <div class="cap">Population-size effect, independent sampling</div>
+      <div class="big"><span data-draw="t-n" data-source="headline" data-field="n_effect_pp" data-where="model=Qwen 3.8 27B">—</span> pts</div>
+      <div class="cap">Share choosing A at 32 agents minus at 4 agents</div>
+    </div>
+    <div class="card tile" id="tile-reward">
+      <div class="cap">Reward gain from coupling, 32 agents</div>
+      <div class="big"><span data-draw="t-reward" data-source="headline" data-field="reward" data-where="model=Qwen 3.8 27B">—</span></div>
+      <div class="cap">Mean payoff per agent per round (scale 0 to 2)</div>
+    </div>
+    <div class="card tile" id="tile-models">
+      <div class="cap">Adaption models measured</div>
+      <div class="big"><span data-draw="t-models" data-source="models-included" data-field="included">—</span> of <span data-draw="t-models-total" data-source="models-included" data-field="total">—</span></div>
+      <div class="cap">Hosted models that answer with a bare letter</div>
+    </div>
+  </div>
+
+  <section class="section" id="scale">
+    <h2>Long-run share choosing the better option, by population size</h2>
+    <div class="card">
+      <div class="controls">
+        <label class="cap" for="model-pick">Model</label>
+        <select id="model-pick" class="dash-select" data-draw="model-pick" data-source="scale" aria-label="Model"></select>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>Independent sampling</span>
+          <span><i class="sw" data-sw="1"></i>Coupled across pairs (variance restored)</span>
+          <span><i class="sw" data-sw="2"></i>Block comparator (same variance, thinner tails)</span>
+        </div>
+      </div>
+      <p class="cap">Mean share of agents choosing A over rounds 51–100, 500 population runs per point. Each panel has its own vertical scale.</p>
+      <div class="chart small-multiples" data-draw="scale-chart" data-source="scale"></div>
+    </div>
+  </section>
+
+  <section class="section" id="effects">
+    <h2>Effect of coupling at 32 agents, by model and prompt variant</h2>
+    <div class="card">
+      <div class="controls">
+        <div class="seg" role="group" aria-label="Outcome">
+          <button type="button" data-metric="late_x" aria-pressed="true">Share choosing A</button>
+          <button type="button" data-metric="reward" aria-pressed="false">Mean reward</button>
+        </div>
+      </div>
+      <p class="cap">Coupled minus independent sampling. Bars are 95% intervals from a bootstrap that redraws each history's probability from its Adaption sample counts, so they include measurement noise. Right of zero means coupling helped.</p>
+      <div class="chart" data-draw="forest" data-source="variant_contrasts" style="min-height: 12rem"></div>
+    </div>
+    <div class="card">
+      <h3>Primary result per model</h3>
+      <p class="cap">Variant-averaged contrasts in percentage points of the long-run share choosing A, with 95% bootstrap intervals. The rule claims an effect only when the coupling interval excludes zero.</p>
+      <div class="tablebox">
+        <table data-source="headline" data-row-key="model">
+          <thead><tr>
+            <th data-field="model">Model</th>
+            <th class="n" data-field="primary_pp">Coupling effect, 32 agents</th>
+            <th class="n" data-field="primary_lo_pp">Low</th>
+            <th class="n" data-field="primary_hi_pp">High</th>
+            <th class="n" data-field="n_effect_pp">Size effect, 32 vs 4 agents</th>
+            <th class="n" data-field="reward">Reward gain</th>
+            <th data-field="decision">Decision</th>
+          </tr></thead>
+          <tbody data-draw="headline-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="policy">
+    <h2>What the model does after each two-round memory</h2>
+    <div class="card">
+      <p class="cap">Probability of choosing the better option A, measured by sampling the hosted model 100–200 times per prompt. Rows are memories (own then partner choice, oldest round first). Darker means more likely to choose A. Uses the model picked above.</p>
+      <div class="chart" data-draw="heatmap" data-source="policy" style="min-height: 30rem"></div>
+    </div>
+  </section>
+
+  <section class="section" id="live">
+    <h2>Live check: real Adaption calls for every decision</h2>
+    <p class="muted">Populations were run with one stateless Adaption call per agent per round, independent sampling only, and compared with simulations of the measured probabilities on the same matchings.</p>
+    <div class="grid2">
+      <div class="card">
+        <h3>Share choosing A by round</h3>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>Live Adaption runs (20 per panel)</span>
+          <span><i class="sw" data-sw="muted"></i>Simulated from measured probabilities</span>
+        </div>
+        <div class="chart small-multiples" data-draw="live-chart" data-source="live_trace"></div>
+      </div>
+      <div class="card">
+        <h3>Agreement</h3>
+        <p class="cap">Calibration gap is the live rate of choosing A minus the measured probability for the same memories. Interval columns give the half-width of 95% intervals.</p>
+        <div class="tablebox">
+          <table data-source="live" data-row-key="variant_name,N">
+            <thead><tr>
+              <th data-field="variant_name">Prompt variant</th>
+              <th class="n" data-field="N">Agents</th>
+              <th class="n" data-field="decisions">Decisions</th>
+              <th class="n" data-field="live_late_x">Live share, rounds 21–30</th>
+              <th class="n" data-field="sim_late_x">Simulated share</th>
+              <th class="n" data-field="sim_ci">± sim</th>
+              <th class="n" data-field="calibration_gap">Calibration gap</th>
+              <th class="n" data-field="calibration_ci">± gap</th>
+              <th class="n" data-field="fallback_rate">Fallback rate</th>
+            </tr></thead>
+            <tbody data-draw="live-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="learning">
+    <h2>Learning pilot with Adaption AutoScientist</h2>
+    <p class="muted">Qwen 3.5 4B was fine-tuned with LoRA on Adaption, once on decisions from independent-sampling populations and once on decisions from coupled populations at 32 agents, 4,000 rows each with identical settings. Rows kept decisions that beat the round's average payoff. Trained adapters were downloaded and measured exactly on this machine.</p>
+    <p>Both fine-tunes moved the model toward whatever its training rows favoured. Where the inferior convention was common in the rollouts (framing 1, J better), rewarding decisions that beat the round's average pushed the population further into it. The two arms differ, but one training run each cannot separate that from run-to-run noise.</p>
+    <div class="card">
+      <div class="tablebox">
+        <table data-source="learning" data-row-key="arm,variant_name">
+          <thead><tr>
+            <th data-field="arm">Model</th>
+            <th data-field="variant_name">Prompt variant</th>
+            <th class="n" data-field="train_share_A">Share of A in training rows</th>
+            <th class="n" data-field="mean_p_A">Mean P(A) over memories</th>
+            <th class="n" data-field="p_BB_BB">P(A) after B–B twice</th>
+            <th class="n" data-field="p_AA_AA">P(A) after A–A twice</th>
+            <th class="n" data-field="late_x_N32_indep">Long-run share, 32 agents</th>
+          </tr></thead>
+          <tbody data-draw="learning-table"></tbody>
+        </table>
+      </div>
+      <p class="cap">This is offline reward-filtered fine-tuning with one training run per arm: a feasibility pilot, not on-policy RL and not a confirmatory test.</p>
+    </div>
+  </section>
+
+  <section class="section" id="checks">
+    <h2>Method checks</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Models screened on Adaption</h3>
+        <div class="tablebox">
+          <table data-source="screening" data-row-key="model">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th data-field="status">Status</th>
+              <th class="n" data-field="samples">Samples per prompt</th>
+              <th class="n" data-field="invalid_rate">Invalid answers</th>
+              <th class="n" data-field="p_BB_BB">P(A) after B–B twice</th>
+              <th class="n" data-field="p_AA_AA">P(A) after A–A twice</th>
+            </tr></thead>
+            <tbody data-draw="screening-table"></tbody>
+          </table>
+        </div>
+        <p class="cap">P(A) columns average the four prompt variants. The gate was invalid answers under 10%.</p>
+      </div>
+      <div class="card">
+        <h3>Sampler check against the research plan</h3>
+        <div class="tablebox">
+          <table data-source="reference" data-row-key="N">
+            <thead><tr>
+              <th class="n" data-field="N">Agents</th>
+              <th class="n" data-field="indep_first">Independent, first entry</th>
+              <th class="n" data-field="plan_indep_first">Plan</th>
+              <th class="n" data-field="restore_first">Coupled, first entry</th>
+              <th class="n" data-field="plan_restore_first">Plan</th>
+              <th class="n" data-field="restore_terminal">Coupled, final round</th>
+              <th class="n" data-field="plan_restore_terminal">Plan</th>
+            </tr></thead>
+            <tbody data-draw="reference-table"></tbody>
+          </table>
+        </div>
+        <p class="cap">Exact probabilities for the plan's synthetic kernel over 100 rounds. All twelve match the plan's published values to its stated precision.</p>
+      </div>
+      <div class="card">
+        <h3>Adaption sampling against exact probabilities</h3>
+        <div class="tablebox">
+          <table data-source="agreement" data-row-key="variant_name">
+            <thead><tr>
+              <th data-field="variant_name">Prompt variant</th>
+              <th class="n" data-field="corr">Correlation</th>
+              <th class="n" data-field="mean_abs_diff">Mean gap</th>
+              <th class="n" data-field="beyond_noise">Memories beyond noise</th>
+              <th class="n" data-field="histories">Memories</th>
+            </tr></thead>
+            <tbody data-draw="agreement-table"></tbody>
+          </table>
+        </div>
+        <p class="cap">Qwen 3.8 27B on Adaption (200 samples per prompt) against the same model's token probabilities on OpenRouter. The deployments differ, so the Adaption measurement is used as its own policy.</p>
+      </div>
+      <div class="card">
+        <h3>Adaption usage</h3>
+        <div class="tablebox">
+          <table data-source="usage" data-row-key="item">
+            <thead><tr>
+              <th data-field="item">Work</th>
+              <th class="n" data-field="calls">Calls</th>
+              <th class="n" data-field="credits">Credits</th>
+            </tr></thead>
+            <tbody data-draw="usage-table"></tbody>
+          </table>
+        </div>
+        <p class="cap">Inference credits as reported by Adaption per call. AutoScientist charges are not reported per run by the API.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="extended">
+    <h2>Extended study: what the effect depends on</h2>
+    <p class="lede">Across <span class="sx-num" data-draw="ext-n-variants" data-source="ext-mech" data-field="variants">—</span> prompt variants explored with exact probabilities, large populations got stuck below small ones in <span class="sx-num" data-draw="ext-n-stuck" data-source="ext-mech" data-field="stuck">—</span>. Coupling helped in <span class="sx-num" data-draw="ext-n-helped" data-source="ext-mech" data-field="helped">—</span> of those and recovered a median <span class="sx-num" data-draw="ext-median" data-source="ext-mech" data-field="median_recovered">—</span> of the loss. The stag hunt, where the worse option is the safe one, produced stuck populations far more often than the original game.</p>
+    <p class="cap">Exploration: every model on every OpenRouter provider that returns token probabilities, 8 wordings × 4 label versions × 2 games, plus memory of 1–3 rounds and four temperatures. A variant counts as stuck when 32 agents end at least 2 points below 4 agents. Confirmation: the flagged variants re-measured on Adaption by sampling, 500 runs per cell and a 100-replicate bootstrap, as fixed in the protocol before the data existed.</p>
+  </section>
+
+  <div class="tiles" id="ext-tiles">
+    <div class="card tile">
+      <div class="cap">Variants where large populations get stuck</div>
+      <div class="big"><span data-draw="ext-t-stag" data-source="ext_factors" data-where="factor=Game&amp;level=Stag hunt" data-field="responsive">—</span> vs <span data-draw="ext-t-coord" data-source="ext_factors" data-where="factor=Game&amp;level=Original game" data-field="responsive">—</span></div>
+      <div class="cap">Stag hunt vs original game, out of <span data-draw="ext-t-gamen" data-source="ext_factors" data-where="factor=Game&amp;level=Stag hunt" data-field="variants">—</span> variants each</div>
+    </div>
+    <div class="card tile">
+      <div class="cap">Qwen 3.8 27B, fresh Adaption measurement</div>
+      <div class="big"><span data-draw="ext-t-qwen" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_pp">—</span> pts</div>
+      <div class="cap">Coupling effect at 32 agents, 95% <span data-draw="ext-t-qwen-lo" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_lo_pp">—</span> to <span data-draw="ext-t-qwen-hi" data-source="ext_sets" data-where="set=qwen3.8-27b_pooled" data-field="l2_hi_pp">—</span></div>
+    </div>
+    <div class="card tile">
+      <div class="cap">GLM 5.2, fresh measurement and tail samples</div>
+      <div class="big"><span data-draw="ext-t-glm" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_pp">—</span> pts</div>
+      <div class="cap">Coupling effect at 32 agents, 95% <span data-draw="ext-t-glm-lo" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_lo_pp">—</span> to <span data-draw="ext-t-glm-hi" data-source="ext_sets" data-where="set=glm-5.2_pooled" data-field="l2_hi_pp">—</span></div>
+    </div>
+    <div class="card tile">
+      <div class="cap">Adaption sets with an effect</div>
+      <div class="big"><span data-draw="ext-t-sets" data-source="ext-setcount" data-field="effect">—</span> of <span data-draw="ext-t-sets-n" data-source="ext-setcount" data-field="total">—</span></div>
+      <div class="cap">Confirmation sets whose bootstrap interval excludes zero</div>
+    </div>
+  </div>
+
+  <section class="section" id="ext-mechanism">
+    <h2>Coupling helps exactly where size hurts</h2>
+    <div class="card">
+      <div class="legend">
+        <span><i class="sw" data-sw="0"></i>Original game</span>
+        <span><i class="sw" data-sw="1"></i>Stag hunt</span>
+        <span><i class="sw" data-sw="muted"></i>Dashed line: coupling recovers the whole loss</span>
+      </div>
+      <p class="cap">One dot per prompt variant and provider, two-round memory, temperature 1, 200 runs per cell. Horizontal: share choosing A at 32 agents minus at 4 agents (left means large populations do worse). Vertical: coupled minus independent sampling at 32 agents.</p>
+      <div class="chart" data-draw="ext-scatter" data-source="ext_mechanism" style="min-height: 22rem"></div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-factors">
+    <h2>Which settings produce stuck populations</h2>
+    <div class="card">
+      <p class="cap">Share of variants that get stuck, pinned provider per model. Each factor is shown over all levels of the others.</p>
+      <div class="chart small-multiples" data-draw="ext-factors" data-source="ext_factors"></div>
+    </div>
+    <div class="card">
+      <h3>Letter or list position?</h3>
+      <p class="cap">Probability of choosing the better option after two rounds of the worse habit, averaged over wordings. The original prompts tied the letter to the list position; the extension separates them.</p>
+      <div class="tablebox">
+        <table data-source="ext_labels" data-row-key="model,game">
+          <thead><tr>
+            <th data-field="model">Model</th>
+            <th data-field="game">Game</th>
+            <th class="n" data-field="letter_J">Better option is J</th>
+            <th class="n" data-field="letter_K">Better option is K</th>
+            <th class="n" data-field="listed_first">Listed first</th>
+            <th class="n" data-field="listed_second">Listed second</th>
+          </tr></thead>
+          <tbody data-draw="ext-labels-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-confirm">
+    <h2>Confirmed on Adaption</h2>
+    <div class="card">
+      <p class="cap">Each set was sampled on Adaption (100–400 samples per prompt) and simulated with 500 runs per cell. Effects in percentage points of the long-run share choosing A. Layer-1 intervals cover run-to-run noise; the bootstrap interval also covers measurement noise and decides the result.</p>
+      <div class="tablebox">
+        <table data-source="ext_sets" data-row-key="set">
+          <thead><tr>
+            <th data-field="model">Model</th>
+            <th data-field="kind">What was measured</th>
+            <th class="n" data-field="variants">Variants</th>
+            <th class="n" data-field="size32_pp">Size effect, 32 vs 4</th>
+            <th class="n" data-field="size64_pp">Size effect, 64 vs 4</th>
+            <th class="n" data-field="coupling32_pp">Coupling, 32 agents</th>
+            <th class="n" data-field="coupling64_pp">Coupling, 64 agents</th>
+            <th class="n" data-field="l2_pp">Bootstrap estimate</th>
+            <th class="n" data-field="l2_lo_pp">Low</th>
+            <th class="n" data-field="l2_hi_pp">High</th>
+            <th data-field="decision">Result</th>
+          </tr></thead>
+          <tbody data-draw="ext-sets-table"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <h3>Population size</h3>
+        <div class="controls">
+          <label class="cap" for="ext-set-pick">Set</label>
+          <select id="ext-set-pick" class="dash-select" data-draw="ext-set-pick" data-source="ext_ncurve" aria-label="Confirmation set"></select>
+        </div>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>Independent sampling</span>
+          <span><i class="sw" data-sw="1"></i>Coupled, variance restored</span>
+        </div>
+        <p class="cap">Long-run share choosing A by number of agents, averaged over the set's variants.</p>
+        <div class="chart" data-draw="ext-ncurve" data-source="ext_ncurve" style="min-height: 13rem"></div>
+      </div>
+      <div class="card">
+        <h3>Coupling strength</h3>
+        <div class="legend">
+          <span><i class="sw" data-sw="0"></i>32 agents</span>
+          <span><i class="sw" data-sw="1"></i>64 agents</span>
+        </div>
+        <p class="cap">Coupled minus independent sampling as the probability of sharing randomness rises from 0.1 to 1, same set as on the left.</p>
+        <div class="chart" data-draw="ext-dose" data-source="ext_dose" style="min-height: 13rem"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ext-measurement">
+    <h2>How stable the measurements are</h2>
+    <div class="grid2">
+      <div class="card">
+        <h3>Same model, different provider</h3>
+        <p class="cap">The original 84 prompts on each OpenRouter provider. Agreement is the mean absolute gap from the Adaption probabilities; the pinned provider (closest to Adaption) drove the exploration.</p>
+        <div class="tablebox">
+          <table data-source="ext_providers" data-row-key="model,provider">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th data-field="provider">Provider</th>
+              <th data-field="pinned">Pinned</th>
+              <th class="n" data-field="mad_vs_adaption">Gap from Adaption</th>
+              <th class="n" data-field="size_pp">Size effect</th>
+              <th class="n" data-field="coupling_pp">Coupling</th>
+            </tr></thead>
+            <tbody data-draw="ext-providers-table"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Same model on Adaption, hours apart</h3>
+        <p class="cap">Fresh samples of the original prompts against the first run. Under pure sampling noise the statistic stays below the threshold; both models moved by more.</p>
+        <div class="tablebox">
+          <table data-source="ext_retest" data-row-key="model">
+            <thead><tr>
+              <th data-field="model">Model</th>
+              <th class="n" data-field="sum_z2">Change statistic</th>
+              <th class="n" data-field="critical_99">Noise threshold</th>
+              <th class="n" data-field="abs_z_gt_2">Prompts beyond noise</th>
+              <th class="n" data-field="prompts">Prompts</th>
+              <th class="n" data-field="mean_abs_diff">Mean change</th>
+            </tr></thead>
+            <tbody data-draw="ext-retest-table"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="related">
+    <h2>How this relates to earlier work</h2>
+    <p class="cap">Citations checked on 8 November 2026 against publisher or arXiv records.</p>
+    <div class="refgrid">
+      <div class="card">
+        <h3>Which convention a population settles on</h3>
+        <ul class="refs">
+          <li><a href="https://doi.org/10.2307/2951777" target="_blank" rel="noopener">Kandori, Mailath &amp; Rob 1993</a> and <a href="https://doi.org/10.2307/2951778" target="_blank" rel="noopener">Young 1993</a>, <i>Econometrica</i>. With rare random mistakes, a finite population ends up at the risk-dominant convention, and leaving a convention gets rarer as the population grows. Our size effect is this pattern with LLM policies. It also explains why the stag hunt, where the worse option is the safe one, got stuck about four times as often.</li>
+          <li><a href="https://doi.org/10.1006/jeth.1996.0076" target="_blank" rel="noopener">Robson &amp; Vega-Redondo 1996</a>, <i>J. Economic Theory</i>, and <a href="https://doi.org/10.2307/2171851" target="_blank" rel="noopener">Bergin &amp; Lipman 1996</a>, <i>Econometrica</i>. Which convention wins depends on how players are matched and how noise varies across states, not only on payoffs. Coupled sampling changes exactly that noise structure while leaving each agent's own choice probability fixed.</li>
+          <li>Effective population size, from population genetics. Correlated reproduction makes a population drift like a smaller one. Our coupled sampler sets the variance to that of 4 agents, which is why it helps only where small populations do better.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Conventions among people and LLM agents</h3>
+        <ul class="refs">
+          <li><a href="https://doi.org/10.1073/pnas.1418838112" target="_blank" rel="noopener">Centola &amp; Baronchelli 2015</a>, <i>PNAS</i>, and <a href="https://doi.org/10.1126/science.aas8827" target="_blank" rel="noopener">Centola et al. 2018</a>, <i>Science</i>. Human groups form shared conventions without central coordination, and a committed minority of about 25% can overturn one.</li>
+          <li><a href="https://doi.org/10.1126/sciadv.adu9368" target="_blank" rel="noopener">Ashery, Aiello &amp; Baronchelli 2025</a>, <i>Science Advances</i>. LLM agent populations form conventions spontaneously and show collective biases no single agent has. We instead measure each model's frozen policy once and simulate many populations from it, which separates the model from population effects and allows a controlled intervention.</li>
+          <li><a href="https://doi.org/10.1038/s41562-025-02172-y" target="_blank" rel="noopener">Akata et al. 2025</a>, <i>Nature Human Behaviour</i>. LLMs played self-interested repeated games well and coordination games worse. Here the coordination failure is collective: it grows with population size while each agent's policy stays fixed.</li>
+          <li><a href="https://arxiv.org/abs/2502.14143" target="_blank" rel="noopener">Hammond et al. 2025</a>, "Multi-Agent Risks from Advanced AI". Names miscoordination among agents with shared interests as a core failure mode; lock-in at the worse convention is a small measured case.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Many copies of one model</h3>
+        <ul class="refs">
+          <li><a href="https://arxiv.org/abs/2101.05853" target="_blank" rel="noopener">Kleinberg &amp; Raghavan 2021</a>, <i>PNAS</i>, and <a href="https://arxiv.org/abs/2211.13972" target="_blank" rel="noopener">Bommasani et al. 2022</a>, <i>NeurIPS</i>. Decision-makers sharing one algorithm can lower welfare and give the same people the same outcomes everywhere. In our games, correlation across copies is neither good nor bad in itself: it amplifies whatever a small group would do, escaping the worse convention in most stuck variants and losing the better one in a few.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Measuring LLM agents reliably</h3>
+        <ul class="refs">
+          <li><a href="https://arxiv.org/abs/2310.11324" target="_blank" rel="noopener">Sclar et al. 2024</a>, <i>ICLR</i>. Meaning-preserving format changes swing accuracy by up to 76 points. Our wordings moved stuck variants from 1 to 10 of 40.</li>
+          <li><a href="https://arxiv.org/abs/2309.03882" target="_blank" rel="noopener">Zheng et al. 2024</a>, <i>ICLR</i>, and <a href="https://aclanthology.org/2024.findings-naacl.130" target="_blank" rel="noopener">Pezeshkpour &amp; Hruschka 2024</a>, <i>Findings of NAACL</i>. Models prefer some answer options regardless of content; Zheng et al. trace this mostly to the option letter. In our two-option prompts the reverse held: list position moved choices by up to 0.86, the letter by at most 0.18.</li>
+          <li><a href="https://doi.org/10.1162/99608f92.5317da47" target="_blank" rel="noopener">Chen, Zaharia &amp; Zou 2024</a>, <i>Harvard Data Science Review</i>. GPT-3.5 and GPT-4 behaved very differently three months apart. Adaption-hosted models moved beyond noise on about 40% of prompts within hours, with no version reported.</li>
+          <li><a href="https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/" target="_blank" rel="noopener">He / Thinking Machines Lab 2025</a>. Identical requests can return different outputs depending on server load. With precision and default sampling settings, this is one plausible source of the provider and retest differences we measured; we did not isolate the cause.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <details>
+    <summary>Definitions, method and limits</summary>
+    <dl>
+      <dt>Long-run share choosing A</dt><dd>Mean fraction of agents choosing the better option over rounds 51–100 of each run. This was locked as the primary endpoint before confirmatory runs because the plan's original endpoint (first reaching 75% A) was reached in every calibration run.</dd>
+      <dt>Coupled sampling</dt><dd>With probability alpha, agents in the same position of different pairs share one random draw. Each agent's own probability and each pair's joint probabilities are unchanged; only dependence across pairs changes. Alpha is set each round to restore the action-share variance of a 4-agent population.</dd>
+      <dt>Block comparator</dt><dd>Pairs split into two blocks that each share draws. It has the same variance as the coupled sampler at matched probabilities but thinner tails, separating variance from the shape of large moves.</dd>
+      <dt>Measurement</dt><dd>Adaption returns no token probabilities, so each of 84 prompts (21 memories, 2 framings, 2 label orders) was sampled at temperature 1 with reasoning off, stateless and without memory.</dd>
+      <dt>Uncertainty</dt><dd>Seed-paired differences over 500 runs per cell, plus a 100-replicate bootstrap over the measured probabilities. The decision rule required the bootstrap interval to exclude zero.</dd>
+      <dt>What this does not show</dt><dd>Results hold for the two-option, two-round-memory game and these prompts. Coupled sampling acts on measured probabilities and cannot be run live through a hosted API. Effects vary strongly with wording and label order. The learning pilot used one training run per arm.</dd>
+    </dl>
+  </details>
+</div>
+
+<script>
+  window.sx = window.sx || {model: 'Qwen 3.8 27B', metric: 'late_x'};
+  const SX_VNAME = {f0m0: 'Framing 1, J better', f0m1: 'Framing 1, K better', f1m0: 'Framing 2, J better', f1m1: 'Framing 2, K better'};
+  const SX_SAMPLERS = [['independent', 0], ['pair_shared:restore', 1], ['block:2', 2]];
+  const sxSigned = (v, d = 1) => (v > 0 ? '+' : '') + v.toFixed(d);
+  const sxCss = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim() || null;
+
+  dash.calc('models-included', {
+    title: 'Models included',
+    description: 'Counts screened Adaption models that passed the invalid-answer gate.',
+    inputs: ['screening'],
+    fn: (screening) => [{included: screening.filter((r) => r.status === 'Included').length, total: screening.length}],
+  });
+
+  dash.calc('effect-count', {
+    title: 'Models with an effect',
+    description: 'Counts models whose coupling interval excludes zero, out of all analysed models.',
+    inputs: ['headline'],
+    fn: (headline) => [{claimed: headline.filter((r) => r.decision === 'effect claimed').length, total: headline.length}],
+  });
+
+  // swatches and metric toggle: set style and aria only
+  document.querySelectorAll('.sx [data-sw]').forEach((el) => {
+    const k = el.getAttribute('data-sw');
+    el.style.background = k === 'muted' ? 'var(--cds-chart-muted)' : dash.colors[+k];
+  });
+  document.querySelectorAll('.sx [data-metric]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      window.sx.metric = btn.getAttribute('data-metric');
+      document.querySelectorAll('.sx [data-metric]').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
+      dash.draw('forest');
+    });
+  });
+
+  const sxHeadline = (field, fmt) => (el) => {
+    const d = dash.data('headline');
+    const row = d.status === 'ok' ? d.data.find((r) => r.model === 'Qwen 3.8 27B') : null;
+    el.textContent = row && row[field] != null ? fmt(row[field]) : '—';
+  };
+  dash.draw('hl-primary', sxHeadline('primary_pp', (v) => sxSigned(v)));
+  dash.draw('hl-lo', sxHeadline('primary_lo_pp', (v) => sxSigned(v)));
+  dash.draw('hl-hi', sxHeadline('primary_hi_pp', (v) => sxSigned(v)));
+  dash.draw('hl-decision', sxHeadline('decision', (v) => v));
+  dash.draw('t-primary', sxHeadline('primary_pp', (v) => sxSigned(v)));
+  dash.draw('t-n', sxHeadline('n_effect_pp', (v) => sxSigned(v)));
+  dash.draw('t-reward', sxHeadline('reward', (v) => sxSigned(v, 3)));
+  const sxCount = (field) => (el) => {
+    const d = dash.data('models-included');
+    el.textContent = d.status === 'ok' && d.data[0] ? String(d.data[0][field]) : '—';
+  };
+  const sxEffect = (field) => (el) => {
+    const d = dash.data('effect-count');
+    el.textContent = d.status === 'ok' && d.data[0] ? String(d.data[0][field]) : '—';
+  };
+  dash.draw('hl-total', sxEffect('total'));
+  dash.draw('hl-claimed', sxEffect('claimed'));
+  dash.draw('t-models', sxCount('included'));
+  dash.draw('t-models-total', sxCount('total'));
+
+  dash.draw('model-pick', (sel) => {
+    const d = dash.data('scale');
+    const models = d.status === 'ok' ? [...new Set(d.data.map((r) => r.model))] : [];
+    sel.replaceChildren(...models.map((m) => new Option(m, m)));
+    if (models.length && !models.includes(window.sx.model)) window.sx.model = models[0];
+    sel.value = window.sx.model;
+    sel.onchange = () => { window.sx.model = sel.value; dash.draw('scale-chart'); dash.draw('heatmap'); };
+  });
+
+  function sxTip(box) {
+    let tip = box.querySelector('.tip');
+    if (!tip) { tip = document.createElement('div'); tip.className = 'tip'; tip.hidden = true; box.appendChild(tip); }
+    return {
+      show(html, x, y) {
+        tip.replaceChildren();
+        html.forEach(([cls, text, color]) => {
+          const line = document.createElement('div');
+          if (cls) line.className = cls;
+          if (color) { const s = document.createElement('i'); s.className = 'sw'; s.style.background = color; s.style.marginRight = '4px'; line.appendChild(s); }
+          line.appendChild(document.createTextNode(text));
+          tip.appendChild(line);
+        });
+        tip.hidden = false;
+        const bw = box.clientWidth, tw = tip.offsetWidth;
+        tip.style.left = Math.max(0, Math.min(bw - tw, x + 12)) + 'px';
+        tip.style.top = Math.max(0, y - 10) + 'px';
+      },
+      hide() { tip.hidden = true; },
+    };
+  }
+
+  function sxLinePanel(box, title, series, xs, xLabel, yFmt, opts = {}) {
+    const wrap = document.createElement('div');
+    wrap.style.position = 'relative';
+    wrap.style.minWidth = '0';
+    const t = document.createElement('div'); t.className = 'panel-title'; t.textContent = title; wrap.appendChild(t);
+    box.appendChild(wrap);
+    const W = Math.max(220, wrap.clientWidth || 260), H = 170;
+    const svg = d3.select(wrap).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const all = series.flatMap((s) => s.values.map((v) => v.y)).filter((v) => v != null);
+    let [lo, hi] = d3.extent(all);
+    const padY = Math.max((hi - lo) * 0.15, 0.004);
+    lo -= padY; hi += padY;
+    const y = d3.scaleLinear([lo, hi], [H - 22, 6]).nice(4);
+    const yTicks = y.ticks(4);
+    const probe = svg.append('text').attr('font-size', 11).text(yFmt(yTicks[yTicks.length - 1]));
+    const ml = Math.ceil(probe.node().getComputedTextLength()) + 8; probe.remove();
+    const x = opts.band ? d3.scalePoint(xs, [ml + 6, W - 8]) : d3.scaleLinear(d3.extent(xs), [ml + 4, W - 8]);
+    svg.append('g').selectAll('line').data(yTicks).join('line').attr('x1', ml).attr('x2', W - 4)
+      .attr('y1', (d) => y(d)).attr('y2', (d) => y(d)).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(yTicks).join('text').attr('x', ml - 6).attr('y', (d) => y(d)).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((d) => yFmt(d));
+    const xt = opts.xTicks || xs;
+    svg.append('g').selectAll('text').data(xt).join('text').attr('x', (d) => x(d)).attr('y', H - 6).attr('text-anchor', 'middle')
+      .attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((d) => String(d));
+    svg.append('line').attr('x1', ml).attr('x2', W - 4).attr('y1', H - 22).attr('y2', H - 22).attr('stroke', 'var(--cds-chart-axis)');
+    const line = d3.line().defined((d) => d.y != null).x((d) => x(d.x)).y((d) => y(d.y));
+    series.forEach((s) => {
+      svg.append('path').attr('d', line(s.values)).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2)
+        .attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round').attr('stroke-dasharray', s.dash || null);
+      if (opts.dots) svg.append('g').selectAll('circle').data(s.values.filter((v) => v.y != null)).join('circle')
+        .attr('cx', (d) => x(d.x)).attr('cy', (d) => y(d.y)).attr('r', 2.5).attr('fill', s.color);
+    });
+    const tip = sxTip(wrap);
+    const rule = svg.append('line').attr('y1', 6).attr('y2', H - 22).attr('stroke', 'var(--cds-chart-reference)').attr('opacity', 0);
+    svg.append('rect').attr('x', ml).attr('y', 0).attr('width', W - ml).attr('height', H - 20).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px] = d3.pointer(ev);
+        const near = xs.reduce((a, b) => (Math.abs(x(b) - px) < Math.abs(x(a) - px) ? b : a));
+        rule.attr('x1', x(near)).attr('x2', x(near)).attr('opacity', 1);
+        const rect = wrap.getBoundingClientRect(), sr = svg.node().getBoundingClientRect();
+        const scale = sr.width / W;
+        tip.show([['t', `${xLabel} ${near}`], ...series.map((s) => {
+          const v = s.values.find((q) => q.x === near);
+          return [null, `${s.name}: ${v && v.y != null ? yFmt(v.y, true) : '—'}`, s.color];
+        })], x(near) * scale + (sr.left - rect.left), 20);
+      })
+      .on('pointerleave', () => { rule.attr('opacity', 0); tip.hide(); });
+  }
+
+  dash.draw('scale-chart', (box) => {
+    box.replaceChildren();
+    const d = dash.data('scale');
+    if (d.status !== 'ok') { box.textContent = '—'; return; }
+    const rows = d.data.filter((r) => r.model === window.sx.model);
+    const Ns = [4, 8, 16, 32];
+    Object.keys(SX_VNAME).forEach((v) => {
+      const rv = rows.filter((r) => r.variant === v);
+      if (!rv.length) return;
+      const series = SX_SAMPLERS.map(([s, ci]) => ({
+        name: {independent: 'Independent', 'pair_shared:restore': 'Coupled', 'block:2': 'Block'}[s],
+        color: dash.colors[ci],
+        values: Ns.map((N) => { const r = rv.find((q) => q.N === N && q.sampler === s); return {x: N, y: r ? r.late_x : null}; }),
+      }));
+      sxLinePanel(box, SX_VNAME[v], series, Ns, 'Agents', (val, tipMode) => (tipMode ? d3.format('.1%')(val) : d3.format('.0%')(val)), {band: true, dots: true});
+    });
+  });
+
+  dash.draw('forest', (box) => {
+    box.replaceChildren();
+    const d = dash.data('variant_contrasts');
+    if (d.status !== 'ok' || !d.data.length) { box.textContent = '—'; return; }
+    const metric = window.sx.metric;
+    const rows = d.data.filter((r) => r.metric === metric);
+    const fmt = metric === 'late_x' ? (v) => sxSigned(100 * v) + ' pts' : (v) => sxSigned(v, 3);
+    const W = Math.max(300, box.clientWidth || 600), rowH = 22;
+    const models = [...new Set(rows.map((r) => r.model))];
+    const items = [];
+    models.forEach((m) => { items.push({head: m}); rows.filter((r) => r.model === m).forEach((r) => items.push(r)); });
+    const H = items.length * rowH + 30;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const probe = svg.append('text').attr('font-size', 12).text('Framing 2, K better  ');
+    const ml = Math.min(W * 0.45, Math.ceil(probe.node().getComputedTextLength()) + 18); probe.remove();
+    const ext = d3.extent(rows.flatMap((r) => [r.lo, r.hi, 0]));
+    const pad = (ext[1] - ext[0]) * 0.08 || 0.01;
+    const x = d3.scaleLinear([ext[0] - pad, ext[1] + pad], [ml, W - 12]).nice(5);
+    const ticks = x.ticks(5);
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', (t) => x(t)).attr('x2', (t) => x(t))
+      .attr('y1', 0).attr('y2', H - 22).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', (t) => x(t)).attr('y', H - 6).attr('text-anchor', 'middle')
+      .attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((t) => (metric === 'late_x' ? sxSigned(100 * t, 0) : sxSigned(t, 2)));
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', H - 22).attr('stroke', 'var(--cds-chart-reference)');
+    const tip = sxTip(box);
+    items.forEach((it, i) => {
+      const cy = i * rowH + rowH / 2;
+      if (it.head) {
+        svg.append('text').attr('x', 0).attr('y', cy).attr('dy', '0.32em').attr('font-size', 12)
+          .attr('font-weight', 600).attr('fill', 'var(--color-fg)').text(it.head);
+        return;
+      }
+      const sig = it.lo > 0 || it.hi < 0;
+      const col = sig ? dash.colors[1] : 'var(--cds-chart-muted)';
+      svg.append('text').attr('x', 12).attr('y', cy).attr('dy', '0.32em').attr('font-size', 12)
+        .attr('fill', 'var(--color-fg-muted)').text(it.variant_name);
+      svg.append('line').attr('x1', x(it.lo)).attr('x2', x(it.hi)).attr('y1', cy).attr('y2', cy)
+        .attr('stroke', col).attr('stroke-width', 2).attr('stroke-linecap', 'round');
+      svg.append('circle').attr('cx', x(it.mean)).attr('cy', cy).attr('r', 4).attr('fill', col)
+        .on('pointerenter', (ev) => {
+          const rect = box.getBoundingClientRect(), sr = svg.node().getBoundingClientRect(), s = sr.width / W;
+          tip.show([['t', `${it.model} · ${it.variant_name}`], [null, `${fmt(it.mean)} (95% ${fmt(it.lo)} to ${fmt(it.hi)})`]],
+            x(it.mean) * s + (sr.left - rect.left), cy * s + (sr.top - rect.top));
+        })
+        .on('pointerleave', () => tip.hide());
+    });
+  });
+
+  dash.draw('heatmap', (box) => {
+    box.replaceChildren();
+    const d = dash.data('policy');
+    if (d.status !== 'ok') { box.textContent = '—'; return; }
+    const rows = d.data.filter((r) => r.model === window.sx.model);
+    if (!rows.length) { box.textContent = '—'; return; }
+    const hist = [...new Set(rows.map((r) => r.history))];
+    const vars = Object.keys(SX_VNAME);
+    const W = Math.max(300, box.clientWidth || 600), cellH = 20, top = 34;
+    const H = top + hist.length * cellH + 4;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const ml = 70;
+    const x = d3.scaleBand(vars, [ml, W - 4]).padding(0.04);
+    svg.append('g').selectAll('text').data(vars).join('text').attr('x', (v) => x(v) + x.bandwidth() / 2).attr('y', 14)
+      .attr('text-anchor', 'middle').attr('font-size', 11).attr('fill', 'var(--color-fg-muted)')
+      .text((v) => (x.bandwidth() > 120 ? SX_VNAME[v] : v.replace('f0', 'F1 ').replace('f1', 'F2 ').replace('m0', 'J').replace('m1', 'K')));
+    hist.forEach((h, i) => {
+      const yy = top + i * cellH;
+      svg.append('text').attr('x', ml - 8).attr('y', yy + cellH / 2).attr('dy', '0.32em').attr('text-anchor', 'end')
+        .attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text(h === '-' ? 'no memory' : h);
+      vars.forEach((v) => {
+        const r = rows.find((q) => q.history === h && q.variant === v);
+        if (!r) return;
+        svg.append('rect').attr('x', x(v)).attr('y', yy + 1).attr('width', x.bandwidth()).attr('height', cellH - 2)
+          .attr('rx', 2).attr('fill', dash.colors[0]).attr('fill-opacity', 0.08 + 0.85 * r.p_A);
+        svg.append('text').attr('x', x(v) + x.bandwidth() / 2).attr('y', yy + cellH / 2).attr('dy', '0.32em')
+          .attr('text-anchor', 'middle').attr('font-size', 11).attr('fill', r.p_A > 0.62 ? 'var(--color-bg)' : 'var(--color-fg)')
+          .text(d3.format('.2f')(r.p_A));
+      });
+    });
+  });
+
+  dash.draw('live-chart', (box) => {
+    box.replaceChildren();
+    const d = dash.data('live_trace');
+    if (d.status !== 'ok' || !d.data.length) { box.textContent = '—'; return; }
+    const keys = [...new Set(d.data.map((r) => r.series))];
+    keys.forEach((k) => {
+      const rv = d.data.filter((r) => r.series === k);
+      const [v, n] = k.split('|');
+      const xs = rv.map((r) => r.round);
+      sxLinePanel(box, `${SX_VNAME[v]}, ${n.slice(1)} agents`, [
+        {name: 'Live', color: dash.colors[0], values: rv.map((r) => ({x: r.round, y: r.live_x}))},
+        {name: 'Simulated', color: 'var(--cds-chart-muted)', dash: '4 3', values: rv.map((r) => ({x: r.round, y: r.sim_x}))},
+      ], xs, 'Round', (val, tipMode) => d3.format(tipMode ? '.1%' : '.0%')(val), {xTicks: [1, 10, 20, 30]});
+    });
+  });
+
+  function sxTable(name, source, cols) {
+    dash.draw(name, (tbody) => {
+      const d = dash.data(source);
+      tbody.replaceChildren();
+      if (d.status !== 'ok') return;
+      d.data.forEach((r) => {
+        const tr = document.createElement('tr');
+        cols.forEach(([field, numeric]) => {
+          const td = document.createElement('td');
+          if (numeric) td.className = 'n';
+          const v = r[field];
+          td.textContent = v == null ? '—' : String(v);
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    });
+  }
+  sxTable('headline-table', 'headline', [['model'], ['primary_pp', 1], ['primary_lo_pp', 1], ['primary_hi_pp', 1], ['n_effect_pp', 1], ['reward', 1], ['decision']]);
+  sxTable('live-table', 'live', [['variant_name'], ['N', 1], ['decisions', 1], ['live_late_x', 1], ['sim_late_x', 1], ['sim_ci', 1], ['calibration_gap', 1], ['calibration_ci', 1], ['fallback_rate', 1]]);
+  sxTable('learning-table', 'learning', [['arm'], ['variant_name'], ['train_share_A', 1], ['mean_p_A', 1], ['p_BB_BB', 1], ['p_AA_AA', 1], ['late_x_N32_indep', 1]]);
+  sxTable('screening-table', 'screening', [['model'], ['status'], ['samples', 1], ['invalid_rate', 1], ['p_BB_BB', 1], ['p_AA_AA', 1]]);
+  sxTable('reference-table', 'reference', [['N', 1], ['indep_first', 1], ['plan_indep_first', 1], ['restore_first', 1], ['plan_restore_first', 1], ['restore_terminal', 1], ['plan_restore_terminal', 1]]);
+  sxTable('agreement-table', 'agreement', [['variant_name'], ['corr', 1], ['mean_abs_diff', 1], ['beyond_noise', 1], ['histories', 1]]);
+  sxTable('usage-table', 'usage', [['item'], ['calls', 1], ['credits', 1]]);
+
+  // ---- Extended study (Amendment 3) ----
+  dash.calc('ext-mech', {
+    title: 'Stuck variants and recovery',
+    description: 'Counts explored variants where 32 agents end at least 2 points below 4, how many coupling helped, and the median share of the loss it recovered.',
+    inputs: ['ext_mechanism'],
+    fn: (ext_mechanism) => {
+      const stuck = ext_mechanism.filter((r) => r.responsive);
+      const rec = stuck.map((r) => -r.coupling_pp / r.size_pp).sort((a, b) => a - b);
+      const n = rec.length;
+      const median = n ? (n % 2 ? rec[(n - 1) / 2] : (rec[n / 2 - 1] + rec[n / 2]) / 2) : null;
+      return [{variants: ext_mechanism.length, stuck: n, helped: stuck.filter((r) => r.coupling_pp > 0).length,
+        median_recovered: median}];
+    },
+  });
+
+  dash.calc('ext-setcount', {
+    title: 'Adaption sets with an effect',
+    description: 'Counts Adaption confirmation sets with a bootstrap interval, and how many exclude zero.',
+    inputs: ['ext_sets'],
+    fn: (ext_sets) => {
+      const b = ext_sets.filter((r) => r.l2_pp != null);
+      return [{effect: b.filter((r) => r.decision === 'effect').length, total: b.length}];
+    },
+  });
+
+  const sxCalcCell = (id, field, fmt) => (el) => {
+    const d = dash.data(id);
+    el.textContent = d.status === 'ok' && d.data[0] && d.data[0][field] != null ? fmt(d.data[0][field]) : '—';
+  };
+  dash.draw('ext-n-variants', sxCalcCell('ext-mech', 'variants', d3.format(',')));
+  dash.draw('ext-n-stuck', sxCalcCell('ext-mech', 'stuck', d3.format(',')));
+  dash.draw('ext-n-helped', sxCalcCell('ext-mech', 'helped', d3.format(',')));
+  dash.draw('ext-median', sxCalcCell('ext-mech', 'median_recovered', d3.format('.0%')));
+  dash.draw('ext-t-sets', sxCalcCell('ext-setcount', 'effect', String));
+  dash.draw('ext-t-sets-n', sxCalcCell('ext-setcount', 'total', String));
+
+  const sxRowCell = (source, pred, field, fmt) => (el) => {
+    const d = dash.data(source);
+    const r = d.status === 'ok' ? d.data.find(pred) : null;
+    el.textContent = r && r[field] != null ? fmt(r[field]) : '—';
+  };
+  const sxGame = (lvl) => (r) => r.factor === 'Game' && r.level === lvl;
+  dash.draw('ext-t-stag', sxRowCell('ext_factors', sxGame('Stag hunt'), 'responsive', String));
+  dash.draw('ext-t-coord', sxRowCell('ext_factors', sxGame('Original game'), 'responsive', String));
+  dash.draw('ext-t-gamen', sxRowCell('ext_factors', sxGame('Stag hunt'), 'variants', String));
+  const sxSet = (s) => (r) => r.set === s;
+  dash.draw('ext-t-qwen', sxRowCell('ext_sets', sxSet('qwen3.8-27b_pooled'), 'l2_pp', (v) => sxSigned(v)));
+  dash.draw('ext-t-qwen-lo', sxRowCell('ext_sets', sxSet('qwen3.8-27b_pooled'), 'l2_lo_pp', (v) => sxSigned(v)));
+  dash.draw('ext-t-qwen-hi', sxRowCell('ext_sets', sxSet('qwen3.8-27b_pooled'), 'l2_hi_pp', (v) => sxSigned(v)));
+  dash.draw('ext-t-glm', sxRowCell('ext_sets', sxSet('glm-5.2_pooled'), 'l2_pp', (v) => sxSigned(v)));
+  dash.draw('ext-t-glm-lo', sxRowCell('ext_sets', sxSet('glm-5.2_pooled'), 'l2_lo_pp', (v) => sxSigned(v)));
+  dash.draw('ext-t-glm-hi', sxRowCell('ext_sets', sxSet('glm-5.2_pooled'), 'l2_hi_pp', (v) => sxSigned(v)));
+
+  dash.draw('ext-scatter', (box) => {
+    box.replaceChildren();
+    const d = dash.data('ext_mechanism');
+    if (d.status !== 'ok' || !d.data.length) { box.textContent = '—'; return; }
+    const rows = d.data;
+    const W = Math.max(300, box.clientWidth || 600), H = 340, mb = 34, mt = 8, mr = 10;
+    const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`);
+    const xe = d3.extent(rows, (r) => r.size_pp), ye = d3.extent(rows, (r) => r.coupling_pp);
+    const y = d3.scaleLinear([Math.min(ye[0], -2), Math.max(ye[1], 2)], [H - mb, mt]).nice(6);
+    const yt = y.ticks(6);
+    const probe = svg.append('text').attr('font-size', 11).text(sxSigned(yt[0], 0));
+    const ml = Math.ceil(probe.node().getComputedTextLength()) + 10; probe.remove();
+    const x = d3.scaleLinear([Math.min(xe[0], -2), Math.max(xe[1], 2)], [ml, W - mr]).nice(6);
+    const xt = x.ticks(Math.max(3, Math.floor(W / 90)));
+    svg.append('g').selectAll('line').data(yt).join('line').attr('x1', ml).attr('x2', W - mr)
+      .attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(yt).join('text').attr('x', ml - 6).attr('y', (t) => y(t)).attr('dy', '0.32em')
+      .attr('text-anchor', 'end').attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((t) => sxSigned(t, 0));
+    svg.append('g').selectAll('text').data(xt).join('text').attr('x', (t) => x(t)).attr('y', H - mb + 16)
+      .attr('text-anchor', 'middle').attr('font-size', 11).attr('fill', 'var(--color-fg-muted)').text((t) => sxSigned(t, 0));
+    svg.append('text').attr('x', W - mr).attr('y', H - 4).attr('text-anchor', 'end').attr('font-size', 11)
+      .attr('fill', 'var(--color-fg-muted)').text('Size effect, points');
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', mt).attr('y2', H - mb).attr('stroke', 'var(--cds-chart-axis)');
+    svg.append('line').attr('x1', ml).attr('x2', W - mr).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', 'var(--cds-chart-axis)');
+    const lo = Math.max(x.domain()[0], -y.domain()[1]);
+    svg.append('line').attr('x1', x(lo)).attr('y1', y(-lo)).attr('x2', x(0)).attr('y2', y(0))
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+    const col = (r) => (r.game === 'Stag hunt' ? dash.colors[1] : dash.colors[0]);
+    svg.append('g').selectAll('circle').data(rows).join('circle').attr('cx', (r) => x(r.size_pp)).attr('cy', (r) => y(r.coupling_pp))
+      .attr('r', 3).attr('fill', col).attr('fill-opacity', 0.6);
+    const hl = svg.append('circle').attr('r', 5).attr('fill', 'none').attr('stroke-width', 2).attr('opacity', 0);
+    const tip = sxTip(box);
+    const del = d3.Delaunay.from(rows, (r) => x(r.size_pp), (r) => y(r.coupling_pp));
+    svg.append('rect').attr('x', ml).attr('y', mt).attr('width', W - ml - mr).attr('height', H - mb - mt).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev);
+        const r = rows[del.find(px, py)];
+        hl.attr('cx', x(r.size_pp)).attr('cy', y(r.coupling_pp)).attr('stroke', col(r)).attr('opacity', 1);
+        const rect = box.getBoundingClientRect(), sr = svg.node().getBoundingClientRect(), s = sr.width / W;
+        tip.show([['t', `${r.model} · ${r.deployment}`], [null, `${r.game}, ${r.wording}, ${r.variant}`],
+          [null, `Size ${sxSigned(r.size_pp)} pts, coupling ${sxSigned(r.coupling_pp)} pts`, col(r)]],
+        x(r.size_pp) * s + (sr.left - rect.left), y(r.coupling_pp) * s + (sr.top - rect.top));
+      })
+      .on('pointerleave', () => { hl.attr('opacity', 0); tip.hide(); });
+  });
+
+  dash.draw('ext-factors', (box) => {
+    box.replaceChildren();
+    const d = dash.data('ext_factors');
+    if (d.status !== 'ok' || !d.data.length) { box.textContent = '—'; return; }
+    const maxShare = d3.max(d.data, (r) => r.share) || 1;
+    [...new Set(d.data.map((r) => r.factor))].forEach((f) => {
+      const panel = document.createElement('div');
+      const t = document.createElement('div'); t.className = 'panel-title'; t.textContent = f; panel.appendChild(t);
+      d.data.filter((r) => r.factor === f).sort((a, b) => a.order - b.order).forEach((r) => {
+        const row = document.createElement('div');
+        row.style.cssText = 'display:grid;grid-template-columns:minmax(6rem,9rem) 1fr auto;gap:var(--cds-gap-sm);align-items:center;font-size:var(--cds-font-size-caption);margin-block:2px';
+        const lab = document.createElement('span'); lab.textContent = r.level; lab.style.color = 'var(--color-fg-muted)';
+        const track = document.createElement('span'); track.style.cssText = 'height:10px;position:relative';
+        const bar = document.createElement('span');
+        bar.style.cssText = `position:absolute;left:0;top:0;bottom:0;border-radius:2px;width:${(100 * r.share) / maxShare}%;background:${dash.colors[0]}`;
+        track.appendChild(bar);
+        const val = document.createElement('span'); val.className = 'sx-num'; val.textContent = `${r.responsive} of ${r.variants}`;
+        row.append(lab, track, val);
+        panel.appendChild(row);
+      });
+      box.appendChild(panel);
+    });
+  });
+
+  window.sx.extSet = window.sx.extSet || 'glm-5.2_pooled';
+  dash.draw('ext-set-pick', (sel) => {
+    const d = dash.data('ext_ncurve');
+    const sets = d.status === 'ok' ? [...new Map(d.data.map((r) => [r.set, `${r.model}: ${r.kind}`])).entries()] : [];
+    sel.replaceChildren(...sets.map(([v, l]) => new Option(l, v)));
+    if (sets.length && !sets.some(([v]) => v === window.sx.extSet)) window.sx.extSet = sets[0][0];
+    sel.value = window.sx.extSet;
+    sel.onchange = () => { window.sx.extSet = sel.value; dash.draw('ext-ncurve'); dash.draw('ext-dose'); };
+  });
+
+  dash.draw('ext-ncurve', (box) => {
+    box.replaceChildren();
+    const d = dash.data('ext_ncurve');
+    if (d.status !== 'ok') { box.textContent = '—'; return; }
+    const rows = d.data.filter((r) => r.set === window.sx.extSet).sort((a, b) => a.N - b.N);
+    if (!rows.length) { box.textContent = '—'; return; }
+    const Ns = rows.map((r) => r.N);
+    sxLinePanel(box, rows[0].kind, [
+      {name: 'Independent', color: dash.colors[0], values: rows.map((r) => ({x: r.N, y: r.x_independent}))},
+      {name: 'Coupled', color: dash.colors[1], values: rows.map((r) => ({x: r.N, y: r.x_coupled}))},
+    ], Ns, 'Agents', (v, tipMode) => d3.format(tipMode ? '.1%' : '.0%')(v), {band: true, dots: true});
+  });
+
+  dash.draw('ext-dose', (box) => {
+    box.replaceChildren();
+    const d = dash.data('ext_dose');
+    if (d.status !== 'ok') { box.textContent = '—'; return; }
+    const rows = d.data.filter((r) => r.set === window.sx.extSet && r.alpha !== 'restore');
+    if (!rows.length) { box.textContent = '—'; return; }
+    const alphas = [...new Set(rows.map((r) => +r.alpha))].sort((a, b) => a - b);
+    const series = [32, 64].map((N, i) => ({name: `${N} agents`, color: dash.colors[i],
+      values: alphas.map((a) => { const r = rows.find((q) => q.N === N && +q.alpha === a); return {x: a, y: r ? r.coupling_pp : null}; })}));
+    sxLinePanel(box, 'Probability of sharing randomness', series, alphas, 'Sharing probability',
+      (v, tipMode) => sxSigned(v, tipMode ? 1 : 0) + (tipMode ? ' pts' : ''), {dots: true, xTicks: [0.1, 0.3, 0.5, 0.75, 1]});
+  });
+
+  function sxTableF(name, source, keyCols, cols) {
+    dash.draw(name, (tbody) => {
+      const d = dash.data(source);
+      tbody.replaceChildren();
+      if (d.status !== 'ok') return;
+      d.data.forEach((r) => {
+        const tr = document.createElement('tr');
+        tr.dataset.key = keyCols.map((k) => encodeURIComponent(String(r[k]))).join(',');
+        cols.forEach(([field, fmt, numeric]) => {
+          const td = document.createElement('td');
+          if (numeric) td.className = 'n';
+          const v = r[field];
+          td.textContent = v == null ? '—' : fmt ? fmt(v) : String(v);
+          tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+      });
+    });
+  }
+  const sxPts = (v) => sxSigned(v);
+  const sxPts2 = (v) => sxSigned(v, 2);  // interval bounds: some sit within 0.05 of zero
+  sxTableF('ext-sets-table', 'ext_sets', ['set'], [['model'], ['kind'], ['variants', String, 1], ['size32_pp', sxPts, 1],
+    ['size64_pp', sxPts, 1], ['coupling32_pp', sxPts, 1], ['coupling64_pp', sxPts, 1], ['l2_pp', sxPts, 1],
+    ['l2_lo_pp', sxPts2, 1], ['l2_hi_pp', sxPts2, 1], ['decision']]);
+  sxTableF('ext-labels-table', 'ext_labels', ['model', 'game'], [['model'], ['game'], ['letter_J', d3.format('.2f'), 1],
+    ['letter_K', d3.format('.2f'), 1], ['listed_first', d3.format('.2f'), 1], ['listed_second', d3.format('.2f'), 1]]);
+  sxTableF('ext-providers-table', 'ext_providers', ['model', 'provider'], [['model'], ['provider'], ['pinned', (v) => (v ? 'Yes' : '')],
+    ['mad_vs_adaption', d3.format('.3f'), 1], ['size_pp', sxPts, 1], ['coupling_pp', sxPts, 1]]);
+  sxTableF('ext-retest-table', 'ext_retest', ['model'], [['model'], ['sum_z2', d3.format(',.0f'), 1], ['critical_99', d3.format(',.0f'), 1],
+    ['abs_z_gt_2', String, 1], ['prompts', String, 1], ['mean_abs_diff', d3.format('.3f'), 1]]);
+</script>

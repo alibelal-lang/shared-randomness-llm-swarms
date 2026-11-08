@@ -1,0 +1,47 @@
+[
+{
+"model": "Qwen 3.8 27B",
+"family": "Qwen",
+"status": "Included",
+"invalid_rate": 0.0027,
+"samples": 200,
+"p_BB_BB": 0.577,
+"p_AA_AA": 0.968
+},
+{
+"model": "Qwen 3.5 397B",
+"family": "Qwen",
+"status": "Included",
+"invalid_rate": 0.0,
+"samples": 100,
+"p_BB_BB": 0.285,
+"p_AA_AA": 0.995
+},
+{
+"model": "Gemma 4 31B",
+"family": "Gemma",
+"status": "Included",
+"invalid_rate": 0.0,
+"samples": 100,
+"p_BB_BB": 0.995,
+"p_AA_AA": 0.995
+},
+{
+"model": "Gemma 4 26B A4B",
+"family": "Gemma",
+"status": "Included",
+"invalid_rate": 0.0,
+"samples": 100,
+"p_BB_BB": 0.993,
+"p_AA_AA": 0.995
+},
+{
+"model": "GLM 5.2",
+"family": "GLM",
+"status": "Included",
+"invalid_rate": 0.0,
+"samples": 100,
+"p_BB_BB": 0.936,
+"p_AA_AA": 0.995
+}
+]

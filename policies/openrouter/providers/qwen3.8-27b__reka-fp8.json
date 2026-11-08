@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "qwen/qwen3.8-27b",
+  "provider_pin": "reka/fp8",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:25+0000",
+  "seconds": 12.5,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.0020733,
+  "providers": [
+   "Reka"
+  ]
+ },
+ "records": [
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8156181328487722,
+   "mass_B": 0.1819890018906624,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998655067671038,
+   "min_listed": 6.04482040216749e-06,
+   "top": [
+    [
+     "J",
+     -0.2038090080022812
+    ],
+    [
+     "K",
+     -1.7038090229034424
+    ],
+    [
+     "This",
+     -6.828808784484863
+    ],
+    [
+     "The",
+     -7.328808784484863
+    ],
+    [
+     "To",
+     -8.828808784484863
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 2.11e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7306998306088934,
+   "mass_B": 0.2688094453484673,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999319923249582,
+   "min_listed": 2.8986884717832646e-06,
+   "top": [
+    [
+     "J",
+     -0.31375253200531006
+    ],
+    [
+     "K",
+     -1.31375253200531
+    ],
+    [
+     "**",
+     -9.376252174377441
+    ],
+    [
+     "This",
+     -9.438752174377441
+    ],
+    [
+     "The",
+     -9.813752174377441
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.468077993058173,
+   "mass_B": 0.5304018537484934,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998572277192979,
+   "min_listed": 5.719552513789662e-06,
+   "top": [
+    [
+     "K",
+     -0.6341203451156616
+    ],
+    [
+     "J",
+     -0.7591203451156616
+    ],
+    [
+     "Let",
+     -8.384119987487793
+    ],
+    [
+     "Based",
+     -8.509119987487793
+    ],
+    [
+     "This",
+     -8.509119987487793
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6506378489351439,
+   "mass_B": 0.34825835607218164,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999849508892825,
+   "min_listed": 6.590841016587296e-06,
+   "top": [
+    [
+     "K",
+     -1.0548295974731445
+    ],
+    [
+     "J",
+     -0.4298296272754669
+    ],
+    [
+     "This",
+     -7.6798295974731445
+    ],
+    [
+     "The",
+     -9.179829597473145
+    ],
+    [
+     "Based",
+     -9.429829597473145
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.992200060342964,
+   "mass_B": 0.0024594178095978672,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999655456311219,
+   "min_listed": 1.6407934538383743e-06,
+   "top": [
+    [
+     "J",
+     -0.007830518297851086
+    ],
+    [
+     "**",
+     -5.257830619812012
+    ],
+    [
+     "K",
+     -6.007830619812012
+    ],
+    [
+     "The",
+     -10.820330619812012
+    ],
+    [
+     "Based",
+     -11.070330619812012
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5310637031132103,
+   "mass_B": 0.46866207307251323,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999396270681221,
+   "min_listed": 3.0652741869951378e-06,
+   "top": [
+    [
+     "J",
+     -0.6328732967376709
+    ],
+    [
+     "K",
+     -0.7578732967376709
+    ],
+    [
+     "C",
+     -10.44537353515625
+    ],
+    [
+     "The",
+     -10.50787353515625
+    ],
+    [
+     "B",
+     -10.50787353515625
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7975052728147162,
+   "mass_B": 0.20163828505772807,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998351313378318,
+   "min_listed": 7.129423285722921e-06,
+   "top": [
+    [
+     "J",
+     -0.2262798398733139
+    ],
+    [
+     "K",
+     -1.601279854774475
+    ],
+    [
+     "The",
+     -9.038780212402344
+    ],
+    [
+     "**",
+     -9.101280212402344
+    ],
+    [
+     "Based",
+     -9.601280212402344
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9566734103556542,
+   "mass_B": 0.0420318148445022,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998365432050301,
+   "min_listed": 6.660415489312736e-06,
+   "top": [
+    [
+     "J",
+     -0.04432856664061546
+    ],
+    [
+     "K",
+     -3.169328451156616
+    ],
+    [
+     "**",
+     -7.544328689575195
+    ],
+    [
+     "This",
+     -8.606828689575195
+    ],
+    [
+     "The",
+     -8.794328689575195
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9146769021056557,
+   "mass_B": 0.08507821371649839,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999748019409469,
+   "min_listed": 1.5125936054624064e-06,
+   "top": [
+    [
+     "J",
+     -0.08918438851833344
+    ],
+    [
+     "K",
+     -2.464184284210205
+    ],
+    [
+     "**",
+     -8.839184761047363
+    ],
+    [
+     "The",
+     -11.401684761047363
+    ],
+    [
+     "B",
+     -11.714184761047363
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3480895630003831,
+   "mass_B": 0.6503168995188604,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999011378893271,
+   "min_listed": 5.81368495725809e-06,
+   "top": [
+    [
+     "J",
+     -1.055295467376709
+    ],
+    [
+     "K",
+     -0.43029549717903137
+    ],
+    [
+     "**",
+     -6.680295467376709
+    ],
+    [
+     "The",
+     -9.992795944213867
+    ],
+    [
+     "In",
+     -10.492795944213867
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6481602629540738,
+   "mass_B": 0.3469351675790939,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998854970546217,
+   "min_listed": 5.4433406698199415e-06,
+   "top": [
+    [
+     "J",
+     -0.4336172938346863
+    ],
+    [
+     "K",
+     -1.058617353439331
+    ],
+    [
+     "**",
+     -5.433617115020752
+    ],
+    [
+     "The",
+     -9.18361759185791
+    ],
+    [
+     "B",
+     -9.55861759185791
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7763743139428869,
+   "mass_B": 0.22243495847459782,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998580580426563,
+   "min_listed": 6.5201027538087324e-06,
+   "top": [
+    [
+     "J",
+     -0.2531205117702484
+    ],
+    [
+     "K",
+     -1.5031205415725708
+    ],
+    [
+     "**",
+     -7.628120422363281
+    ],
+    [
+     "The",
+     -9.003120422363281
+    ],
+    [
+     "To",
+     -9.378120422363281
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.14800715153943808,
+   "mass_B": 0.8517223122418808,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999688358617267,
+   "min_listed": 2.8011099618668325e-06,
+   "top": [
+    [
+     "K",
+     -0.16049472987651825
+    ],
+    [
+     "J",
+     -1.9104946851730347
+    ],
+    [
+     "**",
+     -9.160494804382324
+    ],
+    [
+     "B",
+     -10.410494804382324
+    ],
+    [
+     "C",
+     -10.847994804382324
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6202298978317096,
+   "mass_B": 0.3761884491053661,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999343020346444,
+   "min_listed": 3.3630409538422735e-06,
+   "top": [
+    [
+     "J",
+     -0.4776650667190552
+    ],
+    [
+     "K",
+     -0.9776650667190552
+    ],
+    [
+     "**",
+     -5.727664947509766
+    ],
+    [
+     "To",
+     -9.915164947509766
+    ],
+    [
+     "The",
+     -10.227664947509766
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9519709428507644,
+   "mass_B": 0.04739584082686149,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999641665014484,
+   "min_listed": 2.438271823107941e-06,
+   "top": [
+    [
+     "J",
+     -0.04922076687216759
+    ],
+    [
+     "K",
+     -3.0492208003997803
+    ],
+    [
+     "**",
+     -7.674220561981201
+    ],
+    [
+     "The",
+     -10.61172103881836
+    ],
+    [
+     "To",
+     -10.73672103881836
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6784546536448414,
+   "mass_B": 0.32047927638228596,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999146537877275,
+   "min_listed": 6.456407265203252e-06,
+   "top": [
+    [
+     "K",
+     -1.1379376649856567
+    ],
+    [
+     "J",
+     -0.38793763518333435
+    ],
+    [
+     "**",
+     -7.762937545776367
+    ],
+    [
+     "The",
+     -9.137937545776367
+    ],
+    [
+     "B",
+     -9.137937545776367
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4665363490901367,
+   "mass_B": 0.5286549422709332,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998442164959411,
+   "min_listed": 7.791947723658905e-06,
+   "top": [
+    [
+     "J",
+     -0.7624193429946899
+    ],
+    [
+     "K",
+     -0.6374193429946899
+    ],
+    [
+     "**",
+     -5.5124192237854
+    ],
+    [
+     "To",
+     -8.949919700622559
+    ],
+    [
+     "The",
+     -9.512419700622559
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9625168835969742,
+   "mass_B": 0.0373208280177594,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999605355068846,
+   "min_listed": 2.4652847511313835e-06,
+   "top": [
+    [
+     "J",
+     -0.03820367157459259
+    ],
+    [
+     "K",
+     -3.288203716278076
+    ],
+    [
+     "**",
+     -10.600703239440918
+    ],
+    [
+     "This",
+     -10.975703239440918
+    ],
+    [
+     "The",
+     -11.413203239440918
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.26882175074998715,
+   "mass_B": 0.7307332583806884,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999239609826538,
+   "min_listed": 5.7649942709360794e-06,
+   "top": [
+    [
+     "K",
+     -0.31370678544044495
+    ],
+    [
+     "J",
+     -1.3137067556381226
+    ],
+    [
+     "C",
+     -9.626206398010254
+    ],
+    [
+     "**",
+     -9.876206398010254
+    ],
+    [
+     "The",
+     -10.063706398010254
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5268753127859956,
+   "mass_B": 0.46496583158193106,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998496375775597,
+   "min_listed": 6.853226879375905e-06,
+   "top": [
+    [
+     "K",
+     -0.7657913565635681
+    ],
+    [
+     "J",
+     -0.6407913565635681
+    ],
+    [
+     "**",
+     -4.890791416168213
+    ],
+    [
+     "Based",
+     -9.328290939331055
+    ],
+    [
+     "This",
+     -9.703290939331055
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5590829781629818,
+   "mass_B": 0.43541426119522336,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998890632122824,
+   "min_listed": 4.998077906882155e-06,
+   "top": [
+    [
+     "K",
+     -0.8314573764801025
+    ],
+    [
+     "J",
+     -0.5814573764801025
+    ],
+    [
+     "**",
+     -5.331457138061523
+    ],
+    [
+     "This",
+     -8.706457138061523
+    ],
+    [
+     "The",
+     -9.081457138061523
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.776460738033332,
+   "mass_B": 0.22246414850292678,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998683908097012,
+   "min_listed": 7.3888996544105276e-06,
+   "top": [
+    [
+     "K",
+     -0.25303202867507935
+    ],
+    [
+     "J",
+     -1.5030319690704346
+    ],
+    [
+     "This",
+     -7.503032207489014
+    ],
+    [
+     "The",
+     -8.878031730651855
+    ],
+    [
+     "In",
+     -10.065531730651855
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 2.11e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9949884522059421,
+   "mass_B": 0.004607689573727458,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999191990090996,
+   "min_listed": 4.76111475615392e-06,
+   "top": [
+    [
+     "K",
+     -0.005028932821005583
+    ],
+    [
+     "J",
+     -5.38002872467041
+    ],
+    [
+     "**",
+     -9.88002872467041
+    ],
+    [
+     "The",
+     -9.88002872467041
+    ],
+    [
+     "This",
+     -10.13002872467041
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7302910031527903,
+   "mass_B": 0.2686590381257171,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999834032037449,
+   "min_listed": 8.923592184239314e-06,
+   "top": [
+    [
+     "K",
+     -0.3143121898174286
+    ],
+    [
+     "J",
+     -1.314312219619751
+    ],
+    [
+     "This",
+     -8.564311981201172
+    ],
+    [
+     "To",
+     -9.001811981201172
+    ],
+    [
+     "The",
+     -9.001811981201172
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.962347056869555,
+   "mass_B": 0.03731424409427416,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999398763292412,
+   "min_listed": 2.6238189966694606e-06,
+   "top": [
+    [
+     "K",
+     -0.038380127400159836
+    ],
+    [
+     "J",
+     -3.2883801460266113
+    ],
+    [
+     "The",
+     -10.100879669189453
+    ],
+    [
+     "This",
+     -10.225879669189453
+    ],
+    [
+     "To",
+     -10.288379669189453
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7977710403410301,
+   "mass_B": 0.20170451830007669,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998573160061882,
+   "min_listed": 7.1317693776726156e-06,
+   "top": [
+    [
+     "K",
+     -0.2259514182806015
+    ],
+    [
+     "J",
+     -1.6009514331817627
+    ],
+    [
+     "This",
+     -9.038451194763184
+    ],
+    [
+     "The",
+     -9.788451194763184
+    ],
+    [
+     "B",
+     -10.475951194763184
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 2.38e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9135886013474601,
+   "mass_B": 0.08497697457050725,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999395153219961,
+   "min_listed": 3.0045734506419773e-06,
+   "top": [
+    [
+     "J",
+     -2.4653749465942383
+    ],
+    [
+     "K",
+     -0.0903749167919159
+    ],
+    [
+     "**",
+     -6.840374946594238
+    ],
+    [
+     "Based",
+     -9.777874946594238
+    ],
+    [
+     "Let",
+     -9.840374946594238
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9665187963718892,
+   "mass_B": 0.03307245501752034,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999276241358547,
+   "min_listed": 3.834180804876912e-06,
+   "top": [
+    [
+     "K",
+     -0.034054532647132874
+    ],
+    [
+     "J",
+     -3.4090545177459717
+    ],
+    [
+     "The",
+     -9.97155475616455
+    ],
+    [
+     "C",
+     -10.15905475616455
+    ],
+    [
+     "B",
+     -10.22155475616455
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.992993440257936,
+   "mass_B": 0.0066907357003263175,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999710507416765,
+   "min_listed": 1.642105265753102e-06,
+   "top": [
+    [
+     "K",
+     -0.007031220942735672
+    ],
+    [
+     "J",
+     -5.007031440734863
+    ],
+    [
+     "**",
+     -9.007031440734863
+    ],
+    [
+     "This",
+     -10.007031440734863
+    ],
+    [
+     "C",
+     -10.632031440734863
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9744781435023886,
+   "mass_B": 0.017848190346516194,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999738943094418,
+   "min_listed": 2.2026416739653285e-06,
+   "top": [
+    [
+     "K",
+     -0.025853188708424568
+    ],
+    [
+     "J",
+     -4.025853157043457
+    ],
+    [
+     "**",
+     -4.900853157043457
+    ],
+    [
+     "B",
+     -9.525853157043457
+    ],
+    [
+     "The",
+     -10.650853157043457
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5309133368997877,
+   "mass_B": 0.46852937535491446,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999129609952372,
+   "min_listed": 5.37820019272741e-06,
+   "top": [
+    [
+     "K",
+     -0.6331564784049988
+    ],
+    [
+     "J",
+     -0.7581564784049988
+    ],
+    [
+     "The",
+     -9.383156776428223
+    ],
+    [
+     "To",
+     -9.633156776428223
+    ],
+    [
+     "**",
+     -9.633156776428223
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8163578114836499,
+   "mass_B": 0.18215404378615488,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999306536601572,
+   "min_listed": 5.339370510421794e-06,
+   "top": [
+    [
+     "K",
+     -0.20290252566337585
+    ],
+    [
+     "J",
+     -1.7029025554656982
+    ],
+    [
+     "**",
+     -6.827902317047119
+    ],
+    [
+     "To",
+     -9.952902793884277
+    ],
+    [
+     "Based",
+     -10.077902793884277
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9971476342855609,
+   "mass_B": 0.0028007790031384715,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999918204482781,
+   "min_listed": 5.029086929613983e-07,
+   "top": [
+    [
+     "K",
+     -0.0028576513286679983
+    ],
+    [
+     "J",
+     -5.877857685089111
+    ],
+    [
+     "This",
+     -11.940357208251953
+    ],
+    [
+     "The",
+     -11.940357208251953
+    ],
+    [
+     "C",
+     -12.065357208251953
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8664222075705266,
+   "mass_B": 0.13287013901609065,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998563822960906,
+   "min_listed": 9.34300123356019e-06,
+   "top": [
+    [
+     "K",
+     -0.1433829516172409
+    ],
+    [
+     "J",
+     -2.018383026123047
+    ],
+    [
+     "**",
+     -9.143383026123047
+    ],
+    [
+     "B",
+     -9.205883026123047
+    ],
+    [
+     "The",
+     -9.955883026123047
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7542804692977502,
+   "mass_B": 0.24487901543772855,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999893188792325,
+   "min_listed": 7.640931753605308e-06,
+   "top": [
+    [
+     "K",
+     -0.28199100494384766
+    ],
+    [
+     "J",
+     -1.4069910049438477
+    ],
+    [
+     "**",
+     -8.531991004943848
+    ],
+    [
+     "B",
+     -9.031991004943848
+    ],
+    [
+     "The",
+     -9.406991004943848
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9929192752164734,
+   "mass_B": 0.006690238017778972,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999856455526469,
+   "min_listed": 8.78890230240808e-07,
+   "top": [
+    [
+     "K",
+     -0.007105912081897259
+    ],
+    [
+     "J",
+     -5.007105827331543
+    ],
+    [
+     "**",
+     -8.132105827331543
+    ],
+    [
+     "The",
+     -11.007105827331543
+    ],
+    [
+     "C",
+     -11.257105827331543
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9940736740404614,
+   "mass_B": 0.005216420839583234,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999360218120896,
+   "min_listed": 3.7045667152210736e-06,
+   "top": [
+    [
+     "K",
+     -0.005943956319242716
+    ],
+    [
+     "J",
+     -5.255943775177002
+    ],
+    [
+     "**",
+     -7.880943775177002
+    ],
+    [
+     "The",
+     -9.94344425201416
+    ],
+    [
+     "B",
+     -10.50594425201416
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.892518762103041,
+   "mass_B": 0.10659616102068785,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998750850334542,
+   "min_listed": 7.041371845083717e-06,
+   "top": [
+    [
+     "K",
+     -0.11370774358510971
+    ],
+    [
+     "J",
+     -2.2387077808380127
+    ],
+    [
+     "**",
+     -7.988707542419434
+    ],
+    [
+     "C",
+     -9.301207542419434
+    ],
+    [
+     "The",
+     -9.738707542419434
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9460301197768115,
+   "mass_B": 0.05337136263915575,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999036908290903,
+   "min_listed": 4.5268647917525275e-06,
+   "top": [
+    [
+     "K",
+     -0.055480871349573135
+    ],
+    [
+     "J",
+     -2.93048095703125
+    ],
+    [
+     "This",
+     -9.05548095703125
+    ],
+    [
+     "The",
+     -9.43048095703125
+    ],
+    [
+     "B",
+     -9.68048095703125
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6787564162561156,
+   "mass_B": 0.3206218476082973,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999172680417774,
+   "min_listed": 5.70029213008514e-06,
+   "top": [
+    [
+     "K",
+     -0.38749295473098755
+    ],
+    [
+     "J",
+     -1.1374928951263428
+    ],
+    [
+     "**",
+     -8.637493133544922
+    ],
+    [
+     "The",
+     -9.262493133544922
+    ],
+    [
+     "C",
+     -9.887493133544922
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9317996135582096,
+   "mass_B": 0.06749933962240316,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999117120741295,
+   "min_listed": 5.052447882350661e-06,
+   "top": [
+    [
+     "K",
+     -0.07063749432563782
+    ],
+    [
+     "J",
+     -2.6956374645233154
+    ],
+    [
+     "**",
+     -7.9456377029418945
+    ],
+    [
+     "To",
+     -10.070637702941895
+    ],
+    [
+     "The",
+     -10.383137702941895
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7038705872195443,
+   "mass_B": 0.29341691458063696,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997625274325602,
+   "min_listed": 1.3321104137086836e-05,
+   "top": [
+    [
+     "K",
+     -0.35116076469421387
+    ],
+    [
+     "J",
+     -1.2261607646942139
+    ],
+    [
+     "**",
+     -6.351161003112793
+    ],
+    [
+     "<|im_end|>",
+     -8.976161003112793
+    ],
+    [
+     "The",
+     -8.976161003112793
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 2.635e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7299204717625908,
+   "mass_B": 0.26852273525161746,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998580387962674,
+   "min_listed": 7.871048035808492e-06,
+   "top": [
+    [
+     "J",
+     -0.31481969356536865
+    ],
+    [
+     "K",
+     -1.3148196935653687
+    ],
+    [
+     "The",
+     -7.439819812774658
+    ],
+    [
+     "JJ",
+     -8.0648193359375
+    ],
+    [
+     "To",
+     -8.9398193359375
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 1.975e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.957884129299803,
+   "mass_B": 0.042086495797924235,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999984315460972,
+   "min_listed": 9.512938945004962e-08,
+   "top": [
+    [
+     "J",
+     -0.04302845895290375
+    ],
+    [
+     "K",
+     -3.1680283546447754
+    ],
+    [
+     "JJ",
+     -10.668028831481934
+    ],
+    [
+     "KK",
+     -14.230528831481934
+    ],
+    [
+     "j",
+     -14.480528831481934
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3774201827073863,
+   "mass_B": 0.6222606832211965,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999346251621938,
+   "min_listed": 3.1696298230620125e-06,
+   "top": [
+    [
+     "J",
+     -0.9743961691856384
+    ],
+    [
+     "K",
+     -0.4743961691856384
+    ],
+    [
+     "The",
+     -9.849395751953125
+    ],
+    [
+     "F",
+     -10.099395751953125
+    ],
+    [
+     "This",
+     -10.661895751953125
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3774153011078413,
+   "mass_B": 0.6222526162796183,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999181623141024,
+   "min_listed": 4.611722606522331e-06,
+   "top": [
+    [
+     "J",
+     -0.9744091033935547
+    ],
+    [
+     "K",
+     -0.4744091331958771
+    ],
+    [
+     "The",
+     -9.974409103393555
+    ],
+    [
+     "JJ",
+     -10.411909103393555
+    ],
+    [
+     "To",
+     -10.536909103393555
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9240907035404565,
+   "mass_B": 0.07585397565113318,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999909642457968,
+   "min_listed": 5.281184929712242e-07,
+   "top": [
+    [
+     "J",
+     -0.07894504815340042
+    ],
+    [
+     "K",
+     -2.5789451599121094
+    ],
+    [
+     "JJ",
+     -10.82894515991211
+    ],
+    [
+     "j",
+     -12.64144515991211
+    ],
+    [
+     "I",
+     -12.70394515991211
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5620824525522621,
+   "mass_B": 0.43775025419839747,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999790764560746,
+   "min_listed": 9.295111583783949e-07,
+   "top": [
+    [
+     "K",
+     -0.8261067271232605
+    ],
+    [
+     "J",
+     -0.5761067271232605
+    ],
+    [
+     "It",
+     -9.701107025146484
+    ],
+    [
+     "JJ",
+     -10.826107025146484
+    ],
+    [
+     "This",
+     -11.513607025146484
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5924922226168888,
+   "mass_B": 0.4072135523716217,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999919316732073,
+   "min_listed": 4.1251116460312435e-06,
+   "top": [
+    [
+     "J",
+     -0.5234175324440002
+    ],
+    [
+     "K",
+     -0.8984175324440002
+    ],
+    [
+     "I",
+     -10.085917472839355
+    ],
+    [
+     "k",
+     -10.460917472839355
+    ],
+    [
+     "The",
+     -10.898417472839355
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4377726677558612,
+   "mass_B": 0.5621112321297239,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999669806125075,
+   "min_listed": 1.6314269009417223e-06,
+   "top": [
+    [
+     "K",
+     -0.5760555267333984
+    ],
+    [
+     "J",
+     -0.8260555267333984
+    ],
+    [
+     "k",
+     -10.826055526733398
+    ],
+    [
+     "Let",
+     -11.451055526733398
+    ],
+    [
+     "0",
+     -11.638555526733398
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5311712421738272,
+   "mass_B": 0.46875697596041443,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999834952273646,
+   "min_listed": 8.783941706620547e-07,
+   "top": [
+    [
+     "K",
+     -0.7576708197593689
+    ],
+    [
+     "J",
+     -0.6326708197593689
+    ],
+    [
+     "JJ",
+     -11.507670402526855
+    ],
+    [
+     "KK",
+     -11.695170402526855
+    ],
+    [
+     "I",
+     -12.007670402526855
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4377211104622149,
+   "mass_B": 0.5620450312542664,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999929528984606,
+   "min_listed": 3.4533223774863818e-06,
+   "top": [
+    [
+     "J",
+     -0.8261733055114746
+    ],
+    [
+     "K",
+     -0.5761733055114746
+    ],
+    [
+     "k",
+     -10.201173782348633
+    ],
+    [
+     "0",
+     -11.076173782348633
+    ],
+    [
+     "JJ",
+     -11.263673782348633
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.09534841397468002,
+   "mass_B": 0.9046405642075198,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999992112292375,
+   "min_listed": 1.0180385967928791e-07,
+   "top": [
+    [
+     "K",
+     -0.10021758079528809
+    ],
+    [
+     "J",
+     -2.350217580795288
+    ],
+    [
+     "k",
+     -12.350217819213867
+    ],
+    [
+     "JJ",
+     -13.725217819213867
+    ],
+    [
+     "KK",
+     -14.100217819213867
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.24507242942553015,
+   "mass_B": 0.7548762263217931,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999913407141073,
+   "min_listed": 6.277013363829215e-07,
+   "top": [
+    [
+     "K",
+     -0.28120148181915283
+    ],
+    [
+     "J",
+     -1.4062014818191528
+    ],
+    [
+     "k",
+     -11.031201362609863
+    ],
+    [
+     "0",
+     -12.531201362609863
+    ],
+    [
+     "I",
+     -12.843701362609863
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.26893666039140796,
+   "mass_B": 0.7310456805221426,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999988636350079,
+   "min_listed": 1.0563457488371982e-07,
+   "top": [
+    [
+     "J",
+     -1.313279390335083
+    ],
+    [
+     "K",
+     -0.31327933073043823
+    ],
+    [
+     "F",
+     -11.813279151916504
+    ],
+    [
+     "k",
+     -12.188279151916504
+    ],
+    [
+     "B",
+     -14.250779151916504
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8519038002793076,
+   "mass_B": 0.1480385079417715,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999990504311988,
+   "min_listed": 4.573654523612922e-07,
+   "top": [
+    [
+     "K",
+     -1.910282850265503
+    ],
+    [
+     "J",
+     -0.16028280556201935
+    ],
+    [
+     "JJ",
+     -11.347783088684082
+    ],
+    [
+     "j",
+     -11.722783088684082
+    ],
+    [
+     "k",
+     -11.847783088684082
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6224409463687505,
+   "mass_B": 0.37752950658193785,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999970008711816,
+   "min_listed": 2.1575835364521764e-07,
+   "top": [
+    [
+     "J",
+     -0.4741065204143524
+    ],
+    [
+     "K",
+     -0.9741065502166748
+    ],
+    [
+     "JJ",
+     -11.474106788635254
+    ],
+    [
+     "KK",
+     -12.349106788635254
+    ],
+    [
+     "k",
+     -13.099106788635254
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7544997418709818,
+   "mass_B": 0.2449501955195674,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998687393895339,
+   "min_listed": 4.354938217718874e-06,
+   "top": [
+    [
+     "J",
+     -0.28170034289360046
+    ],
+    [
+     "K",
+     -1.4067003726959229
+    ],
+    [
+     "j",
+     -9.344200134277344
+    ],
+    [
+     "0",
+     -9.781700134277344
+    ],
+    [
+     "JJ",
+     -9.844200134277344
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8669402104122643,
+   "mass_B": 0.13294958128099854,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999765826281515,
+   "min_listed": 1.048882682439145e-06,
+   "top": [
+    [
+     "J",
+     -0.14278526604175568
+    ],
+    [
+     "K",
+     -2.0177853107452393
+    ],
+    [
+     "j",
+     -10.89278507232666
+    ],
+    [
+     "k",
+     -10.95528507232666
+    ],
+    [
+     "2",
+     -11.58028507232666
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5926444510627605,
+   "mass_B": 0.4073181773503963,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999908702311234,
+   "min_listed": 5.245836511300636e-07,
+   "top": [
+    [
+     "K",
+     -0.8981606364250183
+    ],
+    [
+     "J",
+     -0.5231606364250183
+    ],
+    [
+     "0",
+     -11.835660934448242
+    ],
+    [
+     "k",
+     -12.335660934448242
+    ],
+    [
+     "j",
+     -13.273160934448242
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7981634282712179,
+   "mass_B": 0.20180721680927594,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999921869636655,
+   "min_listed": 3.781621041292721e-07,
+   "top": [
+    [
+     "J",
+     -0.22544240951538086
+    ],
+    [
+     "K",
+     -1.6004424095153809
+    ],
+    [
+     "k",
+     -12.225442886352539
+    ],
+    [
+     "M",
+     -12.912942886352539
+    ],
+    [
+     "j",
+     -13.100442886352539
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.43780836482419205,
+   "mass_B": 0.5621570680727619,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999909790876264,
+   "min_listed": 5.638522934791583e-07,
+   "top": [
+    [
+     "K",
+     -0.5759739875793457
+    ],
+    [
+     "J",
+     -0.8259739875793457
+    ],
+    [
+     "k",
+     -12.263473510742188
+    ],
+    [
+     "It",
+     -13.013473510742188
+    ],
+    [
+     "j",
+     -13.075973510742188
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.2942013290130691,
+   "mass_B": 0.7057522575556232,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999936563781343,
+   "min_listed": 3.343790139516343e-07,
+   "top": [
+    [
+     "K",
+     -0.34849101305007935
+    ],
+    [
+     "J",
+     -1.2234909534454346
+    ],
+    [
+     "JJ",
+     -11.223490715026855
+    ],
+    [
+     "k",
+     -12.098490715026855
+    ],
+    [
+     "F",
+     -12.535990715026855
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8169521019741997,
+   "mass_B": 0.18228665877966524,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999029608771117,
+   "min_listed": 3.0444961441947136e-06,
+   "top": [
+    [
+     "K",
+     -0.2021748125553131
+    ],
+    [
+     "J",
+     -1.7021747827529907
+    ],
+    [
+     "The",
+     -8.07717514038086
+    ],
+    [
+     "I",
+     -9.07717514038086
+    ],
+    [
+     "k",
+     -10.07717514038086
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 1.975e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8932186001550944,
+   "mass_B": 0.10667975667582806,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999815294736466,
+   "min_listed": 7.906395815516256e-07,
+   "top": [
+    [
+     "K",
+     -0.11292393505573273
+    ],
+    [
+     "J",
+     -2.2379238605499268
+    ],
+    [
+     "k",
+     -10.612923622131348
+    ],
+    [
+     "It",
+     -10.987923622131348
+    ],
+    [
+     "The",
+     -12.050423622131348
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6223097547324818,
+   "mass_B": 0.3774499460834993,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999930865475435,
+   "min_listed": 2.7974072535054327e-06,
+   "top": [
+    [
+     "J",
+     -0.9743173122406006
+    ],
+    [
+     "K",
+     -0.4743173122406006
+    ],
+    [
+     "k",
+     -10.16181755065918
+    ],
+    [
+     "j",
+     -10.84931755065918
+    ],
+    [
+     "The",
+     -11.03681755065918
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7308616700861237,
+   "mass_B": 0.26886899077783044,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999276508965995,
+   "min_listed": 4.490569971064268e-06,
+   "top": [
+    [
+     "K",
+     -0.3135310709476471
+    ],
+    [
+     "J",
+     -1.3135310411453247
+    ],
+    [
+     "k",
+     -10.438530921936035
+    ],
+    [
+     "It",
+     -10.813530921936035
+    ],
+    [
+     "0",
+     -10.876030921936035
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7772326203989558,
+   "mass_B": 0.22268087402051606,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999838812988227,
+   "min_listed": 8.833749738790521e-07,
+   "top": [
+    [
+     "K",
+     -0.2520155906677246
+    ],
+    [
+     "J",
+     -1.5020155906677246
+    ],
+    [
+     "k",
+     -11.189516067504883
+    ],
+    [
+     "JJ",
+     -11.439516067504883
+    ],
+    [
+     "KK",
+     -11.439516067504883
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 2.215e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.817521839380641,
+   "mass_B": 0.1824137816640185,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999983270856525,
+   "min_listed": 7.703059953698529e-07,
+   "top": [
+    [
+     "K",
+     -0.20147766172885895
+    ],
+    [
+     "J",
+     -1.7014776468276978
+    ],
+    [
+     "k",
+     -10.826478004455566
+    ],
+    [
+     "M",
+     -12.826478004455566
+    ],
+    [
+     "B",
+     -12.888978004455566
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.754893886724131,
+   "mass_B": 0.2450781556148254,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999964220676184,
+   "min_listed": 2.785471549196813e-07,
+   "top": [
+    [
+     "K",
+     -0.2811780869960785
+    ],
+    [
+     "J",
+     -1.4061781167984009
+    ],
+    [
+     "k",
+     -11.53117847442627
+    ],
+    [
+     "I",
+     -13.09367847442627
+    ],
+    [
+     "F",
+     -13.15617847442627
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6791171663283313,
+   "mass_B": 0.32079224432611386,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999807557686139,
+   "min_listed": 1.1230504746582202e-06,
+   "top": [
+    [
+     "K",
+     -0.38696160912513733
+    ],
+    [
+     "J",
+     -1.136961579322815
+    ],
+    [
+     "k",
+     -10.449461936950684
+    ],
+    [
+     "I",
+     -12.074461936950684
+    ],
+    [
+     "j",
+     -12.386961936950684
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8175306835784183,
+   "mass_B": 0.18241576050772756,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999904860685545,
+   "min_listed": 4.973526225256155e-07,
+   "top": [
+    [
+     "K",
+     -0.20146684348583221
+    ],
+    [
+     "J",
+     -1.7014667987823486
+    ],
+    [
+     "k",
+     -11.07646656036377
+    ],
+    [
+     "C",
+     -12.32646656036377
+    ],
+    [
+     "It",
+     -12.51396656036377
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.817386337768507,
+   "mass_B": 0.18238353629624593,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999573921639422,
+   "min_listed": 1.6304687788404351e-06,
+   "top": [
+    [
+     "K",
+     -0.2016434222459793
+    ],
+    [
+     "J",
+     -1.701643466949463
+    ],
+    [
+     "k",
+     -10.201642990112305
+    ],
+    [
+     "It",
+     -10.701642990112305
+    ],
+    [
+     "The",
+     -10.764142990112305
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7981204954969909,
+   "mass_B": 0.20179646348494318,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999802575467418,
+   "min_listed": 1.09419093664407e-06,
+   "top": [
+    [
+     "J",
+     -1.60049569606781
+    ],
+    [
+     "K",
+     -0.22549569606781006
+    ],
+    [
+     "k",
+     -11.412995338439941
+    ],
+    [
+     "The",
+     -11.600495338439941
+    ],
+    [
+     "0",
+     -11.662995338439941
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4073173518973535,
+   "mass_B": 0.5926432500356701,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999898340170582,
+   "min_listed": 6.735774564815908e-07,
+   "top": [
+    [
+     "K",
+     -0.8981626629829407
+    ],
+    [
+     "J",
+     -0.5231626629829407
+    ],
+    [
+     "k",
+     -11.835662841796875
+    ],
+    [
+     "j",
+     -12.648162841796875
+    ],
+    [
+     "F",
+     -12.898162841796875
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9240868341716643,
+   "mass_B": 0.07585366820680564,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999995298201232,
+   "min_listed": 2.6555364216767115e-07,
+   "top": [
+    [
+     "K",
+     -0.07894923537969589
+    ],
+    [
+     "J",
+     -2.578949213027954
+    ],
+    [
+     "k",
+     -10.078948974609375
+    ],
+    [
+     "C",
+     -13.328948974609375
+    ],
+    [
+     "It",
+     -13.578948974609375
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6511071919615541,
+   "mass_B": 0.34851257607481384,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999104569361639,
+   "min_listed": 4.533206813190989e-06,
+   "top": [
+    [
+     "K",
+     -0.429080992937088
+    ],
+    [
+     "J",
+     -1.0540809631347656
+    ],
+    [
+     "k",
+     -9.679080963134766
+    ],
+    [
+     "0",
+     -10.054080963134766
+    ],
+    [
+     "To",
+     -10.491580963134766
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9523628297864545,
+   "mass_B": 0.047415348725055956,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999898553970282,
+   "min_listed": 6.98864437343126e-07,
+   "top": [
+    [
+     "K",
+     -0.04880919307470322
+    ],
+    [
+     "J",
+     -3.048809289932251
+    ],
+    [
+     "k",
+     -8.673809051513672
+    ],
+    [
+     "It",
+     -11.173809051513672
+    ],
+    [
+     "j",
+     -12.173809051513672
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7548749889842509,
+   "mass_B": 0.24507202041712864,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999887583387944,
+   "min_listed": 8.059829327126221e-07,
+   "top": [
+    [
+     "J",
+     -1.4062031507492065
+    ],
+    [
+     "K",
+     -0.28120312094688416
+    ],
+    [
+     "k",
+     -11.093703269958496
+    ],
+    [
+     "j",
+     -12.718703269958496
+    ],
+    [
+     "I",
+     -12.718703269958496
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7056901496733342,
+   "mass_B": 0.29417541229294436,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999614012078875,
+   "min_listed": 1.807475555851982e-06,
+   "top": [
+    [
+     "J",
+     -1.2235790491104126
+    ],
+    [
+     "K",
+     -0.3485790193080902
+    ],
+    [
+     "k",
+     -11.098579406738281
+    ],
+    [
+     "0",
+     -11.286079406738281
+    ],
+    [
+     "I",
+     -11.411079406738281
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9579095045030869,
+   "mass_B": 0.04208760960914293,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999996715794712,
+   "min_listed": 3.725419895212227e-08,
+   "top": [
+    [
+     "K",
+     -0.043001968413591385
+    ],
+    [
+     "J",
+     -3.168001890182495
+    ],
+    [
+     "k",
+     -13.793002128601074
+    ],
+    [
+     "The",
+     -15.168002128601074
+    ],
+    [
+     "C",
+     -15.543002128601074
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9626697593720553,
+   "mass_B": 0.03732675454214586,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997354451563,
+   "min_listed": 3.7439333929864775e-08,
+   "top": [
+    [
+     "K",
+     -0.03804485499858856
+    ],
+    [
+     "J",
+     -3.2880449295043945
+    ],
+    [
+     "k",
+     -13.413044929504395
+    ],
+    [
+     "I",
+     -15.163044929504395
+    ],
+    [
+     "It",
+     -15.663044929504395
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9839616961389126,
+   "mass_B": 0.015904262601775288,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999973401000703,
+   "min_listed": 1.3489708435394212e-06,
+   "top": [
+    [
+     "K",
+     -0.01616830937564373
+    ],
+    [
+     "J",
+     -4.141168117523193
+    ],
+    [
+     "k",
+     -10.141168594360352
+    ],
+    [
+     "The",
+     -11.141168594360352
+    ],
+    [
+     "It",
+     -11.203668594360352
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8175335585724068,
+   "mass_B": 0.1824163911327608,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999902327414194,
+   "min_listed": 5.635759672450996e-07,
+   "top": [
+    [
+     "K",
+     -0.20146332681179047
+    ],
+    [
+     "J",
+     -1.7014633417129517
+    ],
+    [
+     "k",
+     -11.45146369934082
+    ],
+    [
+     "KK",
+     -11.82646369934082
+    ],
+    [
+     "The",
+     -12.57646369934082
+    ]
+   ],
+   "provider": "Reka",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 2.44e-05
+  }
+ ]
+}

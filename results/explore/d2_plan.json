@@ -1,0 +1,54 @@
+[
+ {
+  "policy": "policies/adaption_v2/qwen3.8-27b_stag_f4.json",
+  "variants": [
+   "f4m0",
+   "f4m2",
+   "f4m3"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/qwen3.8-27b_stag_f6.json",
+  "variants": [
+   "f6m0",
+   "f6m2"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/qwen3.8-27b_coord_f6.json",
+  "variants": [
+   "f6m2"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/glm-5.2_stag_f4.json",
+  "variants": [
+   "f4m2"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/glm-5.2_stag_f7.json",
+  "variants": [
+   "f7m1",
+   "f7m2"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/glm-5.2_stag_f0.json",
+  "variants": [
+   "f0m3"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/glm-5.2_coord_f6.json",
+  "variants": [
+   "f6m3"
+  ]
+ },
+ {
+  "policy": "policies/adaption_v2/glm-5.2_stag_f3.json",
+  "variants": [
+   "f3m0"
+  ]
+ }
+]

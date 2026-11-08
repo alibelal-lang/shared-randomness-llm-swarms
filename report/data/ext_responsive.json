@@ -1,0 +1,282 @@
+[
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "coreweave-bf16",
+"pinned": true,
+"game": "Original game",
+"responsive": 0,
+"variants": 32,
+"mean_size_pp": 0.0,
+"mean_coupling_pp": 0.0
+},
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "coreweave-bf16",
+"pinned": true,
+"game": "Stag hunt",
+"responsive": 6,
+"variants": 32,
+"mean_size_pp": -3.3,
+"mean_coupling_pp": 2.3
+},
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "novita-bf16",
+"pinned": false,
+"game": "Original game",
+"responsive": 0,
+"variants": 32,
+"mean_size_pp": 0.1,
+"mean_coupling_pp": -0.0
+},
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "novita-bf16",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 9,
+"variants": 32,
+"mean_size_pp": -1.6,
+"mean_coupling_pp": 1.5
+},
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "parasail-bf16",
+"pinned": false,
+"game": "Original game",
+"responsive": 0,
+"variants": 32,
+"mean_size_pp": 1.0,
+"mean_coupling_pp": -0.0
+},
+{
+"model": "Gemma 4 26B A4B",
+"deployment": "parasail-bf16",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 4,
+"variants": 32,
+"mean_size_pp": -3.5,
+"mean_coupling_pp": 1.3
+},
+{
+"model": "Gemma 4 31B",
+"deployment": "novita-bf16",
+"pinned": true,
+"game": "Original game",
+"responsive": 0,
+"variants": 32,
+"mean_size_pp": 4.1,
+"mean_coupling_pp": -1.7
+},
+{
+"model": "Gemma 4 31B",
+"deployment": "novita-bf16",
+"pinned": true,
+"game": "Stag hunt",
+"responsive": 5,
+"variants": 32,
+"mean_size_pp": -6.3,
+"mean_coupling_pp": 2.8
+},
+{
+"model": "Gemma 4 31B",
+"deployment": "parasail-fp8",
+"pinned": false,
+"game": "Original game",
+"responsive": 0,
+"variants": 32,
+"mean_size_pp": 2.8,
+"mean_coupling_pp": -0.4
+},
+{
+"model": "Gemma 4 31B",
+"deployment": "parasail-fp8",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 4,
+"variants": 32,
+"mean_size_pp": -3.3,
+"mean_coupling_pp": 1.7
+},
+{
+"model": "GLM 5.2",
+"deployment": "alibaba-fast",
+"pinned": false,
+"game": "Original game",
+"responsive": 4,
+"variants": 32,
+"mean_size_pp": -1.4,
+"mean_coupling_pp": 0.8
+},
+{
+"model": "GLM 5.2",
+"deployment": "alibaba-fast",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 9,
+"variants": 32,
+"mean_size_pp": -2.7,
+"mean_coupling_pp": 1.4
+},
+{
+"model": "GLM 5.2",
+"deployment": "ambient-fp8",
+"pinned": true,
+"game": "Original game",
+"responsive": 5,
+"variants": 32,
+"mean_size_pp": -0.8,
+"mean_coupling_pp": 0.5
+},
+{
+"model": "GLM 5.2",
+"deployment": "ambient-fp8",
+"pinned": true,
+"game": "Stag hunt",
+"responsive": 8,
+"variants": 32,
+"mean_size_pp": -1.9,
+"mean_coupling_pp": 1.2
+},
+{
+"model": "GLM 5.2",
+"deployment": "streamlake-fp8",
+"pinned": false,
+"game": "Original game",
+"responsive": 2,
+"variants": 32,
+"mean_size_pp": -1.0,
+"mean_coupling_pp": 0.6
+},
+{
+"model": "GLM 5.2",
+"deployment": "streamlake-fp8",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 7,
+"variants": 32,
+"mean_size_pp": -1.5,
+"mean_coupling_pp": 0.9
+},
+{
+"model": "Qwen 3.5 397B",
+"deployment": "parasail-fp8",
+"pinned": true,
+"game": "Original game",
+"responsive": 4,
+"variants": 32,
+"mean_size_pp": 1.5,
+"mean_coupling_pp": -0.1
+},
+{
+"model": "Qwen 3.5 397B",
+"deployment": "parasail-fp8",
+"pinned": true,
+"game": "Stag hunt",
+"responsive": 9,
+"variants": 32,
+"mean_size_pp": -6.3,
+"mean_coupling_pp": 5.3
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "cerebras-fp16",
+"pinned": false,
+"game": "Original game",
+"responsive": 1,
+"variants": 32,
+"mean_size_pp": -0.2,
+"mean_coupling_pp": 0.1
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "cerebras-fp16",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 9,
+"variants": 32,
+"mean_size_pp": -3.4,
+"mean_coupling_pp": 2.3
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "coreweave-fp8",
+"pinned": false,
+"game": "Original game",
+"responsive": 1,
+"variants": 32,
+"mean_size_pp": -0.4,
+"mean_coupling_pp": 0.2
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "coreweave-fp8",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 5,
+"variants": 32,
+"mean_size_pp": -2.2,
+"mean_coupling_pp": 1.5
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "parasail-fp8",
+"pinned": false,
+"game": "Original game",
+"responsive": 2,
+"variants": 32,
+"mean_size_pp": -0.5,
+"mean_coupling_pp": 0.3
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "parasail-fp8",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 6,
+"variants": 32,
+"mean_size_pp": -2.5,
+"mean_coupling_pp": 1.6
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "reka-fp8",
+"pinned": false,
+"game": "Original game",
+"responsive": 1,
+"variants": 32,
+"mean_size_pp": -0.7,
+"mean_coupling_pp": 0.6
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "reka-fp8",
+"pinned": false,
+"game": "Stag hunt",
+"responsive": 6,
+"variants": 32,
+"mean_size_pp": -2.4,
+"mean_coupling_pp": 1.6
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "wafer-fp8",
+"pinned": true,
+"game": "Original game",
+"responsive": 1,
+"variants": 32,
+"mean_size_pp": -0.6,
+"mean_coupling_pp": 0.3
+},
+{
+"model": "Qwen 3.8 27B",
+"deployment": "wafer-fp8",
+"pinned": true,
+"game": "Stag hunt",
+"responsive": 9,
+"variants": 32,
+"mean_size_pp": -4.1,
+"mean_coupling_pp": 2.6
+}
+]

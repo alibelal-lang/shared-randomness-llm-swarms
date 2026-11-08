@@ -1,0 +1,871 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "google/gemma-4-26b-a4b-it",
+  "provider_pin": null,
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "framings": [
+   0
+  ],
+  "mappings": [
+   0
+  ],
+  "repeats": 1,
+  "prompt_hash": "354aaa6e76c8c655",
+  "created": "2026-11-07T12:36:14+0000",
+  "seconds": 1.3,
+  "calls": 21,
+  "errors": 0,
+  "total_cost": 0.00022451,
+  "providers": [
+   "CoreWeave",
+   "Io Net",
+   "Makora",
+   "NextBit"
+  ]
+ },
+ "records": [
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999999009671697,
+   "mass_B": 5.263340161707315e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0000000318949946,
+   "min_listed": 1.4845932617797694e-09,
+   "top": [
+    [
+     "J",
+     -1.1920928244535389e-07
+    ],
+    [
+     "**",
+     -16.65625
+    ],
+    [
+     " J",
+     -17.71875
+    ],
+    [
+     "B",
+     -18.328125
+    ],
+    [
+     "Since",
+     -18.6875
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 125,
+   "completion_tokens": 1,
+   "cost": 8.6625e-06
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999997730776703,
+   "mass_B": 5.346225708766482e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999694281575,
+   "min_listed": 2.093612069037112e-09,
+   "top": [
+    [
+     "J",
+     -2.3841855e-07
+    ],
+    [
+     "**",
+     -16.0
+    ],
+    [
+     "G",
+     -18.09375
+    ],
+    [
+     "Since",
+     -18.21875
+    ],
+    [
+     " J",
+     -18.28125
+    ]
+   ],
+   "provider": "Makora",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.154e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9959157618174481,
+   "mass_B": 0.0040700796894576055,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999998967210273,
+   "min_listed": 1.4248802056158583e-08,
+   "top": [
+    [
+     "J",
+     -0.0040926514
+    ],
+    [
+     "K",
+     -5.5040927
+    ],
+    [
+     "**",
+     -11.254092
+    ],
+    [
+     "To",
+     -15.316592
+    ],
+    [
+     "Since",
+     -15.379092
+    ]
+   ],
+   "provider": "Makora",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.154e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999077904550997,
+   "mass_B": 7.484490593399368e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999693729848,
+   "min_listed": 1.3439179501179263e-08,
+   "top": [
+    [
+     "J",
+     -9.226373367710039e-05
+    ],
+    [
+     "K",
+     -9.500092506408691
+    ],
+    [
+     "**",
+     -11.125092506408691
+    ],
+    [
+     "Since",
+     -14.062592506408691
+    ],
+    [
+     "To",
+     -14.250092506408691
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 9.8775e-06
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999976993134662,
+   "mass_B": 2.1444915077870137e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999998668779906,
+   "min_listed": 5.780515334606887e-09,
+   "top": [
+    [
+     "J",
+     -2.300713e-05
+    ],
+    [
+     "K",
+     -10.750023
+    ],
+    [
+     "**",
+     -14.250023
+    ],
+    [
+     "JJ",
+     -14.500023
+    ],
+    [
+     "KK",
+     -16.750023
+    ]
+   ],
+   "provider": "Makora",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 143,
+   "completion_tokens": 1,
+   "cost": 1.154e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999997681318105,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999802936999,
+   "min_listed": 1.6954587224746863e-09,
+   "top": [
+    [
+     "J",
+     -2.3841855067985307e-07
+    ],
+    [
+     "**",
+     -16.1875
+    ],
+    [
+     "Since",
+     -17.8125
+    ],
+    [
+     "G",
+     -17.859375
+    ],
+    [
+     "To",
+     -18.03125
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999935794667666,
+   "mass_B": 1.5534897972561758e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999998451362412,
+   "min_listed": 5.101375018695309e-09,
+   "top": [
+    [
+     "J",
+     -6.437280717364047e-06
+    ],
+    [
+     "**",
+     -12.875006675720215
+    ],
+    [
+     "To",
+     -13.375006675720215
+    ],
+    [
+     "K",
+     -13.375006675720215
+    ],
+    [
+     "Since",
+     -15.375006675720215
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999973904293467,
+   "mass_B": 1.994727993510925e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999895979058,
+   "min_listed": 1.997734781848418e-09,
+   "top": [
+    [
+     "J",
+     -2.622600959512056e-06
+    ],
+    [
+     "K",
+     -13.12500286102295
+    ],
+    [
+     "**",
+     -14.68750286102295
+    ],
+    [
+     "JJ",
+     -16.937501907348633
+    ],
+    [
+     "To",
+     -17.250001907348633
+    ]
+   ],
+   "provider": "CoreWeave",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.63e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999997679302779,
+   "mass_B": 3.561354097273517e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999826146675,
+   "min_listed": 2.0134070502006793e-09,
+   "top": [
+    [
+     "J",
+     -2.3841855067985307e-07
+    ],
+    [
+     "**",
+     -16.3125
+    ],
+    [
+     "To",
+     -17.34375
+    ],
+    [
+     "Since",
+     -17.53125
+    ],
+    [
+     "B",
+     -17.75
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999995415339314,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999456106448,
+   "min_listed": 2.4476804890343893e-09,
+   "top": [
+    [
+     "J",
+     -4.768370445162873e-07
+    ],
+    [
+     "**",
+     -15.78125
+    ],
+    [
+     "To",
+     -16.03125
+    ],
+    [
+     "Since",
+     -16.96875
+    ],
+    [
+     "Based",
+     -17.375
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999811888760916,
+   "mass_B": 2.873631547548949e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999995781075027,
+   "min_listed": 1.18608939205883e-08,
+   "top": [
+    [
+     "J",
+     -1.883488948806189e-05
+    ],
+    [
+     "**",
+     -11.500019073486328
+    ],
+    [
+     "To",
+     -12.187519073486328
+    ],
+    [
+     "Since",
+     -13.312519073486328
+    ],
+    [
+     "Based",
+     -14.437519073486328
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 8.625e-06
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999896436605112,
+   "mass_B": 2.873656212232213e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999997568484831,
+   "min_listed": 7.901134053158605e-09,
+   "top": [
+    [
+     "J",
+     -1.0371154530730564e-05
+    ],
+    [
+     "To",
+     -12.12501049041748
+    ],
+    [
+     "**",
+     -12.75001049041748
+    ],
+    [
+     "Since",
+     -13.93751049041748
+    ],
+    [
+     "K",
+     -15.06251049041748
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 8.145e-06
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9984819449830298,
+   "mass_B": 0.0015011568974398744,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999994499747744,
+   "min_listed": 1.8342956889485454e-08,
+   "top": [
+    [
+     "J",
+     -0.0015192406717687845
+    ],
+    [
+     "K",
+     -6.501519203186035
+    ],
+    [
+     "**",
+     -11.376519203186035
+    ],
+    [
+     "To",
+     -13.189019203186035
+    ],
+    [
+     "B",
+     -13.751519203186035
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 7.665e-06
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999996607431144,
+   "mass_B": 0.0,
+   "found_A": true,
+   "found_B": false,
+   "listed_mass": 0.9999999215649161,
+   "min_listed": 2.1265816617938767e-09,
+   "top": [
+    [
+     "J",
+     -3.576278118089249e-07
+    ],
+    [
+     "**",
+     -16.15625
+    ],
+    [
+     "To",
+     -16.53125
+    ],
+    [
+     "Since",
+     -17.71875
+    ],
+    [
+     "Based",
+     -17.78125
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999910755950344,
+   "mass_B": 4.4508124429271725e-07,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999419983316,
+   "min_listed": 4.644834941374155e-09,
+   "top": [
+    [
+     "J",
+     -8.940657e-06
+    ],
+    [
+     "**",
+     -12.125009
+    ],
+    [
+     "Since",
+     -13.500009
+    ],
+    [
+     "To",
+     -13.625009
+    ],
+    [
+     "K",
+     -14.625009
+    ]
+   ],
+   "provider": "Makora",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.29e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999139771877051,
+   "mass_B": 5.1440444821423804e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999991139266704,
+   "min_listed": 3.653168646284352e-08,
+   "top": [
+    [
+     "J",
+     -8.606540359323844e-05
+    ],
+    [
+     "K",
+     -9.875085830688477
+    ],
+    [
+     "**",
+     -11.125085830688477
+    ],
+    [
+     "To",
+     -11.250085830688477
+    ],
+    [
+     "Since",
+     -12.812585830688477
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 8.145e-06
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9769002197037964,
+   "mass_B": 0.022974491521606594,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999988178870376,
+   "min_listed": 5.192991879672429e-08,
+   "top": [
+    [
+     "J",
+     -0.023370761424303055
+    ],
+    [
+     "K",
+     -3.7733707427978516
+    ],
+    [
+     "**",
+     -9.148370742797852
+    ],
+    [
+     "To",
+     -11.960870742797852
+    ],
+    [
+     "JJ",
+     -12.773370742797852
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 7.665e-06
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999999904750846,
+   "mass_B": 6.972792826235374e-09,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.000000050902289,
+   "min_listed": 1.4672972263876274e-09,
+   "top": [
+    [
+     "J",
+     -1.1920928244535389e-07
+    ],
+    [
+     "**",
+     -16.46875
+    ],
+    [
+     " J",
+     -17.546875
+    ],
+    [
+     "JJ",
+     -17.78125
+    ],
+    [
+     "B",
+     -18.734375
+    ]
+   ],
+   "provider": "Io Net",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.471e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9986167324510602,
+   "mass_B": 0.0013249450395356366,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999999565932714,
+   "min_listed": 2.841396748009692e-08,
+   "top": [
+    [
+     "J",
+     -0.0013842536
+    ],
+    [
+     "K",
+     -6.6263843
+    ],
+    [
+     "**",
+     -9.876384
+    ],
+    [
+     "To",
+     -13.063884
+    ],
+    [
+     "Since",
+     -13.438884
+    ]
+   ],
+   "provider": "Makora",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.29e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9988813498005054,
+   "mass_B": 0.001032141884068603,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999984416070411,
+   "min_listed": 6.81796561411183e-08,
+   "top": [
+    [
+     "J",
+     -0.0011193446116521955
+    ],
+    [
+     "K",
+     -6.876119136810303
+    ],
+    [
+     "**",
+     -10.126119613647461
+    ],
+    [
+     "To",
+     -10.251119613647461
+    ],
+    [
+     "In",
+     -12.813619613647461
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 8.145e-06
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999883176260755,
+   "mass_B": 9.516233348805697e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999999092789998,
+   "min_listed": 7.42241438343215e-09,
+   "top": [
+    [
+     "J",
+     -1.168244216387393e-05
+    ],
+    [
+     "K",
+     -11.562511444091797
+    ],
+    [
+     "JJ",
+     -13.750011444091797
+    ],
+    [
+     "**",
+     -14.625011444091797
+    ],
+    [
+     "To",
+     -15.437511444091797
+    ]
+   ],
+   "provider": "NextBit",
+   "served_model": "google/gemma-4-26b-a4b-it",
+   "prompt_tokens": 160,
+   "completion_tokens": 1,
+   "cost": 1.1025e-05
+  }
+ ]
+}

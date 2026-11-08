@@ -1,0 +1,1633 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "qwen/qwen3.8-27b",
+  "provider_pin": "wafer/fp8",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 1,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "repeats": 1,
+  "prompt_hash": "299380d6f0ddb552",
+  "created": "2026-11-07T21:11:53+0000",
+  "seconds": 7.6,
+  "calls": 40,
+  "errors": 0,
+  "total_cost": 0.000408816,
+  "providers": [
+   "Wafer"
+  ]
+ },
+ "records": [
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9523170082755619,
+   "mass_B": 0.04741278262758045,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999477816956349,
+   "min_listed": 2.9421692429333045e-06,
+   "top": [
+    [
+     "J",
+     -0.048863451927900314
+    ],
+    [
+     "K",
+     -3.048863410949707
+    ],
+    [
+     "The",
+     -9.548863410949707
+    ],
+    [
+     "This",
+     -10.361363410949707
+    ],
+    [
+     "JJ",
+     -10.736363410949707
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.864595733164229,
+   "mass_B": 0.13258786518650814,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998635746443884,
+   "min_listed": 6.820964186045127e-06,
+   "top": [
+    [
+     "J",
+     -0.14550994336605072
+    ],
+    [
+     "K",
+     -2.020509719848633
+    ],
+    [
+     "This",
+     -6.395509719848633
+    ],
+    [
+     "To",
+     -7.770509719848633
+    ],
+    [
+     "In",
+     -8.645509719848633
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 9.676e-06
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7300403079273936,
+   "mass_B": 0.2685598726140995,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997976875802536,
+   "min_listed": 9.495228891290344e-06,
+   "top": [
+    [
+     "J",
+     -0.31472158432006836
+    ],
+    [
+     "K",
+     -1.3147214651107788
+    ],
+    [
+     "This",
+     -8.002222061157227
+    ],
+    [
+     "The",
+     -8.62722110748291
+    ],
+    [
+     "**",
+     -8.752222061157227
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.592305689255882,
+   "mass_B": 0.40708682964625603,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999870271282975,
+   "min_listed": 6.798928465484822e-06,
+   "top": [
+    [
+     "K",
+     -0.5237454175949097
+    ],
+    [
+     "J",
+     -0.8987454771995544
+    ],
+    [
+     "This",
+     -8.3987455368042
+    ],
+    [
+     "In",
+     -9.9612455368042
+    ],
+    [
+     "The",
+     -10.0862455368042
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 9.676e-06
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9866262553340005,
+   "mass_B": 0.012419377151086803,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998532862686486,
+   "min_listed": 1.0638858617459242e-05,
+   "top": [
+    [
+     "K",
+     -0.013497193343937397
+    ],
+    [
+     "J",
+     -4.388497352600098
+    ],
+    [
+     "The",
+     -8.700997352600098
+    ],
+    [
+     "This",
+     -8.763497352600098
+    ],
+    [
+     "To",
+     -9.325997352600098
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6509204370615277,
+   "mass_B": 0.3484093081791406,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999816295656086,
+   "min_listed": 6.19432160433526e-06,
+   "top": [
+    [
+     "J",
+     -0.42937737703323364
+    ],
+    [
+     "K",
+     -1.0543773174285889
+    ],
+    [
+     "To",
+     -9.616877555847168
+    ],
+    [
+     "**",
+     -9.866877555847168
+    ],
+    [
+     "This",
+     -9.929377555847168
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.43569451087640065,
+   "mass_B": 0.5594428258766321,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9995760276179781,
+   "min_listed": 3.063662523642705e-05,
+   "top": [
+    [
+     "K",
+     -0.5808139443397522
+    ],
+    [
+     "J",
+     -0.8308139443397522
+    ],
+    [
+     "**",
+     -6.830813884735107
+    ],
+    [
+     "To",
+     -6.955813884735107
+    ],
+    [
+     "This",
+     -7.330813884735107
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7755661627723182,
+   "mass_B": 0.22220343253889838,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996674030124444,
+   "min_listed": 1.770502899521206e-05,
+   "top": [
+    [
+     "K",
+     -0.2541619837284088
+    ],
+    [
+     "J",
+     -1.5041619539260864
+    ],
+    [
+     "**",
+     -7.254161834716797
+    ],
+    [
+     "To",
+     -8.129161834716797
+    ],
+    [
+     "The",
+     -8.754161834716797
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7762165073384495,
+   "mass_B": 0.22238975275452874,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999698861773104,
+   "min_listed": 1.6646283910732664e-05,
+   "top": [
+    [
+     "K",
+     -0.2533237934112549
+    ],
+    [
+     "J",
+     -1.5033237934112549
+    ],
+    [
+     "This",
+     -8.440823554992676
+    ],
+    [
+     "The",
+     -8.565823554992676
+    ],
+    [
+     "To",
+     -9.440823554992676
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7302927419885437,
+   "mass_B": 0.26866433445182386,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997751882163112,
+   "min_listed": 1.4711997109259636e-05,
+   "top": [
+    [
+     "K",
+     -0.31434744596481323
+    ],
+    [
+     "J",
+     -1.314347267150879
+    ],
+    [
+     "The",
+     -8.626847267150879
+    ],
+    [
+     "This",
+     -8.689347267150879
+    ],
+    [
+     "<|im_end|>",
+     -9.626847267150879
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0692e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7524629298161206,
+   "mass_B": 0.2442817789990769,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997146018060519,
+   "min_listed": 1.8284929447367903e-05,
+   "top": [
+    [
+     "J",
+     -0.28443285822868347
+    ],
+    [
+     "K",
+     -1.4094328880310059
+    ],
+    [
+     "**",
+     -6.659432888031006
+    ],
+    [
+     "The",
+     -7.659432888031006
+    ],
+    [
+     "This",
+     -8.034433364868164
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.082e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9622998588770167,
+   "mass_B": 0.037312100121287106,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999450219877917,
+   "min_listed": 4.901654075789668e-06,
+   "top": [
+    [
+     "J",
+     -0.03843757137656212
+    ],
+    [
+     "K",
+     -3.288437604904175
+    ],
+    [
+     "The",
+     -9.288437843322754
+    ],
+    [
+     "This",
+     -9.538437843322754
+    ],
+    [
+     "C",
+     -10.725937843322754
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.082e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7973445030223557,
+   "mass_B": 0.2016002618613089,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998549476369676,
+   "min_listed": 8.07717733459335e-06,
+   "top": [
+    [
+     "J",
+     -0.22646844387054443
+    ],
+    [
+     "K",
+     -1.6014684438705444
+    ],
+    [
+     "The",
+     -8.351468086242676
+    ],
+    [
+     "This",
+     -8.351468086242676
+    ],
+    [
+     "Based",
+     -9.476468086242676
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0756e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7764139767614442,
+   "mass_B": 0.22243487892567196,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9997131708757245,
+   "min_listed": 2.137859388372816e-05,
+   "top": [
+    [
+     "J",
+     -0.25312086939811707
+    ],
+    [
+     "K",
+     -1.5031208992004395
+    ],
+    [
+     "This",
+     -8.690621376037598
+    ],
+    [
+     "The",
+     -8.815621376037598
+    ],
+    [
+     "<|im_end|>",
+     -9.378120422363281
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0756e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9388886975878431,
+   "mass_B": 0.06001959867467779,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998769810256065,
+   "min_listed": 5.419079437835137e-06,
+   "top": [
+    [
+     "K",
+     -0.0630842074751854
+    ],
+    [
+     "J",
+     -2.813084125518799
+    ],
+    [
+     "This",
+     -7.938084125518799
+    ],
+    [
+     "In",
+     -8.563084602355957
+    ],
+    [
+     "To",
+     -9.063084602355957
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 9.74e-06
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9837254917054702,
+   "mass_B": 0.0159000541810906,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999233240330748,
+   "min_listed": 4.421936825031009e-06,
+   "top": [
+    [
+     "K",
+     -0.016432693228125572
+    ],
+    [
+     "J",
+     -4.141432762145996
+    ],
+    [
+     "This",
+     -9.578932762145996
+    ],
+    [
+     "The",
+     -9.766432762145996
+    ],
+    [
+     "To",
+     -10.453932762145996
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.082e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7047951878975083,
+   "mass_B": 0.29380231046268235,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998213506625281,
+   "min_listed": 9.167482979835412e-06,
+   "top": [
+    [
+     "J",
+     -0.34984803199768066
+    ],
+    [
+     "K",
+     -1.2248481512069702
+    ],
+    [
+     "This",
+     -7.22484827041626
+    ],
+    [
+     "To",
+     -9.287347793579102
+    ],
+    [
+     "The",
+     -9.537347793579102
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 9.676e-06
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5589157972136142,
+   "mass_B": 0.43529938010259595,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9992284428445979,
+   "min_listed": 5.0458824388971676e-05,
+   "top": [
+    [
+     "K",
+     -0.5818525552749634
+    ],
+    [
+     "J",
+     -0.8318526148796082
+    ],
+    [
+     "**",
+     -6.706852436065674
+    ],
+    [
+     "The",
+     -6.956852436065674
+    ],
+    [
+     "To",
+     -7.331852912902832
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0756e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7045344648514547,
+   "mass_B": 0.2936936511983415,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998243140492373,
+   "min_listed": 1.2525827826893943e-05,
+   "top": [
+    [
+     "K",
+     -0.3502180278301239
+    ],
+    [
+     "J",
+     -1.2252180576324463
+    ],
+    [
+     "The",
+     -7.475217819213867
+    ],
+    [
+     "This",
+     -7.725218296051025
+    ],
+    [
+     "To",
+     -8.975217819213867
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0756e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6510214296917683,
+   "mass_B": 0.34846671237887394,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999075003587288,
+   "min_listed": 2.426131437573749e-06,
+   "top": [
+    [
+     "J",
+     -0.4292127192020416
+    ],
+    [
+     "K",
+     -1.0542125701904297
+    ],
+    [
+     "JJ",
+     -8.67921257019043
+    ],
+    [
+     "I",
+     -9.42921257019043
+    ],
+    [
+     "KK",
+     -10.05421257019043
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 9.2e-06
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8146969687197501,
+   "mass_B": 0.1817774273114299,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9996094800744193,
+   "min_listed": 2.705950394254144e-05,
+   "top": [
+    [
+     "K",
+     -0.2049722671508789
+    ],
+    [
+     "J",
+     -1.704972267150879
+    ],
+    [
+     "To",
+     -7.329972267150879
+    ],
+    [
+     "The",
+     -7.454972267150879
+    ],
+    [
+     "This",
+     -7.579972267150879
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 1.0756e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7980679305121299,
+   "mass_B": 0.20178318500263212,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999733374716615,
+   "min_listed": 1.4048765244871749e-06,
+   "top": [
+    [
+     "J",
+     -0.22556155920028687
+    ],
+    [
+     "K",
+     -1.600561499595642
+    ],
+    [
+     "JJ",
+     -9.725561141967773
+    ],
+    [
+     "KK",
+     -11.163061141967773
+    ],
+    [
+     "k",
+     -11.788061141967773
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.40712222775829543,
+   "mass_B": 0.5923593460885558,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998505644085453,
+   "min_listed": 5.63709561876803e-06,
+   "top": [
+    [
+     "K",
+     -0.52364182472229
+    ],
+    [
+     "J",
+     -0.89864182472229
+    ],
+    [
+     "k",
+     -9.523641586303711
+    ],
+    [
+     "JJ",
+     -9.898641586303711
+    ],
+    [
+     "I",
+     -10.273641586303711
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5621104280237315,
+   "mass_B": 0.4377720415174846,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999972808661337,
+   "min_listed": 1.352497825376161e-06,
+   "top": [
+    [
+     "J",
+     -0.576056957244873
+    ],
+    [
+     "K",
+     -0.826056957244873
+    ],
+    [
+     "JJ",
+     -10.763557434082031
+    ],
+    [
+     "k",
+     -11.013557434082031
+    ],
+    [
+     "j",
+     -11.951057434082031
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8667483285831992,
+   "mass_B": 0.1329201691154329,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999389587812053,
+   "min_listed": 2.363170697449856e-06,
+   "top": [
+    [
+     "K",
+     -0.14300662279129028
+    ],
+    [
+     "J",
+     -2.0180065631866455
+    ],
+    [
+     "I",
+     -9.018006324768066
+    ],
+    [
+     "The",
+     -10.518006324768066
+    ],
+    [
+     "It",
+     -10.643006324768066
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 9.136e-06
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4375404991111222,
+   "mass_B": 0.5618131216889211,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999830692821426,
+   "min_listed": 6.4489981187154936e-06,
+   "top": [
+    [
+     "K",
+     -0.5765860080718994
+    ],
+    [
+     "J",
+     -0.8265860080718994
+    ],
+    [
+     "JJ",
+     -9.20158576965332
+    ],
+    [
+     "0",
+     -9.70158576965332
+    ],
+    [
+     "k",
+     -10.13908576965332
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9577444795801298,
+   "mass_B": 0.042080355313973965,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999537821044757,
+   "min_listed": 1.7946962980022523e-06,
+   "top": [
+    [
+     "K",
+     -0.04317425936460495
+    ],
+    [
+     "J",
+     -3.1681742668151855
+    ],
+    [
+     "k",
+     -10.168174743652344
+    ],
+    [
+     "The",
+     -10.980673789978027
+    ],
+    [
+     "To",
+     -11.230673789978027
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0032e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7308342478493166,
+   "mass_B": 0.268858894687758,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998976394393653,
+   "min_listed": 4.780004505401725e-06,
+   "top": [
+    [
+     "K",
+     -0.3135685920715332
+    ],
+    [
+     "J",
+     -1.3135685920715332
+    ],
+    [
+     "The",
+     -10.501069068908691
+    ],
+    [
+     "k",
+     -10.626069068908691
+    ],
+    [
+     "I",
+     -10.626069068908691
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8669770415981174,
+   "mass_B": 0.1329552235824696,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999857297452266,
+   "min_listed": 8.695907740126744e-07,
+   "top": [
+    [
+     "K",
+     -0.14274278283119202
+    ],
+    [
+     "J",
+     -2.017742872238159
+    ],
+    [
+     "k",
+     -10.892743110656738
+    ],
+    [
+     "0",
+     -11.767743110656738
+    ],
+    [
+     "I",
+     -12.580243110656738
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.016e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8174862808238599,
+   "mass_B": 0.1824058665038446,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999983341789187,
+   "min_listed": 8.728335882837748e-07,
+   "top": [
+    [
+     "K",
+     -0.2015211582183838
+    ],
+    [
+     "J",
+     -1.7015210390090942
+    ],
+    [
+     "KK",
+     -10.951520919799805
+    ],
+    [
+     "k",
+     -10.951520919799805
+    ],
+    [
+     "To",
+     -11.201520919799805
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7766355831780968,
+   "mass_B": 0.22250982662414537,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998696540726958,
+   "min_listed": 3.955973767353385e-06,
+   "top": [
+    [
+     "J",
+     -0.25278404355049133
+    ],
+    [
+     "K",
+     -1.502784013748169
+    ],
+    [
+     "The",
+     -8.37778377532959
+    ],
+    [
+     "I",
+     -8.50278377532959
+    ],
+    [
+     "It",
+     -9.50278377532959
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 9.2e-06
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9239982975262836,
+   "mass_B": 0.07584639841583012,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999455094592621,
+   "min_listed": 2.519260137660174e-06,
+   "top": [
+    [
+     "J",
+     -0.07904504984617233
+    ],
+    [
+     "K",
+     -2.579045057296753
+    ],
+    [
+     "j",
+     -11.016545295715332
+    ],
+    [
+     "I",
+     -11.391545295715332
+    ],
+    [
+     "The",
+     -11.579045295715332
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7545588144969996,
+   "mass_B": 0.24496938089344222,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998868228266805,
+   "min_listed": 4.091405790187543e-06,
+   "top": [
+    [
+     "J",
+     -0.281622052192688
+    ],
+    [
+     "K",
+     -1.406622052192688
+    ],
+    [
+     "JJ",
+     -9.531621932983398
+    ],
+    [
+     "The",
+     -9.906621932983398
+    ],
+    [
+     "KK",
+     -10.094121932983398
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6224185937962835,
+   "mass_B": 0.37751596031266943,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999819672342567,
+   "min_listed": 1.029289216933607e-06,
+   "top": [
+    [
+     "J",
+     -0.4741424322128296
+    ],
+    [
+     "K",
+     -0.9741424322128296
+    ],
+    [
+     "j",
+     -11.849142074584961
+    ],
+    [
+     "I",
+     -12.036642074584961
+    ],
+    [
+     "JJ",
+     -12.349142074584961
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 2,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5925049715731843,
+   "mass_B": 0.40722231459259933,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999114760590394,
+   "min_listed": 3.875265071289709e-06,
+   "top": [
+    [
+     "J",
+     -0.5233960151672363
+    ],
+    [
+     "K",
+     -0.8983960151672363
+    ],
+    [
+     "The",
+     -10.523395538330078
+    ],
+    [
+     "j",
+     -10.898395538330078
+    ],
+    [
+     "I",
+     -10.960896492004395
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7302008824663386,
+   "mass_B": 0.2686259566300219,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9998512322205935,
+   "min_listed": 3.719445503969083e-06,
+   "top": [
+    [
+     "K",
+     -0.31443560123443604
+    ],
+    [
+     "J",
+     -1.314435362815857
+    ],
+    [
+     "KK",
+     -7.9394354820251465
+    ],
+    [
+     "I",
+     -8.439435958862305
+    ],
+    [
+     "The",
+     -8.814435958862305
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 9.2e-06
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8354144727827135,
+   "mass_B": 0.1645028388126377,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999919385576513,
+   "min_listed": 4.2133917338379804e-07,
+   "top": [
+    [
+     "K",
+     -0.17982730269432068
+    ],
+    [
+     "J",
+     -1.8048274517059326
+    ],
+    [
+     "KK",
+     -10.054827690124512
+    ],
+    [
+     "JJ",
+     -11.179827690124512
+    ],
+    [
+     "JK",
+     -12.492327690124512
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.46872811473283116,
+   "mass_B": 0.5311385381184375,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999629791850904,
+   "min_listed": 1.640954634359773e-06,
+   "top": [
+    [
+     "J",
+     -0.6327323913574219
+    ],
+    [
+     "K",
+     -0.7577323913574219
+    ],
+    [
+     "JJ",
+     -11.195232391357422
+    ],
+    [
+     "KK",
+     -11.195232391357422
+    ],
+    [
+     "0",
+     -11.320232391357422
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4687743270793105,
+   "mass_B": 0.531190871905919,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999945517471659,
+   "min_listed": 3.2315486743010745e-07,
+   "top": [
+    [
+     "J",
+     -0.6326338648796082
+    ],
+    [
+     "K",
+     -0.7576338052749634
+    ],
+    [
+     "KK",
+     -11.882634162902832
+    ],
+    [
+     "JJ",
+     -12.257634162902832
+    ],
+    [
+     "O",
+     -12.757634162902832
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 3,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.622278857403816,
+   "mass_B": 0.3774312284030139,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999129516197998,
+   "min_listed": 3.823412759195951e-06,
+   "top": [
+    [
+     "K",
+     -0.4743669629096985
+    ],
+    [
+     "J",
+     -0.9743669033050537
+    ],
+    [
+     "k",
+     -10.661867141723633
+    ],
+    [
+     "To",
+     -10.724367141723633
+    ],
+    [
+     "j",
+     -10.786867141723633
+    ]
+   ],
+   "provider": "Wafer",
+   "served_model": "qwen/qwen3.8-27b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 1.0096e-05
+  }
+ ]
+}

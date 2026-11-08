@@ -1,0 +1,78 @@
+2688 cells
+300/2688
+600/2688
+900/2688
+1200/2688
+1500/2688
+1800/2688
+2100/2688
+2400/2688
+wrote results/checks/seedsplit_batchB.csv (896 variants)
+{
+ "same_A (original)": {
+  "r": -0.879,
+  "stuck": 118,
+  "stuck_coup_pos": 118,
+  "stuck_coup_mean": 8.65,
+  "stuck_recovery_median": 0.718,
+  "stuck_recovery_iqr": [
+   0.47,
+   0.881
+  ],
+  "better": 19,
+  "better_coup_neg": 15,
+  "better_coup_mean": -7.0,
+  "flat": 759,
+  "flat_abs_coup_lt1": 0.937
+ },
+ "same_B": {
+  "r": -0.869,
+  "stuck": 125,
+  "stuck_coup_pos": 125,
+  "stuck_coup_mean": 8.83,
+  "stuck_recovery_median": 0.746,
+  "stuck_recovery_iqr": [
+   0.527,
+   0.933
+  ],
+  "better": 19,
+  "better_coup_neg": 15,
+  "better_coup_mean": -5.76,
+  "flat": 752,
+  "flat_abs_coup_lt1": 0.927
+ },
+ "size_A_coup_B": {
+  "r": -0.869,
+  "stuck": 118,
+  "stuck_coup_pos": 118,
+  "stuck_coup_mean": 9.14,
+  "stuck_recovery_median": 0.719,
+  "stuck_recovery_iqr": [
+   0.496,
+   0.893
+  ],
+  "better": 19,
+  "better_coup_neg": 16,
+  "better_coup_mean": -6.07,
+  "flat": 759,
+  "flat_abs_coup_lt1": 0.92
+ },
+ "size_B_coup_A": {
+  "r": -0.873,
+  "stuck": 125,
+  "stuck_coup_pos": 125,
+  "stuck_coup_mean": 8.34,
+  "stuck_recovery_median": 0.711,
+  "stuck_recovery_iqr": [
+   0.509,
+   0.918
+  ],
+  "better": 19,
+  "better_coup_neg": 14,
+  "better_coup_mean": -6.46,
+  "flat": 752,
+  "flat_abs_coup_lt1": 0.945
+ },
+ "size_A_vs_size_B_r": 0.996,
+ "stuck_both": 116
+}

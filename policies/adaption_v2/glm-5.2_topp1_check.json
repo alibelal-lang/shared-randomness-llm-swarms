@@ -1,0 +1,116 @@
+{
+ "meta": {
+  "backend": "adaption",
+  "model": "glm-5.2",
+  "samples_per_prompt": "top-up",
+  "sample_temperature": 1.0,
+  "reasoning_effort": "none",
+  "max_output_tokens": 8,
+  "estimator": "Jeffreys (k+0.5)/(n+1)",
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-08T05:24:53+0000",
+  "seconds": 376.7,
+  "calls": 3000,
+  "errors": 0,
+  "total_cost": 0.19570176,
+  "providers": [
+   "adaption"
+  ],
+  "top_p": "1",
+  "topup_of": "policies/adaption_v2/glm-5.2_retest.json"
+ },
+ "records": [
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9855144855144855,
+   "mass_B": 0.014485514485514486,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "glm-5.2",
+   "prompt_tokens": 144000,
+   "completion_tokens": 2000,
+   "cost": 0.06579328,
+   "counts": {
+    "J": 14,
+    "K": 986,
+    "invalid": 0,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9265734265734266,
+   "mass_B": 0.07342657342657342,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "glm-5.2",
+   "prompt_tokens": 144000,
+   "completion_tokens": 2000,
+   "cost": 0.0648448,
+   "counts": {
+    "J": 73,
+    "K": 927,
+    "invalid": 0,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": []
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.033466533466533464,
+   "mass_B": 0.9665334665334665,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "glm-5.2",
+   "prompt_tokens": 144000,
+   "completion_tokens": 2000,
+   "cost": 0.06506368,
+   "counts": {
+    "J": 967,
+    "K": 33,
+    "invalid": 0,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": []
+  }
+ ]
+}

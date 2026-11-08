@@ -1,0 +1,13 @@
+N,sampler,vs,runs,diff,ci_lo,ci_hi
+4,block:2,independent,500,0.0,0.0,0.0
+4,pair_shared:0.3,independent,500,0.0,0.0,0.0
+4,pair_shared:restore,independent,500,0.0,0.0,0.0
+8,block:2,independent,500,0.0,0.0,0.0
+8,pair_shared:0.3,independent,500,0.0,0.0,0.0
+8,pair_shared:restore,independent,500,0.0,0.0,0.0
+16,block:2,independent,500,0.0,0.0,0.0
+16,pair_shared:0.3,independent,500,0.0,0.0,0.0
+16,pair_shared:restore,independent,500,0.0,0.0,0.0
+32,block:2,independent,500,0.06,0.03916251258516211,0.08083748741483789
+32,pair_shared:0.3,independent,500,0.06,0.03916251258516211,0.08083748741483789
+32,pair_shared:restore,independent,500,0.06,0.03916251258516211,0.08083748741483789

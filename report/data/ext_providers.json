@@ -1,0 +1,152 @@
+[
+{
+"model": "Gemma 4 26B A4B",
+"provider": "coreweave-bf16",
+"pinned": true,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.015,
+"corr_vs_adaption": 0.876,
+"coupling_pp": 0.0,
+"size_pp": 0.0
+},
+{
+"model": "Gemma 4 26B A4B",
+"provider": "novita-bf16",
+"pinned": false,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.016,
+"corr_vs_adaption": 0.88,
+"coupling_pp": 0.0,
+"size_pp": 0.0
+},
+{
+"model": "Gemma 4 26B A4B",
+"provider": "parasail-bf16",
+"pinned": false,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.018,
+"corr_vs_adaption": 0.012,
+"coupling_pp": 0.0,
+"size_pp": 0.0
+},
+{
+"model": "Gemma 4 31B",
+"provider": "novita-bf16",
+"pinned": true,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.028,
+"corr_vs_adaption": 0.745,
+"coupling_pp": 0.0,
+"size_pp": 0.0
+},
+{
+"model": "Gemma 4 31B",
+"provider": "parasail-fp8",
+"pinned": false,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.041,
+"corr_vs_adaption": 0.512,
+"coupling_pp": 0.0,
+"size_pp": 0.0
+},
+{
+"model": "GLM 5.2",
+"provider": "alibaba-fast",
+"pinned": false,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.109,
+"corr_vs_adaption": 0.702,
+"coupling_pp": 0.1,
+"size_pp": -0.1
+},
+{
+"model": "GLM 5.2",
+"provider": "ambient-fp8",
+"pinned": true,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.055,
+"corr_vs_adaption": 0.911,
+"coupling_pp": 1.9,
+"size_pp": -6.2
+},
+{
+"model": "GLM 5.2",
+"provider": "morph-fp8",
+"pinned": false,
+"valid_mass": 0.822,
+"mad_vs_adaption": 0.242,
+"corr_vs_adaption": 0.071,
+"coupling_pp": 0.5,
+"size_pp": -0.5
+},
+{
+"model": "GLM 5.2",
+"provider": "streamlake-fp8",
+"pinned": false,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.088,
+"corr_vs_adaption": 0.844,
+"coupling_pp": 1.1,
+"size_pp": -1.5
+},
+{
+"model": "Qwen 3.5 397B",
+"provider": "parasail-fp8",
+"pinned": true,
+"valid_mass": 1.0,
+"mad_vs_adaption": 0.058,
+"corr_vs_adaption": 0.956,
+"coupling_pp": -1.6,
+"size_pp": 1.6
+},
+{
+"model": "Qwen 3.8 27B",
+"provider": "cerebras-fp16",
+"pinned": false,
+"valid_mass": 0.997,
+"mad_vs_adaption": 0.089,
+"corr_vs_adaption": 0.844,
+"coupling_pp": 0.6,
+"size_pp": -0.6
+},
+{
+"model": "Qwen 3.8 27B",
+"provider": "coreweave-fp8",
+"pinned": false,
+"valid_mass": 0.998,
+"mad_vs_adaption": 0.085,
+"corr_vs_adaption": 0.826,
+"coupling_pp": 0.5,
+"size_pp": -0.4
+},
+{
+"model": "Qwen 3.8 27B",
+"provider": "parasail-fp8",
+"pinned": false,
+"valid_mass": 0.999,
+"mad_vs_adaption": 0.092,
+"corr_vs_adaption": 0.87,
+"coupling_pp": 3.5,
+"size_pp": -4.4
+},
+{
+"model": "Qwen 3.8 27B",
+"provider": "reka-fp8",
+"pinned": false,
+"valid_mass": 0.999,
+"mad_vs_adaption": 0.091,
+"corr_vs_adaption": 0.853,
+"coupling_pp": 0.6,
+"size_pp": -0.4
+},
+{
+"model": "Qwen 3.8 27B",
+"provider": "wafer-fp8",
+"pinned": true,
+"valid_mass": 0.999,
+"mad_vs_adaption": 0.082,
+"corr_vs_adaption": 0.841,
+"coupling_pp": 0.4,
+"size_pp": -0.3
+}
+]

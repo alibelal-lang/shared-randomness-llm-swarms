@@ -1,0 +1,104 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_v2/qwen3.8-27b_stag_f4.json --framing 4 --mapping 0 --init incumbent_B --seeds 500 --seed-offset 0 --N 4 8 16 32 64 --samplers independent pair_shared:restore pair_shared:0.3 block:2 pair_shared:0.1 pair_shared:0.2 pair_shared:0.5 pair_shared:0.75 pair_shared:1 --out results/ext/qwen3.8-27b_stag_f4/f4m0_incumbent_B",
+ "created": "2026-11-08T01:21:33+0000",
+ "seconds": 25.3,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_v2/qwen3.8-27b_stag_f4.json",
+  "framing": 4,
+  "mapping": 0,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2",
+   "pair_shared:0.1",
+   "pair_shared:0.2",
+   "pair_shared:0.5",
+   "pair_shared:0.75",
+   "pair_shared:1"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/ext/qwen3.8-27b_stag_f4/f4m0_incumbent_B",
+  "func": "<function cmd_simulate at 0x102f354e0>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "qwen3.8-27b",
+   "samples_per_prompt": 200,
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "top_p": "server default (0.95)",
+   "H": 2,
+   "game": "stag",
+   "framings": [
+    4
+   ],
+   "mappings": [
+    0,
+    2,
+    3
+   ],
+   "repeats": 1,
+   "prompt_hash": "f9419e2b30b3636d",
+   "created": "2026-11-08T01:21:04+0000",
+   "seconds": 1575.3,
+   "calls": 12600,
+   "errors": 0,
+   "total_cost": 0.12222179999999999,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 4,
+  "mapping": 0,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 1.0,
+  "min_valid_mass": 1.0,
+  "bounded_histories": [],
+  "samples": 4200,
+  "invalid_rate": 0.0
+ },
+ "pA": {
+  "-": 0.8681592039800996,
+  "AA": 0.8880597014925373,
+  "AB": 0.4154228855721393,
+  "BA": 0.5049751243781094,
+  "BB": 0.5895522388059701,
+  "AA.AA": 0.9925373134328358,
+  "AA.AB": 0.4303482587064676,
+  "AA.BA": 0.5049751243781094,
+  "AA.BB": 0.8233830845771144,
+  "AB.AA": 0.6194029850746269,
+  "AB.AB": 0.2412935323383085,
+  "AB.BA": 0.5696517412935324,
+  "AB.BB": 0.23134328358208955,
+  "BA.AA": 0.8333333333333334,
+  "BA.AB": 0.3656716417910448,
+  "BA.BA": 0.42537313432835816,
+  "BA.BB": 0.291044776119403,
+  "BB.AA": 0.9825870646766168,
+  "BB.AB": 0.31592039800995025,
+  "BB.BA": 0.4502487562189055,
+  "BB.BB": 0.4452736318407961
+ }
+}

@@ -1,0 +1,96 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_glm-5.2.json --framing 0 --mapping 1 --init split --seeds 500 --seed-offset 0 --out results/confirm/glm-5.2/f0m1_split",
+ "created": "2026-11-07T17:51:26+0000",
+ "seconds": 26.3,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_glm-5.2.json",
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2"
+  ],
+  "N0": 4,
+  "init": "split",
+  "threshold": 0.75,
+  "out": "results/confirm/glm-5.2/f0m1_split",
+  "func": "<function cmd_simulate at 0x101ad1590>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "glm-5.2",
+   "samples_per_prompt": 100,
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "H": 2,
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 1,
+   "prompt_hash": "0adadb7b1d5603ae",
+   "created": "2026-11-07T17:49:41+0000",
+   "seconds": 1680.0,
+   "calls": 8400,
+   "errors": 0,
+   "total_cost": 0.593344,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 1.0,
+  "min_valid_mass": 1.0,
+  "bounded_histories": [],
+  "samples": 2100,
+  "invalid_rate": 0.0
+ },
+ "pA": {
+  "-": 0.7673267326732673,
+  "AA": 0.9554455445544555,
+  "AB": 0.2128712871287128,
+  "BA": 0.5594059405940593,
+  "BB": 0.9059405940594061,
+  "AA.AA": 0.9950495049504949,
+  "AA.AB": 0.13366336633663367,
+  "AA.BA": 0.5693069306930693,
+  "AA.BB": 0.9257425742574257,
+  "AB.AA": 0.5,
+  "AB.AB": 0.14356435643564355,
+  "AB.BA": 0.3910891089108911,
+  "AB.BB": 0.34158415841584155,
+  "BA.AA": 0.8762376237623763,
+  "BA.AB": 0.41089108910891087,
+  "BA.BA": 0.8861386138613861,
+  "BA.BB": 0.2920792079207921,
+  "BB.AA": 0.9950495049504949,
+  "BB.AB": 0.1633663366336634,
+  "BB.BA": 0.698019801980198,
+  "BB.BB": 0.9059405940594061
+ }
+}

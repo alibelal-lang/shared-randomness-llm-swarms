@@ -1,0 +1,3410 @@
+{
+ "meta": {
+  "backend": "local",
+  "model": "Qwen/Qwen3.5-4B",
+  "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+  "adapter": null,
+  "device": "cpu",
+  "dtype": "bfloat16",
+  "label_token_ids": {
+   "J": [
+    41,
+    604,
+    16597
+   ],
+   "K": [
+    42,
+    710,
+    38039
+   ]
+  },
+  "loading_info": {
+   "missing_keys": 0,
+   "unexpected_keys": 0,
+   "mismatched_keys": 0,
+   "error_msgs": 0
+  },
+  "torch": "2.15.0",
+  "H": 2,
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T14:26:12+0000",
+  "seconds": 2872.2,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0,
+  "providers": [
+   "local"
+  ]
+ },
+ "records": [
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6826991438865662,
+   "mass_B": 0.2842300236225128,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.3857808100448025
+    ],
+    [
+     "K",
+     -1.2607808112665855
+    ],
+    [
+     "To",
+     -4.635780883392226
+    ],
+    [
+     "C",
+     -5.260780806764787
+    ],
+    [
+     " J",
+     -5.885780769485222
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 124,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6727414131164551,
+   "mass_B": 0.2803972065448761,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.39730706885953027
+    ],
+    [
+     "K",
+     -1.2723070443022733
+    ],
+    [
+     "To",
+     -4.14730705435358
+    ],
+    [
+     "Based",
+     -4.27230711203312
+    ],
+    [
+     "The",
+     -5.2723070238795815
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4906926155090332,
+   "mass_B": 0.43295818567276,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.7127433622542615
+    ],
+    [
+     "K",
+     -0.8377433980647223
+    ],
+    [
+     "To",
+     -3.4627433442244837
+    ],
+    [
+     "Based",
+     -3.8377433411356496
+    ],
+    [
+     "The",
+     -5.087743365553764
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.34648311138153076,
+   "mass_B": 0.57115238904953,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5605898295265493
+    ],
+    [
+     "J",
+     -1.0605898387197787
+    ],
+    [
+     "To",
+     -3.3105899121733224
+    ],
+    [
+     "Based",
+     -3.8105898808691223
+    ],
+    [
+     "The",
+     -5.185589850085199
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.16937531530857086,
+   "mass_B": 0.758715808391571,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.2768866271839264
+    ],
+    [
+     "J",
+     -1.7768866089272508
+    ],
+    [
+     "To",
+     -3.5268866143626054
+    ],
+    [
+     "Based",
+     -3.776886648472431
+    ],
+    [
+     "The",
+     -5.026886616505216
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5972699522972107,
+   "mass_B": 0.3622443675994873,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5156175381272577
+    ],
+    [
+     "K",
+     -1.015617506427042
+    ],
+    [
+     "Based",
+     -4.015617474266268
+    ],
+    [
+     "To",
+     -4.89061749456067
+    ],
+    [
+     "The",
+     -5.765617544558139
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4641064405441284,
+   "mass_B": 0.46407461166381836,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.7680472085585675
+    ],
+    [
+     "J",
+     -0.7680472085585675
+    ],
+    [
+     "To",
+     -3.518047273198094
+    ],
+    [
+     "Based",
+     -3.7680472541475685
+    ],
+    [
+     "C",
+     -5.518047236363188
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4562394320964813,
+   "mass_B": 0.4562012255191803,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.7851190228793812
+    ],
+    [
+     "J",
+     -0.7851190228793812
+    ],
+    [
+     "To",
+     -3.16011899943036
+    ],
+    [
+     "Based",
+     -3.6601190495022813
+    ],
+    [
+     "C",
+     -5.660119024956765
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4339929223060608,
+   "mass_B": 0.4917152523994446,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.7104842578954746
+    ],
+    [
+     "J",
+     -0.835484289828326
+    ],
+    [
+     "Based",
+     -3.3354841741522403
+    ],
+    [
+     "To",
+     -3.835484227060494
+    ],
+    [
+     "The",
+     -5.585484262253271
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.40335148572921753,
+   "mass_B": 0.5178612470626831,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6584068744952304
+    ],
+    [
+     "J",
+     -0.9084069009136361
+    ],
+    [
+     "To",
+     -3.2834068557167972
+    ],
+    [
+     "Based",
+     -3.7834068992154357
+    ],
+    [
+     "The",
+     -5.783406814052322
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3334640860557556,
+   "mass_B": 0.6229191422462463,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.47360153606516353
+    ],
+    [
+     "J",
+     -1.0986015300876015
+    ],
+    [
+     "Based",
+     -3.9736015342652236
+    ],
+    [
+     "To",
+     -4.8486014908356605
+    ],
+    [
+     "The",
+     -5.723601548312967
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4087669253349304,
+   "mass_B": 0.5248353481292725,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6451309727534053
+    ],
+    [
+     "J",
+     -0.8951309936431754
+    ],
+    [
+     "Based",
+     -3.770130926703975
+    ],
+    [
+     "To",
+     -3.770130926703975
+    ],
+    [
+     "The",
+     -5.5201310115385605
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.39539632201194763,
+   "mass_B": 0.5076660513877869,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6782483642728583
+    ],
+    [
+     "J",
+     -0.9282483580416723
+    ],
+    [
+     "To",
+     -3.053248333630361
+    ],
+    [
+     "Based",
+     -3.4282483569483917
+    ],
+    [
+     "The",
+     -5.928248370014147
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3172247111797333,
+   "mass_B": 0.5926040410995483,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5235266889826687
+    ],
+    [
+     "J",
+     -1.148526667847297
+    ],
+    [
+     "To",
+     -3.023526698846465
+    ],
+    [
+     "Based",
+     -3.7735266787039783
+    ],
+    [
+     "C",
+     -5.773526667527228
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3539068400859833,
+   "mass_B": 0.5834226012229919,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5392759322849571
+    ],
+    [
+     "J",
+     -1.0392759004970975
+    ],
+    [
+     "To",
+     -3.7892759456503455
+    ],
+    [
+     "Based",
+     -3.9142759184206595
+    ],
+    [
+     "The",
+     -5.539275913177734
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.30349576473236084,
+   "mass_B": 0.642449676990509,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.44268502467956605
+    ],
+    [
+     "J",
+     -1.192685007552555
+    ],
+    [
+     "Based",
+     -3.817685011570155
+    ],
+    [
+     "To",
+     -4.44268496069095
+    ],
+    [
+     "The",
+     -5.567684985417797
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.25917208194732666,
+   "mass_B": 0.6216859221458435,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.4756006422782676
+    ],
+    [
+     "J",
+     -1.3506006978978005
+    ],
+    [
+     "To",
+     -2.725600627105085
+    ],
+    [
+     "Based",
+     -3.4756006891494695
+    ],
+    [
+     "The",
+     -5.600600583603531
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4185020327568054,
+   "mass_B": 0.4741944670677185,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.7466279846289534
+    ],
+    [
+     "J",
+     -0.8716279988911577
+    ],
+    [
+     "To",
+     -2.9966279959627298
+    ],
+    [
+     "Based",
+     -3.2466279455579725
+    ],
+    [
+     "The",
+     -5.496627930376677
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.263136625289917,
+   "mass_B": 0.6312000751495361,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.4603796404450335
+    ],
+    [
+     "J",
+     -1.3353796934618276
+    ],
+    [
+     "To",
+     -2.9603796297448017
+    ],
+    [
+     "Based",
+     -3.335379633482031
+    ],
+    [
+     "The",
+     -5.710379627217269
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3360167443752289,
+   "mass_B": 0.5539718866348267,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5910009870634738
+    ],
+    [
+     "J",
+     -1.0910009370476894
+    ],
+    [
+     "To",
+     -2.8410009959349365
+    ],
+    [
+     "Based",
+     -3.591001046423764
+    ],
+    [
+     "The",
+     -5.466000974801583
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.1690937578678131,
+   "mass_B": 0.7576861381530762,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.277892912955731
+    ],
+    [
+     "J",
+     -1.7778928932209148
+    ],
+    [
+     "Based",
+     -3.1528929163310937
+    ],
+    [
+     "To",
+     -4.527892950400129
+    ],
+    [
+     "The",
+     -5.2778929191478445
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5076676607131958,
+   "mass_B": 0.4484506845474243,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6794336305870767
+    ],
+    [
+     "J",
+     -0.804433656332463
+    ],
+    [
+     "To",
+     -4.3044336407487656
+    ],
+    [
+     "C",
+     -4.554433692500307
+    ],
+    [
+     "B",
+     -5.80443360213877
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 124,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7918857932090759,
+   "mass_B": 0.1376616656780243,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.23392921156488672
+    ],
+    [
+     "J",
+     -1.9839292466959146
+    ],
+    [
+     "To",
+     -3.6089292433718825
+    ],
+    [
+     "Based",
+     -3.7339291778609582
+    ],
+    [
+     "The",
+     -5.108929195146477
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6227644681930542,
+   "mass_B": 0.2942165732383728,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.47399383739130635
+    ],
+    [
+     "J",
+     -1.223993876700284
+    ],
+    [
+     "To",
+     -3.223993873676747
+    ],
+    [
+     "Based",
+     -3.973993839150587
+    ],
+    [
+     "The",
+     -5.223993865407291
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.43008190393447876,
+   "mass_B": 0.48740169405937195,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.7193350812619232
+    ],
+    [
+     "K",
+     -0.8443350947616596
+    ],
+    [
+     "To",
+     -3.344335033146443
+    ],
+    [
+     "Based",
+     -3.844335070056081
+    ],
+    [
+     "The",
+     -5.094335074285048
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4063319265842438,
+   "mass_B": 0.5218456983566284,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6511405471201904
+    ],
+    [
+     "K",
+     -0.9011405678872904
+    ],
+    [
+     "To",
+     -3.5261405368954977
+    ],
+    [
+     "Based",
+     -3.9011405345852483
+    ],
+    [
+     "The",
+     -5.276140551177592
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 142,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8675076961517334,
+   "mass_B": 0.08070509880781174,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.14233600971563065
+    ],
+    [
+     "J",
+     -2.5173359801592605
+    ],
+    [
+     "Based",
+     -3.5173360011196704
+    ],
+    [
+     "To",
+     -5.017336020893195
+    ],
+    [
+     "The",
+     -5.5173360632850486
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.607596755027771,
+   "mass_B": 0.2870297133922577,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.4985073775956873
+    ],
+    [
+     "J",
+     -1.2485073539503109
+    ],
+    [
+     "To",
+     -2.8735073395511486
+    ],
+    [
+     "Based",
+     -3.7485074233680638
+    ],
+    [
+     "C",
+     -5.373507398042253
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7029775977134705,
+   "mass_B": 0.20141886174678802,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.3526486094372207
+    ],
+    [
+     "J",
+     -1.6026485590719013
+    ],
+    [
+     "To",
+     -3.102648647012562
+    ],
+    [
+     "Based",
+     -3.4776485903454013
+    ],
+    [
+     "The",
+     -5.602648586167948
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6392973065376282,
+   "mass_B": 0.2665257453918457,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.4477446821076458
+    ],
+    [
+     "J",
+     -1.3227446705821164
+    ],
+    [
+     "Based",
+     -3.1977447182912675
+    ],
+    [
+     "To",
+     -3.3227446900309685
+    ],
+    [
+     "The",
+     -5.572744637123164
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6988541483879089,
+   "mass_B": 0.20025134086608887,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.3586723476600543
+    ],
+    [
+     "J",
+     -1.6086723454745626
+    ],
+    [
+     "To",
+     -2.9836723008677417
+    ],
+    [
+     "Based",
+     -3.6086723795090387
+    ],
+    [
+     "C",
+     -5.483672351913859
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6961102485656738,
+   "mass_B": 0.2561042904853821,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.36241755129475084
+    ],
+    [
+     "J",
+     -1.3624174959618784
+    ],
+    [
+     "Based",
+     -4.112417520759623
+    ],
+    [
+     "To",
+     -4.612417603385713
+    ],
+    [
+     "C",
+     -5.362417551870037
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.634925365447998,
+   "mass_B": 0.2999461591243744,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.45451080470340405
+    ],
+    [
+     "J",
+     -1.204510841224501
+    ],
+    [
+     "To",
+     -3.704510849010614
+    ],
+    [
+     "Based",
+     -3.954510787168238
+    ],
+    [
+     "C",
+     -5.329510830644573
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5865190625190735,
+   "mass_B": 0.3139658272266388,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5338300220082207
+    ],
+    [
+     "J",
+     -1.158829999730913
+    ],
+    [
+     "To",
+     -2.908829970320282
+    ],
+    [
+     "Based",
+     -3.783830044151837
+    ],
+    [
+     "C",
+     -5.28383003856046
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5906913876533508,
+   "mass_B": 0.31621086597442627,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5267785824651412
+    ],
+    [
+     "J",
+     -1.151778495063074
+    ],
+    [
+     "To",
+     -3.026778606723038
+    ],
+    [
+     "Based",
+     -3.6517785782105276
+    ],
+    [
+     "The",
+     -5.90177858356181
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5209884643554688,
+   "mass_B": 0.40578722953796387,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6523861086107644
+    ],
+    [
+     "J",
+     -0.902386108752647
+    ],
+    [
+     "To",
+     -3.652386124950528
+    ],
+    [
+     "Based",
+     -3.7773860797358396
+    ],
+    [
+     "C",
+     -5.277386157287291
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6454951167106628,
+   "mass_B": 0.30493155121803284,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.43793027243485355
+    ],
+    [
+     "J",
+     -1.1879303035161464
+    ],
+    [
+     "Based",
+     -3.9379302309614643
+    ],
+    [
+     "To",
+     -4.56293027881007
+    ],
+    [
+     "C",
+     -5.312930292479347
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5120411515235901,
+   "mass_B": 0.3987908959388733,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6695976763794703
+    ],
+    [
+     "J",
+     -0.9195976801782122
+    ],
+    [
+     "To",
+     -3.0445976020052488
+    ],
+    [
+     "Based",
+     -3.9195976845255496
+    ],
+    [
+     "C",
+     -5.419597653695983
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6239039897918701,
+   "mass_B": 0.29477107524871826,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.4723136148504215
+    ],
+    [
+     "J",
+     -1.222313588076729
+    ],
+    [
+     "Based",
+     -3.347313579919915
+    ],
+    [
+     "To",
+     -3.59731362777092
+    ],
+    [
+     "The",
+     -5.472313624397017
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4516608715057373,
+   "mass_B": 0.4516919255256653,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.795160899354816
+    ],
+    [
+     "J",
+     -0.795160899354816
+    ],
+    [
+     "To",
+     -3.045160910391722
+    ],
+    [
+     "Based",
+     -3.670160908038606
+    ],
+    [
+     "C",
+     -5.170160863416245
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5118460655212402,
+   "mass_B": 0.39865946769714355,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6700292767535778
+    ],
+    [
+     "J",
+     -0.9200292453000636
+    ],
+    [
+     "To",
+     -3.170029264232277
+    ],
+    [
+     "Based",
+     -3.670029293252957
+    ],
+    [
+     "C",
+     -5.17002929263958
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5633776187896729,
+   "mass_B": 0.38724377751350403,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5740374048003214
+    ],
+    [
+     "J",
+     -0.9490373944151663
+    ],
+    [
+     "Based",
+     -3.9490373775707766
+    ],
+    [
+     "To",
+     -4.574037402836906
+    ],
+    [
+     "C",
+     -5.199037487803107
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 159,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8330687880516052,
+   "mass_B": 0.16404084861278534,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.18264406992395843
+    ],
+    [
+     "K",
+     -1.8076440746656535
+    ],
+    [
+     "<think>",
+     -6.557644078470918
+    ],
+    [
+     "I",
+     -7.807644053641752
+    ],
+    [
+     "The",
+     -9.682644053193453
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 115,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7511702179908752,
+   "mass_B": 0.24386830627918243,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.2861343447648736
+    ],
+    [
+     "K",
+     -1.411134382390569
+    ],
+    [
+     "<think>",
+     -6.036134331844251
+    ],
+    [
+     "Based",
+     -7.911134362629553
+    ],
+    [
+     "I",
+     -8.53613427471218
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6480662226676941,
+   "mass_B": 0.34688395261764526,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.4337708539355356
+    ],
+    [
+     "K",
+     -1.0587708276617553
+    ],
+    [
+     "<think>",
+     -6.058770821927387
+    ],
+    [
+     "k",
+     -8.058770868386524
+    ],
+    [
+     "To",
+     -8.308770801662622
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.559089183807373,
+   "mass_B": 0.4354170858860016,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5814590701710584
+    ],
+    [
+     "K",
+     -0.8314590341800184
+    ],
+    [
+     "<think>",
+     -5.956459057043958
+    ],
+    [
+     "k",
+     -8.206459052242158
+    ],
+    [
+     "To",
+     -8.206459052242158
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.34662672877311707,
+   "mass_B": 0.6475794911384583,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.43452136623886084
+    ],
+    [
+     "J",
+     -1.0595213180253502
+    ],
+    [
+     "<think>",
+     -5.934521309109158
+    ],
+    [
+     "Based",
+     -7.684521397208211
+    ],
+    [
+     "k",
+     -7.809521318181993
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7950065732002258,
+   "mass_B": 0.20100829005241394,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.2294199660281367
+    ],
+    [
+     "K",
+     -1.6044199510729156
+    ],
+    [
+     "<think>",
+     -6.354419957091442
+    ],
+    [
+     "Based",
+     -7.97941994596258
+    ],
+    [
+     "JJ",
+     -8.4794199129816
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5895663499832153,
+   "mass_B": 0.405200332403183,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5283831773401848
+    ],
+    [
+     "K",
+     -0.9033831742078697
+    ],
+    [
+     "<think>",
+     -6.028383149550865
+    ],
+    [
+     "Based",
+     -7.903383158173358
+    ],
+    [
+     "k",
+     -8.153383183375471
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6481819152832031,
+   "mass_B": 0.3469454050064087,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.43359648670833373
+    ],
+    [
+     "K",
+     -1.0585964356430042
+    ],
+    [
+     "<think>",
+     -6.183596474962608
+    ],
+    [
+     "Based",
+     -8.183596463101479
+    ],
+    [
+     "You",
+     -8.183596463101479
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6477513909339905,
+   "mass_B": 0.3467141389846802,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.4342643234325481
+    ],
+    [
+     "K",
+     -1.0592642726819104
+    ],
+    [
+     "<think>",
+     -6.184264267738198
+    ],
+    [
+     "Based",
+     -7.059264340633581
+    ],
+    [
+     "You",
+     -8.184264353337252
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5597673058509827,
+   "mass_B": 0.43594464659690857,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5802484819269315
+    ],
+    [
+     "K",
+     -0.830248478041405
+    ],
+    [
+     "<think>",
+     -6.080248502613563
+    ],
+    [
+     "k",
+     -8.45524845657018
+    ],
+    [
+     "Based",
+     -8.580248508998581
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5288975238800049,
+   "mass_B": 0.4667481482028961,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6369718522275788
+    ],
+    [
+     "K",
+     -0.7619718491138232
+    ],
+    [
+     "<think>",
+     -6.136971791822743
+    ],
+    [
+     "k",
+     -8.26197182778723
+    ],
+    [
+     "I",
+     -8.636971854661823
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6759474277496338,
+   "mass_B": 0.3192942440509796,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.3916472944822588
+    ],
+    [
+     "K",
+     -1.1416473398075613
+    ],
+    [
+     "<think>",
+     -6.391647222731917
+    ],
+    [
+     "You",
+     -8.01664729105235
+    ],
+    [
+     "I",
+     -8.266647254963386
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5902144908905029,
+   "mass_B": 0.4056464433670044,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.527281887859412
+    ],
+    [
+     "K",
+     -0.9022818503247851
+    ],
+    [
+     "<think>",
+     -6.277281825018097
+    ],
+    [
+     "You",
+     -8.2772818680669
+    ],
+    [
+     "Based",
+     -8.40228186041453
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5600723624229431,
+   "mass_B": 0.43618229031562805,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5797051421582334
+    ],
+    [
+     "K",
+     -0.8297051381650581
+    ],
+    [
+     "<think>",
+     -6.329705124851846
+    ],
+    [
+     "k",
+     -8.5797051828726
+    ],
+    [
+     "You",
+     -8.767205099348763
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5597984194755554,
+   "mass_B": 0.43596982955932617,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5801889599015551
+    ],
+    [
+     "K",
+     -0.8301889354589901
+    ],
+    [
+     "<think>",
+     -6.45518897262624
+    ],
+    [
+     "You",
+     -8.330188981015878
+    ],
+    [
+     "I",
+     -8.45518889129885
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.559923529624939,
+   "mass_B": 0.4360663592815399,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5799709202032
+    ],
+    [
+     "K",
+     -0.8299708935794582
+    ],
+    [
+     "<think>",
+     -6.329970898275787
+    ],
+    [
+     "I",
+     -8.579970959755054
+    ],
+    [
+     "You",
+     -8.579970959755054
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5289371609687805,
+   "mass_B": 0.4667825698852539,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6369016442818699
+    ],
+    [
+     "K",
+     -0.7619016789108273
+    ],
+    [
+     "<think>",
+     -6.261901635022535
+    ],
+    [
+     "k",
+     -8.386901648229772
+    ],
+    [
+     "You",
+     -8.511901613511895
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.46660754084587097,
+   "mass_B": 0.5287277102470398,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6372977131737289
+    ],
+    [
+     "J",
+     -0.7622977357936548
+    ],
+    [
+     "<think>",
+     -6.137297695506708
+    ],
+    [
+     "Based",
+     -7.637297716014852
+    ],
+    [
+     "You",
+     -8.387297728269182
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.43559107184410095,
+   "mass_B": 0.5593060851097107,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5810684148751493
+    ],
+    [
+     "J",
+     -0.8310684206161353
+    ],
+    [
+     "<think>",
+     -6.0810683637433325
+    ],
+    [
+     "k",
+     -8.081068383181975
+    ],
+    [
+     "Based",
+     -8.206068354719493
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.4357699155807495,
+   "mass_B": 0.5595348477363586,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.580661187315623
+    ],
+    [
+     "J",
+     -0.8306612035308674
+    ],
+    [
+     "<think>",
+     -6.2056611643558774
+    ],
+    [
+     "You",
+     -7.955661167555809
+    ],
+    [
+     "Based",
+     -8.330661208361883
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3760542571544647,
+   "mass_B": 0.6200031638145447,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.47804117691186293
+    ],
+    [
+     "J",
+     -0.9780411822614635
+    ],
+    [
+     "<think>",
+     -6.353041163380532
+    ],
+    [
+     "k",
+     -8.228041208344068
+    ],
+    [
+     "Based",
+     -8.478041193724257
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.2012196034193039,
+   "mass_B": 0.7958400845527649,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.22836300376190044
+    ],
+    [
+     "K",
+     -1.6033630043735883
+    ],
+    [
+     "<think>",
+     -6.478363007256647
+    ],
+    [
+     "I",
+     -7.978362973274747
+    ],
+    [
+     "The",
+     -9.72836304154314
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 115,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7267864346504211,
+   "mass_B": 0.2673714756965637,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.319131054313597
+    ],
+    [
+     "J",
+     -1.319131006162134
+    ],
+    [
+     "<think>",
+     -5.9441310697091785
+    ],
+    [
+     "Based",
+     -7.69413099556203
+    ],
+    [
+     "k",
+     -7.944131058402468
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.49725428223609924,
+   "mass_B": 0.4972570240497589,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6986618405391375
+    ],
+    [
+     "K",
+     -0.6986618405391375
+    ],
+    [
+     "<think>",
+     -5.94866179687405
+    ],
+    [
+     "k",
+     -8.073661776505135
+    ],
+    [
+     "To",
+     -8.198661893787486
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.37545323371887207,
+   "mass_B": 0.6190198063850403,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.47962754205033653
+    ],
+    [
+     "K",
+     -0.9796275509776609
+    ],
+    [
+     "<think>",
+     -5.979627480008097
+    ],
+    [
+     "To",
+     -8.104627522714
+    ],
+    [
+     "k",
+     -8.104627522714
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.3190701901912689,
+   "mass_B": 0.6754754185676575,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.392352101435797
+    ],
+    [
+     "K",
+     -1.1423521077955237
+    ],
+    [
+     "<think>",
+     -6.017352084059234
+    ],
+    [
+     "Based",
+     -7.767352081749739
+    ],
+    [
+     "To",
+     -8.3923521081043
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 131,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7276938557624817,
+   "mass_B": 0.2677057981491089,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.317885331432315
+    ],
+    [
+     "J",
+     -1.3178852609922116
+    ],
+    [
+     "<think>",
+     -6.192885353989938
+    ],
+    [
+     "k",
+     -8.192885281070728
+    ],
+    [
+     "Based",
+     -8.192885281070728
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5890470743179321,
+   "mass_B": 0.40484872460365295,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.5292612175575517
+    ],
+    [
+     "J",
+     -0.9042611616804709
+    ],
+    [
+     "<think>",
+     -5.904261203226117
+    ],
+    [
+     "You",
+     -7.654261176987576
+    ],
+    [
+     "Based",
+     -8.029261233161648
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6193288564682007,
+   "mass_B": 0.375645250082016,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.47912946335881784
+    ],
+    [
+     "J",
+     -0.9791294230340294
+    ],
+    [
+     "<think>",
+     -6.104129486802373
+    ],
+    [
+     "k",
+     -7.979129492078335
+    ],
+    [
+     "Based",
+     -8.229129411210453
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6761025786399841,
+   "mass_B": 0.3193718492984772,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.39142219613965185
+    ],
+    [
+     "J",
+     -1.141422232460645
+    ],
+    [
+     "<think>",
+     -6.2664221943861795
+    ],
+    [
+     "Based",
+     -7.641422208966244
+    ],
+    [
+     "You",
+     -8.516422262413402
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5289584398269653,
+   "mass_B": 0.46680721640586853,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6368558934418382
+    ],
+    [
+     "J",
+     -0.761855901732607
+    ],
+    [
+     "<think>",
+     -6.2618558660888795
+    ],
+    [
+     "k",
+     -8.386855917476598
+    ],
+    [
+     "Based",
+     -8.511855873191411
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.46683090925216675,
+   "mass_B": 0.5289915204048157,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6367970740086919
+    ],
+    [
+     "K",
+     -0.7617971031598056
+    ],
+    [
+     "<think>",
+     -6.261797040829297
+    ],
+    [
+     "I",
+     -8.51179703626712
+    ],
+    [
+     "You",
+     -8.51179703626712
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4359554648399353,
+   "mass_B": 0.559779703617096,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5802223940199472
+    ],
+    [
+     "K",
+     -0.83022236363652
+    ],
+    [
+     "<think>",
+     -6.455222439010667
+    ],
+    [
+     "You",
+     -8.205222437726201
+    ],
+    [
+     "I",
+     -8.45522233221414
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.529236912727356,
+   "mass_B": 0.46705305576324463,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6363275440493383
+    ],
+    [
+     "J",
+     -0.7613275409102624
+    ],
+    [
+     "<think>",
+     -6.3863275347086566
+    ],
+    [
+     "k",
+     -8.511327478131502
+    ],
+    [
+     "You",
+     -8.636327564523354
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.49779394268989563,
+   "mass_B": 0.49779677391052246,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6975775586874988
+    ],
+    [
+     "J",
+     -0.6975775586874988
+    ],
+    [
+     "<think>",
+     -6.197577515830412
+    ],
+    [
+     "Based",
+     -8.19757757522965
+    ],
+    [
+     "k",
+     -8.322577565793019
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.3470005691051483,
+   "mass_B": 0.6482843160629272,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.4334347459842461
+    ],
+    [
+     "K",
+     -1.058434699196185
+    ],
+    [
+     "<think>",
+     -6.433434721956625
+    ],
+    [
+     "You",
+     -8.058434724343707
+    ],
+    [
+     "I",
+     -8.308434744808798
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.46685701608657837,
+   "mass_B": 0.5290202498435974,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6367385960480214
+    ],
+    [
+     "K",
+     -0.7617386272264658
+    ],
+    [
+     "<think>",
+     -6.261738585130005
+    ],
+    [
+     "k",
+     -8.386738598279509
+    ],
+    [
+     "You",
+     -8.636738622564158
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4668099880218506,
+   "mass_B": 0.5289680361747742,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.6368414699656473
+    ],
+    [
+     "K",
+     -0.7618414730982284
+    ],
+    [
+     "<think>",
+     -6.136841460083043
+    ],
+    [
+     "Based",
+     -8.511841398842236
+    ],
+    [
+     "k",
+     -8.511841398842236
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4971418082714081,
+   "mass_B": 0.49714669585227966,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "K",
+     -0.6988906357511286
+    ],
+    [
+     "J",
+     -0.6988906357511286
+    ],
+    [
+     "<think>",
+     -6.073890668842309
+    ],
+    [
+     "Based",
+     -6.94889063846646
+    ],
+    [
+     "You",
+     -8.198890605392306
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.40527620911598206,
+   "mass_B": 0.5896764993667603,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5281954510312471
+    ],
+    [
+     "K",
+     -0.9031954179246808
+    ],
+    [
+     "<think>",
+     -6.153195395710115
+    ],
+    [
+     "Based",
+     -8.028195428204654
+    ],
+    [
+     "You",
+     -8.153195486652372
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.43560945987701416,
+   "mass_B": 0.5593368411064148,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.5810176888482214
+    ],
+    [
+     "K",
+     -0.831017654794549
+    ],
+    [
+     "<think>",
+     -6.081017637476619
+    ],
+    [
+     "Based",
+     -7.831017730304058
+    ],
+    [
+     "You",
+     -8.331017684560727
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.31944891810417175,
+   "mass_B": 0.6762780547142029,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [
+    [
+     "J",
+     -0.39116815069376903
+    ],
+    [
+     "K",
+     -1.141168160958818
+    ],
+    [
+     "<think>",
+     -6.266168186434806
+    ],
+    [
+     "Based",
+     -7.7661680949485925
+    ],
+    [
+     "The",
+     -8.828668146950372
+    ]
+   ],
+   "provider": "local",
+   "served_model": "Qwen/Qwen3.5-4B",
+   "prompt_tokens": 146,
+   "completion_tokens": 0,
+   "cost": 0.0
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_v2/qwen3.8-27b_T0.7.json --framing 0 --mapping 1 --init incumbent_B --seeds 500 --seed-offset 0 --N 4 8 16 32 64 --samplers independent pair_shared:restore pair_shared:0.3 block:2 pair_shared:0.1 pair_shared:0.2 pair_shared:0.5 pair_shared:0.75 pair_shared:1 --out results/ext/qwen3.8-27b_T0.7/f0m1_incumbent_B",
+ "created": "2026-11-08T03:15:39+0000",
+ "seconds": 25.3,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_v2/qwen3.8-27b_T0.7.json",
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2",
+   "pair_shared:0.1",
+   "pair_shared:0.2",
+   "pair_shared:0.5",
+   "pair_shared:0.75",
+   "pair_shared:1"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/ext/qwen3.8-27b_T0.7/f0m1_incumbent_B",
+  "func": "<function cmd_simulate at 0x10184d4e0>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "qwen3.8-27b",
+   "samples_per_prompt": 200,
+   "sample_temperature": 0.7,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "top_p": "server default (0.95)",
+   "H": 2,
+   "game": "coord",
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 1,
+   "prompt_hash": "0adadb7b1d5603ae",
+   "created": "2026-11-08T03:15:06+0000",
+   "seconds": 2100.2,
+   "calls": 16800,
+   "errors": 0,
+   "total_cost": 0.1396816,
+   "providers": [
+    "adaption"
+   ]
+  },
+  "framing": 0,
+  "mapping": 1,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 1.0,
+  "min_valid_mass": 1.0,
+  "bounded_histories": [],
+  "samples": 4200,
+  "invalid_rate": 0.0
+ },
+ "pA": {
+  "-": 0.7835820895522388,
+  "AA": 0.9975124378109453,
+  "AB": 0.8930348258706468,
+  "BA": 0.9079601990049752,
+  "BB": 0.7736318407960199,
+  "AA.AA": 0.9975124378109453,
+  "AA.AB": 0.8532338308457711,
+  "AA.BA": 0.9179104477611941,
+  "AA.BB": 0.9825870646766168,
+  "AB.AA": 0.8532338308457711,
+  "AB.AB": 0.6840796019900497,
+  "AB.BA": 0.6194029850746269,
+  "AB.BB": 0.6641791044776119,
+  "BA.AA": 0.9975124378109453,
+  "BA.AB": 0.7835820895522388,
+  "BA.BA": 0.9975124378109453,
+  "BA.BB": 0.8681592039800996,
+  "BB.AA": 0.9378109452736318,
+  "BB.AB": 0.6492537313432836,
+  "BB.BA": 0.9179104477611941,
+  "BB.BB": 0.6592039800995024
+ }
+}

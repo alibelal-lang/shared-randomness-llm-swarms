@@ -1,0 +1,107 @@
+{
+ "command": "/Users/alibelal/Swarm alignment/swarm/__main__.py simulate --policy policies/adaption_v2/glm-5.2_pooled.json --framing 1 --mapping 0 --init incumbent_B --seeds 500 --seed-offset 0 --N 4 8 16 32 64 --samplers independent pair_shared:restore pair_shared:0.3 block:2 pair_shared:0.1 pair_shared:0.2 pair_shared:0.5 pair_shared:0.75 pair_shared:1 --out results/ext/glm-5.2_pooled/f1m0_incumbent_B",
+ "created": "2026-11-07T23:45:19+0000",
+ "seconds": 29.1,
+ "python": "3.14.6",
+ "numpy": "2.5.4",
+ "args": {
+  "cmd": "simulate",
+  "policy": "policies/adaption_v2/glm-5.2_pooled.json",
+  "framing": 1,
+  "mapping": 0,
+  "temperature": 1.0,
+  "N": [
+   4,
+   8,
+   16,
+   32,
+   64
+  ],
+  "T": 100,
+  "seeds": 500,
+  "seed_offset": 0,
+  "samplers": [
+   "independent",
+   "pair_shared:restore",
+   "pair_shared:0.3",
+   "block:2",
+   "pair_shared:0.1",
+   "pair_shared:0.2",
+   "pair_shared:0.5",
+   "pair_shared:0.75",
+   "pair_shared:1"
+  ],
+  "N0": 4,
+  "init": "incumbent_B",
+  "threshold": 0.75,
+  "out": "results/ext/glm-5.2_pooled/f1m0_incumbent_B",
+  "func": "<function cmd_simulate at 0x1050bd4e0>"
+ },
+ "policy_diagnostics": {
+  "meta": {
+   "backend": "adaption",
+   "model": "glm-5.2",
+   "samples_per_prompt": "pooled",
+   "sample_temperature": 1.0,
+   "reasoning_effort": "none",
+   "max_output_tokens": 8,
+   "estimator": "Jeffreys (k+0.5)/(n+1)",
+   "H": 2,
+   "game": "coord",
+   "framings": [
+    0,
+    1
+   ],
+   "mappings": [
+    0,
+    1
+   ],
+   "repeats": 1,
+   "prompt_hash": "0adadb7b1d5603ae",
+   "created": "2026-11-07T23:44:50+0000",
+   "seconds": 4202.0,
+   "calls": 43600,
+   "errors": 0,
+   "total_cost": 3.0288281599999998,
+   "providers": [
+    "adaption"
+   ],
+   "merged_from": [
+    "policies/adaption_v2/glm-5.2_retest.json",
+    "policies/adaption_v2/glm-5.2_tails.json"
+   ]
+  },
+  "framing": 1,
+  "mapping": 0,
+  "temperature": 1.0,
+  "max_repeat_spread": 0.0,
+  "mean_valid_mass": 1.0,
+  "min_valid_mass": 1.0,
+  "bounded_histories": [],
+  "samples": 8400,
+  "invalid_rate": 0.0
+ },
+ "pA": {
+  "-": 0.9987531172069826,
+  "AA": 0.9364089775561096,
+  "AB": 0.8067331670822941,
+  "BA": 0.9239401496259352,
+  "BB": 0.5523690773067331,
+  "AA.AA": 0.9987531172069826,
+  "AA.AB": 0.5972568578553616,
+  "AA.BA": 0.9713216957605983,
+  "AA.BB": 0.9887780548628428,
+  "AB.AA": 0.9139650872817955,
+  "AB.AB": 0.19077306733167085,
+  "AB.BA": 0.8640897755610972,
+  "AB.BB": 0.78428927680798,
+  "BA.AA": 0.8640897755610972,
+  "BA.AB": 0.9638403990024937,
+  "BA.BA": 0.8092269326683291,
+  "BA.BB": 0.8092269326683291,
+  "BB.AA": 0.899002493765586,
+  "BB.AB": 0.64214463840399,
+  "BB.BA": 0.8291770573566085,
+  "BB.BB": 0.8291770573566085
+ }
+}

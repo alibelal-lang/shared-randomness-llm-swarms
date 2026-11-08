@@ -1,0 +1,3391 @@
+{
+ "meta": {
+  "backend": "openrouter",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "provider_pin": "parasail/fp8",
+  "top_logprobs": 20,
+  "disable_reasoning": true,
+  "H": 2,
+  "game": "coord",
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-07T21:07:32+0000",
+  "seconds": 19.1,
+  "calls": 84,
+  "errors": 0,
+  "total_cost": 0.0065134,
+  "providers": [
+   "Parasail"
+  ]
+ },
+ "records": [
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999294174579929,
+   "mass_B": 4.0060636136218354e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999964673431375,
+   "min_listed": 2.2377688104328206e-07,
+   "top": [
+    [
+     "J",
+     -0.00011598391574807465
+    ],
+    [
+     " J",
+     -10.000116348266602
+    ],
+    [
+     "K",
+     -10.125116348266602
+    ],
+    [
+     "A",
+     -11.250116348266602
+    ],
+    [
+     "B",
+     -12.500116348266602
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9980244634515943,
+   "mass_B": 0.0019273823901675958,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999933923917633,
+   "min_listed": 2.867425525612838e-07,
+   "top": [
+    [
+     "J",
+     -0.0021809381432831287
+    ],
+    [
+     "K",
+     -6.252181053161621
+    ],
+    [
+     " J",
+     -8.502181053161621
+    ],
+    [
+     "B",
+     -10.814681053161621
+    ],
+    [
+     "A",
+     -11.252181053161621
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 6.56e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9840365729411958,
+   "mass_B": 0.015908931693798048,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999886651604337,
+   "min_listed": 4.961299275720878e-07,
+   "top": [
+    [
+     "J",
+     -0.016427621245384216
+    ],
+    [
+     "K",
+     -4.141427516937256
+    ],
+    [
+     " J",
+     -8.016427993774414
+    ],
+    [
+     "Based",
+     -11.641427993774414
+    ],
+    [
+     " K",
+     -11.641427993774414
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8174330868975034,
+   "mass_B": 0.18243074244006044,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.99996196936811,
+   "min_listed": 1.268981107538906e-06,
+   "top": [
+    [
+     "J",
+     -0.2022961527109146
+    ],
+    [
+     "K",
+     -1.7022961378097534
+    ],
+    [
+     " J",
+     -7.452296257019043
+    ],
+    [
+     " K",
+     -8.702296257019043
+    ],
+    [
+     "Based",
+     -10.389796257019043
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8932416565549339,
+   "mass_B": 0.1066848058020401,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999759102032599,
+   "min_listed": 7.425069795219459e-07,
+   "top": [
+    [
+     "J",
+     -0.1132335290312767
+    ],
+    [
+     "K",
+     -2.2382335662841797
+    ],
+    [
+     " J",
+     -8.11323356628418
+    ],
+    [
+     " K",
+     -10.17573356628418
+    ],
+    [
+     "B",
+     -11.42573356628418
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9999510719814112,
+   "mass_B": 2.144254523680832e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999951605544859,
+   "min_listed": 3.058614808621317e-07,
+   "top": [
+    [
+     "J",
+     -0.00013374387344811112
+    ],
+    [
+     " J",
+     -9.375133514404297
+    ],
+    [
+     "K",
+     -10.750133514404297
+    ],
+    [
+     "A",
+     -12.062633514404297
+    ],
+    [
+     "B",
+     -12.250133514404297
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6512744563982252,
+   "mass_B": 0.348556452275952,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999493976175859,
+   "min_listed": 1.889285670748804e-06,
+   "top": [
+    [
+     "K",
+     -1.0543121099472046
+    ],
+    [
+     "J",
+     -0.4293121099472046
+    ],
+    [
+     " J",
+     -8.054311752319336
+    ],
+    [
+     " K",
+     -8.991811752319336
+    ],
+    [
+     "B",
+     -9.991811752319336
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999554339540289,
+   "mass_B": 0.00043076957984721474,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999978595079291,
+   "min_listed": 1.3566128225242498e-07,
+   "top": [
+    [
+     "J",
+     -0.0006042085005901754
+    ],
+    [
+     "K",
+     -7.750604152679443
+    ],
+    [
+     " J",
+     -8.750604629516602
+    ],
+    [
+     "A",
+     -12.750604629516602
+    ],
+    [
+     "B",
+     -13.000604629516602
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9989254801342733,
+   "mass_B": 0.0010321098939301773,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999932863250409,
+   "min_listed": 3.252570216795434e-07,
+   "top": [
+    [
+     "J",
+     -0.00114994659088552
+    ],
+    [
+     "K",
+     -6.876150131225586
+    ],
+    [
+     " J",
+     -9.501150131225586
+    ],
+    [
+     "Based",
+     -11.251150131225586
+    ],
+    [
+     "The",
+     -12.376150131225586
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.025967279484250965,
+   "mass_B": 0.9739466099135153,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999810427077666,
+   "min_listed": 6.711120532244713e-07,
+   "top": [
+    [
+     "K",
+     -0.026829442009329796
+    ],
+    [
+     "J",
+     -3.651829481124878
+    ],
+    [
+     " K",
+     -7.776829242706299
+    ],
+    [
+     "B",
+     -10.589329719543457
+    ],
+    [
+     " J",
+     -10.651829719543457
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8174468576704528,
+   "mass_B": 0.18239093681305485,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999580960660368,
+   "min_listed": 1.3510578384839563e-06,
+   "top": [
+    [
+     "J",
+     -0.20212231576442719
+    ],
+    [
+     "K",
+     -1.7021223306655884
+    ],
+    [
+     " J",
+     -7.702122211456299
+    ],
+    [
+     " K",
+     -9.264622688293457
+    ],
+    [
+     "Based",
+     -10.264622688293457
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.03734820140076702,
+   "mass_B": 0.9624785050207001,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999658096330868,
+   "min_listed": 1.2388879132997586e-06,
+   "top": [
+    [
+     "K",
+     -0.038796477019786835
+    ],
+    [
+     "J",
+     -3.2887964248657227
+    ],
+    [
+     " K",
+     -7.538796424865723
+    ],
+    [
+     " J",
+     -9.913796424865723
+    ],
+    [
+     "B",
+     -9.913796424865723
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9923740441974748,
+   "mass_B": 0.007579043621329197,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999902801557643,
+   "min_listed": 4.1477250000387863e-07,
+   "top": [
+    [
+     "J",
+     -0.008035238832235336
+    ],
+    [
+     "K",
+     -4.883035182952881
+    ],
+    [
+     " J",
+     -7.883035182952881
+    ],
+    [
+     "B",
+     -11.445535659790039
+    ],
+    [
+     "Based",
+     -11.820535659790039
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9913878982968051,
+   "mass_B": 0.008579949882856253,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999940508777729,
+   "min_listed": 3.6572664229992e-07,
+   "top": [
+    [
+     "J",
+     -0.008879933506250381
+    ],
+    [
+     "K",
+     -4.758880138397217
+    ],
+    [
+     " J",
+     -8.383879661560059
+    ],
+    [
+     "Based",
+     -11.883879661560059
+    ],
+    [
+     " K",
+     -12.258879661560059
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8517822883497063,
+   "mass_B": 0.14802625777525233,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999524452620142,
+   "min_listed": 1.5946824297928036e-06,
+   "top": [
+    [
+     "J",
+     -0.1613357812166214
+    ],
+    [
+     "K",
+     -1.911335825920105
+    ],
+    [
+     " J",
+     -7.1613359451293945
+    ],
+    [
+     " K",
+     -8.848835945129395
+    ],
+    [
+     "Based",
+     -9.973835945129395
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9839965073635519,
+   "mass_B": 0.015910799607995442,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999812042924229,
+   "min_listed": 7.683558453651031e-07,
+   "top": [
+    [
+     "J",
+     -0.01651298813521862
+    ],
+    [
+     "K",
+     -4.141512870788574
+    ],
+    [
+     " J",
+     -7.891512870788574
+    ],
+    [
+     "Based",
+     -10.704012870788574
+    ],
+    [
+     " K",
+     -11.329012870788574
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9995818180031001,
+   "mass_B": 0.00037991694327031483,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999942082867072,
+   "min_listed": 2.5346048609046313e-07,
+   "top": [
+    [
+     "J",
+     -0.0005581013392657042
+    ],
+    [
+     "K",
+     -7.875557899475098
+    ],
+    [
+     " J",
+     -8.875557899475098
+    ],
+    [
+     "Based",
+     -11.438057899475098
+    ],
+    [
+     "A",
+     -12.188057899475098
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9998679752087087,
+   "mass_B": 0.00010888394930812723,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999968839045019,
+   "min_listed": 1.6370039687602172e-07,
+   "top": [
+    [
+     "J",
+     -0.000228140561375767
+    ],
+    [
+     "K",
+     -9.125227928161621
+    ],
+    [
+     " J",
+     -9.250227928161621
+    ],
+    [
+     "B",
+     -12.250227928161621
+    ],
+    [
+     "A",
+     -12.250227928161621
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9875428109389199,
+   "mass_B": 0.012433240960389167,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999960807658947,
+   "min_listed": 1.8319051106976011e-07,
+   "top": [
+    [
+     "J",
+     -0.012738877907395363
+    ],
+    [
+     "K",
+     -4.3877387046813965
+    ],
+    [
+     " J",
+     -8.512739181518555
+    ],
+    [
+     "Based",
+     -12.075239181518555
+    ],
+    [
+     " K",
+     -12.325239181518555
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.24508722382536682,
+   "mass_B": 0.754764347450225,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999607668402195,
+   "min_listed": 1.4137996395212052e-06,
+   "top": [
+    [
+     "K",
+     -0.2817297577857971
+    ],
+    [
+     "J",
+     -1.4067296981811523
+    ],
+    [
+     " K",
+     -8.156729698181152
+    ],
+    [
+     " J",
+     -8.844229698181152
+    ],
+    [
+     "B",
+     -10.344229698181152
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6790814145207998,
+   "mass_B": 0.3207182832367738,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999597522905445,
+   "min_listed": 1.2714935351985549e-06,
+   "top": [
+    [
+     "J",
+     -0.38781866431236267
+    ],
+    [
+     "K",
+     -1.137818694114685
+    ],
+    [
+     " J",
+     -7.512818813323975
+    ],
+    [
+     " K",
+     -8.512818336486816
+    ],
+    [
+     "Based",
+     -9.637818336486816
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "-",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9976640409728519,
+   "mass_B": 0.0021847294509113493,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999868170659484,
+   "min_listed": 4.7238808583180313e-07,
+   "top": [
+    [
+     "K",
+     -0.00296522188000381
+    ],
+    [
+     "J",
+     -6.127965450286865
+    ],
+    [
+     " K",
+     -7.377965450286865
+    ],
+    [
+     "B",
+     -9.127964973449707
+    ],
+    [
+     "A",
+     -11.190464973449707
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 124,
+   "completion_tokens": 1,
+   "cost": 6.56e-05
+  },
+  {
+   "history": "AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9998957524104247,
+   "mass_B": 5.1430241887747395e-05,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999933904993772,
+   "min_listed": 3.2553879551619835e-07,
+   "top": [
+    [
+     "K",
+     -0.00028379703871905804
+    ],
+    [
+     " K",
+     -8.625284194946289
+    ],
+    [
+     "J",
+     -9.875284194946289
+    ],
+    [
+     "B",
+     -10.687784194946289
+    ],
+    [
+     "A",
+     -12.000284194946289
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5311180931073639,
+   "mass_B": 0.46878158853131785,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999673421099625,
+   "min_listed": 1.2774990842616266e-06,
+   "top": [
+    [
+     "K",
+     -0.6331062912940979
+    ],
+    [
+     "J",
+     -0.7581062912940979
+    ],
+    [
+     " J",
+     -8.383106231689453
+    ],
+    [
+     " K",
+     -8.633106231689453
+    ],
+    [
+     "B",
+     -10.695606231689453
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9706226848700492,
+   "mass_B": 0.029317480762986303,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.99998672740451,
+   "min_listed": 5.546237444047723e-07,
+   "top": [
+    [
+     "K",
+     -0.02997591905295849
+    ],
+    [
+     "J",
+     -3.5299758911132812
+    ],
+    [
+     " K",
+     -8.779975891113281
+    ],
+    [
+     "B",
+     -11.029975891113281
+    ],
+    [
+     " J",
+     -11.342475891113281
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8931684984717968,
+   "mass_B": 0.1067043618378905,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999730269172216,
+   "min_listed": 8.41263923660137e-07,
+   "top": [
+    [
+     "K",
+     -0.11336008459329605
+    ],
+    [
+     "J",
+     -2.2383601665496826
+    ],
+    [
+     " K",
+     -7.9883599281311035
+    ],
+    [
+     " J",
+     -9.550860404968262
+    ],
+    [
+     "Based",
+     -10.675860404968262
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 142,
+   "completion_tokens": 1,
+   "cost": 7.46e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9999736389156884,
+   "mass_B": 6.1428003574164905e-06,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999968565662446,
+   "min_listed": 1.7425783302642303e-07,
+   "top": [
+    [
+     "K",
+     -0.00022980909852776676
+    ],
+    [
+     " K",
+     -8.500229835510254
+    ],
+    [
+     "B",
+     -11.937729835510254
+    ],
+    [
+     "J",
+     -12.000229835510254
+    ],
+    [
+     "The",
+     -12.875229835510254
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.835349733491916,
+   "mass_B": 0.16452687054684262,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999711988825541,
+   "min_listed": 9.491484936314589e-07,
+   "top": [
+    [
+     "K",
+     -0.18020080029964447
+    ],
+    [
+     "J",
+     -1.8052008152008057
+    ],
+    [
+     " K",
+     -8.305200576782227
+    ],
+    [
+     " J",
+     -9.367700576782227
+    ],
+    [
+     "B",
+     -10.367700576782227
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9963316204155164,
+   "mass_B": 0.003594716999665495,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999917418537887,
+   "min_listed": 4.165003256592655e-07,
+   "top": [
+    [
+     "K",
+     -0.0038785722572356462
+    ],
+    [
+     "J",
+     -5.628878593444824
+    ],
+    [
+     " K",
+     -8.503878593444824
+    ],
+    [
+     "B",
+     -10.378878593444824
+    ],
+    [
+     "Based",
+     -11.503878593444824
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9996284823888977,
+   "mass_B": 0.0003352387571711029,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999943842326299,
+   "min_listed": 2.5343268995780937e-07,
+   "top": [
+    [
+     "K",
+     -0.0006675875629298389
+    ],
+    [
+     "J",
+     -8.000667572021484
+    ],
+    [
+     " K",
+     -8.125667572021484
+    ],
+    [
+     "B",
+     -11.188167572021484
+    ],
+    [
+     "A",
+     -12.188167572021484
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9988978167292961,
+   "mass_B": 0.0010326690273469036,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999992635330423,
+   "min_listed": 3.9225105557002236e-07,
+   "top": [
+    [
+     "K",
+     -0.001364015624858439
+    ],
+    [
+     "J",
+     -6.876364231109619
+    ],
+    [
+     " K",
+     -8.251363754272461
+    ],
+    [
+     "B",
+     -10.251363754272461
+    ],
+    [
+     "Based",
+     -11.751363754272461
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.6790024956457804,
+   "mass_B": 0.3208395860040079,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999556959970431,
+   "min_listed": 1.5340211542188379e-06,
+   "top": [
+    [
+     "J",
+     -1.1376184225082397
+    ],
+    [
+     "K",
+     -0.38761845231056213
+    ],
+    [
+     " K",
+     -8.012618064880371
+    ],
+    [
+     " J",
+     -8.262618064880371
+    ],
+    [
+     "Based",
+     -10.325118064880371
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.16449622147336052,
+   "mass_B": 0.8353807179604467,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999669517743744,
+   "min_listed": 1.075420505206491e-06,
+   "top": [
+    [
+     "J",
+     -0.1802983582019806
+    ],
+    [
+     "K",
+     -1.8052983283996582
+    ],
+    [
+     " J",
+     -7.930298328399658
+    ],
+    [
+     " K",
+     -9.555298805236816
+    ],
+    [
+     "Based",
+     -10.367798805236816
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.999791385901371,
+   "mass_B": 0.00013976563213095067,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999930890046924,
+   "min_listed": 3.687881067250301e-07,
+   "top": [
+    [
+     "K",
+     -0.0005440423847176135
+    ],
+    [
+     " K",
+     -8.000543594360352
+    ],
+    [
+     "J",
+     -8.875543594360352
+    ],
+    [
+     "B",
+     -10.500543594360352
+    ],
+    [
+     "Based",
+     -11.375543594360352
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.979563569462549,
+   "mass_B": 0.020339541553711496,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999878734971351,
+   "min_listed": 6.341726535718296e-07,
+   "top": [
+    [
+     "K",
+     -0.02094414457678795
+    ],
+    [
+     "J",
+     -3.895944118499756
+    ],
+    [
+     " K",
+     -8.145944595336914
+    ],
+    [
+     "Based",
+     -10.270944595336914
+    ],
+    [
+     " J",
+     -11.083444595336914
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9982644267927613,
+   "mass_B": 0.0017011072308417163,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999943129217139,
+   "min_listed": 3.0534212672538614e-07,
+   "top": [
+    [
+     "K",
+     -0.0018331881146878004
+    ],
+    [
+     "J",
+     -6.376832962036133
+    ],
+    [
+     " K",
+     -9.251832962036133
+    ],
+    [
+     "B",
+     -11.501832962036133
+    ],
+    [
+     "Based",
+     -12.314332962036133
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.033089902706491474,
+   "mass_B": 0.9668614676375457,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999884421315237,
+   "min_listed": 5.523518936010182e-07,
+   "top": [
+    [
+     "J",
+     -0.03408011049032211
+    ],
+    [
+     "K",
+     -3.4090800285339355
+    ],
+    [
+     " J",
+     -7.9090800285339355
+    ],
+    [
+     " K",
+     -10.909080505371094
+    ],
+    [
+     "Based",
+     -11.284080505371094
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9239846616576028,
+   "mass_B": 0.07586462382037412,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999629806800766,
+   "min_listed": 1.2664869302571724e-06,
+   "top": [
+    [
+     "K",
+     -0.07926325500011444
+    ],
+    [
+     "J",
+     -2.579263210296631
+    ],
+    [
+     " K",
+     -8.579263687133789
+    ],
+    [
+     "B",
+     -10.204263687133789
+    ],
+    [
+     " J",
+     -10.266763687133789
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9147731423272529,
+   "mass_B": 0.08512327562969703,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999756025337072,
+   "min_listed": 8.61613175561925e-07,
+   "top": [
+    [
+     "K",
+     -0.08945923298597336
+    ],
+    [
+     "J",
+     -2.464459180831909
+    ],
+    [
+     " K",
+     -7.964459419250488
+    ],
+    [
+     " J",
+     -9.589459419250488
+    ],
+    [
+     "Based",
+     -10.714459419250488
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5620071134370711,
+   "mass_B": 0.4377451049601482,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999457233839714,
+   "min_listed": 1.6304221314217926e-06,
+   "top": [
+    [
+     "J",
+     -0.8266714215278625
+    ],
+    [
+     "K",
+     -0.5766714215278625
+    ],
+    [
+     " K",
+     -8.326671600341797
+    ],
+    [
+     " J",
+     -8.326671600341797
+    ],
+    [
+     "Based",
+     -9.576671600341797
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9992622060910801,
+   "mass_B": 0.000709597246483556,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999933849776732,
+   "min_listed": 3.2536684721789357e-07,
+   "top": [
+    [
+     "J",
+     -0.000812915270216763
+    ],
+    [
+     "K",
+     -7.250813007354736
+    ],
+    [
+     " J",
+     -9.500812530517578
+    ],
+    [
+     "B",
+     -12.375812530517578
+    ],
+    [
+     "j",
+     -12.813312530517578
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9840202757550207,
+   "mass_B": 0.015909766639492784,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999659919519738,
+   "min_listed": 9.268361602314344e-07,
+   "top": [
+    [
+     "J",
+     -0.016488833352923393
+    ],
+    [
+     "K",
+     -4.141489028930664
+    ],
+    [
+     " J",
+     -7.891489028930664
+    ],
+    [
+     " K",
+     -11.453989028930664
+    ],
+    [
+     "B",
+     -12.141489028930664
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 6.11e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3775083564047498,
+   "mass_B": 0.6223335964072547,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999437579944485,
+   "min_listed": 2.627550027386001e-06,
+   "top": [
+    [
+     "K",
+     -0.4744585454463959
+    ],
+    [
+     "J",
+     -0.9744585752487183
+    ],
+    [
+     " J",
+     -9.099458694458008
+    ],
+    [
+     " K",
+     -9.099458694458008
+    ],
+    [
+     "B",
+     -10.474458694458008
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9988949859152619,
+   "mass_B": 0.0010325647044649182,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999894445515768,
+   "min_listed": 3.9226190403299836e-07,
+   "top": [
+    [
+     "K",
+     -0.001336158369667828
+    ],
+    [
+     "J",
+     -6.876336097717285
+    ],
+    [
+     " K",
+     -8.376336097717285
+    ],
+    [
+     "B",
+     -10.626336097717285
+    ],
+    [
+     "Based",
+     -11.313836097717285
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.7056997870916624,
+   "mass_B": 0.29417505644429237,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999520742100579,
+   "min_listed": 2.047663543677246e-06,
+   "top": [
+    [
+     "K",
+     -1.2238107919692993
+    ],
+    [
+     "J",
+     -0.34881076216697693
+    ],
+    [
+     " J",
+     -8.661311149597168
+    ],
+    [
+     " K",
+     -9.598811149597168
+    ],
+    [
+     "B",
+     -10.973811149597168
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.999638307359419,
+   "mass_B": 0.00033528096136170495,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999930786427693,
+   "min_listed": 3.6878881013319205e-07,
+   "top": [
+    [
+     "J",
+     -0.0005413020844571292
+    ],
+    [
+     "K",
+     -8.000541687011719
+    ],
+    [
+     " J",
+     -8.625541687011719
+    ],
+    [
+     "B",
+     -12.250541687011719
+    ],
+    [
+     "I",
+     -13.125541687011719
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.2226752634233123,
+   "mass_B": 0.7771720232329937,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999515801067617,
+   "min_listed": 2.8959723352532692e-06,
+   "top": [
+    [
+     "K",
+     -0.25218966603279114
+    ],
+    [
+     "J",
+     -1.5021896362304688
+    ],
+    [
+     " K",
+     -9.502189636230469
+    ],
+    [
+     " J",
+     -10.314689636230469
+    ],
+    [
+     "B",
+     -10.752189636230469
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.8353958413305003,
+   "mass_B": 0.16449919457500592,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999606160510175,
+   "min_listed": 1.5651828017392466e-06,
+   "top": [
+    [
+     "J",
+     -0.18000805377960205
+    ],
+    [
+     "K",
+     -1.805008053779602
+    ],
+    [
+     " J",
+     -8.930007934570312
+    ],
+    [
+     " K",
+     -10.555007934570312
+    ],
+    [
+     "B",
+     -10.992507934570312
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9578526040314587,
+   "mass_B": 0.04208876640575798,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999813675902266,
+   "min_listed": 7.963559590324229e-07,
+   "top": [
+    [
+     "J",
+     -0.04321981966495514
+    ],
+    [
+     "K",
+     -3.168219804763794
+    ],
+    [
+     " J",
+     -8.793219566345215
+    ],
+    [
+     "B",
+     -11.418219566345215
+    ],
+    [
+     " K",
+     -11.480719566345215
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9739833058226105,
+   "mass_B": 0.025957893570502787,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999807869502533,
+   "min_listed": 8.619739766620715e-07,
+   "top": [
+    [
+     "J",
+     -0.026540659368038177
+    ],
+    [
+     "K",
+     -3.651540756225586
+    ],
+    [
+     " J",
+     -8.651540756225586
+    ],
+    [
+     "B",
+     -11.526540756225586
+    ],
+    [
+     " K",
+     -11.901540756225586
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.49993217720258815,
+   "mass_B": 0.4998938175707114,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999391657392763,
+   "min_listed": 2.7100914578608086e-06,
+   "top": [
+    [
+     "J",
+     -0.6935282349586487
+    ],
+    [
+     "K",
+     -0.6935282349586487
+    ],
+    [
+     " J",
+     -9.006028175354004
+    ],
+    [
+     " K",
+     -9.381028175354004
+    ],
+    [
+     "B",
+     -10.193528175354004
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.07585903828967357,
+   "mass_B": 0.9240398776312021,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999969932381217,
+   "min_listed": 1.5279108824961327e-06,
+   "top": [
+    [
+     "K",
+     -0.07910895347595215
+    ],
+    [
+     "J",
+     -2.579108953475952
+    ],
+    [
+     " K",
+     -9.204109191894531
+    ],
+    [
+     "B",
+     -10.329109191894531
+    ],
+    [
+     " J",
+     -10.954109191894531
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9739845388536659,
+   "mass_B": 0.0259577988518618,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999808654362677,
+   "min_listed": 8.620093252119e-07,
+   "top": [
+    [
+     "J",
+     -0.026499681174755096
+    ],
+    [
+     "K",
+     -3.6514997482299805
+    ],
+    [
+     " J",
+     -8.90149974822998
+    ],
+    [
+     "B",
+     -11.46399974822998
+    ],
+    [
+     " K",
+     -12.08899974822998
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.5311464806656934,
+   "mass_B": 0.4686737510037597,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999237389118227,
+   "min_listed": 2.5403583255859602e-06,
+   "top": [
+    [
+     "J",
+     -0.6332054138183594
+    ],
+    [
+     "K",
+     -0.7582054138183594
+    ],
+    [
+     " J",
+     -8.25820541381836
+    ],
+    [
+     " K",
+     -8.69570541381836
+    ],
+    [
+     "B",
+     -10.57070541381836
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 0,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.32072377586311784,
+   "mass_B": 0.6790546509714745,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999451010559424,
+   "min_listed": 1.9694347662864147e-06,
+   "top": [
+    [
+     "J",
+     -0.3877635896205902
+    ],
+    [
+     "K",
+     -1.1377636194229126
+    ],
+    [
+     " J",
+     -7.637763500213623
+    ],
+    [
+     " K",
+     -8.575263977050781
+    ],
+    [
+     "Based",
+     -9.700263977050781
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 159,
+   "completion_tokens": 1,
+   "cost": 8.31e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6223978494889988,
+   "mass_B": 0.377490137028516,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999585227451653,
+   "min_listed": 1.8061125892729034e-06,
+   "top": [
+    [
+     "J",
+     -0.4743342101573944
+    ],
+    [
+     "K",
+     -0.9743342399597168
+    ],
+    [
+     " J",
+     -9.224333763122559
+    ],
+    [
+     " K",
+     -9.974333763122559
+    ],
+    [
+     "B",
+     -10.786833763122559
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.6512941357936076,
+   "mass_B": 0.3486061498648349,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999961840084688,
+   "min_listed": 2.011857331371432e-06,
+   "top": [
+    [
+     "J",
+     -0.4289523661136627
+    ],
+    [
+     "K",
+     -1.0539523363113403
+    ],
+    [
+     " J",
+     -9.17895221710205
+    ],
+    [
+     " K",
+     -9.92895221710205
+    ],
+    [
+     "B",
+     -11.17895221710205
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.320799772350394,
+   "mass_B": 0.6790657549359224,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999444711935763,
+   "min_listed": 2.3770059075865333e-06,
+   "top": [
+    [
+     "J",
+     -1.1371686458587646
+    ],
+    [
+     "K",
+     -0.38716867566108704
+    ],
+    [
+     " K",
+     -9.324668884277344
+    ],
+    [
+     " J",
+     -9.512168884277344
+    ],
+    [
+     "B",
+     -10.887168884277344
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9668175862396944,
+   "mass_B": 0.03308593792126352,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999637038286123,
+   "min_listed": 1.5016256804600402e-06,
+   "top": [
+    [
+     "J",
+     -0.033962007611989975
+    ],
+    [
+     "K",
+     -3.4089620113372803
+    ],
+    [
+     " J",
+     -8.47146224975586
+    ],
+    [
+     "B",
+     -11.22146224975586
+    ],
+    [
+     " K",
+     -11.47146224975586
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.2689192843823234,
+   "mass_B": 0.730958165901859,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999539500810771,
+   "min_listed": 2.1212941829230607e-06,
+   "top": [
+    [
+     "J",
+     -1.3134838342666626
+    ],
+    [
+     "K",
+     -0.313483864068985
+    ],
+    [
+     " K",
+     -9.688484191894531
+    ],
+    [
+     " J",
+     -10.188484191894531
+    ],
+    [
+     "B",
+     -10.938484191894531
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.022978405657395548,
+   "mass_B": 0.9769059143387047,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999654213879586,
+   "min_listed": 1.719466262479679e-06,
+   "top": [
+    [
+     "K",
+     -0.023496292531490326
+    ],
+    [
+     "J",
+     -3.773496389389038
+    ],
+    [
+     " K",
+     -8.960996627807617
+    ],
+    [
+     "B",
+     -10.710996627807617
+    ],
+    [
+     "C",
+     -11.523496627807617
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "-",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9323384789355362,
+   "mass_B": 0.06756076731339294,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999573286073858,
+   "min_listed": 1.5412843185892065e-06,
+   "top": [
+    [
+     "K",
+     -0.07039476186037064
+    ],
+    [
+     "J",
+     -2.69539475440979
+    ],
+    [
+     " K",
+     -8.070394515991211
+    ],
+    [
+     " J",
+     -10.007894515991211
+    ],
+    [
+     "B",
+     -10.882894515991211
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 115,
+   "completion_tokens": 1,
+   "cost": 6.11e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.18242417959925636,
+   "mass_B": 0.8174670711095406,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999600400496531,
+   "min_listed": 1.966538835914033e-06,
+   "top": [
+    [
+     "K",
+     -0.20173577964305878
+    ],
+    [
+     "J",
+     -1.7017357349395752
+    ],
+    [
+     " K",
+     -8.764235496520996
+    ],
+    [
+     " J",
+     -9.764235496520996
+    ],
+    [
+     "B",
+     -10.826735496520996
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.8806918171174425,
+   "mass_B": 0.11920315843857737,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999968043911098,
+   "min_listed": 1.6500784447950796e-06,
+   "top": [
+    [
+     "K",
+     -0.1271873563528061
+    ],
+    [
+     "J",
+     -2.1271872520446777
+    ],
+    [
+     " K",
+     -9.002187728881836
+    ],
+    [
+     " J",
+     -10.377187728881836
+    ],
+    [
+     "B",
+     -10.627187728881836
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7980684515346872,
+   "mass_B": 0.20179815136567597,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999564420618658,
+   "min_listed": 2.0439097934045386e-06,
+   "top": [
+    [
+     "K",
+     -0.22564572095870972
+    ],
+    [
+     "J",
+     -1.6006457805633545
+    ],
+    [
+     " K",
+     -9.600646018981934
+    ],
+    [
+     "B",
+     -10.225646018981934
+    ],
+    [
+     " J",
+     -10.350646018981934
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.2941616000395424,
+   "mass_B": 0.7056651652609827,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999939632469383,
+   "min_listed": 2.7988402373029273e-06,
+   "top": [
+    [
+     "K",
+     -1.223805546760559
+    ],
+    [
+     "J",
+     -0.3488055467605591
+    ],
+    [
+     " J",
+     -8.91130542755127
+    ],
+    [
+     " K",
+     -9.84880542755127
+    ],
+    [
+     "B",
+     -10.34880542755127
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9995355098442655,
+   "mass_B": 0.00043030445260569344,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999907086735892,
+   "min_listed": 4.733089121045261e-07,
+   "top": [
+    [
+     "K",
+     -0.0010175295174121857
+    ],
+    [
+     " K",
+     -7.5010175704956055
+    ],
+    [
+     "J",
+     -7.7510175704956055
+    ],
+    [
+     "B",
+     -11.688517570495605
+    ],
+    [
+     "C",
+     -12.813517570495605
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 131,
+   "completion_tokens": 1,
+   "cost": 6.91e-05
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9998752412128464,
+   "mass_B": 0.00010887003566050128,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999957354706557,
+   "min_listed": 1.9743513823991667e-07,
+   "top": [
+    [
+     "K",
+     -0.00035529976594261825
+    ],
+    [
+     " K",
+     -8.37535572052002
+    ],
+    [
+     "J",
+     -9.12535572052002
+    ],
+    [
+     "B",
+     -12.56285572052002
+    ],
+    [
+     "A",
+     -13.56285572052002
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9524998413660758,
+   "mass_B": 0.04742374117442051,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999720597326062,
+   "min_listed": 1.1522645304103803e-06,
+   "top": [
+    [
+     "J",
+     -0.04878126457333565
+    ],
+    [
+     "K",
+     -3.048781156539917
+    ],
+    [
+     " J",
+     -9.111281394958496
+    ],
+    [
+     "B",
+     -11.486281394958496
+    ],
+    [
+     " K",
+     -11.861281394958496
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9240571557250513,
+   "mass_B": 0.07585992451468314,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999720825364867,
+   "min_listed": 1.4353558680820564e-06,
+   "top": [
+    [
+     "K",
+     -0.07909727841615677
+    ],
+    [
+     "J",
+     -2.579097270965576
+    ],
+    [
+     " K",
+     -9.141597747802734
+    ],
+    [
+     "B",
+     -10.891597747802734
+    ],
+    [
+     " J",
+     -10.954097747802734
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9874773637506256,
+   "mass_B": 0.01243434139396214,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999701557550876,
+   "min_listed": 1.2715408271164124e-06,
+   "top": [
+    [
+     "K",
+     -0.012781249359250069
+    ],
+    [
+     "J",
+     -4.387781143188477
+    ],
+    [
+     " K",
+     -8.637781143188477
+    ],
+    [
+     "B",
+     -10.762781143188477
+    ],
+    [
+     " J",
+     -12.012781143188477
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.46873817505547294,
+   "mass_B": 0.5311711560730066,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999650857685921,
+   "min_listed": 1.4480103309466575e-06,
+   "top": [
+    [
+     "K",
+     -0.7578198313713074
+    ],
+    [
+     "J",
+     -0.6328198313713074
+    ],
+    [
+     " J",
+     -9.445320129394531
+    ],
+    [
+     " K",
+     -9.882820129394531
+    ],
+    [
+     "B",
+     -11.132820129394531
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9626118096572379,
+   "mass_B": 0.03733095100520915,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999826759425985,
+   "min_listed": 9.069050891015351e-07,
+   "top": [
+    [
+     "K",
+     -0.03822845593094826
+    ],
+    [
+     "J",
+     -3.2882285118103027
+    ],
+    [
+     " K",
+     -9.038228034973145
+    ],
+    [
+     "B",
+     -11.038228034973145
+    ],
+    [
+     " J",
+     -11.413228034973145
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9706129984189029,
+   "mass_B": 0.02931493270532204,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999804595744263,
+   "min_listed": 9.144557197467406e-07,
+   "top": [
+    [
+     "K",
+     -0.029936352744698524
+    ],
+    [
+     "J",
+     -3.5299363136291504
+    ],
+    [
+     " K",
+     -9.154936790466309
+    ],
+    [
+     "B",
+     -10.592436790466309
+    ],
+    [
+     " J",
+     -11.717436790466309
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.5620954471567714,
+   "mass_B": 0.4377865366959753,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999570856772819,
+   "min_listed": 1.9675630914776843e-06,
+   "top": [
+    [
+     "K",
+     -0.5762149691581726
+    ],
+    [
+     "J",
+     -0.8262149691581726
+    ],
+    [
+     " J",
+     -9.388714790344238
+    ],
+    [
+     " K",
+     -9.513714790344238
+    ],
+    [
+     "B",
+     -10.763714790344238
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.7309206834920812,
+   "mass_B": 0.2689405252691646,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999567879641464,
+   "min_listed": 2.2576278775928066e-06,
+   "top": [
+    [
+     "K",
+     -0.3136957287788391
+    ],
+    [
+     "J",
+     -1.3136956691741943
+    ],
+    [
+     " K",
+     -8.626195907592773
+    ],
+    [
+     " J",
+     -9.063695907592773
+    ],
+    [
+     "B",
+     -10.313695907592773
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9739653216283124,
+   "mass_B": 0.025962344137396703,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999748783539194,
+   "min_listed": 8.619262995189778e-07,
+   "top": [
+    [
+     "K",
+     -0.026596147567033768
+    ],
+    [
+     "J",
+     -3.6515960693359375
+    ],
+    [
+     " K",
+     -8.464096069335938
+    ],
+    [
+     "B",
+     -10.839096069335938
+    ],
+    [
+     " J",
+     -11.276596069335938
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.37747259089304436,
+   "mass_B": 0.6223907189377107,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999516706163474,
+   "min_listed": 1.9223768323045234e-06,
+   "top": [
+    [
+     "K",
+     -0.9744484424591064
+    ],
+    [
+     "J",
+     -0.47444844245910645
+    ],
+    [
+     " J",
+     -8.724448204040527
+    ],
+    [
+     " K",
+     -9.536948204040527
+    ],
+    [
+     "B",
+     -10.474448204040527
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9932596636505622,
+   "mass_B": 0.006694095245041319,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999848682501477,
+   "min_listed": 6.041843428160862e-07,
+   "top": [
+    [
+     "K",
+     -0.006886557210236788
+    ],
+    [
+     "J",
+     -5.0068864822387695
+    ],
+    [
+     " K",
+     -9.00688648223877
+    ],
+    [
+     "B",
+     -11.31938648223877
+    ],
+    [
+     "A",
+     -12.81938648223877
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.49992182495201387,
+   "mass_B": 0.4999640976548589,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999564208316047,
+   "min_listed": 1.9827339211187966e-06,
+   "top": [
+    [
+     "J",
+     -0.6935340762138367
+    ],
+    [
+     "K",
+     -0.6935340762138367
+    ],
+    [
+     " J",
+     -8.756033897399902
+    ],
+    [
+     " K",
+     -9.068533897399902
+    ],
+    [
+     "B",
+     -10.756033897399902
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.34859962711443815,
+   "mass_B": 0.6512954887935527,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999638610354019,
+   "min_listed": 1.6675956605160585e-06,
+   "top": [
+    [
+     "J",
+     -0.4291272461414337
+    ],
+    [
+     "K",
+     -1.0541272163391113
+    ],
+    [
+     " J",
+     -8.42912769317627
+    ],
+    [
+     " K",
+     -9.17912769317627
+    ],
+    [
+     "B",
+     -10.80412769317627
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "AB.AB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4072891583047985,
+   "mass_B": 0.5926175136222408,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.99996573693136,
+   "min_listed": 1.6156033523897683e-06,
+   "top": [
+    [
+     "K",
+     -0.8983021974563599
+    ],
+    [
+     "J",
+     -0.5233021974563599
+    ],
+    [
+     " J",
+     -9.77330207824707
+    ],
+    [
+     " K",
+     -10.46080207824707
+    ],
+    [
+     "B",
+     -11.02330207824707
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BB.BB",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.075852629816606,
+   "mass_B": 0.9240417713907757,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.999970427249613,
+   "min_listed": 1.6264325038826522e-06,
+   "top": [
+    [
+     "J",
+     -0.07912140339612961
+    ],
+    [
+     "K",
+     -2.5791213512420654
+    ],
+    [
+     " J",
+     -9.079121589660645
+    ],
+    [
+     "B",
+     -10.516621589660645
+    ],
+    [
+     " K",
+     -11.329121589660645
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  },
+  {
+   "history": "BA.BA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.4377390409269819,
+   "mass_B": 0.562100282510738,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 0.9999350007126017,
+   "min_listed": 2.3728701694403054e-06,
+   "top": [
+    [
+     "J",
+     -0.5764104127883911
+    ],
+    [
+     "K",
+     -0.8264104127883911
+    ],
+    [
+     " J",
+     -8.576410293579102
+    ],
+    [
+     " K",
+     -9.013910293579102
+    ],
+    [
+     "B",
+     -10.451410293579102
+    ]
+   ],
+   "provider": "Parasail",
+   "served_model": "qwen/qwen3.5-397b-a17b",
+   "prompt_tokens": 146,
+   "completion_tokens": 1,
+   "cost": 7.66e-05
+  }
+ ]
+}

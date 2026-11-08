@@ -1,0 +1,122 @@
+{
+ "meta": {
+  "backend": "adaption",
+  "model": "qwen3.8-27b",
+  "samples_per_prompt": "top-up",
+  "sample_temperature": 1.0,
+  "reasoning_effort": "none",
+  "max_output_tokens": 8,
+  "estimator": "Jeffreys (k+0.5)/(n+1)",
+  "H": 2,
+  "framings": [
+   0,
+   1
+  ],
+  "mappings": [
+   0,
+   1
+  ],
+  "repeats": 1,
+  "prompt_hash": "0adadb7b1d5603ae",
+  "created": "2026-11-08T05:31:10+0000",
+  "seconds": 376.6,
+  "calls": 3000,
+  "errors": 0,
+  "total_cost": 0.025819750000000002,
+  "providers": [
+   "adaption"
+  ],
+  "top_p": "1",
+  "topup_of": "policies/adaption_v2/qwen3.8-27b_retest.json"
+ },
+ "records": [
+  {
+   "history": "AA.AA",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.9695304695304695,
+   "mass_B": 0.028471528471528472,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "qwen3.8-27b",
+   "prompt_tokens": 159000,
+   "completion_tokens": 2028,
+   "cost": 0.008736,
+   "counts": {
+    "J": 970,
+    "K": 28,
+    "invalid": 2,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": [
+    "To determine the best strategy, let's analyze the expected payoff for each choice based",
+    "Based on the payoff matrix provided:\n- If you choose **J** and"
+   ]
+  },
+  {
+   "history": "BB.BB",
+   "framing": 0,
+   "mapping": 0,
+   "repeat": 0,
+   "label_A": "J",
+   "mass_A": 0.3051948051948052,
+   "mass_B": 0.6778221778221778,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "qwen3.8-27b",
+   "prompt_tokens": 159000,
+   "completion_tokens": 2151,
+   "cost": 0.00888975,
+   "counts": {
+    "J": 305,
+    "K": 678,
+    "invalid": 17,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": [
+    "",
+    "Based on the game theory and the provided history, here is the analysis:\n\n",
+    "Based on the previous rounds, both you and your partner have chosen K, resulting"
+   ]
+  },
+  {
+   "history": "AA.AA",
+   "framing": 1,
+   "mapping": 1,
+   "repeat": 0,
+   "label_A": "K",
+   "mass_A": 0.9875124875124875,
+   "mass_B": 0.012487512487512488,
+   "found_A": true,
+   "found_B": true,
+   "listed_mass": 1.0,
+   "min_listed": 0.0,
+   "top": [],
+   "provider": "adaption",
+   "served_model": "qwen3.8-27b",
+   "prompt_tokens": 146000,
+   "completion_tokens": 2000,
+   "cost": 0.008194,
+   "counts": {
+    "J": 12,
+    "K": 988,
+    "invalid": 0,
+    "errors": 0,
+    "n": 1000
+   },
+   "invalid_examples": []
+  }
+ ]
+}

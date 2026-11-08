@@ -1,0 +1,2690 @@
+[
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.2
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.2
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.4
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.4
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.3
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.2
+},
+{
+"set": "gemma-4-26b-a4b-it_stag",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_refilled",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.1
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.5
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 3.7
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.2
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.2
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 3.1
+},
+{
+"set": "gemma-4-31b-it_stag",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.8
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.3
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.1
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.7
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.9
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 1.0
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 2.0
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.2
+},
+{
+"set": "glm-5.2_coord_f6",
+"model": "GLM 5.2",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.8
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 1.3
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.6
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 1.8
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.6
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 1.0
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 2.3
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 3.1
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 3.5
+},
+{
+"set": "glm-5.2_pooled",
+"model": "GLM 5.2",
+"kind": "Original prompts, fresh re-measurement plus tail samples",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 3.0
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.8
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.8
+},
+{
+"set": "glm-5.2_stag",
+"model": "GLM 5.2",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.4
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.9
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 1.4
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 3.0
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 8.5
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 2.0
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.9
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.9
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 1.5
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 3.1
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 8.3
+},
+{
+"set": "glm-5.2_stag_f0",
+"model": "GLM 5.2",
+"kind": "Flagged wording: original wording 1 (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 3.0
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.1
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.6
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.2
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.5
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.1
+},
+{
+"set": "glm-5.2_stag_f3",
+"model": "GLM 5.2",
+"kind": "Flagged wording: strangers, dollars (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 0.7
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 3.1
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 6.5
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 8.7
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 13.7
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 20.0
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 26.4
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 20.3
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 2.2
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 5.6
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 7.6
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 12.5
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 21.4
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 28.2
+},
+{
+"set": "glm-5.2_stag_f4",
+"model": "GLM 5.2",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 20.5
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.2
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.6
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 1.1
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 1.6
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 3.4
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 7.0
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 2.8
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.3
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 1.0
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 1.3
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 1.6
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 3.8
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 7.0
+},
+{
+"set": "glm-5.2_stag_f7",
+"model": "GLM 5.2",
+"kind": "Flagged wording: business standards (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 3.2
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-26b-a4b-it",
+"model": "Gemma 4 26B A4B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_gemma-4-31b-it",
+"model": "Gemma 4 31B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.2
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.3
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.7
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.6
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 5.9
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.8
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.3
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.3
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.5
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 1.2
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 5.7
+},
+{
+"set": "orig_glm-5.2",
+"model": "GLM 5.2",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.5
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": -0.1
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": -1.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": -0.1
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": -0.1
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": -0.1
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": -1.0
+},
+{
+"set": "orig_qwen3.5-397b",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.1
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.3
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.6
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.6
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.2
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.0
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.2
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.2
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.6
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.7
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.7
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 1.6
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.2
+},
+{
+"set": "orig_qwen3.8-27b",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, original game (rerun to N = 64)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.3
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "1",
+"coupling_pp": -1.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "1",
+"coupling_pp": -1.0
+},
+{
+"set": "qwen3.5-397b_refilled",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, lost samples refilled",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.7
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 1.5
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 2.1
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 2.6
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.9
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.2
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.8
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 1.0
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 2.3
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 3.2
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 2.9
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 4.0
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 3.0
+},
+{
+"set": "qwen3.5-397b_stag",
+"model": "Qwen 3.5 397B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 2.1
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.4
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.0
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.9
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.2
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.3
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 1.0
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.4
+},
+{
+"set": "qwen3.8-27b_T0.7",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, temperature 0.7",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_coord_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (original game)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": -0.0
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.3
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.4
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.6
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 1.1
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 2.3
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 1.1
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.5
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.5
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.8
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 1.7
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 2.5
+},
+{
+"set": "qwen3.8-27b_pooled",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, fresh re-measurement",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 1.3
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.5
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": -0.1
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.3
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.5
+},
+{
+"set": "qwen3.8-27b_stag",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 0.3
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 0.8
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.0
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 0.2
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 0.1
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 0.5
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 0.8
+},
+{
+"set": "qwen3.8-27b_stag_H3",
+"model": "Qwen 3.8 27B",
+"kind": "Original prompts, stag hunt, 3-round memory",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 0.3
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.7
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 1.7
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 2.8
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 4.3
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 8.3
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 14.4
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 8.1
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.8
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 2.5
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 2.9
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 4.4
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 9.0
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 14.7
+},
+{
+"set": "qwen3.8-27b_stag_f4",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: AI agents, protocols (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 8.3
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "0.1",
+"coupling_pp": 0.4
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "0.2",
+"coupling_pp": 0.9
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "0.3",
+"coupling_pp": 1.5
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "0.5",
+"coupling_pp": 2.4
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "0.75",
+"coupling_pp": 4.3
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "1",
+"coupling_pp": 8.4
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 32,
+"alpha": "restore",
+"coupling_pp": 5.0
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "0.1",
+"coupling_pp": 0.4
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "0.2",
+"coupling_pp": 1.2
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "0.3",
+"coupling_pp": 1.5
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "0.5",
+"coupling_pp": 2.3
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "0.75",
+"coupling_pp": 4.7
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "1",
+"coupling_pp": 8.4
+},
+{
+"set": "qwen3.8-27b_stag_f6",
+"model": "Qwen 3.8 27B",
+"kind": "Flagged wording: per-option description (stag hunt)",
+"N": 64,
+"alpha": "restore",
+"coupling_pp": 4.9
+}
+]

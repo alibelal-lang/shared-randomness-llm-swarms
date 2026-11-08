@@ -1,0 +1,82 @@
+[
+{
+"model": "Qwen 3.8 27B",
+"game": "Original game",
+"letter_J": 0.564,
+"letter_K": 0.544,
+"listed_first": 0.496,
+"listed_second": 0.611
+},
+{
+"model": "Qwen 3.8 27B",
+"game": "Stag hunt",
+"letter_J": 0.487,
+"letter_K": 0.504,
+"listed_first": 0.44,
+"listed_second": 0.552
+},
+{
+"model": "GLM 5.2",
+"game": "Original game",
+"letter_J": 0.821,
+"letter_K": 0.797,
+"listed_first": 0.816,
+"listed_second": 0.802
+},
+{
+"model": "GLM 5.2",
+"game": "Stag hunt",
+"letter_J": 0.626,
+"letter_K": 0.512,
+"listed_first": 0.481,
+"listed_second": 0.656
+},
+{
+"model": "Qwen 3.5 397B",
+"game": "Original game",
+"letter_J": 0.273,
+"letter_K": 0.255,
+"listed_first": 0.091,
+"listed_second": 0.438
+},
+{
+"model": "Qwen 3.5 397B",
+"game": "Stag hunt",
+"letter_J": 0.226,
+"letter_K": 0.253,
+"listed_first": 0.035,
+"listed_second": 0.443
+},
+{
+"model": "Gemma 4 31B",
+"game": "Original game",
+"letter_J": 0.927,
+"letter_K": 0.81,
+"listed_first": 0.863,
+"listed_second": 0.874
+},
+{
+"model": "Gemma 4 31B",
+"game": "Stag hunt",
+"letter_J": 0.456,
+"letter_K": 0.542,
+"listed_first": 0.065,
+"listed_second": 0.933
+},
+{
+"model": "Gemma 4 26B A4B",
+"game": "Original game",
+"letter_J": 0.859,
+"letter_K": 0.866,
+"listed_first": 0.852,
+"listed_second": 0.873
+},
+{
+"model": "Gemma 4 26B A4B",
+"game": "Stag hunt",
+"letter_J": 0.559,
+"letter_K": 0.74,
+"listed_first": 0.687,
+"listed_second": 0.611
+}
+]

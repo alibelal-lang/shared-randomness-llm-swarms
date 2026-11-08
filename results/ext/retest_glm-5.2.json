@@ -1,0 +1,42 @@
+{
+ "orig": "policies/adaption_glm-5.2.json",
+ "fresh": "policies/adaption_v2/glm-5.2_retest.json",
+ "prompts": 84,
+ "sum_z2": 797.4,
+ "critical_99": 117.6,
+ "consistent": false,
+ "abs_z_gt_2": 34,
+ "mean_abs_diff": 0.0758,
+ "largest": [
+  {
+   "prompt": "f0m1 BA.BB",
+   "z": 14.25,
+   "orig": 0.29,
+   "fresh": 0.927
+  },
+  {
+   "prompt": "f1m0 BB",
+   "z": 7.18,
+   "orig": 0.94,
+   "fresh": 0.552
+  },
+  {
+   "prompt": "f0m1 BB.AB",
+   "z": 6.99,
+   "orig": 0.16,
+   "fresh": 0.55
+  },
+  {
+   "prompt": "f1m0 BB.AB",
+   "z": 6.86,
+   "orig": 0.99,
+   "fresh": 0.642
+  },
+  {
+   "prompt": "f0m1 AB.AB",
+   "z": 6.54,
+   "orig": 0.14,
+   "fresh": 0.007
+  }
+ ]
+}
