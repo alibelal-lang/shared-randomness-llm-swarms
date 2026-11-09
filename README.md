@@ -23,6 +23,8 @@ Each agent's policy is P(A | last two rounds), measured once from an LLM over 21
 
 The pre-registered protocol is in [`PROTOCOL.md`](PROTOCOL.md) and the full log of results, including nulls, is in [`FINDINGS.md`](FINDINGS.md).
 
+See the [Limitations and dual-use considerations appendix](DUAL_USE.md) for the scope of the results and risks of correlated behaviour.
+
 ## Reproduce the paper's figures and checks (no API calls)
 
 ```bash
